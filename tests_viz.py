@@ -6,12 +6,17 @@
 #============================================
 #!/usr/bin/env python3
 
-import unittest, os
+import unittest, os, sys
 
-from rdf2graphviz import *
-from rdf2gml      import *
-#from rdf_representations import *
-#from utils import *
+from rdflib import Graph, BNode, Literal
+from rdflib.namespace import RDF, FOAF, DC
+from graphviz import Digraph
+
+sys.path.insert(0, '/home/olivier/Documents/github/rdfviz')
+#from rdfviz.rdf_utils import *
+#from rdfviz.rdf2gml import *
+#from rdfviz.rdf2graphviz import *
+from rdfviz import *
 
 
 class TestRdf2Graphviz(unittest.TestCase):

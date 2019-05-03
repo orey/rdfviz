@@ -3,8 +3,8 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
 >
-  <foaf:Person rdf:nodeID="N93a97627eca24a95b4a4f60a4a0ac4c5">
-    <foaf:nick xml:lang="foo">donna</foaf:nick>
+  <foaf:Person rdf:nodeID="N5cc61a28d8e64631b26f364d3964e67f">
     <foaf:name>Donna Fales</foaf:name>
+    <foaf:nick xml:lang="foo">donna</foaf:nick>
   </foaf:Person>
 </rdf:RDF>
