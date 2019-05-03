@@ -31,7 +31,7 @@ $ python3 rdf2graphviz.py
 
 ### Structure of files
 
-![Files](https://github.com/orey/rdftools/blob/master/rdfviz/design/design.png)
+![Files](https://github.com/orey/rdfviz/blob/master/design/design.png)
 
 ## rdf2graphviz comments
 
