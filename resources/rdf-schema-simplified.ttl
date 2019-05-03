@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.w3.org/2000/01/rdf-schema#> a owl:Ontology ;
+	dc:title "The RDF Schema vocabulary (RDFS)" .
+
+rdfs:Resource a rdfs:Class .
+
+rdfs:Class a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdfs:subClassOf a rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:domain rdfs:Class .
+
+rdfs:subPropertyOf a rdf:Property ;
+	rdfs:range rdf:Property ;
+	rdfs:domain rdf:Property .
+
+rdfs:comment a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Literal .
+
+rdfs:label a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Literal .
+
+rdfs:domain a rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:domain rdf:Property .
+
+rdfs:range a rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:domain rdf:Property .
+
+rdfs:seeAlso a rdf:Property ;
+	rdfs:range rdfs:Resource ;
+	rdfs:domain rdfs:Resource .
+
+rdfs:isDefinedBy a rdf:Property ;
+	rdfs:subPropertyOf rdfs:seeAlso ;
+	rdfs:range rdfs:Resource ;
+	rdfs:domain rdfs:Resource .
+
+rdfs:Literal a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdfs:Container a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdfs:ContainerMembershipProperty a rdfs:Class ;
+	rdfs:subClassOf rdf:Property .
+
+rdfs:member a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource .
+
+rdfs:Datatype a rdfs:Class ;
+	rdfs:subClassOf rdfs:Class .
+

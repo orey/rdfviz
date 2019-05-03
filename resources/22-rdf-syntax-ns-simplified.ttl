@@ -1,0 +1,67 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#> a owl:Ontology ;
+	dc:title "The RDF Concepts Vocabulary (RDF)" .
+
+rdf:HTML a rdfs:Datatype ;
+	rdfs:subClassOf rdfs:Literal .
+
+rdf:langString a rdfs:Datatype ;
+	rdfs:subClassOf rdfs:Literal .
+	
+rdf:PlainLiteral a rdfs:Datatype ;
+	rdfs:subClassOf rdfs:Literal .
+
+rdf:type a rdf:Property ;
+	rdfs:range rdfs:Class ;
+	rdfs:domain rdfs:Resource .
+
+rdf:Property a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdf:Statement a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdf:subject a rdf:Property ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource .
+
+rdf:predicate a rdf:Property ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource .
+
+rdf:object a rdf:Property ;
+	rdfs:domain rdf:Statement ;
+	rdfs:range rdfs:Resource .
+
+rdf:Bag a rdfs:Class ;
+	rdfs:subClassOf rdfs:Container .
+
+rdf:Seq a rdfs:Class ;
+	rdfs:subClassOf rdfs:Container .
+
+rdf:Alt a rdfs:Class ;
+	rdfs:subClassOf rdfs:Container .
+
+rdf:value a rdf:Property ;
+	rdfs:domain rdfs:Resource ;
+	rdfs:range rdfs:Resource .
+
+rdf:List a rdfs:Class ;
+	rdfs:subClassOf rdfs:Resource .
+
+rdf:nil a rdf:List .
+
+rdf:first a rdf:Property ;
+	rdfs:domain rdf:List ;
+	rdfs:range rdfs:Resource .
+
+rdf:rest a rdf:Property ;
+	rdfs:domain rdf:List ;
+	rdfs:range rdf:List .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+	rdfs:subClassOf rdfs:Literal .
