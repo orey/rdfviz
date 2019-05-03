@@ -20,7 +20,16 @@ $ python3 rdf2gml.py
 
   * `rdflib`
   * `graphviz`
-  
+
+Warning: on top of `graphviz` Python3 package, you must have installed [Graphviz](http://graphviz.org/).
+
+On Debian:
+
+```
+$ su root
+$ apt install graphviz
+```
+
 ### Usage
 
 ```
