@@ -1,280 +1,280 @@
 // test_a5
 digraph {
 	graph [rankdir=LR]
-	"edbb3640-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#Class" color=blue fontcolor=blue]
-	"edbb2e52-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#comment" color=blue fontcolor=blue]
-	"edbc59ee-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" color=blue fontcolor=blue]
-	"edbb6278-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#first" color=blue fontcolor=blue]
-	"edbb4cd4-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#Datatype" color=blue fontcolor=blue]
-	"edbc645c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#rest" color=blue fontcolor=blue]
-	"edbb8d84-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#Statement" color=blue fontcolor=blue]
-	"edbb85be-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#Seq" color=blue fontcolor=blue]
-	"edbb509e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#HTML" color=blue fontcolor=blue]
-	"edbb477a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#Container" color=blue fontcolor=blue]
-	"edbb4b58-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#PlainLiteral" color=blue fontcolor=blue]
-	"edbb225e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" color=blue fontcolor=blue]
-	"edbb1b38-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#object" color=blue fontcolor=blue]
-	"edbbe66c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#XMLLiteral" color=blue fontcolor=blue]
-	"edbba396-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#subject" color=blue fontcolor=blue]
-	"edbb9770-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#member" color=blue fontcolor=blue]
-	"edbb6782-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" color=blue fontcolor=blue]
-	"edbbbab6-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#value" color=blue fontcolor=blue]
-	"edbb45d6-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#Alt" color=blue fontcolor=blue]
-	"edbb41f8-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#Literal" color=blue fontcolor=blue]
-	"edbb27ea-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#predicate" color=blue fontcolor=blue]
-	"edbb63fe-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#List" color=blue fontcolor=blue]
-	"edbc2c94-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#ContainerMembershipProperty" color=blue fontcolor=blue]
-	"edbb1dd6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#Resource" color=blue fontcolor=blue]
-	"edbb3a00-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" color=blue fontcolor=blue]
-	"edbbac1a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#label" color=blue fontcolor=blue]
-	"edbb23f8-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#Property" color=blue fontcolor=blue]
-	"edbb9d6a-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#Bag" color=blue fontcolor=blue]
-	"edbb7330-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#isDefinedBy" color=blue fontcolor=blue]
-	"edbb565c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#langString" color=blue fontcolor=blue]
-	"edbb7fa6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#seeAlso" color=blue fontcolor=blue]
-	"edbbe266-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subPropertyOf" color=blue fontcolor=blue]
-	"edbba8aa-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#nil" color=blue fontcolor=blue]
-	"edbb25a6-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb225e-6d9b-11e9-85a1-20689dd700af" -> "edbb25a6-6d9b-11e9-85a1-20689dd700af"
-	"edbb25a6-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb8f28-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb1b38-6d9b-11e9-85a1-20689dd700af" -> "edbb8f28-6d9b-11e9-85a1-20689dd700af"
-	"edbb8f28-6d9b-11e9-85a1-20689dd700af" -> "edbb8d84-6d9b-11e9-85a1-20689dd700af"
-	"edbc35e0-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbba396-6d9b-11e9-85a1-20689dd700af" -> "edbc35e0-6d9b-11e9-85a1-20689dd700af"
-	"edbc35e0-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbbec0c-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbbe266-6d9b-11e9-85a1-20689dd700af" -> "edbbec0c-6d9b-11e9-85a1-20689dd700af"
-	"edbbec0c-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbbaad0-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbba8aa-6d9b-11e9-85a1-20689dd700af" -> "edbbaad0-6d9b-11e9-85a1-20689dd700af"
-	"edbbaad0-6d9b-11e9-85a1-20689dd700af" -> "edbb63fe-6d9b-11e9-85a1-20689dd700af"
-	"edbb710a-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb1b38-6d9b-11e9-85a1-20689dd700af" -> "edbb710a-6d9b-11e9-85a1-20689dd700af"
-	"edbb710a-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb37c6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb225e-6d9b-11e9-85a1-20689dd700af" -> "edbb37c6-6d9b-11e9-85a1-20689dd700af"
-	"edbb37c6-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc4544-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb7330-6d9b-11e9-85a1-20689dd700af" -> "edbc4544-6d9b-11e9-85a1-20689dd700af"
-	"edbc4544-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc023c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb23f8-6d9b-11e9-85a1-20689dd700af" -> "edbc023c-6d9b-11e9-85a1-20689dd700af"
-	"edbc023c-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc26fe-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb3640-6d9b-11e9-85a1-20689dd700af" -> "edbc26fe-6d9b-11e9-85a1-20689dd700af"
-	"edbc26fe-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc0cf0-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbbbab6-6d9b-11e9-85a1-20689dd700af" -> "edbc0cf0-6d9b-11e9-85a1-20689dd700af"
-	"edbc0cf0-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc499a-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb6278-6d9b-11e9-85a1-20689dd700af" -> "edbc499a-6d9b-11e9-85a1-20689dd700af"
-	"edbc499a-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb4e64-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb4b58-6d9b-11e9-85a1-20689dd700af" -> "edbb4e64-6d9b-11e9-85a1-20689dd700af"
-	"edbb4e64-6d9b-11e9-85a1-20689dd700af" -> "edbb4cd4-6d9b-11e9-85a1-20689dd700af"
-	"edbc0962-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbbbab6-6d9b-11e9-85a1-20689dd700af" -> "edbc0962-6d9b-11e9-85a1-20689dd700af"
-	"edbc0962-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc2b54-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb6782-6d9b-11e9-85a1-20689dd700af" -> "edbc2b54-6d9b-11e9-85a1-20689dd700af"
-	"edbc2b54-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbbd7da-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbbac1a-6d9b-11e9-85a1-20689dd700af" -> "edbbd7da-6d9b-11e9-85a1-20689dd700af"
-	"edbbd7da-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc3252-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb509e-6d9b-11e9-85a1-20689dd700af" -> "edbc3252-6d9b-11e9-85a1-20689dd700af"
-	"edbc3252-6d9b-11e9-85a1-20689dd700af" -> "edbb4cd4-6d9b-11e9-85a1-20689dd700af"
-	"edbc50c0-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb7fa6-6d9b-11e9-85a1-20689dd700af" -> "edbc50c0-6d9b-11e9-85a1-20689dd700af"
-	"edbc50c0-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbd172-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb2e52-6d9b-11e9-85a1-20689dd700af" -> "edbbd172-6d9b-11e9-85a1-20689dd700af"
-	"edbbd172-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc665a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbc645c-6d9b-11e9-85a1-20689dd700af" -> "edbc665a-6d9b-11e9-85a1-20689dd700af"
-	"edbc665a-6d9b-11e9-85a1-20689dd700af" -> "edbb63fe-6d9b-11e9-85a1-20689dd700af"
-	"edbb5a08-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb565c-6d9b-11e9-85a1-20689dd700af" -> "edbb5a08-6d9b-11e9-85a1-20689dd700af"
-	"edbb5a08-6d9b-11e9-85a1-20689dd700af" -> "edbb4cd4-6d9b-11e9-85a1-20689dd700af"
-	"edbc6da8-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb9d6a-6d9b-11e9-85a1-20689dd700af" -> "edbc6da8-6d9b-11e9-85a1-20689dd700af"
-	"edbc6da8-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbe86a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbbe66c-6d9b-11e9-85a1-20689dd700af" -> "edbbe86a-6d9b-11e9-85a1-20689dd700af"
-	"edbbe86a-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc237a-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb45d6-6d9b-11e9-85a1-20689dd700af" -> "edbc237a-6d9b-11e9-85a1-20689dd700af"
-	"edbc237a-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbae54-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbbac1a-6d9b-11e9-85a1-20689dd700af" -> "edbbae54-6d9b-11e9-85a1-20689dd700af"
-	"edbbae54-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb491e-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb45d6-6d9b-11e9-85a1-20689dd700af" -> "edbb491e-6d9b-11e9-85a1-20689dd700af"
-	"edbb491e-6d9b-11e9-85a1-20689dd700af" -> "edbb477a-6d9b-11e9-85a1-20689dd700af"
-	"edbbe4b4-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbbe266-6d9b-11e9-85a1-20689dd700af" -> "edbbe4b4-6d9b-11e9-85a1-20689dd700af"
-	"edbbe4b4-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb8384-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb7fa6-6d9b-11e9-85a1-20689dd700af" -> "edbb8384-6d9b-11e9-85a1-20689dd700af"
-	"edbb8384-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb3da2-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb3a00-6d9b-11e9-85a1-20689dd700af" -> "edbb3da2-6d9b-11e9-85a1-20689dd700af"
-	"edbb3da2-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbf38c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb85be-6d9b-11e9-85a1-20689dd700af" -> "edbbf38c-6d9b-11e9-85a1-20689dd700af"
-	"edbbf38c-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc1b6e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb9770-6d9b-11e9-85a1-20689dd700af" -> "edbc1b6e-6d9b-11e9-85a1-20689dd700af"
-	"edbc1b6e-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc3e28-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb23f8-6d9b-11e9-85a1-20689dd700af" -> "edbc3e28-6d9b-11e9-85a1-20689dd700af"
-	"edbc3e28-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb9ad6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb9770-6d9b-11e9-85a1-20689dd700af" -> "edbb9ad6-6d9b-11e9-85a1-20689dd700af"
-	"edbb9ad6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb4374-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb2e52-6d9b-11e9-85a1-20689dd700af" -> "edbb4374-6d9b-11e9-85a1-20689dd700af"
-	"edbb4374-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc69fc-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb41f8-6d9b-11e9-85a1-20689dd700af" -> "edbc69fc-6d9b-11e9-85a1-20689dd700af"
-	"edbc69fc-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc5bf6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbc59ee-6d9b-11e9-85a1-20689dd700af" -> "edbc5bf6-6d9b-11e9-85a1-20689dd700af"
-	"edbc5bf6-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbb76f0-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb7330-6d9b-11e9-85a1-20689dd700af" -> "edbb76f0-6d9b-11e9-85a1-20689dd700af"
-	"edbb76f0-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbcc5e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb7fa6-6d9b-11e9-85a1-20689dd700af" -> "edbbcc5e-6d9b-11e9-85a1-20689dd700af"
-	"edbbcc5e-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc3a9a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb4cd4-6d9b-11e9-85a1-20689dd700af" -> "edbc3a9a-6d9b-11e9-85a1-20689dd700af"
-	"edbc3a9a-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbb31d6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb2e52-6d9b-11e9-85a1-20689dd700af" -> "edbb31d6-6d9b-11e9-85a1-20689dd700af"
-	"edbb31d6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc74ce-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbc59ee-6d9b-11e9-85a1-20689dd700af" -> "edbc74ce-6d9b-11e9-85a1-20689dd700af"
-	"edbc74ce-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc17d6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb9770-6d9b-11e9-85a1-20689dd700af" -> "edbc17d6-6d9b-11e9-85a1-20689dd700af"
-	"edbc17d6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc41b6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb63fe-6d9b-11e9-85a1-20689dd700af" -> "edbc41b6-6d9b-11e9-85a1-20689dd700af"
-	"edbc41b6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbc04c-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb565c-6d9b-11e9-85a1-20689dd700af" -> "edbbc04c-6d9b-11e9-85a1-20689dd700af"
-	"edbbc04c-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc1088-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbbe266-6d9b-11e9-85a1-20689dd700af" -> "edbc1088-6d9b-11e9-85a1-20689dd700af"
-	"edbc1088-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc05ca-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subPropertyOf" shape=box]
-	"edbb7330-6d9b-11e9-85a1-20689dd700af" -> "edbc05ca-6d9b-11e9-85a1-20689dd700af"
-	"edbc05ca-6d9b-11e9-85a1-20689dd700af" -> "edbb7fa6-6d9b-11e9-85a1-20689dd700af"
-	"edbc1f74-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbba396-6d9b-11e9-85a1-20689dd700af" -> "edbc1f74-6d9b-11e9-85a1-20689dd700af"
-	"edbc1f74-6d9b-11e9-85a1-20689dd700af" -> "edbb8d84-6d9b-11e9-85a1-20689dd700af"
-	"edbc2ea6-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbc2c94-6d9b-11e9-85a1-20689dd700af" -> "edbc2ea6-6d9b-11e9-85a1-20689dd700af"
-	"edbc2ea6-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbb3f4-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb7330-6d9b-11e9-85a1-20689dd700af" -> "edbbb3f4-6d9b-11e9-85a1-20689dd700af"
-	"edbbb3f4-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc143e-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb8d84-6d9b-11e9-85a1-20689dd700af" -> "edbc143e-6d9b-11e9-85a1-20689dd700af"
-	"edbc143e-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbc470-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb63fe-6d9b-11e9-85a1-20689dd700af" -> "edbbc470-6d9b-11e9-85a1-20689dd700af"
-	"edbbc470-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc6326-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb6278-6d9b-11e9-85a1-20689dd700af" -> "edbc6326-6d9b-11e9-85a1-20689dd700af"
-	"edbc6326-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb7d6c-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb4cd4-6d9b-11e9-85a1-20689dd700af" -> "edbb7d6c-6d9b-11e9-85a1-20689dd700af"
-	"edbb7d6c-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbb5436-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb509e-6d9b-11e9-85a1-20689dd700af" -> "edbb5436-6d9b-11e9-85a1-20689dd700af"
-	"edbb5436-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc8342-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbc2c94-6d9b-11e9-85a1-20689dd700af" -> "edbc8342-6d9b-11e9-85a1-20689dd700af"
-	"edbc8342-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb6af2-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb6782-6d9b-11e9-85a1-20689dd700af" -> "edbb6af2-6d9b-11e9-85a1-20689dd700af"
-	"edbb6af2-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbbf724-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb6782-6d9b-11e9-85a1-20689dd700af" -> "edbbf724-6d9b-11e9-85a1-20689dd700af"
-	"edbbf724-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbdcee-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb225e-6d9b-11e9-85a1-20689dd700af" -> "edbbdcee-6d9b-11e9-85a1-20689dd700af"
-	"edbbdcee-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbb926-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb3640-6d9b-11e9-85a1-20689dd700af" -> "edbbb926-6d9b-11e9-85a1-20689dd700af"
-	"edbbb926-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc5f98-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb477a-6d9b-11e9-85a1-20689dd700af" -> "edbc5f98-6d9b-11e9-85a1-20689dd700af"
-	"edbc5f98-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbbfe72-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb8d84-6d9b-11e9-85a1-20689dd700af" -> "edbbfe72-6d9b-11e9-85a1-20689dd700af"
-	"edbbfe72-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc7c26-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbc645c-6d9b-11e9-85a1-20689dd700af" -> "edbc7c26-6d9b-11e9-85a1-20689dd700af"
-	"edbc7c26-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc4d1e-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb3a00-6d9b-11e9-85a1-20689dd700af" -> "edbc4d1e-6d9b-11e9-85a1-20689dd700af"
-	"edbc4d1e-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbb6566-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb6278-6d9b-11e9-85a1-20689dd700af" -> "edbb6566-6d9b-11e9-85a1-20689dd700af"
-	"edbb6566-6d9b-11e9-85a1-20689dd700af" -> "edbb63fe-6d9b-11e9-85a1-20689dd700af"
-	"edbba72e-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbba396-6d9b-11e9-85a1-20689dd700af" -> "edbba72e-6d9b-11e9-85a1-20689dd700af"
-	"edbba72e-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc7866-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbb27ea-6d9b-11e9-85a1-20689dd700af" -> "edbc7866-6d9b-11e9-85a1-20689dd700af"
-	"edbc7866-6d9b-11e9-85a1-20689dd700af" -> "edbb8d84-6d9b-11e9-85a1-20689dd700af"
-	"edbb95a4-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb41f8-6d9b-11e9-85a1-20689dd700af" -> "edbb95a4-6d9b-11e9-85a1-20689dd700af"
-	"edbb95a4-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc86c6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb477a-6d9b-11e9-85a1-20689dd700af" -> "edbc86c6-6d9b-11e9-85a1-20689dd700af"
-	"edbc86c6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbc58b8-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb27ea-6d9b-11e9-85a1-20689dd700af" -> "edbc58b8-6d9b-11e9-85a1-20689dd700af"
-	"edbc58b8-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb2b82-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb27ea-6d9b-11e9-85a1-20689dd700af" -> "edbb2b82-6d9b-11e9-85a1-20689dd700af"
-	"edbb2b82-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbbefae-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb3a00-6d9b-11e9-85a1-20689dd700af" -> "edbbefae-6d9b-11e9-85a1-20689dd700af"
-	"edbbefae-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc552a-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbbe66c-6d9b-11e9-85a1-20689dd700af" -> "edbc552a-6d9b-11e9-85a1-20689dd700af"
-	"edbc552a-6d9b-11e9-85a1-20689dd700af" -> "edbb4cd4-6d9b-11e9-85a1-20689dd700af"
-	"edbbbc96-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbbbab6-6d9b-11e9-85a1-20689dd700af" -> "edbbbc96-6d9b-11e9-85a1-20689dd700af"
-	"edbbbc96-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
-	"edbb8942-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb85be-6d9b-11e9-85a1-20689dd700af" -> "edbb8942-6d9b-11e9-85a1-20689dd700af"
-	"edbb8942-6d9b-11e9-85a1-20689dd700af" -> "edbb477a-6d9b-11e9-85a1-20689dd700af"
-	"edbbc84e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbbac1a-6d9b-11e9-85a1-20689dd700af" -> "edbbc84e-6d9b-11e9-85a1-20689dd700af"
-	"edbbc84e-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbba12a-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb9d6a-6d9b-11e9-85a1-20689dd700af" -> "edbba12a-6d9b-11e9-85a1-20689dd700af"
-	"edbba12a-6d9b-11e9-85a1-20689dd700af" -> "edbb477a-6d9b-11e9-85a1-20689dd700af"
-	"edbbfac6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
-	"edbb4b58-6d9b-11e9-85a1-20689dd700af" -> "edbbfac6-6d9b-11e9-85a1-20689dd700af"
-	"edbbfac6-6d9b-11e9-85a1-20689dd700af" -> "edbb41f8-6d9b-11e9-85a1-20689dd700af"
-	"edbb603e-6d9b-11e9-85a1-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"edbb1dd6-6d9b-11e9-85a1-20689dd700af" -> "edbb603e-6d9b-11e9-85a1-20689dd700af"
-	"edbb603e-6d9b-11e9-85a1-20689dd700af" -> "edbb3640-6d9b-11e9-85a1-20689dd700af"
-	"edbc7fb4-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbc59ee-6d9b-11e9-85a1-20689dd700af" -> "edbc7fb4-6d9b-11e9-85a1-20689dd700af"
-	"edbc7fb4-6d9b-11e9-85a1-20689dd700af" -> "edbb23f8-6d9b-11e9-85a1-20689dd700af"
-	"edbc7140-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
-	"edbc645c-6d9b-11e9-85a1-20689dd700af" -> "edbc7140-6d9b-11e9-85a1-20689dd700af"
-	"edbc7140-6d9b-11e9-85a1-20689dd700af" -> "edbb63fe-6d9b-11e9-85a1-20689dd700af"
-	"edbb1fb6-6d9b-11e9-85a1-20689dd700af" [label="w3:rdf-schema#range" shape=box]
-	"edbb1b38-6d9b-11e9-85a1-20689dd700af" -> "edbb1fb6-6d9b-11e9-85a1-20689dd700af"
-	"edbb1fb6-6d9b-11e9-85a1-20689dd700af" -> "edbb1dd6-6d9b-11e9-85a1-20689dd700af"
+	"bd8e17bc-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#List" color=blue fontcolor=blue]
+	"bd8ea290-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#value" color=blue fontcolor=blue]
+	"bd8e93a4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" color=blue fontcolor=blue]
+	"bd8ee5b6-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#langString" color=blue fontcolor=blue]
+	"bd8e98fe-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" color=blue fontcolor=blue]
+	"bd8e5f88-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#Alt" color=blue fontcolor=blue]
+	"bd8e1d20-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#Statement" color=blue fontcolor=blue]
+	"bd8e309e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#isDefinedBy" color=blue fontcolor=blue]
+	"bd8e1014-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#predicate" color=blue fontcolor=blue]
+	"bd8e3170-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#seeAlso" color=blue fontcolor=blue]
+	"bd8e16ea-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#rest" color=blue fontcolor=blue]
+	"bd8e2d74-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#label" color=blue fontcolor=blue]
+	"bd8e565a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" color=blue fontcolor=blue]
+	"bd8e2784-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#Class" color=blue fontcolor=blue]
+	"bd8eae02-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#Seq" color=blue fontcolor=blue]
+	"bd8e11a4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#Resource" color=blue fontcolor=blue]
+	"bd8e1a78-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#Property" color=blue fontcolor=blue]
+	"bd8e336e-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#first" color=blue fontcolor=blue]
+	"bd8e19a6-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" color=blue fontcolor=blue]
+	"bd8e6c44-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#PlainLiteral" color=blue fontcolor=blue]
+	"bd8e6f3c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#Bag" color=blue fontcolor=blue]
+	"bd8e5c86-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#member" color=blue fontcolor=blue]
+	"bd8e694c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#XMLLiteral" color=blue fontcolor=blue]
+	"bd8e1c58-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#object" color=blue fontcolor=blue]
+	"bd8eb4a6-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subPropertyOf" color=blue fontcolor=blue]
+	"bd8e482c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#subject" color=blue fontcolor=blue]
+	"bd8e1424-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#HTML" color=blue fontcolor=blue]
+	"bd8e4fca-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#ContainerMembershipProperty" color=blue fontcolor=blue]
+	"bd8e597a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#Container" color=blue fontcolor=blue]
+	"bd8e7298-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#comment" color=blue fontcolor=blue]
+	"bd8e1500-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#Literal" color=blue fontcolor=blue]
+	"bd8e44e4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#Datatype" color=blue fontcolor=blue]
+	"bd8ee188-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#nil" color=blue fontcolor=blue]
+	"bd8f242c-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8ea290-6da0-11e9-bee8-20689dd700af" -> "bd8f242c-6da0-11e9-bee8-20689dd700af"
+	"bd8f242c-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ed670-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e309e-6da0-11e9-bee8-20689dd700af" -> "bd8ed670-6da0-11e9-bee8-20689dd700af"
+	"bd8ed670-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e5844-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e565a-6da0-11e9-bee8-20689dd700af" -> "bd8e5844-6da0-11e9-bee8-20689dd700af"
+	"bd8e5844-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8eeb74-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8eb4a6-6da0-11e9-bee8-20689dd700af" -> "bd8eeb74-6da0-11e9-bee8-20689dd700af"
+	"bd8eeb74-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8eafd8-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8eae02-6da0-11e9-bee8-20689dd700af" -> "bd8eafd8-6da0-11e9-bee8-20689dd700af"
+	"bd8eafd8-6da0-11e9-bee8-20689dd700af" -> "bd8e597a-6da0-11e9-bee8-20689dd700af"
+	"bd8e2536-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e1014-6da0-11e9-bee8-20689dd700af" -> "bd8e2536-6da0-11e9-bee8-20689dd700af"
+	"bd8e2536-6da0-11e9-bee8-20689dd700af" -> "bd8e1d20-6da0-11e9-bee8-20689dd700af"
+	"bd8ef5c4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e7298-6da0-11e9-bee8-20689dd700af" -> "bd8ef5c4-6da0-11e9-bee8-20689dd700af"
+	"bd8ef5c4-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8ee430-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8ee188-6da0-11e9-bee8-20689dd700af" -> "bd8ee430-6da0-11e9-bee8-20689dd700af"
+	"bd8ee430-6da0-11e9-bee8-20689dd700af" -> "bd8e17bc-6da0-11e9-bee8-20689dd700af"
+	"bd8eac72-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e98fe-6da0-11e9-bee8-20689dd700af" -> "bd8eac72-6da0-11e9-bee8-20689dd700af"
+	"bd8eac72-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e1b36-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e19a6-6da0-11e9-bee8-20689dd700af" -> "bd8e1b36-6da0-11e9-bee8-20689dd700af"
+	"bd8e1b36-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e15c8-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e1424-6da0-11e9-bee8-20689dd700af" -> "bd8e15c8-6da0-11e9-bee8-20689dd700af"
+	"bd8e15c8-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8ee070-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8ea290-6da0-11e9-bee8-20689dd700af" -> "bd8ee070-6da0-11e9-bee8-20689dd700af"
+	"bd8ee070-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e7b12-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e336e-6da0-11e9-bee8-20689dd700af" -> "bd8e7b12-6da0-11e9-bee8-20689dd700af"
+	"bd8e7b12-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e4700-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e44e4-6da0-11e9-bee8-20689dd700af" -> "bd8e4700-6da0-11e9-bee8-20689dd700af"
+	"bd8e4700-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8f2e7c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e597a-6da0-11e9-bee8-20689dd700af" -> "bd8f2e7c-6da0-11e9-bee8-20689dd700af"
+	"bd8f2e7c-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8eb686-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8eb4a6-6da0-11e9-bee8-20689dd700af" -> "bd8eb686-6da0-11e9-bee8-20689dd700af"
+	"bd8eb686-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e3922-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e3170-6da0-11e9-bee8-20689dd700af" -> "bd8e3922-6da0-11e9-bee8-20689dd700af"
+	"bd8e3922-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e216c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e16ea-6da0-11e9-bee8-20689dd700af" -> "bd8e216c-6da0-11e9-bee8-20689dd700af"
+	"bd8e216c-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e64d8-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e3170-6da0-11e9-bee8-20689dd700af" -> "bd8e64d8-6da0-11e9-bee8-20689dd700af"
+	"bd8e64d8-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ef952-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e16ea-6da0-11e9-bee8-20689dd700af" -> "bd8ef952-6da0-11e9-bee8-20689dd700af"
+	"bd8ef952-6da0-11e9-bee8-20689dd700af" -> "bd8e17bc-6da0-11e9-bee8-20689dd700af"
+	"bd8e1884-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e16ea-6da0-11e9-bee8-20689dd700af" -> "bd8e1884-6da0-11e9-bee8-20689dd700af"
+	"bd8e1884-6da0-11e9-bee8-20689dd700af" -> "bd8e17bc-6da0-11e9-bee8-20689dd700af"
+	"bd8f31c4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e694c-6da0-11e9-bee8-20689dd700af" -> "bd8f31c4-6da0-11e9-bee8-20689dd700af"
+	"bd8f31c4-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8f0e88-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e93a4-6da0-11e9-bee8-20689dd700af" -> "bd8f0e88-6da0-11e9-bee8-20689dd700af"
+	"bd8f0e88-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8ec18a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e5c86-6da0-11e9-bee8-20689dd700af" -> "bd8ec18a-6da0-11e9-bee8-20689dd700af"
+	"bd8ec18a-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f2b34-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1014-6da0-11e9-bee8-20689dd700af" -> "bd8f2b34-6da0-11e9-bee8-20689dd700af"
+	"bd8f2b34-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8f208a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8eb4a6-6da0-11e9-bee8-20689dd700af" -> "bd8f208a-6da0-11e9-bee8-20689dd700af"
+	"bd8f208a-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8f191e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e1c58-6da0-11e9-bee8-20689dd700af" -> "bd8f191e-6da0-11e9-bee8-20689dd700af"
+	"bd8f191e-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f003c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e11a4-6da0-11e9-bee8-20689dd700af" -> "bd8f003c-6da0-11e9-bee8-20689dd700af"
+	"bd8f003c-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e91b0-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e482c-6da0-11e9-bee8-20689dd700af" -> "bd8e91b0-6da0-11e9-bee8-20689dd700af"
+	"bd8e91b0-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8ea092-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e98fe-6da0-11e9-bee8-20689dd700af" -> "bd8ea092-6da0-11e9-bee8-20689dd700af"
+	"bd8ea092-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e6186-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e5f88-6da0-11e9-bee8-20689dd700af" -> "bd8e6186-6da0-11e9-bee8-20689dd700af"
+	"bd8e6186-6da0-11e9-bee8-20689dd700af" -> "bd8e597a-6da0-11e9-bee8-20689dd700af"
+	"bd8e5e66-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e5c86-6da0-11e9-bee8-20689dd700af" -> "bd8e5e66-6da0-11e9-bee8-20689dd700af"
+	"bd8e5e66-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ed9cc-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e17bc-6da0-11e9-bee8-20689dd700af" -> "bd8ed9cc-6da0-11e9-bee8-20689dd700af"
+	"bd8ed9cc-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e43c2-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1c58-6da0-11e9-bee8-20689dd700af" -> "bd8e43c2-6da0-11e9-bee8-20689dd700af"
+	"bd8e43c2-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e80b2-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e5f88-6da0-11e9-bee8-20689dd700af" -> "bd8e80b2-6da0-11e9-bee8-20689dd700af"
+	"bd8e80b2-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e96ec-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e93a4-6da0-11e9-bee8-20689dd700af" -> "bd8e96ec-6da0-11e9-bee8-20689dd700af"
+	"bd8e96ec-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e358a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e336e-6da0-11e9-bee8-20689dd700af" -> "bd8e358a-6da0-11e9-bee8-20689dd700af"
+	"bd8e358a-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f0708-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e44e4-6da0-11e9-bee8-20689dd700af" -> "bd8f0708-6da0-11e9-bee8-20689dd700af"
+	"bd8f0708-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8f1216-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e2d74-6da0-11e9-bee8-20689dd700af" -> "bd8f1216-6da0-11e9-bee8-20689dd700af"
+	"bd8f1216-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e1294-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e1014-6da0-11e9-bee8-20689dd700af" -> "bd8e1294-6da0-11e9-bee8-20689dd700af"
+	"bd8e1294-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ebe2e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e1500-6da0-11e9-bee8-20689dd700af" -> "bd8ebe2e-6da0-11e9-bee8-20689dd700af"
+	"bd8ebe2e-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f1d42-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8eae02-6da0-11e9-bee8-20689dd700af" -> "bd8f1d42-6da0-11e9-bee8-20689dd700af"
+	"bd8f1d42-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8eb37a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e1a78-6da0-11e9-bee8-20689dd700af" -> "bd8eb37a-6da0-11e9-bee8-20689dd700af"
+	"bd8eb37a-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e5b64-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e597a-6da0-11e9-bee8-20689dd700af" -> "bd8e5b64-6da0-11e9-bee8-20689dd700af"
+	"bd8e5b64-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e3c9c-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e309e-6da0-11e9-bee8-20689dd700af" -> "bd8e3c9c-6da0-11e9-bee8-20689dd700af"
+	"bd8e3c9c-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f0ac8-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1424-6da0-11e9-bee8-20689dd700af" -> "bd8f0ac8-6da0-11e9-bee8-20689dd700af"
+	"bd8f0ac8-6da0-11e9-bee8-20689dd700af" -> "bd8e44e4-6da0-11e9-bee8-20689dd700af"
+	"bd8ed33c-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e3170-6da0-11e9-bee8-20689dd700af" -> "bd8ed33c-6da0-11e9-bee8-20689dd700af"
+	"bd8ed33c-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e682a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e309e-6da0-11e9-bee8-20689dd700af" -> "bd8e682a-6da0-11e9-bee8-20689dd700af"
+	"bd8e682a-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e552e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e482c-6da0-11e9-bee8-20689dd700af" -> "bd8e552e-6da0-11e9-bee8-20689dd700af"
+	"bd8e552e-6da0-11e9-bee8-20689dd700af" -> "bd8e1d20-6da0-11e9-bee8-20689dd700af"
+	"bd8e7112-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e6f3c-6da0-11e9-bee8-20689dd700af" -> "bd8e7112-6da0-11e9-bee8-20689dd700af"
+	"bd8e7112-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8f27f6-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e7298-6da0-11e9-bee8-20689dd700af" -> "bd8f27f6-6da0-11e9-bee8-20689dd700af"
+	"bd8f27f6-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ee80e-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8ee5b6-6da0-11e9-bee8-20689dd700af" -> "bd8ee80e-6da0-11e9-bee8-20689dd700af"
+	"bd8ee80e-6da0-11e9-bee8-20689dd700af" -> "bd8e44e4-6da0-11e9-bee8-20689dd700af"
+	"bd8eeee4-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e6f3c-6da0-11e9-bee8-20689dd700af" -> "bd8eeee4-6da0-11e9-bee8-20689dd700af"
+	"bd8eeee4-6da0-11e9-bee8-20689dd700af" -> "bd8e597a-6da0-11e9-bee8-20689dd700af"
+	"bd8f3502-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e2784-6da0-11e9-bee8-20689dd700af" -> "bd8f3502-6da0-11e9-bee8-20689dd700af"
+	"bd8f3502-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e8670-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e6c44-6da0-11e9-bee8-20689dd700af" -> "bd8e8670-6da0-11e9-bee8-20689dd700af"
+	"bd8e8670-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8e28ba-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1500-6da0-11e9-bee8-20689dd700af" -> "bd8e28ba-6da0-11e9-bee8-20689dd700af"
+	"bd8e28ba-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e51be-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e4fca-6da0-11e9-bee8-20689dd700af" -> "bd8e51be-6da0-11e9-bee8-20689dd700af"
+	"bd8e51be-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e324c-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subPropertyOf" shape=box]
+	"bd8e309e-6da0-11e9-bee8-20689dd700af" -> "bd8e324c-6da0-11e9-bee8-20689dd700af"
+	"bd8e324c-6da0-11e9-bee8-20689dd700af" -> "bd8e3170-6da0-11e9-bee8-20689dd700af"
+	"bd8ef240-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1a78-6da0-11e9-bee8-20689dd700af" -> "bd8ef240-6da0-11e9-bee8-20689dd700af"
+	"bd8ef240-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e6b22-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e694c-6da0-11e9-bee8-20689dd700af" -> "bd8e6b22-6da0-11e9-bee8-20689dd700af"
+	"bd8e6b22-6da0-11e9-bee8-20689dd700af" -> "bd8e44e4-6da0-11e9-bee8-20689dd700af"
+	"bd8f3872-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e5c86-6da0-11e9-bee8-20689dd700af" -> "bd8f3872-6da0-11e9-bee8-20689dd700af"
+	"bd8f3872-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8edd28-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e19a6-6da0-11e9-bee8-20689dd700af" -> "bd8edd28-6da0-11e9-bee8-20689dd700af"
+	"bd8edd28-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e4e8a-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e336e-6da0-11e9-bee8-20689dd700af" -> "bd8e4e8a-6da0-11e9-bee8-20689dd700af"
+	"bd8e4e8a-6da0-11e9-bee8-20689dd700af" -> "bd8e17bc-6da0-11e9-bee8-20689dd700af"
+	"bd8eba78-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e2d74-6da0-11e9-bee8-20689dd700af" -> "bd8eba78-6da0-11e9-bee8-20689dd700af"
+	"bd8eba78-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8ea5e2-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8ea290-6da0-11e9-bee8-20689dd700af" -> "bd8ea5e2-6da0-11e9-bee8-20689dd700af"
+	"bd8ea5e2-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e6e1a-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e6c44-6da0-11e9-bee8-20689dd700af" -> "bd8e6e1a-6da0-11e9-bee8-20689dd700af"
+	"bd8e6e1a-6da0-11e9-bee8-20689dd700af" -> "bd8e44e4-6da0-11e9-bee8-20689dd700af"
+	"bd8ecc3e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e17bc-6da0-11e9-bee8-20689dd700af" -> "bd8ecc3e-6da0-11e9-bee8-20689dd700af"
+	"bd8ecc3e-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f03a2-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8ee5b6-6da0-11e9-bee8-20689dd700af" -> "bd8f03a2-6da0-11e9-bee8-20689dd700af"
+	"bd8f03a2-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8e2f72-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e2d74-6da0-11e9-bee8-20689dd700af" -> "bd8e2f72-6da0-11e9-bee8-20689dd700af"
+	"bd8e2f72-6da0-11e9-bee8-20689dd700af" -> "bd8e1500-6da0-11e9-bee8-20689dd700af"
+	"bd8e402a-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e1d20-6da0-11e9-bee8-20689dd700af" -> "bd8e402a-6da0-11e9-bee8-20689dd700af"
+	"bd8e402a-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e4a8e-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e482c-6da0-11e9-bee8-20689dd700af" -> "bd8e4a8e-6da0-11e9-bee8-20689dd700af"
+	"bd8e4a8e-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8ecf90-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"bd8e19a6-6da0-11e9-bee8-20689dd700af" -> "bd8ecf90-6da0-11e9-bee8-20689dd700af"
+	"bd8ecf90-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8ec536-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e1d20-6da0-11e9-bee8-20689dd700af" -> "bd8ec536-6da0-11e9-bee8-20689dd700af"
+	"bd8ec536-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e1de8-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e1c58-6da0-11e9-bee8-20689dd700af" -> "bd8e1de8-6da0-11e9-bee8-20689dd700af"
+	"bd8e1de8-6da0-11e9-bee8-20689dd700af" -> "bd8e1d20-6da0-11e9-bee8-20689dd700af"
+	"bd8ec892-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e93a4-6da0-11e9-bee8-20689dd700af" -> "bd8ec892-6da0-11e9-bee8-20689dd700af"
+	"bd8ec892-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e9c3c-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e98fe-6da0-11e9-bee8-20689dd700af" -> "bd8e9c3c-6da0-11e9-bee8-20689dd700af"
+	"bd8e9c3c-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8e7590-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e7298-6da0-11e9-bee8-20689dd700af" -> "bd8e7590-6da0-11e9-bee8-20689dd700af"
+	"bd8e7590-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8e2c48-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"bd8e2784-6da0-11e9-bee8-20689dd700af" -> "bd8e2c48-6da0-11e9-bee8-20689dd700af"
+	"bd8e2c48-6da0-11e9-bee8-20689dd700af" -> "bd8e11a4-6da0-11e9-bee8-20689dd700af"
+	"bd8f15d6-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e565a-6da0-11e9-bee8-20689dd700af" -> "bd8f15d6-6da0-11e9-bee8-20689dd700af"
+	"bd8f15d6-6da0-11e9-bee8-20689dd700af" -> "bd8e1a78-6da0-11e9-bee8-20689dd700af"
+	"bd8efccc-6da0-11e9-bee8-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bd8e4fca-6da0-11e9-bee8-20689dd700af" -> "bd8efccc-6da0-11e9-bee8-20689dd700af"
+	"bd8efccc-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
+	"bd8e8c24-6da0-11e9-bee8-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"bd8e565a-6da0-11e9-bee8-20689dd700af" -> "bd8e8c24-6da0-11e9-bee8-20689dd700af"
+	"bd8e8c24-6da0-11e9-bee8-20689dd700af" -> "bd8e2784-6da0-11e9-bee8-20689dd700af"
 }

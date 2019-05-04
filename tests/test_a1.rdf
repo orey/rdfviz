@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <foaf:Person rdf:nodeID="N5cc61a28d8e64631b26f364d3964e67f">
+  <foaf:Person rdf:nodeID="N21980a46b9a84a128555ccea791735e6">
     <foaf:name>Donna Fales</foaf:name>
     <foaf:nick xml:lang="foo">donna</foaf:nick>
   </foaf:Person>
