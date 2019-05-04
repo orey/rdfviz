@@ -65,7 +65,7 @@ def usage():
     print('Usage')
     print('$ python3 rdf2graphviz.py -i [INPUT] -o [OUTPUT] (other_options)')
     print('    * -i [INPUT] or --input [INPUT]: filename or URL')
-    print('    * -o [OUTPUT] or --output [OUTPUT]: directory name. Default will be "./tests/"')    
+    print('    * -o [OUTPUT] or --output [OUTPUT]: directory name. Default will be "./outputs/"')    
     print('Other options')
     print('    * -f [FORMAT] or --format [FORMAT]: input format, like "xml", "n3", "ntriples", "turtle" or other format supported by Python rdflib. If no format is provided, rdflib will try to parse the file.')
     print('    * -r [RENDERING] or --render [RENDERING]: format supported by Graphviz. Default is "png".')
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         usage()
         sys.exit(2)
     input = None
-    outputdir = './tests'
+    outputdir = './outputs'
     myformat = None
     myrendering = 'png'
     verbose = False

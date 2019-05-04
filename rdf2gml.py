@@ -59,7 +59,7 @@ def usage():
     print('$ python3 rdf2gml.py -i [input_file_or_url] -o [output_dir] (other_options)')
     print('----\nMain options')
     print('=> -i or --input NAME: filename or URL')
-    print('=> -o or --output NAME: directory name. Default will be "./tests/"')
+    print('=> -o or --output NAME: directory name. Default will be "./outputs/"')
     print('----\nOther options')
     print('=> -f or --format: "xml", "n3", "ntriples" or other format supported')
     print('   by Python rdflib. Default format is "n3".')
@@ -74,7 +74,7 @@ if __name__ == '__main__':
         usage()
         sys.exit(2)
     input = None
-    outputdir = './tests'
+    outputdir = './outputs'
     myformat = 'n3'
     verbose = False
     for o, a in opts:
