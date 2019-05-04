@@ -8,10 +8,8 @@
 
 import uuid, rdflib, sys, os, getopt
 
-#from . import rdf_representations
-from .rdf_representations import *
-#from . import utils
-from .rdf_utils import *
+from rdf_representations import *
+from rdf_utils import *
 
 from rdflib import Graph, Literal, BNode, RDF
 from rdflib.namespace import FOAF, DC

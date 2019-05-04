@@ -9,10 +9,8 @@
 
 import rdflib, getopt, sys, os
 
-#from . import rdf_representations
-from .rdf_representations import *
-#from . import utils
-from .rdf_utils import *
+from rdf_representations import *
+from rdf_utils import *
 
 
 from rdflib import Graph, Literal, BNode, RDF

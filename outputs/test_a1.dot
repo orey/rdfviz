@@ -1,0 +1,10 @@
+// Test_a1
+digraph {
+	"283010b2-6e31-11e9-825f-20689dd700af" [label="xmlns:Person" color=blue fontcolor=blue]
+	"28300c48-6e31-11e9-825f-20689dd700af" [label=Nef408c1852c944188cd2e92a7706e32d color=blue fontcolor=blue]
+	"28300d4c-6e31-11e9-825f-20689dd700af" [label="Donna Fales" color=blue fontcolor=blue]
+	"283013d2-6e31-11e9-825f-20689dd700af" [label=donna color=blue fontcolor=blue]
+	"28300c48-6e31-11e9-825f-20689dd700af" -> "283013d2-6e31-11e9-825f-20689dd700af" [label="xmlns:nick"]
+	"28300c48-6e31-11e9-825f-20689dd700af" -> "283010b2-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type"]
+	"28300c48-6e31-11e9-825f-20689dd700af" -> "28300d4c-6e31-11e9-825f-20689dd700af" [label="xmlns:name"]
+}

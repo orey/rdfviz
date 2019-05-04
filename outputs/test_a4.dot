@@ -1,0 +1,162 @@
+// test_a4
+digraph {
+	graph [rankdir=LR]
+	"28a069ac-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#XMLLiteral" color=blue fontcolor=blue]
+	"28a0372a-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#Class" color=blue fontcolor=blue]
+	"28a0483c-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#List" color=blue fontcolor=blue]
+	"28a062d6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#object" color=blue fontcolor=blue]
+	"28a079f6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#Seq" color=blue fontcolor=blue]
+	"28a022a8-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#Literal" color=blue fontcolor=blue]
+	"28a02b90-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#Resource" color=blue fontcolor=blue]
+	"28a01e66-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#Alt" color=blue fontcolor=blue]
+	"28a02fdc-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#first" color=blue fontcolor=blue]
+	"28a03662-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#Bag" color=blue fontcolor=blue]
+	"28a04c88-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#Datatype" color=blue fontcolor=blue]
+	"28a02d48-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" color=blue fontcolor=blue]
+	"28a01fc4-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#Container" color=blue fontcolor=blue]
+	"28a04b52-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#PlainLiteral" color=blue fontcolor=blue]
+	"28a02adc-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#subject" color=blue fontcolor=blue]
+	"28a02e10-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#Property" color=blue fontcolor=blue]
+	"28a0818a-6e31-11e9-825f-20689dd700af" [label="The RDF Concepts Vocabulary (RDF)" color=blue fontcolor=blue]
+	"28a076e0-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#value" color=blue fontcolor=blue]
+	"28a02474-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#langString" color=blue fontcolor=blue]
+	"28a0555c-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#predicate" color=blue fontcolor=blue]
+	"28a06cb8-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#Statement" color=blue fontcolor=blue]
+	"28a02906-6e31-11e9-825f-20689dd700af" [label="w3:owl#Ontology" color=blue fontcolor=blue]
+	"28a021ea-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#HTML" color=blue fontcolor=blue]
+	"28a0283e-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#" color=blue fontcolor=blue]
+	"28a046de-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#nil" color=blue fontcolor=blue]
+	"28a05a34-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#rest" color=blue fontcolor=blue]
+	"28a0c9a6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a0483c-6e31-11e9-825f-20689dd700af" -> "28a0c9a6-6e31-11e9-825f-20689dd700af"
+	"28a0c9a6-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a06880-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a05a34-6e31-11e9-825f-20689dd700af" -> "28a06880-6e31-11e9-825f-20689dd700af"
+	"28a06880-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a08946-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a04b52-6e31-11e9-825f-20689dd700af" -> "28a08946-6e31-11e9-825f-20689dd700af"
+	"28a08946-6e31-11e9-825f-20689dd700af" -> "28a022a8-6e31-11e9-825f-20689dd700af"
+	"28a05372-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a02e10-6e31-11e9-825f-20689dd700af" -> "28a05372-6e31-11e9-825f-20689dd700af"
+	"28a05372-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a02096-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a01e66-6e31-11e9-825f-20689dd700af" -> "28a02096-6e31-11e9-825f-20689dd700af"
+	"28a02096-6e31-11e9-825f-20689dd700af" -> "28a01fc4-6e31-11e9-825f-20689dd700af"
+	"28a09026-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a021ea-6e31-11e9-825f-20689dd700af" -> "28a09026-6e31-11e9-825f-20689dd700af"
+	"28a09026-6e31-11e9-825f-20689dd700af" -> "28a04c88-6e31-11e9-825f-20689dd700af"
+	"28a0723a-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a02d48-6e31-11e9-825f-20689dd700af" -> "28a0723a-6e31-11e9-825f-20689dd700af"
+	"28a0723a-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a08cb6-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a062d6-6e31-11e9-825f-20689dd700af" -> "28a08cb6-6e31-11e9-825f-20689dd700af"
+	"28a08cb6-6e31-11e9-825f-20689dd700af" -> "28a06cb8-6e31-11e9-825f-20689dd700af"
+	"28a031c6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a02fdc-6e31-11e9-825f-20689dd700af" -> "28a031c6-6e31-11e9-825f-20689dd700af"
+	"28a031c6-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a06ea2-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a06cb8-6e31-11e9-825f-20689dd700af" -> "28a06ea2-6e31-11e9-825f-20689dd700af"
+	"28a06ea2-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a029c4-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a0283e-6e31-11e9-825f-20689dd700af" -> "28a029c4-6e31-11e9-825f-20689dd700af"
+	"28a029c4-6e31-11e9-825f-20689dd700af" -> "28a02906-6e31-11e9-825f-20689dd700af"
+	"28a07bd6-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a079f6-6e31-11e9-825f-20689dd700af" -> "28a07bd6-6e31-11e9-825f-20689dd700af"
+	"28a07bd6-6e31-11e9-825f-20689dd700af" -> "28a01fc4-6e31-11e9-825f-20689dd700af"
+	"28a0b466-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a0555c-6e31-11e9-825f-20689dd700af" -> "28a0b466-6e31-11e9-825f-20689dd700af"
+	"28a0b466-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a044f4-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a02fdc-6e31-11e9-825f-20689dd700af" -> "28a044f4-6e31-11e9-825f-20689dd700af"
+	"28a044f4-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a09396-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a076e0-6e31-11e9-825f-20689dd700af" -> "28a09396-6e31-11e9-825f-20689dd700af"
+	"28a09396-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a0585e-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a0555c-6e31-11e9-825f-20689dd700af" -> "28a0585e-6e31-11e9-825f-20689dd700af"
+	"28a0585e-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a085d6-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a062d6-6e31-11e9-825f-20689dd700af" -> "28a085d6-6e31-11e9-825f-20689dd700af"
+	"28a085d6-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a078d4-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a076e0-6e31-11e9-825f-20689dd700af" -> "28a078d4-6e31-11e9-825f-20689dd700af"
+	"28a078d4-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a04986-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a046de-6e31-11e9-825f-20689dd700af" -> "28a04986-6e31-11e9-825f-20689dd700af"
+	"28a04986-6e31-11e9-825f-20689dd700af" -> "28a0483c-6e31-11e9-825f-20689dd700af"
+	"28a04de6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a04b52-6e31-11e9-825f-20689dd700af" -> "28a04de6-6e31-11e9-825f-20689dd700af"
+	"28a04de6-6e31-11e9-825f-20689dd700af" -> "28a04c88-6e31-11e9-825f-20689dd700af"
+	"28a0af34-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a06cb8-6e31-11e9-825f-20689dd700af" -> "28a0af34-6e31-11e9-825f-20689dd700af"
+	"28a0af34-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a061aa-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a02adc-6e31-11e9-825f-20689dd700af" -> "28a061aa-6e31-11e9-825f-20689dd700af"
+	"28a061aa-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a02c3a-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a02adc-6e31-11e9-825f-20689dd700af" -> "28a02c3a-6e31-11e9-825f-20689dd700af"
+	"28a02c3a-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a02ec4-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a02d48-6e31-11e9-825f-20689dd700af" -> "28a02ec4-6e31-11e9-825f-20689dd700af"
+	"28a02ec4-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a09b98-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a02d48-6e31-11e9-825f-20689dd700af" -> "28a09b98-6e31-11e9-825f-20689dd700af"
+	"28a09b98-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a0271c-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a02474-6e31-11e9-825f-20689dd700af" -> "28a0271c-6e31-11e9-825f-20689dd700af"
+	"28a0271c-6e31-11e9-825f-20689dd700af" -> "28a022a8-6e31-11e9-825f-20689dd700af"
+	"28a0352c-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a02e10-6e31-11e9-825f-20689dd700af" -> "28a0352c-6e31-11e9-825f-20689dd700af"
+	"28a0352c-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a05cd2-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a05a34-6e31-11e9-825f-20689dd700af" -> "28a05cd2-6e31-11e9-825f-20689dd700af"
+	"28a05cd2-6e31-11e9-825f-20689dd700af" -> "28a0483c-6e31-11e9-825f-20689dd700af"
+	"28a04008-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a01e66-6e31-11e9-825f-20689dd700af" -> "28a04008-6e31-11e9-825f-20689dd700af"
+	"28a04008-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a037de-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a03662-6e31-11e9-825f-20689dd700af" -> "28a037de-6e31-11e9-825f-20689dd700af"
+	"28a037de-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a0aaca-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a02474-6e31-11e9-825f-20689dd700af" -> "28a0aaca-6e31-11e9-825f-20689dd700af"
+	"28a0aaca-6e31-11e9-825f-20689dd700af" -> "28a04c88-6e31-11e9-825f-20689dd700af"
+	"28a0befc-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a05a34-6e31-11e9-825f-20689dd700af" -> "28a0befc-6e31-11e9-825f-20689dd700af"
+	"28a0befc-6e31-11e9-825f-20689dd700af" -> "28a0483c-6e31-11e9-825f-20689dd700af"
+	"28a06b96-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a069ac-6e31-11e9-825f-20689dd700af" -> "28a06b96-6e31-11e9-825f-20689dd700af"
+	"28a06b96-6e31-11e9-825f-20689dd700af" -> "28a022a8-6e31-11e9-825f-20689dd700af"
+	"28a075b4-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a02fdc-6e31-11e9-825f-20689dd700af" -> "28a075b4-6e31-11e9-825f-20689dd700af"
+	"28a075b4-6e31-11e9-825f-20689dd700af" -> "28a0483c-6e31-11e9-825f-20689dd700af"
+	"28a0b9b6-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a079f6-6e31-11e9-825f-20689dd700af" -> "28a0b9b6-6e31-11e9-825f-20689dd700af"
+	"28a0b9b6-6e31-11e9-825f-20689dd700af" -> "28a0372a-6e31-11e9-825f-20689dd700af"
+	"28a0c438-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a02adc-6e31-11e9-825f-20689dd700af" -> "28a0c438-6e31-11e9-825f-20689dd700af"
+	"28a0c438-6e31-11e9-825f-20689dd700af" -> "28a06cb8-6e31-11e9-825f-20689dd700af"
+	"28a0a57a-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a069ac-6e31-11e9-825f-20689dd700af" -> "28a0a57a-6e31-11e9-825f-20689dd700af"
+	"28a0a57a-6e31-11e9-825f-20689dd700af" -> "28a04c88-6e31-11e9-825f-20689dd700af"
+	"28a03c7a-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a03662-6e31-11e9-825f-20689dd700af" -> "28a03c7a-6e31-11e9-825f-20689dd700af"
+	"28a03c7a-6e31-11e9-825f-20689dd700af" -> "28a01fc4-6e31-11e9-825f-20689dd700af"
+	"28a08270-6e31-11e9-825f-20689dd700af" [label="purl:title" shape=box]
+	"28a0283e-6e31-11e9-825f-20689dd700af" -> "28a08270-6e31-11e9-825f-20689dd700af"
+	"28a08270-6e31-11e9-825f-20689dd700af" -> "28a0818a-6e31-11e9-825f-20689dd700af"
+	"28a064ca-6e31-11e9-825f-20689dd700af" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"28a062d6-6e31-11e9-825f-20689dd700af" -> "28a064ca-6e31-11e9-825f-20689dd700af"
+	"28a064ca-6e31-11e9-825f-20689dd700af" -> "28a02e10-6e31-11e9-825f-20689dd700af"
+	"28a02352-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a021ea-6e31-11e9-825f-20689dd700af" -> "28a02352-6e31-11e9-825f-20689dd700af"
+	"28a02352-6e31-11e9-825f-20689dd700af" -> "28a022a8-6e31-11e9-825f-20689dd700af"
+	"28a07f46-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#domain" shape=box]
+	"28a0555c-6e31-11e9-825f-20689dd700af" -> "28a07f46-6e31-11e9-825f-20689dd700af"
+	"28a07f46-6e31-11e9-825f-20689dd700af" -> "28a06cb8-6e31-11e9-825f-20689dd700af"
+	"28a0a052-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#range" shape=box]
+	"28a076e0-6e31-11e9-825f-20689dd700af" -> "28a0a052-6e31-11e9-825f-20689dd700af"
+	"28a0a052-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+	"28a09706-6e31-11e9-825f-20689dd700af" [label="w3:rdf-schema#subClassOf" shape=box]
+	"28a0483c-6e31-11e9-825f-20689dd700af" -> "28a09706-6e31-11e9-825f-20689dd700af"
+	"28a09706-6e31-11e9-825f-20689dd700af" -> "28a02b90-6e31-11e9-825f-20689dd700af"
+}
