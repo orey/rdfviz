@@ -85,6 +85,6 @@ A triple is not easily viewable in a graph due to:
   * Its lack of unique ID,
   * Its possible appearence in several triples.
 
-![concept](https://github.com/orey/rdfviz/blob/master/design/concept.png))
+![concept](https://github.com/orey/rdfviz/blob/master/design/concept.png)
 
 The triples generated above create a "representation space" from which it is easy to extract a representable graph by reading the proper RDF triples.
