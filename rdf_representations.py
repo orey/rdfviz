@@ -46,6 +46,8 @@ class RDFNode():
             self.numbering = numbering
             self.id = numbering.get_next_number()
         self.name = "void"
+        # Keep a reference to the original RDF concept for later
+        self.ident = ident
         if not isinstance(ident, rdflib.term.Identifier):
             raise TypeError("Unrecognized type: " + str(type(ident)))
         if type(ident) == rdflib.term.URIRef:
@@ -75,6 +77,8 @@ class RDFNode():
             return self.id.int
         else:
             return self.id
+    def get_rdf(self):
+        return self.ident
 
 
 class RDFRel(RDFNode):

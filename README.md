@@ -56,7 +56,7 @@ Moreover, in pure RDF, if we have ```d1:s1 d2:p d3:o1 .``` and ```d1:s2 d2:p d3:
 
 So we must find a convention of representation.
 
-### 2. Emulating a knowledge graph into a graph
+#### 2. Emulating a knowledge graph into a graph
 
 In a standard graph representation, we will choose to focus on nodes and to use "d2:p" as a label of both ```d1:s1 -> d3:o1``` and ```d1:s2 -> d3:o2``` relationships. That's the first option of representation that we have chosen to implement.
 
@@ -76,3 +76,15 @@ Concretely:
   * BNode instances and Literal instances are considered unique nodes;
   * URIRef is instanciated for each edge.
 
+### Concept of decoration for visualization
+
+Context: `rdf2rdfviz.py`
+
+A triple is not easily viewable in a graph due to:
+
+  * Its lack of unique ID,
+  * Its possible appearence in several triples.
+
+![concept](https://github.com/orey/rdfviz/blob/master/design/concept.png))
+
+The triples generated above create a "representation space" from which it is easy to extract a representable graph by reading the proper RDF triples.
