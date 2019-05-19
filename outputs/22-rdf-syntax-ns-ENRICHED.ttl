@@ -1,0 +1,837 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns1: <https://github.com/orey/graphapps/graphapps#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rdf:Alt a rdfs:Class ;
+    rdfs:label "Alt" ;
+    rdfs:comment "The class of containers of alternatives." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Container .
+
+rdf:Bag a rdfs:Class ;
+    rdfs:label "Bag" ;
+    rdfs:comment "The class of unordered containers." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Container .
+
+rdf:List a rdfs:Class ;
+    rdfs:label "List" ;
+    rdfs:comment "The class of RDF Lists." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Resource .
+
+rdf:Property a rdfs:Class ;
+    rdfs:label "Property" ;
+    rdfs:comment "The class of RDF properties." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Resource .
+
+rdf:Seq a rdfs:Class ;
+    rdfs:label "Seq" ;
+    rdfs:comment "The class of ordered containers." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Container .
+
+rdf:Statement a rdfs:Class ;
+    rdfs:label "Statement" ;
+    rdfs:comment "The class of RDF statements." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Resource .
+
+<https://github.com/orey/graphapps/graphapps#022888be-90fd-47c9-94cd-716d0f9a935d> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#7a6668f1-cfc3-464a-84a2-5f026a5d29b3> .
+
+<https://github.com/orey/graphapps/graphapps#0b9ef7fc-5f46-47dd-93bf-a8a3ba945fb8> a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target ns1:f49217a8-f42b-44c4-905c-78866e9b831f .
+
+<https://github.com/orey/graphapps/graphapps#0c7e716e-dbf7-4a5f-bf62-45dc73f17535> a ns1:Edge ;
+    rdf:value dc:description ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> ;
+    ns1:target ns1:ee91b5c1-e382-4c9c-9fce-0f57db5f68ee .
+
+<https://github.com/orey/graphapps/graphapps#0d0dac8b-8699-4f34-93f7-f4c94a151596> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target ns1:bab3a460-4201-491b-87f2-0e2caa128b46 .
+
+<https://github.com/orey/graphapps/graphapps#0e72568c-c2d9-4271-aee3-0d2a26dacff5> a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 .
+
+<https://github.com/orey/graphapps/graphapps#11bddb95-79c2-446c-ad91-e46ac02dfd6f> a ns1:Edge ;
+    rdf:value rdfs:seeAlso ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#047233d5-0270-4544-8c82-8558e00af249> .
+
+<https://github.com/orey/graphapps/graphapps#1276c6dd-b7f9-40eb-af8e-418fe60489da> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#16c7a1d4-68cd-41d1-a8ff-16a4de0a6a75> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+<https://github.com/orey/graphapps/graphapps#1748f595-fcfa-4a2d-86fb-40aea8729172> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target ns1:b959a3e3-acc9-4d34-8f70-df900cde61e1 .
+
+<https://github.com/orey/graphapps/graphapps#2173774f-14cf-4098-b361-b4f6199ea5cb> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#2c20b085-f0f1-4ab8-8db0-569be5e9ba98> .
+
+<https://github.com/orey/graphapps/graphapps#2695270c-da38-4150-b3a7-bf558a60d092> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+<https://github.com/orey/graphapps/graphapps#26f0247c-f055-4e08-8282-591259e7153b> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#3680e809-5276-4576-a98c-c759b26d090f> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#371c56ed-0d98-4bc0-9d6f-4f546bac251d> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#0d12ef1f-fa6e-4f5b-bf56-44e119e7a739> .
+
+<https://github.com/orey/graphapps/graphapps#3a189dbc-8181-4ca6-9c55-2ff5a0c06a1a> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#3ae58564-a21c-43df-9d87-8b4129305669> a ns1:Edge ;
+    rdf:value rdfs:seeAlso ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#622395d8-06bb-4e0c-8d4e-b21521b1dbc7> .
+
+<https://github.com/orey/graphapps/graphapps#40d149a3-9fef-4e40-a67a-02d95c2ddfea> a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target ns1:e365a739-3a41-4c87-babf-a2e80db6e72b .
+
+<https://github.com/orey/graphapps/graphapps#41bb7fff-28f0-49c7-a2e0-04d9f2e6807c> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#5e8a5e52-36b4-4a31-b3a6-ed707466cc10> .
+
+<https://github.com/orey/graphapps/graphapps#475a6cee-2576-4cb3-9d97-dc7579918cc5> a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#388e4ed5-b5d7-48b7-84e8-6f6241836563> .
+
+<https://github.com/orey/graphapps/graphapps#4785a9ed-2ef7-46df-bb73-e62d6c93f0ee> a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source ns1:e365a739-3a41-4c87-babf-a2e80db6e72b ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+<https://github.com/orey/graphapps/graphapps#486f62cf-5ae4-4448-b5a8-617bfa911e9c> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+<https://github.com/orey/graphapps/graphapps#4a8fd853-7219-4eac-a38f-a7be97d616f3> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#4b6c4d5b-aa18-46d3-8f83-f62b4cd36227> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#763b9c4a-8fc3-4502-b0fc-c42aabfb7318> .
+
+<https://github.com/orey/graphapps/graphapps#4cd76426-a8e6-4962-b292-653a64b31d16> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#4d8c8d5c-5454-4719-a5b3-173df3430275> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#28b665de-f2b7-4f82-baf0-66d4adab8577> .
+
+<https://github.com/orey/graphapps/graphapps#5394dee2-a1d8-4b15-afe7-f43e0677656b> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#23ba2b5d-7ce8-4488-ac19-fb51dced0d55> .
+
+<https://github.com/orey/graphapps/graphapps#5540311f-3cec-4e07-ae88-8c3cde161314> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9f85135f-00b1-400d-8b5c-957af1bf2926> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#57838c2f-436a-4075-9891-a795a7b746bf> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 ;
+    ns1:target ns1:ef86610c-4b41-4306-8b29-dccc422e3ef7 .
+
+<https://github.com/orey/graphapps/graphapps#5a1b8f55-0eb4-48d2-97b0-3451d36a66ff> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9f85135f-00b1-400d-8b5c-957af1bf2926> ;
+    ns1:target ns1:e365a739-3a41-4c87-babf-a2e80db6e72b .
+
+<https://github.com/orey/graphapps/graphapps#5a58d4c6-4aaa-4ed0-8837-29b898537566> a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+<https://github.com/orey/graphapps/graphapps#5ae41c15-4fe0-43a8-afa8-a6a9476114d7> a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 .
+
+<https://github.com/orey/graphapps/graphapps#5f1918e3-5ad1-4496-94ca-c2b46a31446c> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#14756524-edcb-4042-a7fc-5a97c7ba04e6> .
+
+<https://github.com/orey/graphapps/graphapps#5f63e493-a244-4860-b9b9-c607346a94db> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#73bb64be-b239-4ea2-aa02-8086aafc15e2> .
+
+<https://github.com/orey/graphapps/graphapps#60ec8cdb-7180-460b-b650-8e96165df5a3> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#217c5173-45c2-4ec6-a184-7305fc984a2b> .
+
+<https://github.com/orey/graphapps/graphapps#6335b620-e9f9-45eb-9ec5-29b11695677f> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+<https://github.com/orey/graphapps/graphapps#64496465-19d2-4596-9f55-700fbff66285> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target ns1:b959a3e3-acc9-4d34-8f70-df900cde61e1 .
+
+<https://github.com/orey/graphapps/graphapps#6907a9b1-ec2b-45e6-8c49-11264f13ef57> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target ns1:c2362a8b-5f7c-4756-9cbd-a4a146ddd319 .
+
+<https://github.com/orey/graphapps/graphapps#6e4b297d-b362-48dc-a3af-350e32dc5e59> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#6e5095f3-e585-4851-83f3-3df3db50cc61> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9f85135f-00b1-400d-8b5c-957af1bf2926> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#93d8e323-9edb-4f76-82cf-d859d63c7121> .
+
+<https://github.com/orey/graphapps/graphapps#6e6a9379-0ebd-44c4-904e-02f0aa546f3c> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 ;
+    ns1:target ns1:b959a3e3-acc9-4d34-8f70-df900cde61e1 .
+
+<https://github.com/orey/graphapps/graphapps#6f4af734-b143-4e34-a7b3-546078485176> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#58cc02ef-ceae-4194-8e03-063de075d1aa> .
+
+<https://github.com/orey/graphapps/graphapps#775dfc34-b716-410d-bba6-9df73a6b4709> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#78f90a94-5bd6-4360-91eb-6ff1a239d606> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#7a93ca9b-cb17-4daf-bb88-b4a4fa6654f9> a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+<https://github.com/orey/graphapps/graphapps#7c95c89e-b931-446b-a273-a98663f471f4> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#194d58df-36d4-4cbb-8d26-50569b3472f4> .
+
+<https://github.com/orey/graphapps/graphapps#8095f744-bc84-4d17-9bbc-91473729f2e2> a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+<https://github.com/orey/graphapps/graphapps#835eb04b-0420-4a8c-bb8f-9b3cb3063a93> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:e365a739-3a41-4c87-babf-a2e80db6e72b ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#0bfb2e22-4137-448c-8b9c-5314a5a7b6ce> .
+
+<https://github.com/orey/graphapps/graphapps#8526a413-aaa0-4130-9757-61ffc2c032cd> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:e365a739-3a41-4c87-babf-a2e80db6e72b ;
+    ns1:target ns1:b7c99f32-52f3-476b-90c3-9ca776843137 .
+
+<https://github.com/orey/graphapps/graphapps#85fd75bd-1893-406c-8280-6d3384e78b82> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#9d5d2cc5-9f4e-4526-afa1-03a87bb1e3da> .
+
+<https://github.com/orey/graphapps/graphapps#8a2d3714-ed4a-4b4e-bf63-348b65252edd> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9f85135f-00b1-400d-8b5c-957af1bf2926> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#57f41837-045b-4b36-9a49-47337a073043> .
+
+<https://github.com/orey/graphapps/graphapps#8d543625-f067-4ab2-acfb-bdc11fb2199d> a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+<https://github.com/orey/graphapps/graphapps#93902858-2196-4eb6-91ec-fab117c6e0f1> a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+<https://github.com/orey/graphapps/graphapps#9a4829fa-331c-40c2-9bc7-1f7180e00a75> a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+<https://github.com/orey/graphapps/graphapps#9bae3632-e1f4-40ef-96d5-7cbaf1e4c09c> a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target ns1:a54cd261-bea0-404d-bc99-fbcf41d97e6c .
+
+<https://github.com/orey/graphapps/graphapps#9cb3e8f9-e979-4544-aff3-e64c99c74bb9> a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 ;
+    ns1:target ns1:dde1c9d1-ef2d-4a35-84ad-13bc91b6eec2 .
+
+<https://github.com/orey/graphapps/graphapps#9d155b00-7cb3-49e6-a0a0-e78b03f81401> a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:a1de3a22-a801-4c2a-bd2c-6ef7129743ab a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+ns1:a28ed78e-5407-45ff-b64c-099ea52c5e4e a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:a6b5565f-1296-4fff-82fc-194995c7095a a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target ns1:bc7ff62f-06ea-4541-a299-5bb0e25d5dc9 .
+
+ns1:a77ace39-7005-4c55-880e-207bb4f93326 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+ns1:a9dea534-2cc4-40af-9260-054ad50f7586 a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#0923926d-8cfb-4be0-ae40-6a41ae38a644> .
+
+ns1:ab2079e5-1ba5-462d-a727-53cfe59ba13a a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:ac3b3be2-c856-49e2-b384-25039080aa02 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+ns1:acca6c4e-d3c6-42e5-b3ca-fd68a5d8fcfe a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+ns1:adf939e8-a1ae-4a83-be8f-5d0dea76ddf4 a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 ;
+    ns1:target ns1:d8eda923-25ba-4bdc-b162-68b585dd7096 .
+
+ns1:afea454e-84ab-4c46-ade3-52df343d880a a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target ns1:cbda8ad9-3f9f-4313-baa2-5fb287a5deaf .
+
+ns1:b13803c1-e23e-4251-b305-98e382cbeb02 a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target ns1:e365a739-3a41-4c87-babf-a2e80db6e72b .
+
+ns1:b1c8606c-bdd5-4204-a33d-188472c15fa7 a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source ns1:e365a739-3a41-4c87-babf-a2e80db6e72b ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:b4890851-7c99-48d0-b5b3-ad83565b822c a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#144e614a-ec5c-47cf-9bad-e5a1465fafdf> .
+
+ns1:babbce93-5165-4000-9319-e08164c2ee1f a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:bbdcc52a-f99d-4ef1-aced-46b4181a974f a ns1:Edge ;
+    rdf:value rdfs:range ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:bf9a2d88-51ab-4e26-8a93-ccb47a2f13c0 a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target ns1:b3a48727-7209-4b10-ab0d-d17d33e473a3 .
+
+ns1:c0d440c9-10b4-4024-9ead-4d18dd772699 a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#11e8f454-7360-479e-aa6f-6fa53c263b24> .
+
+ns1:c2674ba2-ccee-4de3-8b0d-eb9a33eefd3c a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#1d3a19e4-6fe2-47c6-8083-69ff4a8efb12> .
+
+ns1:c3dff080-56c8-4a93-aea5-7eb49c1f6598 a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target ns1:d5bcac45-7c84-47a4-af2e-0e1bb5173141 .
+
+ns1:c52d17ca-65a6-43bf-b275-b71f6a8c5b7c a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> ;
+    ns1:target ns1:d3f3e81d-a75e-4959-bee5-2b6a69942dc7 .
+
+ns1:c623f84b-f44a-4e43-a744-2cef43c93a88 a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:c6aa0872-b625-481e-97ae-c0b84a01d270 a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:c702ce3f-9b00-4d8c-87f0-1bd21bcef39d a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target ns1:f49217a8-f42b-44c4-905c-78866e9b831f .
+
+ns1:c7959682-951c-4a3f-a0c6-2767b653edf4 a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> ;
+    ns1:target ns1:b332c182-d092-4984-8f5c-64ab52cced0b .
+
+ns1:c7a745ca-f10b-4be2-9dbf-49aaec9e29e8 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+ns1:c7dd8633-4cb5-4628-8cd3-8143888fd55c a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:c9d13ca3-d7b0-45a1-be91-7ec69492f5d6 a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#871dd515-fe5d-4990-925d-4fd96148e120> .
+
+ns1:c9ed4ebe-ab34-47d7-8c8c-bbc85e2f6a8c a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#4f8b9149-1f9f-49ce-9d32-5f8d05fdfeb8> .
+
+ns1:d30c0bbf-a63c-4965-ae82-4b446ea7e2a5 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#1dd0c984-e914-4ade-a9f0-6a10b722848c> .
+
+ns1:d938aed4-fc8e-4687-b81d-914a537e56f6 a ns1:Edge ;
+    rdf:value rdfs:comment ;
+    ns1:source ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#7c4eebf6-ca1a-439f-a85c-4b90fc087daf> .
+
+ns1:dd03d8cd-94da-4216-81dc-9b4ca5f025e5 a ns1:Edge ;
+    rdf:value rdfs:seeAlso ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#1a884c4a-17bd-4435-acde-5c28867b9d06> .
+
+ns1:de4afd72-8c8e-4666-9b0b-3c468988ef50 a ns1:Edge ;
+    rdf:value rdfs:label ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target ns1:ecc32d53-3798-4800-91e0-6341c81d0b66 .
+
+ns1:e1753729-4453-4cd6-9a60-c451e59ecee2 a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 ;
+    ns1:target ns1:f49217a8-f42b-44c4-905c-78866e9b831f .
+
+ns1:e1e7a806-13ef-42b5-ae84-cf1f52e1d548 a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#388e4ed5-b5d7-48b7-84e8-6f6241836563> .
+
+ns1:e2496124-d165-44cf-bb3b-09f10bd49eef a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:e987da79-e239-4ec7-aeef-beafbfaf2f19 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target ns1:b959a3e3-acc9-4d34-8f70-df900cde61e1 .
+
+ns1:eb3822f4-4ee4-498f-b0f5-83387ab5e815 a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#388e4ed5-b5d7-48b7-84e8-6f6241836563> .
+
+ns1:f03d93f5-9f35-4ce5-9f62-7731e0527dcb a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+ns1:f0cac00f-f146-46ad-896e-02ed54ef9cde a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> ;
+    ns1:target ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 .
+
+ns1:f2b00bfa-dd3d-44a5-a757-1ed6f0ef1cbf a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+ns1:f3c20ff2-3499-459f-a2cd-a7934a072e2a a ns1:Edge ;
+    rdf:value rdfs:domain ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> ;
+    ns1:target ns1:e365a739-3a41-4c87-babf-a2e80db6e72b .
+
+ns1:f518816e-eca3-4e53-9e5e-0df8fe3c9f94 a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> .
+
+ns1:f7515038-d9a4-42a6-a1d2-474a0463553a a ns1:Edge ;
+    rdf:value rdfs:subClassOf ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> ;
+    ns1:target ns1:f49217a8-f42b-44c4-905c-78866e9b831f .
+
+ns1:f9efc33f-e5b9-4b6f-b65f-74c5a0046e39 a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f ;
+    ns1:target ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 .
+
+ns1:fa147de8-4103-4ba2-9b28-9f299a0cfd7b a ns1:Edge ;
+    rdf:value rdf:type ;
+    ns1:source ns1:e365a739-3a41-4c87-babf-a2e80db6e72b ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> .
+
+ns1:fe84832f-245d-4e00-a3ce-06ab7cb05814 a ns1:Edge ;
+    rdf:value rdfs:isDefinedBy ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> .
+
+rdf:HTML a rdfs:Datatype ;
+    rdfs:label "HTML" ;
+    rdfs:comment "The datatype of RDF literals storing fragments of HTML content" ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:seeAlso <http://www.w3.org/TR/rdf11-concepts/#section-html> ;
+    rdfs:subClassOf rdfs:Literal .
+
+rdf:PlainLiteral a rdfs:Datatype ;
+    rdfs:label "PlainLiteral" ;
+    rdfs:comment "The class of plain (i.e. untyped) literal values, as used in RIF and OWL 2" ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:seeAlso <http://www.w3.org/TR/rdf-plain-literal/> ;
+    rdfs:subClassOf rdfs:Literal .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+    rdfs:label "XMLLiteral" ;
+    rdfs:comment "The datatype of XML literal values." ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:subClassOf rdfs:Literal .
+
+rdf:first a rdf:Property ;
+    rdfs:label "first" ;
+    rdfs:comment "The first item in the subject RDF list." ;
+    rdfs:domain rdf:List ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Resource .
+
+rdf:langString a rdfs:Datatype ;
+    rdfs:label "langString" ;
+    rdfs:comment "The datatype of language-tagged string values" ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:seeAlso <http://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal> ;
+    rdfs:subClassOf rdfs:Literal .
+
+() a rdf:List ;
+    rdfs:label "nil" ;
+    rdfs:comment "The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it." ;
+    rdfs:isDefinedBy rdf: .
+
+rdf:object a rdf:Property ;
+    rdfs:label "object" ;
+    rdfs:comment "The object of the subject RDF statement." ;
+    rdfs:domain rdf:Statement ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Resource .
+
+rdf:predicate a rdf:Property ;
+    rdfs:label "predicate" ;
+    rdfs:comment "The predicate of the subject RDF statement." ;
+    rdfs:domain rdf:Statement ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Resource .
+
+rdf:rest a rdf:Property ;
+    rdfs:label "rest" ;
+    rdfs:comment "The rest of the subject RDF list after the first item." ;
+    rdfs:domain rdf:List ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdf:List .
+
+rdf:subject a rdf:Property ;
+    rdfs:label "subject" ;
+    rdfs:comment "The subject of the subject RDF statement." ;
+    rdfs:domain rdf:Statement ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Resource .
+
+rdf:value a rdf:Property ;
+    rdfs:label "value" ;
+    rdfs:comment "Idiomatic property used for structured values." ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Resource .
+
+<https://github.com/orey/graphapps/graphapps#047233d5-0270-4544-8c82-8558e00af249> a ns1:Node ;
+    rdf:value <http://www.w3.org/TR/rdf-plain-literal/> .
+
+<https://github.com/orey/graphapps/graphapps#0923926d-8cfb-4be0-ae40-6a41ae38a644> a ns1:Node ;
+    rdf:value "type" .
+
+<https://github.com/orey/graphapps/graphapps#0bfb2e22-4137-448c-8b9c-5314a5a7b6ce> a ns1:Node ;
+    rdf:value "The class of RDF Lists." .
+
+<https://github.com/orey/graphapps/graphapps#0d12ef1f-fa6e-4f5b-bf56-44e119e7a739> a ns1:Node ;
+    rdf:value "The class of RDF statements." .
+
+<https://github.com/orey/graphapps/graphapps#11e8f454-7360-479e-aa6f-6fa53c263b24> a ns1:Node ;
+    rdf:value "Bag" .
+
+<https://github.com/orey/graphapps/graphapps#144e614a-ec5c-47cf-9bad-e5a1465fafdf> a ns1:Node ;
+    rdf:value "The predicate of the subject RDF statement." .
+
+<https://github.com/orey/graphapps/graphapps#14756524-edcb-4042-a7fc-5a97c7ba04e6> a ns1:Node ;
+    rdf:value "XMLLiteral" .
+
+<https://github.com/orey/graphapps/graphapps#194d58df-36d4-4cbb-8d26-50569b3472f4> a ns1:Node ;
+    rdf:value "The object of the subject RDF statement." .
+
+<https://github.com/orey/graphapps/graphapps#1a884c4a-17bd-4435-acde-5c28867b9d06> a ns1:Node ;
+    rdf:value <http://www.w3.org/TR/rdf11-concepts/#section-html> .
+
+<https://github.com/orey/graphapps/graphapps#1d3a19e4-6fe2-47c6-8083-69ff4a8efb12> a ns1:Node ;
+    rdf:value "The class of containers of alternatives." .
+
+<https://github.com/orey/graphapps/graphapps#1dd0c984-e914-4ade-a9f0-6a10b722848c> a ns1:Node ;
+    rdf:value owl:Ontology .
+
+<https://github.com/orey/graphapps/graphapps#217c5173-45c2-4ec6-a184-7305fc984a2b> a ns1:Node ;
+    rdf:value "PlainLiteral" .
+
+<https://github.com/orey/graphapps/graphapps#23ba2b5d-7ce8-4488-ac19-fb51dced0d55> a ns1:Node ;
+    rdf:value "value" .
+
+<https://github.com/orey/graphapps/graphapps#28b665de-f2b7-4f82-baf0-66d4adab8577> a ns1:Node ;
+    rdf:value "subject" .
+
+<https://github.com/orey/graphapps/graphapps#2c20b085-f0f1-4ab8-8db0-569be5e9ba98> a ns1:Node ;
+    rdf:value "rest" .
+
+<https://github.com/orey/graphapps/graphapps#4f8b9149-1f9f-49ce-9d32-5f8d05fdfeb8> a ns1:Node ;
+    rdf:value "object" .
+
+<https://github.com/orey/graphapps/graphapps#57f41837-045b-4b36-9a49-47337a073043> a ns1:Node ;
+    rdf:value "The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it." .
+
+<https://github.com/orey/graphapps/graphapps#58cc02ef-ceae-4194-8e03-063de075d1aa> a ns1:Node ;
+    rdf:value "The class of unordered containers." .
+
+<https://github.com/orey/graphapps/graphapps#5e8a5e52-36b4-4a31-b3a6-ed707466cc10> a ns1:Node ;
+    rdf:value "The class of plain (i.e. untyped) literal values, as used in RIF and OWL 2" .
+
+<https://github.com/orey/graphapps/graphapps#622395d8-06bb-4e0c-8d4e-b21521b1dbc7> a ns1:Node ;
+    rdf:value <http://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal> .
+
+<https://github.com/orey/graphapps/graphapps#73bb64be-b239-4ea2-aa02-8086aafc15e2> a ns1:Node ;
+    rdf:value "Property" .
+
+<https://github.com/orey/graphapps/graphapps#763b9c4a-8fc3-4502-b0fc-c42aabfb7318> a ns1:Node ;
+    rdf:value "The RDF Concepts Vocabulary (RDF)" .
+
+<https://github.com/orey/graphapps/graphapps#7a6668f1-cfc3-464a-84a2-5f026a5d29b3> a ns1:Node ;
+    rdf:value "The datatype of RDF literals storing fragments of HTML content" .
+
+<https://github.com/orey/graphapps/graphapps#7c4eebf6-ca1a-439f-a85c-4b90fc087daf> a ns1:Node ;
+    rdf:value "The class of RDF properties." .
+
+<https://github.com/orey/graphapps/graphapps#871dd515-fe5d-4990-925d-4fd96148e120> a ns1:Node ;
+    rdf:value "predicate" .
+
+<https://github.com/orey/graphapps/graphapps#93d8e323-9edb-4f76-82cf-d859d63c7121> a ns1:Node ;
+    rdf:value "nil" .
+
+<https://github.com/orey/graphapps/graphapps#9d5d2cc5-9f4e-4526-afa1-03a87bb1e3da> a ns1:Node ;
+    rdf:value "The class of ordered containers." .
+
+ns1:a54cd261-bea0-404d-bc99-fbcf41d97e6c a ns1:Node ;
+    rdf:value "langString" .
+
+ns1:b332c182-d092-4984-8f5c-64ab52cced0b a ns1:Node ;
+    rdf:value "The datatype of language-tagged string values" .
+
+ns1:b3a48727-7209-4b10-ab0d-d17d33e473a3 a ns1:Node ;
+    rdf:value "The subject of the subject RDF statement." .
+
+ns1:b7c99f32-52f3-476b-90c3-9ca776843137 a ns1:Node ;
+    rdf:value "List" .
+
+ns1:bab3a460-4201-491b-87f2-0e2caa128b46 a ns1:Node ;
+    rdf:value "The subject is an instance of a class." .
+
+ns1:bc7ff62f-06ea-4541-a299-5bb0e25d5dc9 a ns1:Node ;
+    rdf:value "HTML" .
+
+ns1:c2362a8b-5f7c-4756-9cbd-a4a146ddd319 a ns1:Node ;
+    rdf:value "The first item in the subject RDF list." .
+
+ns1:cbda8ad9-3f9f-4313-baa2-5fb287a5deaf a ns1:Node ;
+    rdf:value "The rest of the subject RDF list after the first item." .
+
+ns1:d3f3e81d-a75e-4959-bee5-2b6a69942dc7 a ns1:Node ;
+    rdf:value "Seq" .
+
+ns1:d5bcac45-7c84-47a4-af2e-0e1bb5173141 a ns1:Node ;
+    rdf:value "Idiomatic property used for structured values." .
+
+ns1:d8eda923-25ba-4bdc-b162-68b585dd7096 a ns1:Node ;
+    rdf:value "Alt" .
+
+ns1:dde1c9d1-ef2d-4a35-84ad-13bc91b6eec2 a ns1:Node ;
+    rdf:value "The datatype of XML literal values." .
+
+ns1:ecc32d53-3798-4800-91e0-6341c81d0b66 a ns1:Node ;
+    rdf:value "first" .
+
+ns1:ee91b5c1-e382-4c9c-9fce-0f57db5f68ee a ns1:Node ;
+    rdf:value "This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts." .
+
+ns1:ef86610c-4b41-4306-8b29-dccc422e3ef7 a ns1:Node ;
+    rdf:value "Statement" .
+
+<https://github.com/orey/graphapps/graphapps#388e4ed5-b5d7-48b7-84e8-6f6241836563> a ns1:Node ;
+    rdf:value rdfs:Container .
+
+<https://github.com/orey/graphapps/graphapps#9f85135f-00b1-400d-8b5c-957af1bf2926> a ns1:Node ;
+    rdf:value () .
+
+ns1:b959a3e3-acc9-4d34-8f70-df900cde61e1 a ns1:Node ;
+    rdf:value rdfs:Datatype .
+
+ns1:f49217a8-f42b-44c4-905c-78866e9b831f a ns1:Node ;
+    rdf:value rdfs:Literal .
+
+<https://github.com/orey/graphapps/graphapps#25a19108-ec99-40f7-9ed6-4fe443d74a82> a ns1:Node ;
+    rdf:value rdf:Seq .
+
+<https://github.com/orey/graphapps/graphapps#9dc329fa-bb3f-4c6d-8454-3b3cc69380e4> a ns1:Node ;
+    rdf:value rdf:Bag .
+
+ns1:b0d22072-dcd9-47b8-8275-411c7402dcb1 a ns1:Node ;
+    rdf:value rdf:Alt .
+
+ns1:e6110f9f-6df4-4ea7-94cd-908277ab6798 a ns1:Node ;
+    rdf:value rdf:XMLLiteral .
+
+<https://github.com/orey/graphapps/graphapps#11f091d5-7a85-4644-b0f2-627cad8e49a8> a ns1:Node ;
+    rdf:value rdf:rest .
+
+<https://github.com/orey/graphapps/graphapps#15b73b4f-3450-4207-89fd-6f4cea4b0a05> a ns1:Node ;
+    rdf:value rdf:predicate .
+
+<https://github.com/orey/graphapps/graphapps#163fe443-7e7c-4bb3-a30c-1ac1128b9b44> a ns1:Node ;
+    rdf:value rdf:PlainLiteral .
+
+<https://github.com/orey/graphapps/graphapps#280c1b6f-3bf9-47a8-885a-d0bb4d961a31> a ns1:Node ;
+    rdf:value rdf:subject .
+
+<https://github.com/orey/graphapps/graphapps#64800aa7-8b7f-46f1-a64a-fc6871c35d62> a ns1:Node ;
+    rdf:value rdf:langString .
+
+<https://github.com/orey/graphapps/graphapps#721eebef-b8d3-4cb6-b78a-820e32924ccf> a ns1:Node ;
+    rdf:value rdf:object .
+
+<https://github.com/orey/graphapps/graphapps#8ec1575f-7f6c-40c1-8b56-e8dfbb51f713> a ns1:Node ;
+    rdf:value rdf:HTML .
+
+<https://github.com/orey/graphapps/graphapps#9bb1f682-0283-4ea7-9b75-ee2f35bce792> a ns1:Node ;
+    rdf:value rdf:first .
+
+ns1:bf29ea8c-8e91-468f-a2ae-b00ba6ec4c3f a ns1:Node ;
+    rdf:value rdf:type .
+
+ns1:edb66252-bda9-48b4-90ac-bdfc429cb64f a ns1:Node ;
+    rdf:value rdf:value .
+
+<https://github.com/orey/graphapps/graphapps#823a214d-4194-42db-af54-15d2eb764071> a ns1:Node ;
+    rdf:value rdfs:Class .
+
+ns1:eced1288-2bed-4eed-aa2c-69d0a9af39b5 a ns1:Node ;
+    rdf:value rdf:Statement .
+
+ns1:e365a739-3a41-4c87-babf-a2e80db6e72b a ns1:Node ;
+    rdf:value rdf:List .
+
+<https://github.com/orey/graphapps/graphapps#33db21d0-0b9e-4747-9006-24c835c07cd0> a ns1:Node ;
+    rdf:value rdfs:Resource .
+
+ns1:c83324bd-926e-4427-97c0-2e5470ba3ea0 a ns1:Node ;
+    rdf:value rdf:Property .
+
+rdf: a owl:Ontology ;
+    dc:description "This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts." ;
+    dc:title "The RDF Concepts Vocabulary (RDF)" .
+
+rdf:type a rdf:Property ;
+    rdfs:label "type" ;
+    rdfs:comment "The subject is an instance of a class." ;
+    rdfs:domain rdfs:Resource ;
+    rdfs:isDefinedBy rdf: ;
+    rdfs:range rdfs:Class .
+
+<https://github.com/orey/graphapps/graphapps#97b6dd6f-35ef-482d-a0cb-db0145e9feb4> a ns1:Node ;
+    rdf:value rdf: .
+

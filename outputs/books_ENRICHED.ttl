@@ -1,0 +1,178 @@
+@prefix : <http://example.org/book/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ns: <http://example.org/ns#> .
+@prefix ns1: <https://github.com/orey/graphapps/graphapps#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://github.com/orey/graphapps/graphapps#0b9c2a48-8ad3-40b6-8f02-ebe777daf4cd> a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#700677bc-d6fb-4852-be77-75dffcf0bab0> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> .
+
+<https://github.com/orey/graphapps/graphapps#0c9fc9b5-6457-443b-912b-416db2da1a11> a ns1:Edge ;
+    rdf:value vcard:FN ;
+    ns1:source ns1:e93592f6-5fc3-4f86-8f54-1089b2f45aca ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> .
+
+<https://github.com/orey/graphapps/graphapps#1c176d24-108c-42e0-96ef-27aeb7a646fd> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#43a0e1bf-ad0f-4801-94b1-78d0cf996004> ;
+    ns1:target ns1:cc30938b-9bd0-469e-ae27-ce25d4bee16a .
+
+<https://github.com/orey/graphapps/graphapps#4950f878-a2cc-4dbc-b1a4-73d38a45b3ad> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:d4caae1c-ed34-4269-b749-5146a522e41b ;
+    ns1:target ns1:d62f91fc-05c3-440a-9f23-8bbd27dd002e .
+
+<https://github.com/orey/graphapps/graphapps#49e19c7e-314a-4c7e-a9f5-ee8fad11ac85> a ns1:Edge ;
+    rdf:value vcard:Family ;
+    ns1:source ns1:e42c4847-9c56-4d28-900a-ed8455464450 ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#5b8cc65b-a593-4f71-b1c3-631a3b3d15cb> .
+
+<https://github.com/orey/graphapps/graphapps#52f515c7-8390-4b94-873a-bd4da355978e> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#7fd3f4c7-8ffc-4710-ae67-f079a7f677ca> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#4920217d-7764-4b0b-a814-41da05c0b567> .
+
+<https://github.com/orey/graphapps/graphapps#554c106c-20ac-418f-b687-d8a1ff7764b9> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#63c910e4-22a4-40bb-ad4b-4e41a56e9513> ;
+    ns1:target ns1:df9eb70f-e2fd-4aee-9c80-8673ba764dc0 .
+
+<https://github.com/orey/graphapps/graphapps#96286474-103e-4d4d-83ab-202f59e598e5> a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#63c910e4-22a4-40bb-ad4b-4e41a56e9513> ;
+    ns1:target ns1:e93592f6-5fc3-4f86-8f54-1089b2f45aca .
+
+<https://github.com/orey/graphapps/graphapps#97b20dd9-9f2a-4636-9919-e39a8c6d01b1> a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#700677bc-d6fb-4852-be77-75dffcf0bab0> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#9a985a2a-0772-4dd8-9072-e7591475b4e9> .
+
+<https://github.com/orey/graphapps/graphapps#99565112-eb4d-4c26-a217-7511a014cc6f> a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#6bc8e662-52e5-46b5-ba01-efb892eb3826> ;
+    ns1:target ns1:e93592f6-5fc3-4f86-8f54-1089b2f45aca .
+
+<https://github.com/orey/graphapps/graphapps#9c4b955a-16e6-41a5-99f1-7b851ec85443> a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#7fd3f4c7-8ffc-4710-ae67-f079a7f677ca> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> .
+
+ns1:a4858e1e-32b0-4e04-a4c7-87ded2385eb7 a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#54ddde5c-8748-44f0-a1a4-3a4fce171ec8> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> .
+
+ns1:aae59a7a-63ca-44c3-a164-ebd5e440b615 a ns1:Edge ;
+    rdf:value vcard:N ;
+    ns1:source ns1:e93592f6-5fc3-4f86-8f54-1089b2f45aca ;
+    ns1:target ns1:e42c4847-9c56-4d28-900a-ed8455464450 .
+
+ns1:bac95d6c-3d2c-4cfb-8a88-598ec4a6011f a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#54ddde5c-8748-44f0-a1a4-3a4fce171ec8> ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#7196317d-31f8-4ea0-abc8-ea8fd9b362af> .
+
+ns1:c7b6368f-0500-46e3-a63b-5054da53a651 a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source <https://github.com/orey/graphapps/graphapps#6bc8e662-52e5-46b5-ba01-efb892eb3826> ;
+    ns1:target ns1:c8a8fd21-19ed-45ca-aa42-46e00f47a749 .
+
+ns1:d0d7b5e7-33dd-4177-8c00-f9164d89103f a ns1:Edge ;
+    rdf:value vcard:Given ;
+    ns1:source ns1:e42c4847-9c56-4d28-900a-ed8455464450 ;
+    ns1:target ns1:fe9f1782-7c51-4c3a-ab71-aaccc0a7d8db .
+
+ns1:d9892189-5b2c-468b-b580-a0ab70373cba a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source ns1:d4caae1c-ed34-4269-b749-5146a522e41b ;
+    ns1:target <https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> .
+
+:book1 dc:creator "J.K. Rowling" ;
+    dc:title "Harry Potter and the Philosopher's Stone" .
+
+:book2 dc:creator _:f616f6f1812e84fd39f6f93f325371177b1 ;
+    dc:title "Harry Potter and the Chamber of Secrets" .
+
+:book3 dc:creator _:f616f6f1812e84fd39f6f93f325371177b1 ;
+    dc:title "Harry Potter and the Prisoner Of Azkaban" .
+
+:book4 dc:title "Harry Potter and the Goblet of Fire" .
+
+:book5 dc:creator "J.K. Rowling" ;
+    dc:title "Harry Potter and the Order of the Phoenix" .
+
+:book6 dc:creator "J.K. Rowling" ;
+    dc:title "Harry Potter and the Half-Blood Prince" .
+
+:book7 dc:creator "J.K. Rowling" ;
+    dc:title "Harry Potter and the Deathly Hallows" .
+
+<https://github.com/orey/graphapps/graphapps#43a0e1bf-ad0f-4801-94b1-78d0cf996004> a ns1:Node ;
+    rdf:value :book4 .
+
+<https://github.com/orey/graphapps/graphapps#4920217d-7764-4b0b-a814-41da05c0b567> a ns1:Node ;
+    rdf:value "Harry Potter and the Order of the Phoenix" .
+
+<https://github.com/orey/graphapps/graphapps#5b8cc65b-a593-4f71-b1c3-631a3b3d15cb> a ns1:Node ;
+    rdf:value "Rowling" .
+
+<https://github.com/orey/graphapps/graphapps#7196317d-31f8-4ea0-abc8-ea8fd9b362af> a ns1:Node ;
+    rdf:value "Harry Potter and the Deathly Hallows" .
+
+<https://github.com/orey/graphapps/graphapps#9a985a2a-0772-4dd8-9072-e7591475b4e9> a ns1:Node ;
+    rdf:value "Harry Potter and the Half-Blood Prince" .
+
+ns1:c8a8fd21-19ed-45ca-aa42-46e00f47a749 a ns1:Node ;
+    rdf:value "Harry Potter and the Prisoner Of Azkaban" .
+
+ns1:cc30938b-9bd0-469e-ae27-ce25d4bee16a a ns1:Node ;
+    rdf:value "Harry Potter and the Goblet of Fire" .
+
+ns1:d62f91fc-05c3-440a-9f23-8bbd27dd002e a ns1:Node ;
+    rdf:value "Harry Potter and the Philosopher's Stone" .
+
+ns1:df9eb70f-e2fd-4aee-9c80-8673ba764dc0 a ns1:Node ;
+    rdf:value "Harry Potter and the Chamber of Secrets" .
+
+ns1:fe9f1782-7c51-4c3a-ab71-aaccc0a7d8db a ns1:Node ;
+    rdf:value "Joanna" .
+
+<https://github.com/orey/graphapps/graphapps#54ddde5c-8748-44f0-a1a4-3a4fce171ec8> a ns1:Node ;
+    rdf:value :book7 .
+
+<https://github.com/orey/graphapps/graphapps#63c910e4-22a4-40bb-ad4b-4e41a56e9513> a ns1:Node ;
+    rdf:value :book2 .
+
+<https://github.com/orey/graphapps/graphapps#6bc8e662-52e5-46b5-ba01-efb892eb3826> a ns1:Node ;
+    rdf:value :book3 .
+
+<https://github.com/orey/graphapps/graphapps#700677bc-d6fb-4852-be77-75dffcf0bab0> a ns1:Node ;
+    rdf:value :book6 .
+
+<https://github.com/orey/graphapps/graphapps#7fd3f4c7-8ffc-4710-ae67-f079a7f677ca> a ns1:Node ;
+    rdf:value :book5 .
+
+ns1:d4caae1c-ed34-4269-b749-5146a522e41b a ns1:Node ;
+    rdf:value :book1 .
+
+ns1:e42c4847-9c56-4d28-900a-ed8455464450 a ns1:Node ;
+    rdf:value _:ub1bL58C9 .
+
+ns1:e93592f6-5fc3-4f86-8f54-1089b2f45aca a ns1:Node ;
+    rdf:value _:f616f6f1812e84fd39f6f93f325371177b1 .
+
+<https://github.com/orey/graphapps/graphapps#428dc25a-73fa-4d93-98af-0298e3cb0d8c> a ns1:Node ;
+    rdf:value "J.K. Rowling" .
+
+_:ub1bL58C9 vcard:Family "Rowling" ;
+    vcard:Given "Joanna" .
+
+_:f616f6f1812e84fd39f6f93f325371177b1 vcard:FN "J.K. Rowling" ;
+    vcard:N _:ub1bL58C9 .
+

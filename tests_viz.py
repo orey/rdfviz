@@ -15,6 +15,7 @@ from graphviz import Digraph
 from rdf_utils import *
 from rdf2gml import *
 from rdf2graphviz import *
+from rdf2rdfviz import *
 
 
 class TestRdf2Graphviz(unittest.TestCase):
@@ -131,13 +132,44 @@ class TestRdf2Gml(unittest.TestCase):
             if not os.path.exists('./outputs'):
                 os.makedirs('./outputs')
 
-            result = store.parse('./tests/22-rdf-syntax-ns-simplified.ttl', format='turtle')
+            result = store.parse('./tests/22-rdf-syntax-ns-simplified.ttl',
+                                 format='turtle')
             add_rdf_graph_to_gml('./outputs/test_b1.gml', store)
             self.assertTrue(True)
         except Exception as e:
             print(e)
             self.assertTrue(False)
 
+
+class TestRdf2Rdfviz(unittest.TestCase):
+    def common(self, input):
+        name = input.split('/')[-1].split('.')[0]
+        try:
+            store = Graph()
+            result = store.parse(input, format='turtle')
+            enrich_graph_with_navigation(store)
+            outputnamewithoutext = './outputs/' + name + '_ENRICHED'
+            store.serialize(outputnamewithoutext + '.ttl',
+                            format='turtle')
+            dot = Digraph(comment='TestRdf2Rdfviz')
+            add_rdf_graph_to_dot(dot,store, 1)
+            dot.graph_attr['rankdir'] = 'LR'
+            dot.render(outputnamewithoutext, view=True)
+            self.assertTrue(True)
+        except Exception as e:
+            print(e)
+            self.assertTrue(False)
+
+    def test_rdf_syntax(self):
+        input = './tests/22-rdf-syntax-ns.ttl'
+        self.common(input)
+
+    def test_books(self):
+        input = './tests/books.ttl'
+        self.common(input)
+    
+                
+        
 
 if __name__ == '__main__':
     unittest.main()

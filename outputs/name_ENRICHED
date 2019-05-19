@@ -1,0 +1,2175 @@
+// TestRdf2Rdfviz
+digraph {
+	graph [rankdir=LR]
+	"c6e833d5-ef79-4bd5-82df-ae0b17e8c2c9" [label="github:graphapps#a408ffe2-4c9a-4568-b542-0960e5aa781c" color=blue fontcolor=blue]
+	"4434348a-a54e-4871-9a44-8ca429a53487" [label="github:graphapps#3d4d6644-5a14-4035-856a-152565d4de27" color=blue fontcolor=blue]
+	"3e92bc3a-f44e-4881-b561-7eebfcae13dc" [label="github:graphapps#656e23e2-bb9a-4929-8767-5fefdc2ed8fd" color=blue fontcolor=blue]
+	"42cb8b6f-0b60-43d7-baf8-d309f86decf8" [label="github:graphapps#d1dd967d-f4c9-4886-b637-41db04449025" color=blue fontcolor=blue]
+	"b9dc7e9d-e1db-45d9-b054-ecea77b2fe0a" [label="github:graphapps#18444d42-4763-491d-9e45-46c4486094f7" color=blue fontcolor=blue]
+	"2c511411-232e-418c-b3e7-d7bcf64104a5" [label="github:graphapps#ba3593ae-b0dd-417e-afd0-24abade8caa0" color=blue fontcolor=blue]
+	"c0dce2a3-da5f-47f1-a36f-b9ee25c8a03d" [label="github:graphapps#0310fa7d-9b4e-4d65-a667-34f7c9f8682a" color=blue fontcolor=blue]
+	"a7b15ef5-e323-439d-8980-17d4f1dbce3b" [label="github:graphapps#923cba87-da07-4019-be14-20d99d34c036" color=blue fontcolor=blue]
+	"ebdf19c1-30f9-4d96-833d-26ab62bd3fda" [label="github:graphapps#9b153a3a-66d0-4a70-a3be-3e9742ad5e02" color=blue fontcolor=blue]
+	"6b20f5c3-d65e-4ce0-9415-f28fc793d86d" [label="github:graphapps#3606f7b1-1ba4-430c-b407-41116b899fbd" color=blue fontcolor=blue]
+	"1284332c-f0ad-447d-9914-39c0171d2469" [label="github:graphapps#6a4c1dcf-e287-4319-bbb3-e157169636a7" color=blue fontcolor=blue]
+	"6db0190a-9e4e-4adc-84c7-ae63efa4ce06" [label="w3:rdf-schema#isDefinedBy" color=blue fontcolor=blue]
+	"1ed5c99b-3d30-4469-ad70-388c6efc2e14" [label="github:graphapps#5de07cd3-8a60-4713-a526-b2826883e4f5" color=blue fontcolor=blue]
+	"565572fc-adcb-4dc9-8005-2f024c0e882b" [label="github:graphapps#d4df5b7f-26ba-4c0f-a501-8d600f6e5970" color=blue fontcolor=blue]
+	"046b78ec-2a1c-4165-9f84-aad0997872bf" [label="github:graphapps#47711efb-cbc0-41e9-9c30-39fa1f0c336c" color=blue fontcolor=blue]
+	"e000d429-15c8-4420-a353-a226b0132d2b" [label="github:graphapps#eaf0c068-a7e9-4820-9eb3-87dd8a978820" color=blue fontcolor=blue]
+	"00edf2d2-c81d-45fc-b0be-0c556650dd44" [label="The empty list, with no items in it. If ..." color=blue fontcolor=blue]
+	"40bd48b5-d8eb-4651-9cc1-d2667dfa7d74" [label="w3:" color=blue fontcolor=blue]
+	"dacd4b15-4773-4861-ac70-dd8fb21d02ff" [label="github:graphapps#f61a7584-1dbd-479a-8f5d-e0172d168d44" color=blue fontcolor=blue]
+	"c92fdafd-968b-43f0-8026-462f72ac38bc" [label="github:graphapps#494e4a66-1841-46a9-b1bf-aed84ab21ff4" color=blue fontcolor=blue]
+	"aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf" [label="github:graphapps#4eeef622-cc1b-42bc-9508-a13fd5706bd5" color=blue fontcolor=blue]
+	"3311ae9d-2712-4770-a3e7-9356b289cccc" [label="purl:title" color=blue fontcolor=blue]
+	"5e087ad4-193b-4df2-b747-85a1ffe5a6cc" [label="github:graphapps#998851e4-8cf0-4538-9c22-4be0d8a5a1d9" color=blue fontcolor=blue]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" [label="w3:22-rdf-syntax-ns#first" color=blue fontcolor=blue]
+	"3c7a026b-cb53-4fda-96c8-e8a9135282e0" [label="github:graphapps#5518bc08-75a8-4106-b0a9-f1bb9f29f791" color=blue fontcolor=blue]
+	"cf7a5c9a-bcaf-4ee4-9ed2-b54b44d7d886" [label="github:graphapps#8065b774-4601-4733-8b5d-827e71f22842" color=blue fontcolor=blue]
+	"f9cbebfc-50bc-47b8-b447-fe9eeb3d3cec" [label="github:graphapps#e558e622-2a28-4da7-9541-758ff14b4132" color=blue fontcolor=blue]
+	"8a6cc5cf-1f4f-4836-9fb8-54f1805577e0" [label=PlainLiteral color=blue fontcolor=blue]
+	"aa010a1f-6b7e-44b7-9280-a2c6b1aac41f" [label="github:graphapps#b4c2de09-0878-40ee-b39f-09cb971d0e53" color=blue fontcolor=blue]
+	"4314ee38-c361-49cb-825f-67e77d746a22" [label="github:graphapps#f6276d59-4d03-41e3-b381-cd346e3661e5" color=blue fontcolor=blue]
+	"160e15d1-3c37-48b0-a677-97c93b6a4a38" [label="github:graphapps#19749fed-1869-4e0a-aaf3-0689ba5e7053" color=blue fontcolor=blue]
+	"f828f32f-6e42-4ab2-b293-b03e8e88ecad" [label="w3:#section-html" color=blue fontcolor=blue]
+	"2ebc33fe-7b1f-443a-91a1-200df48cfc81" [label=Property color=blue fontcolor=blue]
+	"0d8d440c-675f-4a5c-8d80-658a971dd978" [label="github:graphapps#93c67f05-e680-4f96-95d1-c54b9582359e" color=blue fontcolor=blue]
+	"78747665-6e0a-41ee-9a05-e621a940d0f1" [label="github:graphapps#Node" color=blue fontcolor=blue]
+	"375fe066-a5c8-49ad-9833-6306c797bccb" [label="w3:22-rdf-syntax-ns#" color=blue fontcolor=blue]
+	"3c2972f5-34e8-4289-a887-fafbf8cc69af" [label="github:graphapps#9548a614-ba58-4ecb-be91-3bd0db29ac70" color=blue fontcolor=blue]
+	"c0b89ba0-6219-4dd6-9af3-de06971c7d1a" [label="github:graphapps#e5fdbd78-b936-4781-8b7f-f336628fff33" color=blue fontcolor=blue]
+	"88e7d178-a736-47fb-ba3a-5f1d9ab2bdcd" [label="github:graphapps#51ea606b-2d7e-4a87-8279-f192a5a9f553" color=blue fontcolor=blue]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" [label="w3:22-rdf-syntax-ns#Statement" color=blue fontcolor=blue]
+	"53cbd26f-4285-419c-9a00-8b1b5448cbbb" [label="github:graphapps#0e372d58-557b-4b6a-aa25-17cba294c6da" color=blue fontcolor=blue]
+	"959ed84a-7248-4f20-81dc-a49f1ef5e608" [label="github:graphapps#875d03dc-d20f-4d7e-966c-342d27ec0755" color=blue fontcolor=blue]
+	"5f11de81-b329-4780-8fac-e862f753b49e" [label=HTML color=blue fontcolor=blue]
+	"b3758a16-37c9-45c5-bf45-a0a30c7472f9" [label="github:graphapps#bd455fdc-68f8-450a-a061-898e115d9dad" color=blue fontcolor=blue]
+	"f8f6bfe6-5181-4951-a955-fbff4bc3dd51" [label="w3:rdf-schema#seeAlso" color=blue fontcolor=blue]
+	"99d341d6-ed0e-4871-90a8-8ece45ff4e7c" [label="w3:rdf-schema#domain" color=blue fontcolor=blue]
+	"43ba3f73-8d5c-4edd-8f30-939be6b5b7ee" [label="The datatype of RDF literals storing fra..." color=blue fontcolor=blue]
+	"93a611e0-85fb-4acb-8df7-650e4b0eb582" [label="github:graphapps#a41dbb83-3516-41a7-a656-9fc3e87c2fc1" color=blue fontcolor=blue]
+	"ae3f5bc1-a237-440d-8caa-7a72792e7073" [label="github:graphapps#9552e24f-7ffb-4a73-816e-4cf094c9b77d" color=blue fontcolor=blue]
+	"3e9fc573-4b84-4ba2-8e7e-fae7fca53853" [label="github:graphapps#e4425aae-a2fb-4f56-a1e0-3f7db9570aea" color=blue fontcolor=blue]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" [label="w3:22-rdf-syntax-ns#Bag" color=blue fontcolor=blue]
+	"e7ecd007-a74d-40b2-88e7-95f7c100ed71" [label="github:graphapps#f474bd84-dfd5-4100-b40f-e7493b16c031" color=blue fontcolor=blue]
+	"0a900493-583d-44a2-b31a-2e8bdec7c611" [label="github:graphapps#d0a629b3-eca2-4399-aae4-ee713494a2ae" color=blue fontcolor=blue]
+	"f3900259-6fc4-4de4-9e7d-a2a3c6394381" [label="github:graphapps#8997a79c-253f-43a9-b529-825cff96ad7f" color=blue fontcolor=blue]
+	"6ae390cf-0e7e-4c6b-a71e-b28cfe016db8" [label="github:graphapps#bc98022b-015b-4907-ab18-156defbc3023" color=blue fontcolor=blue]
+	"3f5db23f-f85a-4b8c-aaec-c46fd1b757f6" [label="github:graphapps#8876de80-7a26-439c-95d6-b65d42b43c72" color=blue fontcolor=blue]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" [label="w3:22-rdf-syntax-ns#rest" color=blue fontcolor=blue]
+	"1cc78f88-bfca-4e4a-b459-f94aac860fdd" [label="github:graphapps#f852a0fc-0b36-4c4a-a152-bcc67a2aa740" color=blue fontcolor=blue]
+	"f458a6f3-9e01-4774-9f7f-523359b7281a" [label="github:graphapps#e2eb59d0-5966-4991-a94e-68baa2e06e75" color=blue fontcolor=blue]
+	"25b714ff-57fb-437b-98e5-48cef4ea6fec" [label="github:graphapps#f636e19c-dcf7-4046-9a7c-a7f1f63d8839" color=blue fontcolor=blue]
+	"859a2aac-4230-4792-937a-d327fe58f3e6" [label="github:graphapps#6972156d-9364-4f00-9e30-b476db8b1f32" color=blue fontcolor=blue]
+	"ef60a113-79af-4c14-ab35-e56b138b7f49" [label="Idiomatic property used for structured v..." color=blue fontcolor=blue]
+	"8914aa82-f5ee-48d3-9116-38c1c40dfc2d" [label="github:graphapps#473fb67c-0434-403f-90b4-b71ce7d71819" color=blue fontcolor=blue]
+	"49eee14f-aadf-4e5f-a182-e74d39e1a721" [label="github:graphapps#56f9e960-f773-480f-81cf-525e14eb41bb" color=blue fontcolor=blue]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" [label="w3:22-rdf-syntax-ns#Alt" color=blue fontcolor=blue]
+	"643b7ebc-0d80-4424-a1fb-2e37b5defb97" [label="The object of the subject RDF statement." color=blue fontcolor=blue]
+	"ec44c3e4-7373-40ff-93ed-bc3d69bca4e3" [label="github:graphapps#856227a2-c8db-4eb2-8666-60bc274d2a6d" color=blue fontcolor=blue]
+	"700a2d1f-3334-41cc-83d5-e10295e409f7" [label="github:graphapps#9ddfef81-0018-455a-aa39-68bec2c57032" color=blue fontcolor=blue]
+	"1f460764-0fef-4665-a353-01d59c8996fc" [label="The datatype of XML literal values." color=blue fontcolor=blue]
+	"872fd4fa-6f64-4da5-a226-9dd8e382f05c" [label="github:graphapps#517c4329-7104-44be-a144-77ce552a541e" color=blue fontcolor=blue]
+	"042972b4-73b2-4a3b-8799-06dcf2696b79" [label="github:graphapps#b3d798c6-979e-43c3-b834-28cf46d2ec4f" color=blue fontcolor=blue]
+	"4aa807ac-e2dc-4a02-a6ed-c11e8a6271bc" [label="github:graphapps#50b463c0-2bbf-4c6f-aff6-746283c5b2a5" color=blue fontcolor=blue]
+	"0b445b2e-28d2-4ccb-80a1-4519e41ef50f" [label="github:graphapps#6f5abccc-1d6c-4dae-866e-47e656c3c3ea" color=blue fontcolor=blue]
+	"a3c84298-3833-405c-a656-0b5295bc2d93" [label="github:graphapps#c03e279f-9b5e-4216-8ca8-65a6762d9807" color=blue fontcolor=blue]
+	"f92ff4ea-bb4a-4c3e-afc3-3d17e10c784e" [label="github:graphapps#72fdb26a-a4a8-4dca-86d4-dd4958cc8ab8" color=blue fontcolor=blue]
+	"c68b52ca-41bc-43f5-9c81-40deaf0f543b" [label="The class of RDF Lists." color=blue fontcolor=blue]
+	"0243cb68-db29-457e-8e05-5e38ec0c041a" [label=List color=blue fontcolor=blue]
+	"a135e933-7956-478b-a0c2-af774b75cccf" [label=subject color=blue fontcolor=blue]
+	"c513f1a0-f1ec-4646-afd4-2737535cc267" [label=Alt color=blue fontcolor=blue]
+	"0730197d-0d9f-4d6a-8b58-830d0dce8194" [label="github:graphapps#d366958a-7987-4fb4-9ff9-4f576987e906" color=blue fontcolor=blue]
+	"3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad" [label="github:graphapps#2594ada6-9d45-42b1-b0e4-7a3472fea726" color=blue fontcolor=blue]
+	"f7731f59-2e49-4c93-a962-436f3f7f5410" [label="github:graphapps#599b8330-8529-44bc-8f09-e48b86e1581b" color=blue fontcolor=blue]
+	"aa02a9ed-fb9d-4655-8c74-4e9f89d46da8" [label="The class of unordered containers." color=blue fontcolor=blue]
+	"ec3b5612-3242-467c-a206-fc20e50615a8" [label="github:graphapps#bfb837fd-770f-4b9b-8350-552d5b34b0ba" color=blue fontcolor=blue]
+	"460f7ad5-abdb-4502-9259-b40e3a268fca" [label="github:graphapps#Edge" color=blue fontcolor=blue]
+	"d9e0bcfb-70d7-4ca8-b1c8-afd6e22f9ab7" [label="w3:#section-Graph-Literal" color=blue fontcolor=blue]
+	"583ba5df-4a08-4007-ac06-a94e5189e8d6" [label="github:graphapps#089d995f-034c-4fbe-a1ff-2311f99dbf02" color=blue fontcolor=blue]
+	"0a163c55-f9a6-4e22-95ae-b4ba1be8a3af" [label="w3:22-rdf-syntax-ns#nil" color=blue fontcolor=blue]
+	"3ca99780-e558-4f2c-8d6f-ceba256f122a" [label="github:graphapps#4af3bcb0-b8e5-4f5e-acb3-04777073b947" color=blue fontcolor=blue]
+	"0b2f924b-5bb7-453d-8719-5e516070c41e" [label=object color=blue fontcolor=blue]
+	"6940b67d-bef9-4420-b96f-1ef094cf76f4" [label="github:graphapps#6cd7e156-d77c-44f6-a8a6-1b9f51082689" color=blue fontcolor=blue]
+	"e685a553-5b21-4a92-9eb2-6a9b9724065f" [label="github:graphapps#5d29bb77-34d5-4e74-86cb-d5113fa671fd" color=blue fontcolor=blue]
+	"02b6ef71-3877-4d1d-aa2f-7339534ec529" [label="github:graphapps#32e5c17a-2506-4b48-9955-196771a3879a" color=blue fontcolor=blue]
+	"0f79e1f5-ecb4-4a1c-8f8d-3d1740c62422" [label="github:graphapps#2f9bda82-d02d-48d5-8474-79cba04d7fe0" color=blue fontcolor=blue]
+	"9e2992fa-99a9-49a5-8226-4de1f17703e6" [label="github:graphapps#c4726f93-fb6a-4167-8a7a-46a7b76a4cd9" color=blue fontcolor=blue]
+	"e9cf4e9c-c34d-4347-b33a-500dd3aa25c5" [label="github:graphapps#86a8e365-cf41-429f-982d-ddb2f36facd7" color=blue fontcolor=blue]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" [label="w3:22-rdf-syntax-ns#Property" color=blue fontcolor=blue]
+	"9dd444a6-2295-444f-b58b-315e00cf8405" [label="github:graphapps#5c6c5710-9920-4317-a175-3116ebe6db59" color=blue fontcolor=blue]
+	"9eb1a396-60c1-4d3b-9f35-0b6b86966c3a" [label="github:graphapps#1d5bd403-33c9-44d2-b6ae-1e758d142f27" color=blue fontcolor=blue]
+	"59f453da-f8f6-4c79-9c47-aedb7251b362" [label="github:graphapps#bb45e67c-787e-4c69-9301-6388fdf16d4f" color=blue fontcolor=blue]
+	"2f249cbe-0851-4247-bf7e-64598e5b14ce" [label="github:graphapps#ac0f0c48-877d-4e83-9acf-bfe3e1aab06d" color=blue fontcolor=blue]
+	"bd5564ec-bf9a-47a9-b368-60214ec4f396" [label="This is the RDF Schema for the RDF vocab..." color=blue fontcolor=blue]
+	"d243f553-12f0-4254-afa8-31f1a9866d56" [label="github:graphapps#498ed95e-c914-4643-9f44-97c11554992d" color=blue fontcolor=blue]
+	"06d1cef7-0d04-41d7-907c-ccc97b687c1f" [label="github:graphapps#58c73e85-e796-4301-9718-68ce19d55e5e" color=blue fontcolor=blue]
+	"dacf2555-dea7-4f1a-9994-5f8993f9afe9" [label="github:graphapps#ff6ac26d-d2c5-4cc4-b532-73d1f09ccdd5" color=blue fontcolor=blue]
+	"711bba77-bbc8-424b-8f20-885238df1ade" [label="The subject of the subject RDF statement..." color=blue fontcolor=blue]
+	"f87071b9-6a21-486c-a53b-fdf48a7bd80d" [label="github:graphapps#3d425883-844b-4194-8b2c-86b82b2aa8c9" color=blue fontcolor=blue]
+	"407c1533-d5b1-424a-925c-8b56e6c05764" [label=rest color=blue fontcolor=blue]
+	"55d721e4-4620-4f0e-857e-080d9bb62f76" [label="github:graphapps#385d380d-4585-4129-8b8b-1f15e74c19dc" color=blue fontcolor=blue]
+	"1ec54df4-d353-4c35-bd5a-8579dd646570" [label="w3:rdf-schema#Resource" color=blue fontcolor=blue]
+	"8370a6f4-fd74-41bc-98d1-38606c560ab9" [label="w3:rdf-schema#Datatype" color=blue fontcolor=blue]
+	"ef09a9aa-ec9a-4397-907c-e7c325732436" [label=predicate color=blue fontcolor=blue]
+	"c0c276af-cf41-4269-850c-3bba6b4c930c" [label=Seq color=blue fontcolor=blue]
+	"0dc5377c-6365-4cbe-8c1e-6f0df5c34c47" [label="github:graphapps#0e6203db-5da1-45e8-9efc-d6b962e94fee" color=blue fontcolor=blue]
+	"fedff520-e324-4cf9-b672-fc750d830eb9" [label="github:graphapps#00906bc8-84bf-4234-ac86-444643145622" color=blue fontcolor=blue]
+	"f5d36129-3109-42a1-aaa1-322d49d4fe9f" [label="github:graphapps#a39605e1-f534-49ea-9364-918f0a795999" color=blue fontcolor=blue]
+	"ad2250c6-cf26-40ba-89a9-f8ad19531c98" [label="github:graphapps#d9859d1d-dadb-4d36-8e5e-57e24242c34c" color=blue fontcolor=blue]
+	"0d236447-e21d-4b52-bc35-9bbbea52fd2e" [label="github:graphapps#e7fa503c-d479-417b-8409-b5b20a5f30df" color=blue fontcolor=blue]
+	"16a5230f-ffb2-4f5e-9aec-ff5c0e098639" [label="github:graphapps#602a28cf-0ed7-4143-aea9-eb7e2ba829d9" color=blue fontcolor=blue]
+	"99b40c26-739f-4691-867d-c55b9e14939c" [label="github:graphapps#9c60850c-03f6-4186-af93-eb042517e89c" color=blue fontcolor=blue]
+	"a7b1e784-44b8-4fb7-9d12-2fdbd255c76c" [label="github:graphapps#0b9292c6-3469-4dd1-b16f-d772fc456e9e" color=blue fontcolor=blue]
+	"911510bf-561f-43e3-bf9c-bb28977402cb" [label="github:graphapps#d965f51c-d7a3-4962-af51-57fe82b9147a" color=blue fontcolor=blue]
+	"9f3035df-3ac8-468f-975f-2a8cecdf474d" [label="github:graphapps#cad7e475-6169-4e1c-bad8-86fcdf0ae8b0" color=blue fontcolor=blue]
+	"f24ac104-6889-447d-8a78-a01848df6a8b" [label="github:graphapps#1dbea39a-161d-4ab0-8b31-8e2a850d3695" color=blue fontcolor=blue]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" [label="w3:22-rdf-syntax-ns#Seq" color=blue fontcolor=blue]
+	"5cab73cb-7c33-4efb-9874-83e4c7b95b0f" [label="The class of RDF statements." color=blue fontcolor=blue]
+	"f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5" [label="github:graphapps#be07debe-a956-4a91-b62c-1310627e1610" color=blue fontcolor=blue]
+	"f7b71265-d50c-4089-91f1-35bc2e6acf90" [label="w3:rdf-schema#label" color=blue fontcolor=blue]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" [label="w3:22-rdf-syntax-ns#type" color=blue fontcolor=blue]
+	"622c8860-6bd2-4e9c-924e-2c869a04e891" [label="github:graphapps#6c7c388b-484a-4c28-ba49-1420bdf6a90d" color=blue fontcolor=blue]
+	"1892aaa4-f39c-4686-9c19-6c91adba58b3" [label="github:graphapps#eac3ccff-e5f5-4f13-b240-95ccb8b23574" color=blue fontcolor=blue]
+	"bb963f16-f774-4c0a-b1f6-2d6b94958859" [label="github:graphapps#08ebd766-0590-46c0-be3e-1ab790548c6e" color=blue fontcolor=blue]
+	"90fde4c7-c5d7-4c31-a0c8-ed0cd551113b" [label="github:graphapps#2048a7e8-2a7b-49bd-bd8e-e2b0129b8c9b" color=blue fontcolor=blue]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" [label="w3:22-rdf-syntax-ns#List" color=blue fontcolor=blue]
+	"713d88a5-99c3-4fc4-b462-a9c7f47cc40c" [label="github:graphapps#4da3cecb-66d7-432d-81c1-a88cb7e9aea9" color=blue fontcolor=blue]
+	"7c83a462-8949-4ea7-8ccd-b081dccbb7ea" [label="github:graphapps#39be2e31-e0c2-4075-89b1-f049fa6eed1a" color=blue fontcolor=blue]
+	"c2f88848-e944-46ce-8b8d-810f033c8048" [label="w3:rdf-schema#comment" color=blue fontcolor=blue]
+	"9f40ed92-2c4b-4d45-b586-e7f5efbb4ae2" [label="The subject is an instance of a class." color=blue fontcolor=blue]
+	"91ee9cdc-6eb3-4fae-8fa8-a1b810a1073d" [label="github:graphapps#c6162acc-c7a8-49b2-a73c-a0e8b9d34b91" color=blue fontcolor=blue]
+	"434465a9-329e-466a-b5a5-1d77d83005eb" [label="github:graphapps#9669830d-b98f-47bc-a8a9-cf59beb78d1f" color=blue fontcolor=blue]
+	"9540c390-0832-4298-8585-513bf9f933dd" [label="w3:rdf-schema#Literal" color=blue fontcolor=blue]
+	"9a76fccd-07cb-4398-9d5e-79f90de3db5d" [label="github:graphapps#1c061725-6122-4927-a205-9a5e6f901be9" color=blue fontcolor=blue]
+	"0c4a78bc-7e7b-4a41-b1c4-78ed6f02d056" [label=type color=blue fontcolor=blue]
+	"781d7be9-bb13-42e8-b505-c0788b5ed47d" [label="github:graphapps#9a882481-9bb8-4683-976a-0028cc30cb38" color=blue fontcolor=blue]
+	"e96c8fea-75e0-4f4c-afa9-6d529f9b5f5e" [label="github:graphapps#8d125a1d-8b6b-44b6-9d96-fe78763a3e19" color=blue fontcolor=blue]
+	"23cdbb4a-674c-4e58-b6ee-0968769db697" [label="github:graphapps#32f6d06e-61c6-4426-a041-eacefd0244d6" color=blue fontcolor=blue]
+	"0eedd139-33ee-4369-8557-75a987ca0320" [label="github:graphapps#e343c2f8-c72b-484a-a9ee-798d7d8ee31f" color=blue fontcolor=blue]
+	"d3044e9f-211a-424a-bd36-4d4f2c7c670d" [label="github:graphapps#58ba5df3-e0a8-4896-8aa7-cb4ae389a006" color=blue fontcolor=blue]
+	"dcec2c51-114a-4ee3-9ecc-284b492f6fce" [label="github:graphapps#c001f994-f352-4e40-b48d-b37795a4a9ee" color=blue fontcolor=blue]
+	"00db242b-3300-4b60-9c99-0f0eb0f74437" [label="github:graphapps#0fef817e-7d79-4304-950d-81f1d987154d" color=blue fontcolor=blue]
+	"dbb2b2e8-283b-4558-b8e2-aff9e501169e" [label="github:graphapps#96e2c6e0-30c5-4e05-87c2-0ad1f311cb12" color=blue fontcolor=blue]
+	"9df7f1db-55c9-40a3-bea6-a9fc70203736" [label="github:graphapps#24841854-02e8-4483-9f9d-0112724f9ed6" color=blue fontcolor=blue]
+	"c35bcf60-7816-4373-a9af-a132e4ab1042" [label=langString color=blue fontcolor=blue]
+	"625726bc-28d1-43eb-bbf5-de83c05982f9" [label="w3:rdf-schema#Class" color=blue fontcolor=blue]
+	"0dd6e0dc-3701-43df-b504-ce90c67a4963" [label="github:graphapps#15a84512-f014-47f2-9253-6efd3ab01f42" color=blue fontcolor=blue]
+	"04a00943-71d2-43fc-9042-9b82f89b59ff" [label="github:graphapps#c8512654-2c29-47b1-989e-80335a05e5ab" color=blue fontcolor=blue]
+	"7ab0e037-2b90-455b-822e-25b636f283af" [label="github:graphapps#06428583-a392-4212-9a2d-3569a01f216e" color=blue fontcolor=blue]
+	"42008ab2-d99d-41b9-b4e4-59331deac7c2" [label="github:graphapps#b969e650-dff9-4a48-a083-41fca4e3a63c" color=blue fontcolor=blue]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" [label="w3:22-rdf-syntax-ns#subject" color=blue fontcolor=blue]
+	"89348675-c8fc-4f52-a1dc-a5b0121184f8" [label="The predicate of the subject RDF stateme..." color=blue fontcolor=blue]
+	"e726633e-56c2-44b2-966d-5f0a24932c33" [label="github:graphapps#c5742796-83f0-4b17-b38e-6bd5e65ecaf3" color=blue fontcolor=blue]
+	"b701a98a-f65f-48c1-bf0e-d6ec907315e7" [label="The class of plain (i.e. untyped) litera..." color=blue fontcolor=blue]
+	"4926e41a-a6e7-4f11-be94-7d2e6351d9c1" [label="github:graphapps#a316b448-5d45-4d70-9a11-f9add3a42d9c" color=blue fontcolor=blue]
+	"3ca452e3-b420-47c1-bf73-16c357028d62" [label="github:graphapps#eaa772ca-aefa-4da4-babe-2286e6cf7cbd" color=blue fontcolor=blue]
+	"528f3883-dfc0-45f4-8201-7ddef89b34a5" [label="The class of RDF properties." color=blue fontcolor=blue]
+	"4c31c43c-bb27-408c-a796-fe13cb51e822" [label=first color=blue fontcolor=blue]
+	"9f224b3c-803d-4957-837c-1e315c9955a1" [label="github:graphapps#c4590ccb-2c80-4de4-ac28-a3877a1dd263" color=blue fontcolor=blue]
+	"55fd85fc-8e61-4008-90be-57a334caf160" [label="github:graphapps#4b4035ca-9f3d-4e03-b94f-81b546aa2574" color=blue fontcolor=blue]
+	"ccd3ee76-6a1f-4bf1-b9c4-f57a4ae7d3d9" [label="github:graphapps#314f7edd-a607-4597-a17a-edd091d0bfdb" color=blue fontcolor=blue]
+	"1199492f-441b-45f9-9ad8-f10c8ce05f21" [label="github:graphapps#f528dae5-259b-4f0b-be24-45821b078373" color=blue fontcolor=blue]
+	"afbd3b89-6a96-4717-a2e8-a34024bb18e0" [label="github:graphapps#b845b70d-0fad-40b4-9c6a-9953bf363f91" color=blue fontcolor=blue]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" [label="w3:22-rdf-syntax-ns#langString" color=blue fontcolor=blue]
+	"ad14b0cf-c06d-4e81-b2e3-b78c93157424" [label="github:graphapps#e805e199-0a3a-4ca7-9780-832b3525be0a" color=blue fontcolor=blue]
+	"22a6e00f-61b1-41d7-910d-ae7e864c54bc" [label="github:graphapps#0320e744-1ae2-441e-ba57-e73cd484021c" color=blue fontcolor=blue]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" [label="w3:22-rdf-syntax-ns#predicate" color=blue fontcolor=blue]
+	"26fadb62-aea4-44cf-aaca-3900d7bfe5f6" [label="The rest of the subject RDF list after t..." color=blue fontcolor=blue]
+	"cfbdd648-40d2-4df0-8a48-fe50f884b0ca" [label="github:graphapps#e29da8e0-1d6b-4e61-b878-ecbea81ccf6c" color=blue fontcolor=blue]
+	"27439486-6b5d-4f60-b862-82b70972ce66" [label="github:graphapps#ee22f8c9-7d86-48bc-b44e-99f0f94460b1" color=blue fontcolor=blue]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" [label="w3:22-rdf-syntax-ns#XMLLiteral" color=blue fontcolor=blue]
+	"8ed9532e-2c5d-4753-864e-925735c4b076" [label="The class of containers of alternatives." color=blue fontcolor=blue]
+	"c064be1e-c1df-403d-88dd-78718855629d" [label="github:graphapps#b687ecaa-4123-47ee-a11f-fb64b51ab6fc" color=blue fontcolor=blue]
+	"5ceea370-a601-4354-b427-b9ad4b209d0e" [label="github:graphapps#784ce640-c8b3-43f7-b668-aa79152e8f36" color=blue fontcolor=blue]
+	"79744a14-72ef-4359-830b-d0b0c3705221" [label="github:graphapps#a032e6c8-7759-4d26-b97b-d4d9286e0bce" color=blue fontcolor=blue]
+	"66d6a18c-7f29-4083-a181-421322d09b0b" [label="github:graphapps#450c70e4-1475-463f-8500-bc5a84be71f3" color=blue fontcolor=blue]
+	"7c6da32f-77ec-40ce-b215-397d90baba5d" [label="github:graphapps#4c098ad1-be6f-4d74-8018-9262a728eecf" color=blue fontcolor=blue]
+	"611e6722-ef27-4af7-9e24-dc4293f54915" [label="github:graphapps#1f90863f-d548-4c0e-903c-d2dc28e54417" color=blue fontcolor=blue]
+	"8e88d570-4b87-44e4-bb12-2ff429a8136f" [label="github:graphapps#f5a059ce-fdf0-4e5e-b395-2156639ffae7" color=blue fontcolor=blue]
+	"1281bb2c-07c2-49e0-aa13-8c0d64e414aa" [label="github:graphapps#52fa42fe-a9e6-4fd7-b105-20bdd5aa0f19" color=blue fontcolor=blue]
+	"6efcaba7-381e-4faf-a752-145be3a48e31" [label="The class of ordered containers." color=blue fontcolor=blue]
+	"3671e6a7-2a95-42b3-9396-d66f249c9a60" [label="github:graphapps#db103e42-4c0f-4e78-8ca0-1976915df7c5" color=blue fontcolor=blue]
+	"075bbc99-a185-4a60-9949-be035ab4cbe8" [label="github:graphapps#dea88734-045c-4b5b-bed6-0ff309590a04" color=blue fontcolor=blue]
+	"dbc4c190-8105-43a6-9457-37cb101e6f4a" [label="github:graphapps#304d4f2b-e036-4e98-9749-bd2cb5952b54" color=blue fontcolor=blue]
+	"8ad66342-5725-49d4-a0fe-a55dceccf722" [label="github:graphapps#41d72cad-3e22-46e9-9f3a-663a2a5b73ff" color=blue fontcolor=blue]
+	"a0f98667-f45e-43e2-8907-1e1ade250968" [label="github:graphapps#1c101796-1fe2-4184-811b-3cb656d058f0" color=blue fontcolor=blue]
+	"71affdc3-3a08-4770-a93a-258a62e0867e" [label="github:graphapps#0c945687-c03d-4bb3-aef9-99791a21a3cf" color=blue fontcolor=blue]
+	"340c5276-e778-4170-8fe6-b48ed887e045" [label="github:graphapps#88f4efad-7c86-41d6-b618-247956d7f312" color=blue fontcolor=blue]
+	"c17c6d37-a9a8-454e-8443-27c5d6b131df" [label="w3:rdf-schema#range" color=blue fontcolor=blue]
+	"d95d222f-0ecc-447c-a328-a443207826ce" [label="github:graphapps#cc3fddd2-2f76-4122-9c1f-48cc7049009c" color=blue fontcolor=blue]
+	"1406af4b-6917-42ff-ac82-99ddeee462e3" [label="github:graphapps#180f2987-6bef-45d3-a293-6b11a15bec8b" color=blue fontcolor=blue]
+	"99648236-7217-4761-acd1-0358a86d7095" [label="github:graphapps#7ecac2d1-29d3-40de-ba40-d7f1bec10907" color=blue fontcolor=blue]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" [label="w3:22-rdf-syntax-ns#HTML" color=blue fontcolor=blue]
+	"73e221a4-b3e6-463a-82d5-0294fc736ab7" [label="github:graphapps#a48b9ba4-21d5-43fe-9e31-270f56b2bbe0" color=blue fontcolor=blue]
+	"f08b1255-387d-4cbc-8b56-95d5764731ce" [label=Statement color=blue fontcolor=blue]
+	"45c27a30-af1e-47c4-841f-45d99f0caf5c" [label="github:graphapps#ce46cf10-1192-492c-bb62-7302bffe7d03" color=blue fontcolor=blue]
+	"676e8a9f-3889-4f2f-9c29-8af2522ad6a5" [label="github:graphapps#46ec9aba-6d28-452d-b5ac-3f9f6dbe8216" color=blue fontcolor=blue]
+	"8d71e4aa-82d0-4349-b739-7310ed004f13" [label=Bag color=blue fontcolor=blue]
+	"cff52455-1da6-4afa-896d-3c5bfb562f6d" [label="The RDF Concepts Vocabulary (RDF)" color=blue fontcolor=blue]
+	"11bb4a0f-324b-47c6-b98b-165b715aaf9d" [label="github:graphapps#62013669-9ed0-4bc7-99fb-35ab23a32175" color=blue fontcolor=blue]
+	"440ab5f4-4ee6-40c2-a8a0-6e13f1046202" [label="github:graphapps#0ddcd7a5-4c0e-4329-86ef-993583fa2def" color=blue fontcolor=blue]
+	"695d3c28-ddc2-4282-9b2e-62600de224d5" [label="github:graphapps#16a80301-1940-4f0c-a71c-15a80c312c35" color=blue fontcolor=blue]
+	"ab8e79bf-c2d3-454c-a6d7-a05cb31d1ad4" [label="github:graphapps#d7f1b7a5-548a-4181-80a2-509c4eb844b0" color=blue fontcolor=blue]
+	"81d2ff1d-054e-46fa-96b3-856eccd10e16" [label=nil color=blue fontcolor=blue]
+	"245327ba-0771-483d-b0ff-19bb46ef82a6" [label="github:graphapps#8fbf2a75-a632-410d-98cf-4bda2460f508" color=blue fontcolor=blue]
+	"5bac9dfa-cfba-4d66-90e6-27afb4704d6f" [label="github:graphapps#1eea9037-452d-4864-8bb9-e50c35e155c8" color=blue fontcolor=blue]
+	"577e607c-17bc-4c9a-804d-febdccf301aa" [label="github:graphapps#8079ce58-1935-454b-bd81-0228cd09f9a9" color=blue fontcolor=blue]
+	"fe31dd4b-9a8d-4558-96d0-0705ed9e6619" [label="github:graphapps#53c749e2-f943-4893-9363-0be6bed862a1" color=blue fontcolor=blue]
+	"fccd72df-9bd1-4eef-af29-a88b2ce0370f" [label="github:graphapps#7a239a03-6fb0-426e-b068-861ea68cc2ce" color=blue fontcolor=blue]
+	"19fdc3cb-4b0d-416b-bc88-2b019b3677df" [label="github:graphapps#e1bf81a0-db0c-488b-a9a2-d1e989e78ae5" color=blue fontcolor=blue]
+	"543397cf-ae8c-476a-9046-397791287980" [label="github:graphapps#3fffbac0-3e97-456d-b930-6f456dbf6203" color=blue fontcolor=blue]
+	"1bac0b8e-a736-4053-9339-89c55d537b1e" [label="github:graphapps#e7f86adb-dc63-42dc-9043-0d4c6126a725" color=blue fontcolor=blue]
+	"b73f51f1-60ac-4bf6-814c-39599823a196" [label="github:graphapps#4bf64c5c-2866-494c-9020-853069d9097b" color=blue fontcolor=blue]
+	"b6aefed8-304c-4240-a91d-3577dbf2615f" [label="purl:description" color=blue fontcolor=blue]
+	"4c98186e-18bf-44cb-8618-cc6ba6aa03f2" [label="github:graphapps#f764cf75-43de-4046-ac2a-0142a0cd77a3" color=blue fontcolor=blue]
+	"18e6bae1-9874-4b90-9f7c-9bebae283aef" [label="github:graphapps#8356ab4c-878d-40b7-b01c-58c54ece1fba" color=blue fontcolor=blue]
+	"8e021a8b-8d94-43b5-a1fc-c3e877cfe7c1" [label="The datatype of language-tagged string v..." color=blue fontcolor=blue]
+	"67d56b6c-ce8c-4ae8-9be2-daadbfc35931" [label="github:graphapps#35fd294b-1af5-44af-aa70-a6bf31f1879d" color=blue fontcolor=blue]
+	"f6f2af55-a486-4706-b7f9-069a0b8fc6ae" [label="github:graphapps#71dcafcc-f5f9-4bca-b906-41af9ee1dd01" color=blue fontcolor=blue]
+	"fe0ba3da-d3d3-4b6d-97ed-51782fd6c0c5" [label="github:graphapps#46be9813-dfc7-4814-be10-645c0da8bf21" color=blue fontcolor=blue]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" [label="w3:22-rdf-syntax-ns#PlainLiteral" color=blue fontcolor=blue]
+	"23f159f8-3b79-4702-a14b-d1ac56266356" [label="github:graphapps#4c762951-8c39-4122-b584-28d2406e75fb" color=blue fontcolor=blue]
+	"73569466-1f15-433d-bf4e-4217f1c6f28c" [label="github:graphapps#963ac81c-5460-4903-bf61-0ea902bba7b7" color=blue fontcolor=blue]
+	"e444b2f2-c554-48d4-b969-783648910cc0" [label="github:graphapps#3a2d2b5b-120f-43a6-a589-a01f738fc8d2" color=blue fontcolor=blue]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" [label="w3:22-rdf-syntax-ns#object" color=blue fontcolor=blue]
+	"780fa16c-ba1f-41c3-9c1a-cb1aabf686d4" [label=value color=blue fontcolor=blue]
+	"92e4f3d2-ea7c-41e3-92d2-88aa218533f9" [label="github:graphapps#02189383-574b-4f03-bef0-e90ee54d49d0" color=blue fontcolor=blue]
+	"40b735e4-f3c1-4c73-b0aa-d37f1ad9d2ce" [label=XMLLiteral color=blue fontcolor=blue]
+	"f27e9e44-2834-47c5-bb2c-649b30c56338" [label="w3:rdf-schema#Container" color=blue fontcolor=blue]
+	"54dec093-80de-4e79-9b38-2229fd0b8886" [label="github:graphapps#6f7e649f-744e-4f06-b960-7d0922ebc457" color=blue fontcolor=blue]
+	"40eaf1a4-65f1-49b2-8b3d-998e6db7e82f" [label="github:graphapps#be4d2c57-55f3-49c0-9f2d-3779119f79f2" color=blue fontcolor=blue]
+	"f9b51f04-3f73-4b65-b455-74deafb94b29" [label="w3:rdf-schema#subClassOf" color=blue fontcolor=blue]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" [label="w3:22-rdf-syntax-ns#value" color=blue fontcolor=blue]
+	"aee3115a-6484-4a91-aac2-a14406d7ca9f" [label="The first item in the subject RDF list." color=blue fontcolor=blue]
+	"92f48931-9630-413f-b11e-1efa38dbee93" [label="w3:owl#Ontology" color=blue fontcolor=blue]
+	"51316187-7051-4eb6-ae88-2b1d310e9251" [label="github:graphapps#5ca96fbf-a31f-4fb4-ad08-5d89ae2a3bb9" color=blue fontcolor=blue]
+	"c10e2d22-f0aa-4cb3-b076-6edfa01bf9ed" [label="github:graphapps#e0290e9c-89d5-4687-8c6f-b5a28c5e80c1" color=blue fontcolor=blue]
+	"bce84704-30f2-477c-8426-453e8d0c2d6c" [label="github:graphapps#target" shape=box]
+	"781d7be9-bb13-42e8-b505-c0788b5ed47d" -> "bce84704-30f2-477c-8426-453e8d0c2d6c"
+	"bce84704-30f2-477c-8426-453e8d0c2d6c" -> "e000d429-15c8-4420-a353-a226b0132d2b"
+	"6120cb69-bd36-4be3-89a8-c03b37abc5ec" [label="w3:rdf-schema#label" shape=box]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" -> "6120cb69-bd36-4be3-89a8-c03b37abc5ec"
+	"6120cb69-bd36-4be3-89a8-c03b37abc5ec" -> "c513f1a0-f1ec-4646-afd4-2737535cc267"
+	"c2062cc2-8aab-4c69-b416-d0bcab1d2742" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0d8d440c-675f-4a5c-8d80-658a971dd978" -> "c2062cc2-8aab-4c69-b416-d0bcab1d2742"
+	"c2062cc2-8aab-4c69-b416-d0bcab1d2742" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"54a13fb1-1a2f-403f-8bc7-d6430bdd68f3" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad" -> "54a13fb1-1a2f-403f-8bc7-d6430bdd68f3"
+	"54a13fb1-1a2f-403f-8bc7-d6430bdd68f3" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"25297b17-db74-474b-aa9d-e657da82eb8e" [label="github:graphapps#target" shape=box]
+	"9f3035df-3ac8-468f-975f-2a8cecdf474d" -> "25297b17-db74-474b-aa9d-e657da82eb8e"
+	"25297b17-db74-474b-aa9d-e657da82eb8e" -> "ebdf19c1-30f9-4d96-833d-26ab62bd3fda"
+	"cef06c78-c0e8-43fa-a401-95f8173eb1e7" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"6b20f5c3-d65e-4ce0-9415-f28fc793d86d" -> "cef06c78-c0e8-43fa-a401-95f8173eb1e7"
+	"cef06c78-c0e8-43fa-a401-95f8173eb1e7" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"fb769db9-fdae-41a2-8a7f-1c4645e8c3a1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"340c5276-e778-4170-8fe6-b48ed887e045" -> "fb769db9-fdae-41a2-8a7f-1c4645e8c3a1"
+	"fb769db9-fdae-41a2-8a7f-1c4645e8c3a1" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"227f25ac-9f27-48b2-b386-8e33f704d072" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"11bb4a0f-324b-47c6-b98b-165b715aaf9d" -> "227f25ac-9f27-48b2-b386-8e33f704d072"
+	"227f25ac-9f27-48b2-b386-8e33f704d072" -> "c68b52ca-41bc-43f5-9c81-40deaf0f543b"
+	"b5cfe702-f576-4df1-8252-f31f624ec31d" [label="github:graphapps#source" shape=box]
+	"04a00943-71d2-43fc-9042-9b82f89b59ff" -> "b5cfe702-f576-4df1-8252-f31f624ec31d"
+	"b5cfe702-f576-4df1-8252-f31f624ec31d" -> "42cb8b6f-0b60-43d7-baf8-d309f86decf8"
+	"55d9abdd-d6ca-4c52-aacb-72c1cd94970a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c0b89ba0-6219-4dd6-9af3-de06971c7d1a" -> "55d9abdd-d6ca-4c52-aacb-72c1cd94970a"
+	"55d9abdd-d6ca-4c52-aacb-72c1cd94970a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a6da0e1e-c0bc-43c6-9c4c-da992bb1c000" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3c7a026b-cb53-4fda-96c8-e8a9135282e0" -> "a6da0e1e-c0bc-43c6-9c4c-da992bb1c000"
+	"a6da0e1e-c0bc-43c6-9c4c-da992bb1c000" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"001d678b-e36f-423e-89cf-55267f00eded" [label="w3:rdf-schema#label" shape=box]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" -> "001d678b-e36f-423e-89cf-55267f00eded"
+	"001d678b-e36f-423e-89cf-55267f00eded" -> "0243cb68-db29-457e-8e05-5e38ec0c041a"
+	"43d4156f-821a-48dc-a6d8-9df236181c80" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1281bb2c-07c2-49e0-aa13-8c0d64e414aa" -> "43d4156f-821a-48dc-a6d8-9df236181c80"
+	"43d4156f-821a-48dc-a6d8-9df236181c80" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"9e418f87-720d-4fc2-96f0-33036bf3d087" [label="w3:rdf-schema#label" shape=box]
+	"0a163c55-f9a6-4e22-95ae-b4ba1be8a3af" -> "9e418f87-720d-4fc2-96f0-33036bf3d087"
+	"9e418f87-720d-4fc2-96f0-33036bf3d087" -> "81d2ff1d-054e-46fa-96b3-856eccd10e16"
+	"20000ef5-afc1-40b7-b692-5c7f39de6d9a" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0eedd139-33ee-4369-8557-75a987ca0320" -> "20000ef5-afc1-40b7-b692-5c7f39de6d9a"
+	"20000ef5-afc1-40b7-b692-5c7f39de6d9a" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"1f589623-845f-4c3b-a1d7-90b51baee9bb" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"06d1cef7-0d04-41d7-907c-ccc97b687c1f" -> "1f589623-845f-4c3b-a1d7-90b51baee9bb"
+	"1f589623-845f-4c3b-a1d7-90b51baee9bb" -> "c0c276af-cf41-4269-850c-3bba6b4c930c"
+	"f3541d28-858f-429d-af3d-cc6837309a43" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0dd6e0dc-3701-43df-b504-ce90c67a4963" -> "f3541d28-858f-429d-af3d-cc6837309a43"
+	"f3541d28-858f-429d-af3d-cc6837309a43" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"d3ee152d-c734-47d0-a97f-d501fc5373fc" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f458a6f3-9e01-4774-9f7f-523359b7281a" -> "d3ee152d-c734-47d0-a97f-d501fc5373fc"
+	"d3ee152d-c734-47d0-a97f-d501fc5373fc" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"846dac92-fcb9-40d4-a086-3950ea4de024" [label="github:graphapps#source" shape=box]
+	"9eb1a396-60c1-4d3b-9f35-0b6b86966c3a" -> "846dac92-fcb9-40d4-a086-3950ea4de024"
+	"846dac92-fcb9-40d4-a086-3950ea4de024" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"d8a2813a-a81e-4d44-9140-7a894cede807" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"5e087ad4-193b-4df2-b747-85a1ffe5a6cc" -> "d8a2813a-a81e-4d44-9140-7a894cede807"
+	"d8a2813a-a81e-4d44-9140-7a894cede807" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"f3eaedf4-39da-419a-a826-45e3cfcd21ae" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"73e221a4-b3e6-463a-82d5-0294fc736ab7" -> "f3eaedf4-39da-419a-a826-45e3cfcd21ae"
+	"f3eaedf4-39da-419a-a826-45e3cfcd21ae" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"0f358a9f-05d7-41b1-a073-d37398f9ad72" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"93a611e0-85fb-4acb-8df7-650e4b0eb582" -> "0f358a9f-05d7-41b1-a073-d37398f9ad72"
+	"0f358a9f-05d7-41b1-a073-d37398f9ad72" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"4463e527-c91e-4495-b99b-b8676eadeabc" [label="github:graphapps#target" shape=box]
+	"67d56b6c-ce8c-4ae8-9be2-daadbfc35931" -> "4463e527-c91e-4495-b99b-b8676eadeabc"
+	"4463e527-c91e-4495-b99b-b8676eadeabc" -> "8ad66342-5725-49d4-a0fe-a55dceccf722"
+	"7429d431-555b-45f9-a6e9-4146ef1404cd" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"06d1cef7-0d04-41d7-907c-ccc97b687c1f" -> "7429d431-555b-45f9-a6e9-4146ef1404cd"
+	"7429d431-555b-45f9-a6e9-4146ef1404cd" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"ae0139d0-6f42-48da-b459-75fa9d7e6013" [label="github:graphapps#source" shape=box]
+	"19fdc3cb-4b0d-416b-bc88-2b019b3677df" -> "ae0139d0-6f42-48da-b459-75fa9d7e6013"
+	"ae0139d0-6f42-48da-b459-75fa9d7e6013" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"6509f9e9-a870-4f37-9bb7-ea94ccc5055a" [label="w3:rdf-schema#range" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "6509f9e9-a870-4f37-9bb7-ea94ccc5055a"
+	"6509f9e9-a870-4f37-9bb7-ea94ccc5055a" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"6cef4219-f7c8-41c2-a1da-ba9d39e18c23" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9dd444a6-2295-444f-b58b-315e00cf8405" -> "6cef4219-f7c8-41c2-a1da-ba9d39e18c23"
+	"6cef4219-f7c8-41c2-a1da-ba9d39e18c23" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"51e9b3a6-4171-4ae3-ab75-2cd7b85b73b8" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"cf7a5c9a-bcaf-4ee4-9ed2-b54b44d7d886" -> "51e9b3a6-4171-4ae3-ab75-2cd7b85b73b8"
+	"51e9b3a6-4171-4ae3-ab75-2cd7b85b73b8" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"8c1c985d-d5b9-4c92-810c-791a6c50eb41" [label="w3:rdf-schema#comment" shape=box]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" -> "8c1c985d-d5b9-4c92-810c-791a6c50eb41"
+	"8c1c985d-d5b9-4c92-810c-791a6c50eb41" -> "528f3883-dfc0-45f4-8201-7ddef89b34a5"
+	"855c8933-7927-43bf-b42b-aea48f66bbe9" [label="github:graphapps#target" shape=box]
+	"3f5db23f-f85a-4b8c-aaec-c46fd1b757f6" -> "855c8933-7927-43bf-b42b-aea48f66bbe9"
+	"855c8933-7927-43bf-b42b-aea48f66bbe9" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"3867343f-21bc-4d45-ae03-59b859b57b33" [label="github:graphapps#target" shape=box]
+	"0dd6e0dc-3701-43df-b504-ce90c67a4963" -> "3867343f-21bc-4d45-ae03-59b859b57b33"
+	"3867343f-21bc-4d45-ae03-59b859b57b33" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"23d16799-e758-4c05-aa27-e5f75d7a144e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e96c8fea-75e0-4f4c-afa9-6d529f9b5f5e" -> "23d16799-e758-4c05-aa27-e5f75d7a144e"
+	"23d16799-e758-4c05-aa27-e5f75d7a144e" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"d144db6f-f168-4046-806a-e91e0f2482b2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf" -> "d144db6f-f168-4046-806a-e91e0f2482b2"
+	"d144db6f-f168-4046-806a-e91e0f2482b2" -> "5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2"
+	"07118a76-4e9e-4cd4-adc6-d76a0c151cc6" [label="w3:rdf-schema#comment" shape=box]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" -> "07118a76-4e9e-4cd4-adc6-d76a0c151cc6"
+	"07118a76-4e9e-4cd4-adc6-d76a0c151cc6" -> "6efcaba7-381e-4faf-a752-145be3a48e31"
+	"f39d85d9-1ab8-42f9-9abb-6212d1b72d7c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"a3c84298-3833-405c-a656-0b5295bc2d93" -> "f39d85d9-1ab8-42f9-9abb-6212d1b72d7c"
+	"f39d85d9-1ab8-42f9-9abb-6212d1b72d7c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"d49b4ba2-fc47-40b0-9fe2-518f4d2cd607" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"40eaf1a4-65f1-49b2-8b3d-998e6db7e82f" -> "d49b4ba2-fc47-40b0-9fe2-518f4d2cd607"
+	"d49b4ba2-fc47-40b0-9fe2-518f4d2cd607" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"4b0aa2f1-c3ee-4f94-8bcf-e048e09e7aec" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "4b0aa2f1-c3ee-4f94-8bcf-e048e09e7aec"
+	"4b0aa2f1-c3ee-4f94-8bcf-e048e09e7aec" -> "8370a6f4-fd74-41bc-98d1-38606c560ab9"
+	"b4f02718-e809-4b33-9433-a00769bff6ce" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"49eee14f-aadf-4e5f-a182-e74d39e1a721" -> "b4f02718-e809-4b33-9433-a00769bff6ce"
+	"b4f02718-e809-4b33-9433-a00769bff6ce" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"130863cc-5a53-4fd2-9ce6-3fe32015b550" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"02b6ef71-3877-4d1d-aa2f-7339534ec529" -> "130863cc-5a53-4fd2-9ce6-3fe32015b550"
+	"130863cc-5a53-4fd2-9ce6-3fe32015b550" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"ac9f9f04-46e2-4f1c-80ba-f5277d30deb2" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"fe31dd4b-9a8d-4558-96d0-0705ed9e6619" -> "ac9f9f04-46e2-4f1c-80ba-f5277d30deb2"
+	"ac9f9f04-46e2-4f1c-80ba-f5277d30deb2" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"3af80d43-6229-4998-b027-65dd28ecc628" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"a7b1e784-44b8-4fb7-9d12-2fdbd255c76c" -> "3af80d43-6229-4998-b027-65dd28ecc628"
+	"3af80d43-6229-4998-b027-65dd28ecc628" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"51d2cee1-9c5a-4f86-b851-3c41d4fdc695" [label="github:graphapps#target" shape=box]
+	"911510bf-561f-43e3-bf9c-bb28977402cb" -> "51d2cee1-9c5a-4f86-b851-3c41d4fdc695"
+	"51d2cee1-9c5a-4f86-b851-3c41d4fdc695" -> "1cc78f88-bfca-4e4a-b459-f94aac860fdd"
+	"c2ab683e-5482-48e8-8f3f-33f7e9429d8f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"4aa807ac-e2dc-4a02-a6ed-c11e8a6271bc" -> "c2ab683e-5482-48e8-8f3f-33f7e9429d8f"
+	"c2ab683e-5482-48e8-8f3f-33f7e9429d8f" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"da807ceb-6a1e-45a2-8cc2-3bdcb2bd64c1" [label="github:graphapps#source" shape=box]
+	"5bac9dfa-cfba-4d66-90e6-27afb4704d6f" -> "da807ceb-6a1e-45a2-8cc2-3bdcb2bd64c1"
+	"da807ceb-6a1e-45a2-8cc2-3bdcb2bd64c1" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"80348cef-ad3e-4592-a568-31132c9c4a6f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"440ab5f4-4ee6-40c2-a8a0-6e13f1046202" -> "80348cef-ad3e-4592-a568-31132c9c4a6f"
+	"80348cef-ad3e-4592-a568-31132c9c4a6f" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"3248c25d-cca8-40c5-abda-b52eea085f43" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e9cf4e9c-c34d-4347-b33a-500dd3aa25c5" -> "3248c25d-cca8-40c5-abda-b52eea085f43"
+	"3248c25d-cca8-40c5-abda-b52eea085f43" -> "8d71e4aa-82d0-4349-b739-7310ed004f13"
+	"53392323-86ff-40a7-bf9a-618200bff539" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"cf7a5c9a-bcaf-4ee4-9ed2-b54b44d7d886" -> "53392323-86ff-40a7-bf9a-618200bff539"
+	"53392323-86ff-40a7-bf9a-618200bff539" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e7626fdc-e6d6-41ce-8130-28fc5da83f79" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "e7626fdc-e6d6-41ce-8130-28fc5da83f79"
+	"e7626fdc-e6d6-41ce-8130-28fc5da83f79" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"3c1c6b69-e56b-4849-97a5-602b6808a6b7" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"a7b1e784-44b8-4fb7-9d12-2fdbd255c76c" -> "3c1c6b69-e56b-4849-97a5-602b6808a6b7"
+	"3c1c6b69-e56b-4849-97a5-602b6808a6b7" -> "92f48931-9630-413f-b11e-1efa38dbee93"
+	"27d20de8-8f53-4a43-84f6-61412ec142fb" [label="github:graphapps#target" shape=box]
+	"6b20f5c3-d65e-4ce0-9415-f28fc793d86d" -> "27d20de8-8f53-4a43-84f6-61412ec142fb"
+	"27d20de8-8f53-4a43-84f6-61412ec142fb" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"8ebb76f2-18ce-45ec-a6db-c8ab509ae1df" [label="github:graphapps#source" shape=box]
+	"40eaf1a4-65f1-49b2-8b3d-998e6db7e82f" -> "8ebb76f2-18ce-45ec-a6db-c8ab509ae1df"
+	"8ebb76f2-18ce-45ec-a6db-c8ab509ae1df" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"8c79d88c-2410-4b40-92c2-c3a3cd0f8864" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ae3f5bc1-a237-440d-8caa-7a72792e7073" -> "8c79d88c-2410-4b40-92c2-c3a3cd0f8864"
+	"8c79d88c-2410-4b40-92c2-c3a3cd0f8864" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"b95b13fa-45ff-4d4f-bdbc-8171004f0652" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"92e4f3d2-ea7c-41e3-92d2-88aa218533f9" -> "b95b13fa-45ff-4d4f-bdbc-8171004f0652"
+	"b95b13fa-45ff-4d4f-bdbc-8171004f0652" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"c1e5ba7d-5c22-4511-a2b1-089d89cfa0bf" [label="github:graphapps#source" shape=box]
+	"67d56b6c-ce8c-4ae8-9be2-daadbfc35931" -> "c1e5ba7d-5c22-4511-a2b1-089d89cfa0bf"
+	"c1e5ba7d-5c22-4511-a2b1-089d89cfa0bf" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"1a8017bd-4be2-4b73-a13e-f68e68b7520d" [label="github:graphapps#source" shape=box]
+	"f87071b9-6a21-486c-a53b-fdf48a7bd80d" -> "1a8017bd-4be2-4b73-a13e-f68e68b7520d"
+	"1a8017bd-4be2-4b73-a13e-f68e68b7520d" -> "583ba5df-4a08-4007-ac06-a94e5189e8d6"
+	"b17e9381-bb55-4fe8-a5ac-15524503201b" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c0dce2a3-da5f-47f1-a36f-b9ee25c8a03d" -> "b17e9381-bb55-4fe8-a5ac-15524503201b"
+	"b17e9381-bb55-4fe8-a5ac-15524503201b" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"b5871631-9c72-42d0-8261-d7b05cf95609" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"160e15d1-3c37-48b0-a677-97c93b6a4a38" -> "b5871631-9c72-42d0-8261-d7b05cf95609"
+	"b5871631-9c72-42d0-8261-d7b05cf95609" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"e383b4d3-8b71-4cca-b774-da4171d0e057" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad" -> "e383b4d3-8b71-4cca-b774-da4171d0e057"
+	"e383b4d3-8b71-4cca-b774-da4171d0e057" -> "89ce3930-689b-42ec-a3d2-ea8bbcb1d874"
+	"e79271c9-dc1e-4eeb-864a-2b4c0bb5ee3d" [label="github:graphapps#source" shape=box]
+	"c0b89ba0-6219-4dd6-9af3-de06971c7d1a" -> "e79271c9-dc1e-4eeb-864a-2b4c0bb5ee3d"
+	"e79271c9-dc1e-4eeb-864a-2b4c0bb5ee3d" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"45966e90-6760-45d3-a238-ee7f82ed2eb7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"bb963f16-f774-4c0a-b1f6-2d6b94958859" -> "45966e90-6760-45d3-a238-ee7f82ed2eb7"
+	"45966e90-6760-45d3-a238-ee7f82ed2eb7" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a6acf9de-fb97-402c-938e-9be3a4378fee" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"b3758a16-37c9-45c5-bf45-a0a30c7472f9" -> "a6acf9de-fb97-402c-938e-9be3a4378fee"
+	"a6acf9de-fb97-402c-938e-9be3a4378fee" -> "c35bcf60-7816-4373-a9af-a132e4ab1042"
+	"cf862c39-b528-4598-bad9-33a6b3e0e7e5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c10e2d22-f0aa-4cb3-b076-6edfa01bf9ed" -> "cf862c39-b528-4598-bad9-33a6b3e0e7e5"
+	"cf862c39-b528-4598-bad9-33a6b3e0e7e5" -> "40bd48b5-d8eb-4651-9cc1-d2667dfa7d74"
+	"b5e0d047-3c47-4c36-a953-74a812045dc5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"40eaf1a4-65f1-49b2-8b3d-998e6db7e82f" -> "b5e0d047-3c47-4c36-a953-74a812045dc5"
+	"b5e0d047-3c47-4c36-a953-74a812045dc5" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"05717a27-db86-4613-bc5e-3d787522a207" [label="github:graphapps#target" shape=box]
+	"73e221a4-b3e6-463a-82d5-0294fc736ab7" -> "05717a27-db86-4613-bc5e-3d787522a207"
+	"05717a27-db86-4613-bc5e-3d787522a207" -> "c10e2d22-f0aa-4cb3-b076-6edfa01bf9ed"
+	"820ae8bb-4969-4e5f-ab87-abeb88b742bb" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3671e6a7-2a95-42b3-9396-d66f249c9a60" -> "820ae8bb-4969-4e5f-ab87-abeb88b742bb"
+	"820ae8bb-4969-4e5f-ab87-abeb88b742bb" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"05558d95-c9e5-4cdd-addd-2551eb139f31" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"54dec093-80de-4e79-9b38-2229fd0b8886" -> "05558d95-c9e5-4cdd-addd-2551eb139f31"
+	"05558d95-c9e5-4cdd-addd-2551eb139f31" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"6bf97c47-c394-4808-a63d-29baf5ca84be" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" -> "6bf97c47-c394-4808-a63d-29baf5ca84be"
+	"6bf97c47-c394-4808-a63d-29baf5ca84be" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"3e0aa47b-37ad-49a7-9b72-dd49fc35ebd1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"91ee9cdc-6eb3-4fae-8fa8-a1b810a1073d" -> "3e0aa47b-37ad-49a7-9b72-dd49fc35ebd1"
+	"3e0aa47b-37ad-49a7-9b72-dd49fc35ebd1" -> "1f460764-0fef-4665-a353-01d59c8996fc"
+	"296d2254-bfa4-40a9-b367-51c37da4b8de" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1892aaa4-f39c-4686-9c19-6c91adba58b3" -> "296d2254-bfa4-40a9-b367-51c37da4b8de"
+	"296d2254-bfa4-40a9-b367-51c37da4b8de" -> "744198bc-c7e7-4442-9590-63ba3f66e4de"
+	"013a44d3-a0ef-408c-982d-bd80fd58337b" [label="github:graphapps#source" shape=box]
+	"fe31dd4b-9a8d-4558-96d0-0705ed9e6619" -> "013a44d3-a0ef-408c-982d-bd80fd58337b"
+	"013a44d3-a0ef-408c-982d-bd80fd58337b" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"33b03acd-ddbe-434e-a051-0b5aaac286e2" [label="github:graphapps#source" shape=box]
+	"73e221a4-b3e6-463a-82d5-0294fc736ab7" -> "33b03acd-ddbe-434e-a051-0b5aaac286e2"
+	"33b03acd-ddbe-434e-a051-0b5aaac286e2" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"e204d3c8-c6d4-4a10-8b36-4d06a367bf41" [label="github:graphapps#source" shape=box]
+	"73569466-1f15-433d-bf4e-4217f1c6f28c" -> "e204d3c8-c6d4-4a10-8b36-4d06a367bf41"
+	"e204d3c8-c6d4-4a10-8b36-4d06a367bf41" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"6495d526-b81f-4f1a-97db-44afc979df3c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"fccd72df-9bd1-4eef-af29-a88b2ce0370f" -> "6495d526-b81f-4f1a-97db-44afc979df3c"
+	"6495d526-b81f-4f1a-97db-44afc979df3c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"874a18ba-9876-4e6a-9fe0-a53931b8e384" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"781d7be9-bb13-42e8-b505-c0788b5ed47d" -> "874a18ba-9876-4e6a-9fe0-a53931b8e384"
+	"874a18ba-9876-4e6a-9fe0-a53931b8e384" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a6489c14-830c-421b-9404-02ada6a74ff2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"55d721e4-4620-4f0e-857e-080d9bb62f76" -> "a6489c14-830c-421b-9404-02ada6a74ff2"
+	"a6489c14-830c-421b-9404-02ada6a74ff2" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"ad749986-72ea-49bf-a13b-0ce316c7ae7f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"4926e41a-a6e7-4f11-be94-7d2e6351d9c1" -> "ad749986-72ea-49bf-a13b-0ce316c7ae7f"
+	"ad749986-72ea-49bf-a13b-0ce316c7ae7f" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"820a8f22-55a9-488f-86a6-c7c85bbf92bb" [label="github:graphapps#source" shape=box]
+	"0dd6e0dc-3701-43df-b504-ce90c67a4963" -> "820a8f22-55a9-488f-86a6-c7c85bbf92bb"
+	"820a8f22-55a9-488f-86a6-c7c85bbf92bb" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"f5ec23c1-9922-4b78-bafd-f29d7341c39c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"99648236-7217-4761-acd1-0358a86d7095" -> "f5ec23c1-9922-4b78-bafd-f29d7341c39c"
+	"f5ec23c1-9922-4b78-bafd-f29d7341c39c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"377c4703-8cb2-4e71-a65c-07548386af1c" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "377c4703-8cb2-4e71-a65c-07548386af1c"
+	"377c4703-8cb2-4e71-a65c-07548386af1c" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"9281043b-d896-4ceb-a36f-44c4422dcf52" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ad14b0cf-c06d-4e81-b2e3-b78c93157424" -> "9281043b-d896-4ceb-a36f-44c4422dcf52"
+	"9281043b-d896-4ceb-a36f-44c4422dcf52" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"d13773bc-ed78-4135-a107-66b0f5cf5edf" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "d13773bc-ed78-4135-a107-66b0f5cf5edf"
+	"d13773bc-ed78-4135-a107-66b0f5cf5edf" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"22b013f9-4cc6-471d-821a-a33754c67844" [label="github:graphapps#target" shape=box]
+	"e7ecd007-a74d-40b2-88e7-95f7c100ed71" -> "22b013f9-4cc6-471d-821a-a33754c67844"
+	"22b013f9-4cc6-471d-821a-a33754c67844" -> "042972b4-73b2-4a3b-8799-06dcf2696b79"
+	"779c4419-5234-4581-986e-bc3c16bbc667" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"7c6da32f-77ec-40ce-b215-397d90baba5d" -> "779c4419-5234-4581-986e-bc3c16bbc667"
+	"779c4419-5234-4581-986e-bc3c16bbc667" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"b6c79360-a177-431a-af3a-6e5f9a69bef4" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f9cbebfc-50bc-47b8-b447-fe9eeb3d3cec" -> "b6c79360-a177-431a-af3a-6e5f9a69bef4"
+	"b6c79360-a177-431a-af3a-6e5f9a69bef4" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"8917fab2-dc41-45d8-8d21-947c4094c77f" [label="github:graphapps#source" shape=box]
+	"4aa807ac-e2dc-4a02-a6ed-c11e8a6271bc" -> "8917fab2-dc41-45d8-8d21-947c4094c77f"
+	"8917fab2-dc41-45d8-8d21-947c4094c77f" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"6ef3eb04-d92a-4864-b331-b56ca8ac8907" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" -> "6ef3eb04-d92a-4864-b331-b56ca8ac8907"
+	"6ef3eb04-d92a-4864-b331-b56ca8ac8907" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"60a3a08e-c643-4c50-995d-5ab44ffb8570" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"66d6a18c-7f29-4083-a181-421322d09b0b" -> "60a3a08e-c643-4c50-995d-5ab44ffb8570"
+	"60a3a08e-c643-4c50-995d-5ab44ffb8570" -> "4c31c43c-bb27-408c-a796-fe13cb51e822"
+	"e779895b-f922-45fc-aa59-e1fed50da133" [label="github:graphapps#target" shape=box]
+	"f87071b9-6a21-486c-a53b-fdf48a7bd80d" -> "e779895b-f922-45fc-aa59-e1fed50da133"
+	"e779895b-f922-45fc-aa59-e1fed50da133" -> "e9cf4e9c-c34d-4347-b33a-500dd3aa25c5"
+	"8a7e300a-1dab-4616-80b6-7c6b626964d8" [label="github:graphapps#source" shape=box]
+	"e685a553-5b21-4a92-9eb2-6a9b9724065f" -> "8a7e300a-1dab-4616-80b6-7c6b626964d8"
+	"8a7e300a-1dab-4616-80b6-7c6b626964d8" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"e17b1b91-e4c9-4096-87ba-894d9702568a" [label="github:graphapps#source" shape=box]
+	"f3900259-6fc4-4de4-9e7d-a2a3c6394381" -> "e17b1b91-e4c9-4096-87ba-894d9702568a"
+	"e17b1b91-e4c9-4096-87ba-894d9702568a" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"10d05690-f630-4db1-adaa-62c685f38eed" [label="github:graphapps#source" shape=box]
+	"340c5276-e778-4170-8fe6-b48ed887e045" -> "10d05690-f630-4db1-adaa-62c685f38eed"
+	"10d05690-f630-4db1-adaa-62c685f38eed" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"0b4994b5-c04d-4ba3-a7ce-676ce2624d8c" [label="github:graphapps#target" shape=box]
+	"f24ac104-6889-447d-8a78-a01848df6a8b" -> "0b4994b5-c04d-4ba3-a7ce-676ce2624d8c"
+	"0b4994b5-c04d-4ba3-a7ce-676ce2624d8c" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"6917b37e-850b-4f62-880c-9d0f9987a1bd" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "6917b37e-850b-4f62-880c-9d0f9987a1bd"
+	"6917b37e-850b-4f62-880c-9d0f9987a1bd" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"b614d46d-7c88-44f8-83cf-0ce732455909" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f24ac104-6889-447d-8a78-a01848df6a8b" -> "b614d46d-7c88-44f8-83cf-0ce732455909"
+	"b614d46d-7c88-44f8-83cf-0ce732455909" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"34a4215f-02b7-4a78-a0a7-76e89fd44d1a" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0d8d440c-675f-4a5c-8d80-658a971dd978" -> "34a4215f-02b7-4a78-a0a7-76e89fd44d1a"
+	"34a4215f-02b7-4a78-a0a7-76e89fd44d1a" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"153c39e3-7f2d-4372-ba29-56fbbf66d102" [label="github:graphapps#target" shape=box]
+	"c6e833d5-ef79-4bd5-82df-ae0b17e8c2c9" -> "153c39e3-7f2d-4372-ba29-56fbbf66d102"
+	"153c39e3-7f2d-4372-ba29-56fbbf66d102" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"f8e9845f-80b1-4e8b-8670-a20042faa4f4" [label="github:graphapps#source" shape=box]
+	"c0dce2a3-da5f-47f1-a36f-b9ee25c8a03d" -> "f8e9845f-80b1-4e8b-8670-a20042faa4f4"
+	"f8e9845f-80b1-4e8b-8670-a20042faa4f4" -> "434465a9-329e-466a-b5a5-1d77d83005eb"
+	"642aca4b-f81e-425e-b384-12dc5f9b8949" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3671e6a7-2a95-42b3-9396-d66f249c9a60" -> "642aca4b-f81e-425e-b384-12dc5f9b8949"
+	"642aca4b-f81e-425e-b384-12dc5f9b8949" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"1b78fed4-615d-4c50-9d6f-537d311544b0" [label="github:graphapps#source" shape=box]
+	"911510bf-561f-43e3-bf9c-bb28977402cb" -> "1b78fed4-615d-4c50-9d6f-537d311544b0"
+	"1b78fed4-615d-4c50-9d6f-537d311544b0" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"25522237-311d-4514-9f7a-42ef841f7129" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "25522237-311d-4514-9f7a-42ef841f7129"
+	"25522237-311d-4514-9f7a-42ef841f7129" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"c6141650-a7f5-4504-8c67-29e5978bc85d" [label="w3:rdf-schema#comment" shape=box]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" -> "c6141650-a7f5-4504-8c67-29e5978bc85d"
+	"c6141650-a7f5-4504-8c67-29e5978bc85d" -> "1f460764-0fef-4665-a353-01d59c8996fc"
+	"d669f997-2bf5-48f5-95c8-0ca1826ac36e" [label="github:graphapps#target" shape=box]
+	"92e4f3d2-ea7c-41e3-92d2-88aa218533f9" -> "d669f997-2bf5-48f5-95c8-0ca1826ac36e"
+	"d669f997-2bf5-48f5-95c8-0ca1826ac36e" -> "b3758a16-37c9-45c5-bf45-a0a30c7472f9"
+	"28096d88-1b45-4f93-ab00-d7a03647d85f" [label="github:graphapps#target" shape=box]
+	"8e88d570-4b87-44e4-bb12-2ff429a8136f" -> "28096d88-1b45-4f93-ab00-d7a03647d85f"
+	"28096d88-1b45-4f93-ab00-d7a03647d85f" -> "5ceea370-a601-4354-b427-b9ad4b209d0e"
+	"2223e99c-32df-4fc5-945b-e62f8422f53b" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" -> "2223e99c-32df-4fc5-945b-e62f8422f53b"
+	"2223e99c-32df-4fc5-945b-e62f8422f53b" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"4d09eae5-c7f1-4cea-b164-5626d3590134" [label="github:graphapps#source" shape=box]
+	"565572fc-adcb-4dc9-8005-2f024c0e882b" -> "4d09eae5-c7f1-4cea-b164-5626d3590134"
+	"4d09eae5-c7f1-4cea-b164-5626d3590134" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"d4181142-ebfe-4f6a-b86c-f9c6bb39127f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"23f159f8-3b79-4702-a14b-d1ac56266356" -> "d4181142-ebfe-4f6a-b86c-f9c6bb39127f"
+	"d4181142-ebfe-4f6a-b86c-f9c6bb39127f" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"96725b9f-15e0-4ae3-86b0-893f289515ff" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"dacd4b15-4773-4861-ac70-dd8fb21d02ff" -> "96725b9f-15e0-4ae3-86b0-893f289515ff"
+	"96725b9f-15e0-4ae3-86b0-893f289515ff" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"ef6234c4-4579-408e-9345-e50c42507721" [label="w3:rdf-schema#comment" shape=box]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" -> "ef6234c4-4579-408e-9345-e50c42507721"
+	"ef6234c4-4579-408e-9345-e50c42507721" -> "aa02a9ed-fb9d-4655-8c74-4e9f89d46da8"
+	"26092e86-beda-45fe-9610-95345f1bb01f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0dc5377c-6365-4cbe-8c1e-6f0df5c34c47" -> "26092e86-beda-45fe-9610-95345f1bb01f"
+	"26092e86-beda-45fe-9610-95345f1bb01f" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e0480d4b-8188-47ec-82ce-3d8420821a54" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e444b2f2-c554-48d4-b969-783648910cc0" -> "e0480d4b-8188-47ec-82ce-3d8420821a54"
+	"e0480d4b-8188-47ec-82ce-3d8420821a54" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"6748e01d-f4f8-44c1-addb-59c451337d44" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"611e6722-ef27-4af7-9e24-dc4293f54915" -> "6748e01d-f4f8-44c1-addb-59c451337d44"
+	"6748e01d-f4f8-44c1-addb-59c451337d44" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"20c5bd6e-48d0-44d2-8d79-890adb521fbf" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"7c6da32f-77ec-40ce-b215-397d90baba5d" -> "20c5bd6e-48d0-44d2-8d79-890adb521fbf"
+	"20c5bd6e-48d0-44d2-8d79-890adb521fbf" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"b3a40bd8-8e34-4fde-b05d-3d26068ca1a3" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0d236447-e21d-4b52-bc35-9bbbea52fd2e" -> "b3a40bd8-8e34-4fde-b05d-3d26068ca1a3"
+	"b3a40bd8-8e34-4fde-b05d-3d26068ca1a3" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"5335f0a7-fac8-40aa-b462-2a16ab72b965" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3e92bc3a-f44e-4881-b561-7eebfcae13dc" -> "5335f0a7-fac8-40aa-b462-2a16ab72b965"
+	"5335f0a7-fac8-40aa-b462-2a16ab72b965" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"9a5d3124-2189-47ca-bc4d-43a3c9668648" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "9a5d3124-2189-47ca-bc4d-43a3c9668648"
+	"9a5d3124-2189-47ca-bc4d-43a3c9668648" -> "8370a6f4-fd74-41bc-98d1-38606c560ab9"
+	"d07dafc2-3bd7-44df-b3c5-90b98beff44c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"53cbd26f-4285-419c-9a00-8b1b5448cbbb" -> "d07dafc2-3bd7-44df-b3c5-90b98beff44c"
+	"d07dafc2-3bd7-44df-b3c5-90b98beff44c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"dbe4b52d-1cb9-41cd-a985-39d621d6b8cd" [label="github:graphapps#source" shape=box]
+	"79744a14-72ef-4359-830b-d0b0c3705221" -> "dbe4b52d-1cb9-41cd-a985-39d621d6b8cd"
+	"dbe4b52d-1cb9-41cd-a985-39d621d6b8cd" -> "42cb8b6f-0b60-43d7-baf8-d309f86decf8"
+	"08ed7c0f-7a13-4a7d-b6f5-ba42c1b6c963" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"7ab0e037-2b90-455b-822e-25b636f283af" -> "08ed7c0f-7a13-4a7d-b6f5-ba42c1b6c963"
+	"08ed7c0f-7a13-4a7d-b6f5-ba42c1b6c963" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"e5e0baa6-7813-403c-b15e-06dbf1998870" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf" -> "e5e0baa6-7813-403c-b15e-06dbf1998870"
+	"e5e0baa6-7813-403c-b15e-06dbf1998870" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"50367a21-85ab-413b-9324-557251f72e1a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9a76fccd-07cb-4398-9d5e-79f90de3db5d" -> "50367a21-85ab-413b-9324-557251f72e1a"
+	"50367a21-85ab-413b-9324-557251f72e1a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"3be6959b-be98-4080-b613-41e583872777" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"245327ba-0771-483d-b0ff-19bb46ef82a6" -> "3be6959b-be98-4080-b613-41e583872777"
+	"3be6959b-be98-4080-b613-41e583872777" -> "8a6cc5cf-1f4f-4836-9fb8-54f1805577e0"
+	"16b104ba-3a78-4b79-8173-9a8b872e8aad" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"aa010a1f-6b7e-44b7-9280-a2c6b1aac41f" -> "16b104ba-3a78-4b79-8173-9a8b872e8aad"
+	"16b104ba-3a78-4b79-8173-9a8b872e8aad" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"44b04e24-d109-4f43-aff1-5274794d53f5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ab8e79bf-c2d3-454c-a6d7-a05cb31d1ad4" -> "44b04e24-d109-4f43-aff1-5274794d53f5"
+	"44b04e24-d109-4f43-aff1-5274794d53f5" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"dfb9b5c5-9ba7-4769-ae6f-326bd0f1a63d" [label="github:graphapps#source" shape=box]
+	"3e92bc3a-f44e-4881-b561-7eebfcae13dc" -> "dfb9b5c5-9ba7-4769-ae6f-326bd0f1a63d"
+	"dfb9b5c5-9ba7-4769-ae6f-326bd0f1a63d" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"1dc75a0a-01c6-43a5-9997-d39bfbd59caf" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" -> "1dc75a0a-01c6-43a5-9997-d39bfbd59caf"
+	"1dc75a0a-01c6-43a5-9997-d39bfbd59caf" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"e1074b1f-55ca-41a3-bb3e-0cb64225fa15" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"25b714ff-57fb-437b-98e5-48cef4ea6fec" -> "e1074b1f-55ca-41a3-bb3e-0cb64225fa15"
+	"e1074b1f-55ca-41a3-bb3e-0cb64225fa15" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"39ec21f7-ae89-45cd-9335-8e20dd207cd2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e726633e-56c2-44b2-966d-5f0a24932c33" -> "39ec21f7-ae89-45cd-9335-8e20dd207cd2"
+	"39ec21f7-ae89-45cd-9335-8e20dd207cd2" -> "711bba77-bbc8-424b-8f20-885238df1ade"
+	"da14efee-3b4c-4d16-91d2-530739b96f58" [label="github:graphapps#source" shape=box]
+	"bb963f16-f774-4c0a-b1f6-2d6b94958859" -> "da14efee-3b4c-4d16-91d2-530739b96f58"
+	"da14efee-3b4c-4d16-91d2-530739b96f58" -> "583ba5df-4a08-4007-ac06-a94e5189e8d6"
+	"5646770d-e910-4cfe-aa4a-f5d371d2fde9" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "5646770d-e910-4cfe-aa4a-f5d371d2fde9"
+	"5646770d-e910-4cfe-aa4a-f5d371d2fde9" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"90e7a893-4d16-4c1c-aa9a-d5c3671a3d64" [label="github:graphapps#target" shape=box]
+	"0dc5377c-6365-4cbe-8c1e-6f0df5c34c47" -> "90e7a893-4d16-4c1c-aa9a-d5c3671a3d64"
+	"90e7a893-4d16-4c1c-aa9a-d5c3671a3d64" -> "0a900493-583d-44a2-b31a-2e8bdec7c611"
+	"27b3d2d0-2eb9-4bc3-8046-889513cbefad" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"872fd4fa-6f64-4da5-a226-9dd8e382f05c" -> "27b3d2d0-2eb9-4bc3-8046-889513cbefad"
+	"27b3d2d0-2eb9-4bc3-8046-889513cbefad" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"266e5c9d-a020-491d-9950-9fd2fb8fcd4c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"b73f51f1-60ac-4bf6-814c-39599823a196" -> "266e5c9d-a020-491d-9950-9fd2fb8fcd4c"
+	"266e5c9d-a020-491d-9950-9fd2fb8fcd4c" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"91711159-c4ae-49f4-ba78-5b583e89ea21" [label="github:graphapps#target" shape=box]
+	"340c5276-e778-4170-8fe6-b48ed887e045" -> "91711159-c4ae-49f4-ba78-5b583e89ea21"
+	"91711159-c4ae-49f4-ba78-5b583e89ea21" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"7f33a0af-361e-43b3-942c-d3415a2187b2" [label="w3:rdf-schema#label" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "7f33a0af-361e-43b3-942c-d3415a2187b2"
+	"7f33a0af-361e-43b3-942c-d3415a2187b2" -> "8a6cc5cf-1f4f-4836-9fb8-54f1805577e0"
+	"12aeae41-5c41-4f12-a359-bcbe8303e19e" [label="w3:rdf-schema#range" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "12aeae41-5c41-4f12-a359-bcbe8303e19e"
+	"12aeae41-5c41-4f12-a359-bcbe8303e19e" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"71d22fcd-014c-47bb-85f8-3de1431d5b13" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"7c83a462-8949-4ea7-8ccd-b081dccbb7ea" -> "71d22fcd-014c-47bb-85f8-3de1431d5b13"
+	"71d22fcd-014c-47bb-85f8-3de1431d5b13" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"37f7527a-1346-4b4d-b230-6cf87de61ee2" [label="github:graphapps#source" shape=box]
+	"ab8e79bf-c2d3-454c-a6d7-a05cb31d1ad4" -> "37f7527a-1346-4b4d-b230-6cf87de61ee2"
+	"37f7527a-1346-4b4d-b230-6cf87de61ee2" -> "42cb8b6f-0b60-43d7-baf8-d309f86decf8"
+	"4d173124-bbb9-465a-bb75-78808a2b2712" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1ed5c99b-3d30-4469-ad70-388c6efc2e14" -> "4d173124-bbb9-465a-bb75-78808a2b2712"
+	"4d173124-bbb9-465a-bb75-78808a2b2712" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"e2ba3afe-bf0b-483d-8fca-301b4c0d8571" [label="w3:rdf-schema#label" shape=box]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" -> "e2ba3afe-bf0b-483d-8fca-301b4c0d8571"
+	"e2ba3afe-bf0b-483d-8fca-301b4c0d8571" -> "8d71e4aa-82d0-4349-b739-7310ed004f13"
+	"0dd67a5a-755d-4635-b24c-21d58a6502e0" [label="github:graphapps#source" shape=box]
+	"4926e41a-a6e7-4f11-be94-7d2e6351d9c1" -> "0dd67a5a-755d-4635-b24c-21d58a6502e0"
+	"0dd67a5a-755d-4635-b24c-21d58a6502e0" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"8a27f1e5-120b-4a7b-94de-43c0b4b96612" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"bb963f16-f774-4c0a-b1f6-2d6b94958859" -> "8a27f1e5-120b-4a7b-94de-43c0b4b96612"
+	"8a27f1e5-120b-4a7b-94de-43c0b4b96612" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"fe9f6bb8-21f2-448d-87bc-4b2813681440" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e726633e-56c2-44b2-966d-5f0a24932c33" -> "fe9f6bb8-21f2-448d-87bc-4b2813681440"
+	"fe9f6bb8-21f2-448d-87bc-4b2813681440" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"74180d30-0f5c-4ef4-abc2-533a9430afa3" [label="github:graphapps#target" shape=box]
+	"5bac9dfa-cfba-4d66-90e6-27afb4704d6f" -> "74180d30-0f5c-4ef4-abc2-533a9430afa3"
+	"74180d30-0f5c-4ef4-abc2-533a9430afa3" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"0c171472-8873-4b2d-bc33-57c58ffb2fca" [label="github:graphapps#source" shape=box]
+	"611e6722-ef27-4af7-9e24-dc4293f54915" -> "0c171472-8873-4b2d-bc33-57c58ffb2fca"
+	"0c171472-8873-4b2d-bc33-57c58ffb2fca" -> "434465a9-329e-466a-b5a5-1d77d83005eb"
+	"953a39b9-c267-41fc-863e-e1a687614da2" [label="github:graphapps#target" shape=box]
+	"4926e41a-a6e7-4f11-be94-7d2e6351d9c1" -> "953a39b9-c267-41fc-863e-e1a687614da2"
+	"953a39b9-c267-41fc-863e-e1a687614da2" -> "a3c84298-3833-405c-a656-0b5295bc2d93"
+	"3b964627-c0c6-4cfd-9718-4661f305cc62" [label="github:graphapps#source" shape=box]
+	"2c511411-232e-418c-b3e7-d7bcf64104a5" -> "3b964627-c0c6-4cfd-9718-4661f305cc62"
+	"3b964627-c0c6-4cfd-9718-4661f305cc62" -> "713d88a5-99c3-4fc4-b462-a9c7f47cc40c"
+	"a903280f-d671-4056-be18-501a77d245ae" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"b73f51f1-60ac-4bf6-814c-39599823a196" -> "a903280f-d671-4056-be18-501a77d245ae"
+	"a903280f-d671-4056-be18-501a77d245ae" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"089c5c5f-3b8a-4cbf-bcdd-100a8bdfd507" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"25b714ff-57fb-437b-98e5-48cef4ea6fec" -> "089c5c5f-3b8a-4cbf-bcdd-100a8bdfd507"
+	"089c5c5f-3b8a-4cbf-bcdd-100a8bdfd507" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"2e836c09-96bc-4eab-8141-d712b3ac1431" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "2e836c09-96bc-4eab-8141-d712b3ac1431"
+	"2e836c09-96bc-4eab-8141-d712b3ac1431" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"ea815522-ad5a-4019-92af-09f37db0b0f6" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ccd3ee76-6a1f-4bf1-b9c4-f57a4ae7d3d9" -> "ea815522-ad5a-4019-92af-09f37db0b0f6"
+	"ea815522-ad5a-4019-92af-09f37db0b0f6" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"017e2cef-7730-491d-a170-408874178679" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"7ab0e037-2b90-455b-822e-25b636f283af" -> "017e2cef-7730-491d-a170-408874178679"
+	"017e2cef-7730-491d-a170-408874178679" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a5883e23-ea12-4c47-b9f0-aa621d765b6e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" -> "a5883e23-ea12-4c47-b9f0-aa621d765b6e"
+	"a5883e23-ea12-4c47-b9f0-aa621d765b6e" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"98383089-5fe5-4eba-bdf1-40465ad9fb56" [label="github:graphapps#source" shape=box]
+	"00db242b-3300-4b60-9c99-0f0eb0f74437" -> "98383089-5fe5-4eba-bdf1-40465ad9fb56"
+	"98383089-5fe5-4eba-bdf1-40465ad9fb56" -> "59f453da-f8f6-4c79-9c47-aedb7251b362"
+	"7aa9f28e-2afa-4999-9a5f-82bd88422577" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1284332c-f0ad-447d-9914-39c0171d2469" -> "7aa9f28e-2afa-4999-9a5f-82bd88422577"
+	"7aa9f28e-2afa-4999-9a5f-82bd88422577" -> "f08b1255-387d-4cbc-8b56-95d5764731ce"
+	"1cabd5cc-1b43-40c6-91a8-8ca3ecb15225" [label="github:graphapps#source" shape=box]
+	"9a76fccd-07cb-4398-9d5e-79f90de3db5d" -> "1cabd5cc-1b43-40c6-91a8-8ca3ecb15225"
+	"1cabd5cc-1b43-40c6-91a8-8ca3ecb15225" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"4533f6a7-84fe-47aa-bbe6-1f6b728c91dc" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f87071b9-6a21-486c-a53b-fdf48a7bd80d" -> "4533f6a7-84fe-47aa-bbe6-1f6b728c91dc"
+	"4533f6a7-84fe-47aa-bbe6-1f6b728c91dc" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"ea93ddc1-4088-4592-86a2-e186057d3c2d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1892aaa4-f39c-4686-9c19-6c91adba58b3" -> "ea93ddc1-4088-4592-86a2-e186057d3c2d"
+	"ea93ddc1-4088-4592-86a2-e186057d3c2d" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"5d94aa9b-3068-4221-afdd-15e019e9acde" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"911510bf-561f-43e3-bf9c-bb28977402cb" -> "5d94aa9b-3068-4221-afdd-15e019e9acde"
+	"5d94aa9b-3068-4221-afdd-15e019e9acde" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"96ea6570-9b8d-4ff2-9767-b21f73dcd1fb" [label="w3:rdf-schema#label" shape=box]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" -> "96ea6570-9b8d-4ff2-9767-b21f73dcd1fb"
+	"96ea6570-9b8d-4ff2-9767-b21f73dcd1fb" -> "c0c276af-cf41-4269-850c-3bba6b4c930c"
+	"b50e8730-4b38-456f-9c8c-82fc59cddc16" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"d243f553-12f0-4254-afa8-31f1a9866d56" -> "b50e8730-4b38-456f-9c8c-82fc59cddc16"
+	"b50e8730-4b38-456f-9c8c-82fc59cddc16" -> "0af36191-9249-4ee6-a1b0-86759f44b2b1"
+	"e9bee67a-99dd-4817-bce1-704c40c34032" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c92fdafd-968b-43f0-8026-462f72ac38bc" -> "e9bee67a-99dd-4817-bce1-704c40c34032"
+	"e9bee67a-99dd-4817-bce1-704c40c34032" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"6f4b00dc-5671-4f81-82d4-6b5f01de0d37" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"90fde4c7-c5d7-4c31-a0c8-ed0cd551113b" -> "6f4b00dc-5671-4f81-82d4-6b5f01de0d37"
+	"6f4b00dc-5671-4f81-82d4-6b5f01de0d37" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"cbc8e29c-ba81-4eeb-b41a-d529508e6b38" [label="github:graphapps#source" shape=box]
+	"0730197d-0d9f-4d6a-8b58-830d0dce8194" -> "cbc8e29c-ba81-4eeb-b41a-d529508e6b38"
+	"cbc8e29c-ba81-4eeb-b41a-d529508e6b38" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"94e3559e-0f1d-476a-8a23-ee758d0a437a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"67d56b6c-ce8c-4ae8-9be2-daadbfc35931" -> "94e3559e-0f1d-476a-8a23-ee758d0a437a"
+	"94e3559e-0f1d-476a-8a23-ee758d0a437a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"86498990-fc6a-48f7-9f82-e87cc3c53a3b" [label="github:graphapps#source" shape=box]
+	"543397cf-ae8c-476a-9046-397791287980" -> "86498990-fc6a-48f7-9f82-e87cc3c53a3b"
+	"86498990-fc6a-48f7-9f82-e87cc3c53a3b" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"a7b91edc-b022-4bba-8900-6df42ab73f8d" [label="github:graphapps#source" shape=box]
+	"49eee14f-aadf-4e5f-a182-e74d39e1a721" -> "a7b91edc-b022-4bba-8900-6df42ab73f8d"
+	"a7b91edc-b022-4bba-8900-6df42ab73f8d" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"2a1f308f-24bc-40c9-bea7-a375e56b73c8" [label="github:graphapps#target" shape=box]
+	"93a611e0-85fb-4acb-8df7-650e4b0eb582" -> "2a1f308f-24bc-40c9-bea7-a375e56b73c8"
+	"2a1f308f-24bc-40c9-bea7-a375e56b73c8" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"700e2e70-a2a0-4ffb-9e77-2eca0f566220" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ebdf19c1-30f9-4d96-833d-26ab62bd3fda" -> "700e2e70-a2a0-4ffb-9e77-2eca0f566220"
+	"700e2e70-a2a0-4ffb-9e77-2eca0f566220" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"1b370448-3706-4360-9d26-7d5a04b0a5ac" [label="github:graphapps#target" shape=box]
+	"959ed84a-7248-4f20-81dc-a49f1ef5e608" -> "1b370448-3706-4360-9d26-7d5a04b0a5ac"
+	"1b370448-3706-4360-9d26-7d5a04b0a5ac" -> "0b445b2e-28d2-4ccb-80a1-4519e41ef50f"
+	"70d93200-33d4-4c8c-985d-dcfc08bcb7b6" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"49eee14f-aadf-4e5f-a182-e74d39e1a721" -> "70d93200-33d4-4c8c-985d-dcfc08bcb7b6"
+	"70d93200-33d4-4c8c-985d-dcfc08bcb7b6" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"e220873c-31e2-4fae-ae5c-ed7ecc5fe433" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e444b2f2-c554-48d4-b969-783648910cc0" -> "e220873c-31e2-4fae-ae5c-ed7ecc5fe433"
+	"e220873c-31e2-4fae-ae5c-ed7ecc5fe433" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"86a5a96e-3b4a-48ce-82fd-3668c3c309e2" [label="purl:description" shape=box]
+	"375fe066-a5c8-49ad-9833-6306c797bccb" -> "86a5a96e-3b4a-48ce-82fd-3668c3c309e2"
+	"86a5a96e-3b4a-48ce-82fd-3668c3c309e2" -> "bd5564ec-bf9a-47a9-b368-60214ec4f396"
+	"7e6c2c4b-e4e2-499e-a34e-7b84faf0dd49" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3c2972f5-34e8-4289-a887-fafbf8cc69af" -> "7e6c2c4b-e4e2-499e-a34e-7b84faf0dd49"
+	"7e6c2c4b-e4e2-499e-a34e-7b84faf0dd49" -> "aa02a9ed-fb9d-4655-8c74-4e9f89d46da8"
+	"270deb9e-b679-4b7a-b5b7-164ca379717d" [label="purl:title" shape=box]
+	"375fe066-a5c8-49ad-9833-6306c797bccb" -> "270deb9e-b679-4b7a-b5b7-164ca379717d"
+	"270deb9e-b679-4b7a-b5b7-164ca379717d" -> "cff52455-1da6-4afa-896d-3c5bfb562f6d"
+	"ccb6e227-5801-4096-afc6-8d2f23c653da" [label="github:graphapps#target" shape=box]
+	"859a2aac-4230-4792-937a-d327fe58f3e6" -> "ccb6e227-5801-4096-afc6-8d2f23c653da"
+	"ccb6e227-5801-4096-afc6-8d2f23c653da" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"bbd5fc1e-ede5-4a48-956b-f8ccfbd70a76" [label="github:graphapps#source" shape=box]
+	"ad2250c6-cf26-40ba-89a9-f8ad19531c98" -> "bbd5fc1e-ede5-4a48-956b-f8ccfbd70a76"
+	"bbd5fc1e-ede5-4a48-956b-f8ccfbd70a76" -> "713d88a5-99c3-4fc4-b462-a9c7f47cc40c"
+	"e7a0f9c4-4bea-4ca4-85aa-3905a55d1a02" [label="w3:rdf-schema#comment" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "e7a0f9c4-4bea-4ca4-85aa-3905a55d1a02"
+	"e7a0f9c4-4bea-4ca4-85aa-3905a55d1a02" -> "b701a98a-f65f-48c1-bf0e-d6ec907315e7"
+	"24e76a13-86a9-4896-8479-f37176c8dd0f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e7ecd007-a74d-40b2-88e7-95f7c100ed71" -> "24e76a13-86a9-4896-8479-f37176c8dd0f"
+	"24e76a13-86a9-4896-8479-f37176c8dd0f" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"b394cd8e-c6a8-40d2-bc6b-40834ead160c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"fe0ba3da-d3d3-4b6d-97ed-51782fd6c0c5" -> "b394cd8e-c6a8-40d2-bc6b-40834ead160c"
+	"b394cd8e-c6a8-40d2-bc6b-40834ead160c" -> "a135e933-7956-478b-a0c2-af774b75cccf"
+	"870fe6e7-782c-4f2c-875a-08e77945bd36" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"713d88a5-99c3-4fc4-b462-a9c7f47cc40c" -> "870fe6e7-782c-4f2c-875a-08e77945bd36"
+	"870fe6e7-782c-4f2c-875a-08e77945bd36" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"1c321bf7-3ad4-47b2-933f-2a9aa79ea597" [label="github:graphapps#target" shape=box]
+	"f3900259-6fc4-4de4-9e7d-a2a3c6394381" -> "1c321bf7-3ad4-47b2-933f-2a9aa79ea597"
+	"1c321bf7-3ad4-47b2-933f-2a9aa79ea597" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"527bc00b-035f-4940-851f-659db7c2100f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e685a553-5b21-4a92-9eb2-6a9b9724065f" -> "527bc00b-035f-4940-851f-659db7c2100f"
+	"527bc00b-035f-4940-851f-659db7c2100f" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"9661ce31-0bb8-40b9-b865-5298c170c0e9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"afbd3b89-6a96-4717-a2e8-a34024bb18e0" -> "9661ce31-0bb8-40b9-b865-5298c170c0e9"
+	"9661ce31-0bb8-40b9-b865-5298c170c0e9" -> "5f11de81-b329-4780-8fac-e862f753b49e"
+	"07ea83ea-f54c-44e7-be1d-67d1d33a638d" [label="github:graphapps#target" shape=box]
+	"fedff520-e324-4cf9-b672-fc750d830eb9" -> "07ea83ea-f54c-44e7-be1d-67d1d33a638d"
+	"07ea83ea-f54c-44e7-be1d-67d1d33a638d" -> "66d6a18c-7f29-4083-a181-421322d09b0b"
+	"a9c3e889-fe0e-416a-a80c-7a5568805465" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"afbd3b89-6a96-4717-a2e8-a34024bb18e0" -> "a9c3e889-fe0e-416a-a80c-7a5568805465"
+	"a9c3e889-fe0e-416a-a80c-7a5568805465" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"c7e19794-b75d-48a5-b632-9c99341c6dc6" [label="w3:rdf-schema#comment" shape=box]
+	"0a163c55-f9a6-4e22-95ae-b4ba1be8a3af" -> "c7e19794-b75d-48a5-b632-9c99341c6dc6"
+	"c7e19794-b75d-48a5-b632-9c99341c6dc6" -> "00edf2d2-c81d-45fc-b0be-0c556650dd44"
+	"9e85a5f2-4886-4607-8005-9b695d208f35" [label="w3:rdf-schema#domain" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "9e85a5f2-4886-4607-8005-9b695d208f35"
+	"9e85a5f2-4886-4607-8005-9b695d208f35" -> "f6e1f73b-8370-4df1-bdca-2f4c6e998720"
+	"1be69011-c570-4a71-b15d-1e97d29f8c28" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"45c27a30-af1e-47c4-841f-45d99f0caf5c" -> "1be69011-c570-4a71-b15d-1e97d29f8c28"
+	"1be69011-c570-4a71-b15d-1e97d29f8c28" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"6a0fd26f-83eb-4d83-8eea-c6d1e86fc4d5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"2f249cbe-0851-4247-bf7e-64598e5b14ce" -> "6a0fd26f-83eb-4d83-8eea-c6d1e86fc4d5"
+	"6a0fd26f-83eb-4d83-8eea-c6d1e86fc4d5" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"557052cc-869e-43f6-81af-fb5ca0db8f88" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"99b40c26-739f-4691-867d-c55b9e14939c" -> "557052cc-869e-43f6-81af-fb5ca0db8f88"
+	"557052cc-869e-43f6-81af-fb5ca0db8f88" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"dec9fbf4-8485-4292-973e-500d56bd7390" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"a7b15ef5-e323-439d-8980-17d4f1dbce3b" -> "dec9fbf4-8485-4292-973e-500d56bd7390"
+	"dec9fbf4-8485-4292-973e-500d56bd7390" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"f31a2a0e-6bbc-4577-8308-8146d7a66a37" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"fedff520-e324-4cf9-b672-fc750d830eb9" -> "f31a2a0e-6bbc-4577-8308-8146d7a66a37"
+	"f31a2a0e-6bbc-4577-8308-8146d7a66a37" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e46db74f-245f-4d6b-835d-9b5f5bec031e" [label="github:graphapps#target" shape=box]
+	"2c511411-232e-418c-b3e7-d7bcf64104a5" -> "e46db74f-245f-4d6b-835d-9b5f5bec031e"
+	"e46db74f-245f-4d6b-835d-9b5f5bec031e" -> "d3044e9f-211a-424a-bd36-4d4f2c7c670d"
+	"050acdb9-ae66-4e0d-a844-7dc94bff8103" [label="w3:rdf-schema#comment" shape=box]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" -> "050acdb9-ae66-4e0d-a844-7dc94bff8103"
+	"050acdb9-ae66-4e0d-a844-7dc94bff8103" -> "c68b52ca-41bc-43f5-9c81-40deaf0f543b"
+	"656b8c54-21b6-4be1-87e0-b029603beb4f" [label="w3:rdf-schema#label" shape=box]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" -> "656b8c54-21b6-4be1-87e0-b029603beb4f"
+	"656b8c54-21b6-4be1-87e0-b029603beb4f" -> "2ebc33fe-7b1f-443a-91a1-200df48cfc81"
+	"4d06a8b0-16d3-46ff-a990-9640d834054e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"00db242b-3300-4b60-9c99-0f0eb0f74437" -> "4d06a8b0-16d3-46ff-a990-9640d834054e"
+	"4d06a8b0-16d3-46ff-a990-9640d834054e" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"f6dc59cf-8405-4457-80db-b34f564673ab" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e685a553-5b21-4a92-9eb2-6a9b9724065f" -> "f6dc59cf-8405-4457-80db-b34f564673ab"
+	"f6dc59cf-8405-4457-80db-b34f564673ab" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"5a6ffad0-cb48-42f5-a710-ce265233808c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9f3035df-3ac8-468f-975f-2a8cecdf474d" -> "5a6ffad0-cb48-42f5-a710-ce265233808c"
+	"5a6ffad0-cb48-42f5-a710-ce265233808c" -> "b6aefed8-304c-4240-a91d-3577dbf2615f"
+	"8e25f9e0-c01e-470d-b7ca-0702c70b94d7" [label="w3:rdf-schema#subClassOf" shape=box]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" -> "8e25f9e0-c01e-470d-b7ca-0702c70b94d7"
+	"8e25f9e0-c01e-470d-b7ca-0702c70b94d7" -> "f27e9e44-2834-47c5-bb2c-649b30c56338"
+	"dd0449b2-ef63-4239-a2d7-b62b1cbf9fae" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" -> "dd0449b2-ef63-4239-a2d7-b62b1cbf9fae"
+	"dd0449b2-ef63-4239-a2d7-b62b1cbf9fae" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"a7d45724-cb12-498f-af78-a1b73474849a" [label="github:graphapps#source" shape=box]
+	"27439486-6b5d-4f60-b862-82b70972ce66" -> "a7d45724-cb12-498f-af78-a1b73474849a"
+	"a7d45724-cb12-498f-af78-a1b73474849a" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"bf18ecbf-ada7-4886-a9bf-657dc29c48c0" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3ca452e3-b420-47c1-bf73-16c357028d62" -> "bf18ecbf-ada7-4886-a9bf-657dc29c48c0"
+	"bf18ecbf-ada7-4886-a9bf-657dc29c48c0" -> "f8f6bfe6-5181-4951-a955-fbff4bc3dd51"
+	"0289e97a-63d9-44a3-a054-2f028c842b7c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"4434348a-a54e-4871-9a44-8ca429a53487" -> "0289e97a-63d9-44a3-a054-2f028c842b7c"
+	"0289e97a-63d9-44a3-a054-2f028c842b7c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"c597fc23-a7ee-41da-829b-358878203638" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"d3044e9f-211a-424a-bd36-4d4f2c7c670d" -> "c597fc23-a7ee-41da-829b-358878203638"
+	"c597fc23-a7ee-41da-829b-358878203638" -> "40b735e4-f3c1-4c73-b0aa-d37f1ad9d2ce"
+	"31c23be4-abaa-478c-ae8c-366c57678b03" [label="github:graphapps#target" shape=box]
+	"9a76fccd-07cb-4398-9d5e-79f90de3db5d" -> "31c23be4-abaa-478c-ae8c-366c57678b03"
+	"31c23be4-abaa-478c-ae8c-366c57678b03" -> "a7b1e784-44b8-4fb7-9d12-2fdbd255c76c"
+	"5fc9b51f-f209-41bd-8f54-5769cda62cee" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"fe0ba3da-d3d3-4b6d-97ed-51782fd6c0c5" -> "5fc9b51f-f209-41bd-8f54-5769cda62cee"
+	"5fc9b51f-f209-41bd-8f54-5769cda62cee" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"566d8644-e8a3-45e4-be29-935937be8325" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3e9fc573-4b84-4ba2-8e7e-fae7fca53853" -> "566d8644-e8a3-45e4-be29-935937be8325"
+	"566d8644-e8a3-45e4-be29-935937be8325" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"5245c38f-6e26-4687-a7bc-7c86fea7072c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0b445b2e-28d2-4ccb-80a1-4519e41ef50f" -> "5245c38f-6e26-4687-a7bc-7c86fea7072c"
+	"5245c38f-6e26-4687-a7bc-7c86fea7072c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"50285285-e230-4889-9280-19044e4bdb39" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9df7f1db-55c9-40a3-bea6-a9fc70203736" -> "50285285-e230-4889-9280-19044e4bdb39"
+	"50285285-e230-4889-9280-19044e4bdb39" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"722ac505-1be5-4588-8389-901e68c5c7be" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"04a00943-71d2-43fc-9042-9b82f89b59ff" -> "722ac505-1be5-4588-8389-901e68c5c7be"
+	"722ac505-1be5-4588-8389-901e68c5c7be" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"715778eb-2ecb-4837-8210-a6b70f5edf20" [label="w3:rdf-schema#label" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "715778eb-2ecb-4837-8210-a6b70f5edf20"
+	"715778eb-2ecb-4837-8210-a6b70f5edf20" -> "0b2f924b-5bb7-453d-8719-5e516070c41e"
+	"02a34bcb-fb01-41a4-86bc-936c5881efb9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"4926e41a-a6e7-4f11-be94-7d2e6351d9c1" -> "02a34bcb-fb01-41a4-86bc-936c5881efb9"
+	"02a34bcb-fb01-41a4-86bc-936c5881efb9" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"b0f16c4f-10c3-4dab-8852-32bf0dda8e3e" [label="github:graphapps#target" shape=box]
+	"2f249cbe-0851-4247-bf7e-64598e5b14ce" -> "b0f16c4f-10c3-4dab-8852-32bf0dda8e3e"
+	"b0f16c4f-10c3-4dab-8852-32bf0dda8e3e" -> "ad14b0cf-c06d-4e81-b2e3-b78c93157424"
+	"f3b2b556-c319-4783-a426-6f2f2edf1c5c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c0b89ba0-6219-4dd6-9af3-de06971c7d1a" -> "f3b2b556-c319-4783-a426-6f2f2edf1c5c"
+	"f3b2b556-c319-4783-a426-6f2f2edf1c5c" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"c18dec14-d428-43b9-b55d-62857897f7a2" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5" -> "c18dec14-d428-43b9-b55d-62857897f7a2"
+	"c18dec14-d428-43b9-b55d-62857897f7a2" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"769d2c4f-6480-4095-8a12-6091ad6bf411" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"8ad66342-5725-49d4-a0fe-a55dceccf722" -> "769d2c4f-6480-4095-8a12-6091ad6bf411"
+	"769d2c4f-6480-4095-8a12-6091ad6bf411" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"5a247d28-3642-44dc-8013-04eab9386c13" [label="github:graphapps#target" shape=box]
+	"ad2250c6-cf26-40ba-89a9-f8ad19531c98" -> "5a247d28-3642-44dc-8013-04eab9386c13"
+	"5a247d28-3642-44dc-8013-04eab9386c13" -> "91ee9cdc-6eb3-4fae-8fa8-a1b810a1073d"
+	"7b9a10c4-7253-454b-b977-487797c53449" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f24ac104-6889-447d-8a78-a01848df6a8b" -> "7b9a10c4-7253-454b-b977-487797c53449"
+	"7b9a10c4-7253-454b-b977-487797c53449" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"446e2b70-a065-4071-8215-c7c230fd0004" [label="github:graphapps#target" shape=box]
+	"9df7f1db-55c9-40a3-bea6-a9fc70203736" -> "446e2b70-a065-4071-8215-c7c230fd0004"
+	"446e2b70-a065-4071-8215-c7c230fd0004" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"1ceeeb74-b510-4298-ae74-d5b55b800b5a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"577e607c-17bc-4c9a-804d-febdccf301aa" -> "1ceeeb74-b510-4298-ae74-d5b55b800b5a"
+	"1ceeeb74-b510-4298-ae74-d5b55b800b5a" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"f69bc005-a07c-49b9-bd62-474906b762c2" [label="github:graphapps#target" shape=box]
+	"b9dc7e9d-e1db-45d9-b054-ecea77b2fe0a" -> "f69bc005-a07c-49b9-bd62-474906b762c2"
+	"f69bc005-a07c-49b9-bd62-474906b762c2" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"fbe41066-06ac-4f61-8f8f-1c3c88ebc45c" [label="github:graphapps#source" shape=box]
+	"676e8a9f-3889-4f2f-9c29-8af2522ad6a5" -> "fbe41066-06ac-4f61-8f8f-1c3c88ebc45c"
+	"fbe41066-06ac-4f61-8f8f-1c3c88ebc45c" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"44d91743-a0b1-4572-982f-ebe35f493cbb" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9f3035df-3ac8-468f-975f-2a8cecdf474d" -> "44d91743-a0b1-4572-982f-ebe35f493cbb"
+	"44d91743-a0b1-4572-982f-ebe35f493cbb" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7f469eb2-2cc4-4ede-a5c2-81a9da85c474" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"67d56b6c-ce8c-4ae8-9be2-daadbfc35931" -> "7f469eb2-2cc4-4ede-a5c2-81a9da85c474"
+	"7f469eb2-2cc4-4ede-a5c2-81a9da85c474" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"0d6e687a-a3b6-4639-9d7e-78a63462df48" [label="w3:rdf-schema#domain" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "0d6e687a-a3b6-4639-9d7e-78a63462df48"
+	"0d6e687a-a3b6-4639-9d7e-78a63462df48" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"9d248182-3afd-43ff-ba64-a133e1fff171" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"8e88d570-4b87-44e4-bb12-2ff429a8136f" -> "9d248182-3afd-43ff-ba64-a133e1fff171"
+	"9d248182-3afd-43ff-ba64-a133e1fff171" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"732df677-7149-43bd-acbc-9a01945f7a0c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f3900259-6fc4-4de4-9e7d-a2a3c6394381" -> "732df677-7149-43bd-acbc-9a01945f7a0c"
+	"732df677-7149-43bd-acbc-9a01945f7a0c" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"50babed8-12d2-4980-8328-3c1d9e28dba4" [label="w3:rdf-schema#subClassOf" shape=box]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" -> "50babed8-12d2-4980-8328-3c1d9e28dba4"
+	"50babed8-12d2-4980-8328-3c1d9e28dba4" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"60b24646-bbc6-4407-ae0f-29ae924e3f40" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"11bb4a0f-324b-47c6-b98b-165b715aaf9d" -> "60b24646-bbc6-4407-ae0f-29ae924e3f40"
+	"60b24646-bbc6-4407-ae0f-29ae924e3f40" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"4b832e5d-2ea7-4afd-8fb3-7cccde38e2cc" [label="github:graphapps#source" shape=box]
+	"f24ac104-6889-447d-8a78-a01848df6a8b" -> "4b832e5d-2ea7-4afd-8fb3-7cccde38e2cc"
+	"4b832e5d-2ea7-4afd-8fb3-7cccde38e2cc" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"931e743c-8e87-4866-ba74-08198fcbda6d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ec44c3e4-7373-40ff-93ed-bc3d69bca4e3" -> "931e743c-8e87-4866-ba74-08198fcbda6d"
+	"931e743c-8e87-4866-ba74-08198fcbda6d" -> "5ebc6563-8882-4612-aef6-9617bfde4bf0"
+	"479090d4-caf6-4fbc-93f4-ba1b7ac96f79" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e7ecd007-a74d-40b2-88e7-95f7c100ed71" -> "479090d4-caf6-4fbc-93f4-ba1b7ac96f79"
+	"479090d4-caf6-4fbc-93f4-ba1b7ac96f79" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"35d349d3-ed11-4362-8039-eb4961772ccc" [label="github:graphapps#source" shape=box]
+	"f9cbebfc-50bc-47b8-b447-fe9eeb3d3cec" -> "35d349d3-ed11-4362-8039-eb4961772ccc"
+	"35d349d3-ed11-4362-8039-eb4961772ccc" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"680698cf-1afe-4f17-9036-279b6afcedb8" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9f224b3c-803d-4957-837c-1e315c9955a1" -> "680698cf-1afe-4f17-9036-279b6afcedb8"
+	"680698cf-1afe-4f17-9036-279b6afcedb8" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7b1e83fd-0de1-41e2-a58b-b4a97a6300a8" [label="github:graphapps#target" shape=box]
+	"90fde4c7-c5d7-4c31-a0c8-ed0cd551113b" -> "7b1e83fd-0de1-41e2-a58b-b4a97a6300a8"
+	"7b1e83fd-0de1-41e2-a58b-b4a97a6300a8" -> "3c2972f5-34e8-4289-a887-fafbf8cc69af"
+	"76f2d39c-44ec-462a-ac6b-68d82601f9e2" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"160e15d1-3c37-48b0-a677-97c93b6a4a38" -> "76f2d39c-44ec-462a-ac6b-68d82601f9e2"
+	"76f2d39c-44ec-462a-ac6b-68d82601f9e2" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"54cf5bec-1643-4fb5-8226-da1ca727a475" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3f5db23f-f85a-4b8c-aaec-c46fd1b757f6" -> "54cf5bec-1643-4fb5-8226-da1ca727a475"
+	"54cf5bec-1643-4fb5-8226-da1ca727a475" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"b3acede6-90ab-4372-8b73-1934db8d2efc" [label="github:graphapps#source" shape=box]
+	"92e4f3d2-ea7c-41e3-92d2-88aa218533f9" -> "b3acede6-90ab-4372-8b73-1934db8d2efc"
+	"b3acede6-90ab-4372-8b73-1934db8d2efc" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"dd475db3-e63a-4154-b373-2923a5ab96b6" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"434465a9-329e-466a-b5a5-1d77d83005eb" -> "dd475db3-e63a-4154-b373-2923a5ab96b6"
+	"dd475db3-e63a-4154-b373-2923a5ab96b6" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"b39f0423-2d9e-46d4-8001-c3c04054fa84" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"73569466-1f15-433d-bf4e-4217f1c6f28c" -> "b39f0423-2d9e-46d4-8001-c3c04054fa84"
+	"b39f0423-2d9e-46d4-8001-c3c04054fa84" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a0e16a6a-3e91-4c50-97eb-88bd36cbc750" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ad2250c6-cf26-40ba-89a9-f8ad19531c98" -> "a0e16a6a-3e91-4c50-97eb-88bd36cbc750"
+	"a0e16a6a-3e91-4c50-97eb-88bd36cbc750" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"ae56317a-b354-491b-bedb-d59d227d74fb" [label="github:graphapps#source" shape=box]
+	"0eedd139-33ee-4369-8557-75a987ca0320" -> "ae56317a-b354-491b-bedb-d59d227d74fb"
+	"ae56317a-b354-491b-bedb-d59d227d74fb" -> "583ba5df-4a08-4007-ac06-a94e5189e8d6"
+	"88fe21dd-e487-4bfd-bad4-a8f5a5e211e1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"e000d429-15c8-4420-a353-a226b0132d2b" -> "88fe21dd-e487-4bfd-bad4-a8f5a5e211e1"
+	"88fe21dd-e487-4bfd-bad4-a8f5a5e211e1" -> "81d2ff1d-054e-46fa-96b3-856eccd10e16"
+	"8c3d369c-eab0-48c7-9042-d81ddcc8d09a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"18e6bae1-9874-4b90-9f7c-9bebae283aef" -> "8c3d369c-eab0-48c7-9042-d81ddcc8d09a"
+	"8c3d369c-eab0-48c7-9042-d81ddcc8d09a" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"6c31ff54-b6a5-4edb-b33e-60e02baac1a1" [label="github:graphapps#target" shape=box]
+	"00db242b-3300-4b60-9c99-0f0eb0f74437" -> "6c31ff54-b6a5-4edb-b33e-60e02baac1a1"
+	"6c31ff54-b6a5-4edb-b33e-60e02baac1a1" -> "51316187-7051-4eb6-ae88-2b1d310e9251"
+	"c7366083-7612-448e-ac6f-c107fd1e102e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1bac0b8e-a736-4053-9339-89c55d537b1e" -> "c7366083-7612-448e-ac6f-c107fd1e102e"
+	"c7366083-7612-448e-ac6f-c107fd1e102e" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"57f08903-aee5-4ff3-b0dd-310ae51a974e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"676e8a9f-3889-4f2f-9c29-8af2522ad6a5" -> "57f08903-aee5-4ff3-b0dd-310ae51a974e"
+	"57f08903-aee5-4ff3-b0dd-310ae51a974e" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"4bb90a8f-a85d-4b02-8a97-02e6b9b93fb4" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f92ff4ea-bb4a-4c3e-afc3-3d17e10c784e" -> "4bb90a8f-a85d-4b02-8a97-02e6b9b93fb4"
+	"4bb90a8f-a85d-4b02-8a97-02e6b9b93fb4" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"8b6b8aab-6265-4297-bb71-316b02213708" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1406af4b-6917-42ff-ac82-99ddeee462e3" -> "8b6b8aab-6265-4297-bb71-316b02213708"
+	"8b6b8aab-6265-4297-bb71-316b02213708" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"bd8e525c-4afb-4355-a5cc-4f95ea447d8b" [label="github:graphapps#source" shape=box]
+	"7c83a462-8949-4ea7-8ccd-b081dccbb7ea" -> "bd8e525c-4afb-4355-a5cc-4f95ea447d8b"
+	"bd8e525c-4afb-4355-a5cc-4f95ea447d8b" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"6f0b3d31-88e6-4343-af46-0975ff5eeadc" [label="github:graphapps#target" shape=box]
+	"e685a553-5b21-4a92-9eb2-6a9b9724065f" -> "6f0b3d31-88e6-4343-af46-0975ff5eeadc"
+	"6f0b3d31-88e6-4343-af46-0975ff5eeadc" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"1ab6722c-e2c9-4d4d-8244-d8ae8e8eb393" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f5d36129-3109-42a1-aaa1-322d49d4fe9f" -> "1ab6722c-e2c9-4d4d-8244-d8ae8e8eb393"
+	"1ab6722c-e2c9-4d4d-8244-d8ae8e8eb393" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"1d9819b4-0e08-47cd-a95a-43fe85fc3a9b" [label="w3:rdf-schema#domain" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "1d9819b4-0e08-47cd-a95a-43fe85fc3a9b"
+	"1d9819b4-0e08-47cd-a95a-43fe85fc3a9b" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"5d0aeeb1-66d9-45f9-b091-27baf21f6ca4" [label="github:graphapps#target" shape=box]
+	"565572fc-adcb-4dc9-8005-2f024c0e882b" -> "5d0aeeb1-66d9-45f9-b091-27baf21f6ca4"
+	"5d0aeeb1-66d9-45f9-b091-27baf21f6ca4" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"ca033cf3-787e-4a3b-9bac-e522da4bab70" [label="github:graphapps#target" shape=box]
+	"622c8860-6bd2-4e9c-924e-2c869a04e891" -> "ca033cf3-787e-4a3b-9bac-e522da4bab70"
+	"ca033cf3-787e-4a3b-9bac-e522da4bab70" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"964b00f4-a8da-49b7-ab75-b2dc7a0315f6" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f7731f59-2e49-4c93-a962-436f3f7f5410" -> "964b00f4-a8da-49b7-ab75-b2dc7a0315f6"
+	"964b00f4-a8da-49b7-ab75-b2dc7a0315f6" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"4a93b9e2-1488-4e13-9a17-3686068421be" [label="github:graphapps#target" shape=box]
+	"dcec2c51-114a-4ee3-9ecc-284b492f6fce" -> "4a93b9e2-1488-4e13-9a17-3686068421be"
+	"4a93b9e2-1488-4e13-9a17-3686068421be" -> "a0f98667-f45e-43e2-8907-1e1ade250968"
+	"02f561b3-d2b0-4da2-8a05-b442e38bae20" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "02f561b3-d2b0-4da2-8a05-b442e38bae20"
+	"02f561b3-d2b0-4da2-8a05-b442e38bae20" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"cf202e16-37f8-46ce-99f7-2ca57c7d16be" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0730197d-0d9f-4d6a-8b58-830d0dce8194" -> "cf202e16-37f8-46ce-99f7-2ca57c7d16be"
+	"cf202e16-37f8-46ce-99f7-2ca57c7d16be" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"d60deaaf-a457-4a29-84ce-997a95ff8e39" [label="github:graphapps#source" shape=box]
+	"25b714ff-57fb-437b-98e5-48cef4ea6fec" -> "d60deaaf-a457-4a29-84ce-997a95ff8e39"
+	"d60deaaf-a457-4a29-84ce-997a95ff8e39" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"ba10f455-4994-4816-9f38-a2cec81c5529" [label="w3:rdf-schema#comment" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "ba10f455-4994-4816-9f38-a2cec81c5529"
+	"ba10f455-4994-4816-9f38-a2cec81c5529" -> "711bba77-bbc8-424b-8f20-885238df1ade"
+	"cb6d1c76-474a-4d09-b349-1b98fa4ee9e0" [label="github:graphapps#target" shape=box]
+	"54dec093-80de-4e79-9b38-2229fd0b8886" -> "cb6d1c76-474a-4d09-b349-1b98fa4ee9e0"
+	"cb6d1c76-474a-4d09-b349-1b98fa4ee9e0" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"73bf89fe-a5cb-499a-ba86-43bc47f1cddd" [label="github:graphapps#target" shape=box]
+	"88e7d178-a736-47fb-ba3a-5f1d9ab2bdcd" -> "73bf89fe-a5cb-499a-ba86-43bc47f1cddd"
+	"73bf89fe-a5cb-499a-ba86-43bc47f1cddd" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"eb29f583-2743-4622-adb7-ad2e66b8a831" [label="github:graphapps#target" shape=box]
+	"f7731f59-2e49-4c93-a962-436f3f7f5410" -> "eb29f583-2743-4622-adb7-ad2e66b8a831"
+	"eb29f583-2743-4622-adb7-ad2e66b8a831" -> "afbd3b89-6a96-4717-a2e8-a34024bb18e0"
+	"a83a2ead-d8dc-4817-b22a-e926eb88f5c5" [label="w3:rdf-schema#range" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "a83a2ead-d8dc-4817-b22a-e926eb88f5c5"
+	"a83a2ead-d8dc-4817-b22a-e926eb88f5c5" -> "0af36191-9249-4ee6-a1b0-86759f44b2b1"
+	"7bf03695-4c57-4147-918f-4dccb74f8b6f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9eb1a396-60c1-4d3b-9f35-0b6b86966c3a" -> "7bf03695-4c57-4147-918f-4dccb74f8b6f"
+	"7bf03695-4c57-4147-918f-4dccb74f8b6f" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"d5092705-63fd-42d8-b329-c6b3aaa3fdf5" [label="github:graphapps#target" shape=box]
+	"27439486-6b5d-4f60-b862-82b70972ce66" -> "d5092705-63fd-42d8-b329-c6b3aaa3fdf5"
+	"d5092705-63fd-42d8-b329-c6b3aaa3fdf5" -> "0b445b2e-28d2-4ccb-80a1-4519e41ef50f"
+	"a999dfd5-cdc5-41ae-80c3-738d574f8d8f" [label="w3:rdf-schema#comment" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "a999dfd5-cdc5-41ae-80c3-738d574f8d8f"
+	"a999dfd5-cdc5-41ae-80c3-738d574f8d8f" -> "aee3115a-6484-4a91-aac2-a14406d7ca9f"
+	"17d2b8cb-c2a2-4a25-832b-82d93eb0ce8c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"93a611e0-85fb-4acb-8df7-650e4b0eb582" -> "17d2b8cb-c2a2-4a25-832b-82d93eb0ce8c"
+	"17d2b8cb-c2a2-4a25-832b-82d93eb0ce8c" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"d4876244-6e07-4320-91de-a866e8397db3" [label="github:graphapps#source" shape=box]
+	"2f249cbe-0851-4247-bf7e-64598e5b14ce" -> "d4876244-6e07-4320-91de-a866e8397db3"
+	"d4876244-6e07-4320-91de-a866e8397db3" -> "713d88a5-99c3-4fc4-b462-a9c7f47cc40c"
+	"0b7101cd-3352-4e9c-9ab3-8f7fb7bcc91d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"b9dc7e9d-e1db-45d9-b054-ecea77b2fe0a" -> "0b7101cd-3352-4e9c-9ab3-8f7fb7bcc91d"
+	"0b7101cd-3352-4e9c-9ab3-8f7fb7bcc91d" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"3879939c-bb02-4241-bbe5-86126d5d34ad" [label="w3:rdf-schema#comment" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "3879939c-bb02-4241-bbe5-86126d5d34ad"
+	"3879939c-bb02-4241-bbe5-86126d5d34ad" -> "26fadb62-aea4-44cf-aaca-3900d7bfe5f6"
+	"74a43727-6a56-4a8b-a3b0-8be469054caa" [label="github:graphapps#target" shape=box]
+	"7c83a462-8949-4ea7-8ccd-b081dccbb7ea" -> "74a43727-6a56-4a8b-a3b0-8be469054caa"
+	"74a43727-6a56-4a8b-a3b0-8be469054caa" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"c355df9d-1c6a-4925-8402-2c236a467609" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"543397cf-ae8c-476a-9046-397791287980" -> "c355df9d-1c6a-4925-8402-2c236a467609"
+	"c355df9d-1c6a-4925-8402-2c236a467609" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"320e8933-2a57-4f59-9513-b24213b41dae" [label="w3:rdf-schema#subClassOf" shape=box]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" -> "320e8933-2a57-4f59-9513-b24213b41dae"
+	"320e8933-2a57-4f59-9513-b24213b41dae" -> "f27e9e44-2834-47c5-bb2c-649b30c56338"
+	"6c313d6b-7113-439a-a3e1-382c0396080f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"4434348a-a54e-4871-9a44-8ca429a53487" -> "6c313d6b-7113-439a-a3e1-382c0396080f"
+	"6c313d6b-7113-439a-a3e1-382c0396080f" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"2d10a2ce-f754-4432-b98c-e7fa81b3d754" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c6e833d5-ef79-4bd5-82df-ae0b17e8c2c9" -> "2d10a2ce-f754-4432-b98c-e7fa81b3d754"
+	"2d10a2ce-f754-4432-b98c-e7fa81b3d754" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"b5a5ad04-013f-4237-a5e4-581e63a10e1e" [label="w3:rdf-schema#comment" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "b5a5ad04-013f-4237-a5e4-581e63a10e1e"
+	"b5a5ad04-013f-4237-a5e4-581e63a10e1e" -> "643b7ebc-0d80-4424-a1fb-2e37b5defb97"
+	"402c9545-4295-4034-a542-2819f1f3c67b" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c6e833d5-ef79-4bd5-82df-ae0b17e8c2c9" -> "402c9545-4295-4034-a542-2819f1f3c67b"
+	"402c9545-4295-4034-a542-2819f1f3c67b" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"f8333be7-4864-4488-abb6-f253381758c7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"6b20f5c3-d65e-4ce0-9415-f28fc793d86d" -> "f8333be7-4864-4488-abb6-f253381758c7"
+	"f8333be7-4864-4488-abb6-f253381758c7" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"30606394-d1e6-49ea-82da-6baf50be2ce6" [label="w3:rdf-schema#seeAlso" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "30606394-d1e6-49ea-82da-6baf50be2ce6"
+	"30606394-d1e6-49ea-82da-6baf50be2ce6" -> "d9e0bcfb-70d7-4ca8-b1c8-afd6e22f9ab7"
+	"79ede9f7-c1c5-497b-8e31-c616c69eae1e" [label="github:graphapps#source" shape=box]
+	"9f3035df-3ac8-468f-975f-2a8cecdf474d" -> "79ede9f7-c1c5-497b-8e31-c616c69eae1e"
+	"79ede9f7-c1c5-497b-8e31-c616c69eae1e" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"a942a91c-bf7e-43ca-859a-b6c2133d3e6e" [label="github:graphapps#source" shape=box]
+	"3ca452e3-b420-47c1-bf73-16c357028d62" -> "a942a91c-bf7e-43ca-859a-b6c2133d3e6e"
+	"a942a91c-bf7e-43ca-859a-b6c2133d3e6e" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"5ff2fab3-5a28-44c5-b191-f81cb352be26" [label="github:graphapps#source" shape=box]
+	"959ed84a-7248-4f20-81dc-a49f1ef5e608" -> "5ff2fab3-5a28-44c5-b191-f81cb352be26"
+	"5ff2fab3-5a28-44c5-b191-f81cb352be26" -> "713d88a5-99c3-4fc4-b462-a9c7f47cc40c"
+	"a6ed6f1d-185f-4d42-a457-e2ca9150087d" [label="github:graphapps#target" shape=box]
+	"0730197d-0d9f-4d6a-8b58-830d0dce8194" -> "a6ed6f1d-185f-4d42-a457-e2ca9150087d"
+	"a6ed6f1d-185f-4d42-a457-e2ca9150087d" -> "9e2992fa-99a9-49a5-8226-4de1f17703e6"
+	"d282cc29-f33a-4d7b-a82f-20704d7829c5" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"6ae390cf-0e7e-4c6b-a71e-b28cfe016db8" -> "d282cc29-f33a-4d7b-a82f-20704d7829c5"
+	"d282cc29-f33a-4d7b-a82f-20704d7829c5" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"1adb4eab-baa8-413b-9c67-b005e1d6d7b8" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "1adb4eab-baa8-413b-9c67-b005e1d6d7b8"
+	"1adb4eab-baa8-413b-9c67-b005e1d6d7b8" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"7a05df93-3b1d-4b6f-87d9-7fe185824013" [label="github:graphapps#source" shape=box]
+	"e96c8fea-75e0-4f4c-afa9-6d529f9b5f5e" -> "7a05df93-3b1d-4b6f-87d9-7fe185824013"
+	"7a05df93-3b1d-4b6f-87d9-7fe185824013" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"8a4a6b8b-0849-4279-8b66-707ff1af67a8" [label="w3:rdf-schema#label" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "8a4a6b8b-0849-4279-8b66-707ff1af67a8"
+	"8a4a6b8b-0849-4279-8b66-707ff1af67a8" -> "ef09a9aa-ec9a-4397-907c-e7c325732436"
+	"9a0f2c6c-956c-4a49-aebd-c2f00a9f1bca" [label="github:graphapps#source" shape=box]
+	"23cdbb4a-674c-4e58-b6ee-0968769db697" -> "9a0f2c6c-956c-4a49-aebd-c2f00a9f1bca"
+	"9a0f2c6c-956c-4a49-aebd-c2f00a9f1bca" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"cfa01d38-da2e-4cff-93dc-047289dddd5a" [label="github:graphapps#source" shape=box]
+	"b73f51f1-60ac-4bf6-814c-39599823a196" -> "cfa01d38-da2e-4cff-93dc-047289dddd5a"
+	"cfa01d38-da2e-4cff-93dc-047289dddd5a" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"5c627d8b-a882-4774-bb66-2628da449b03" [label="w3:rdf-schema#domain" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "5c627d8b-a882-4774-bb66-2628da449b03"
+	"5c627d8b-a882-4774-bb66-2628da449b03" -> "0af36191-9249-4ee6-a1b0-86759f44b2b1"
+	"03ec582b-954e-44a1-a424-d85b480f4593" [label="github:graphapps#source" shape=box]
+	"160e15d1-3c37-48b0-a677-97c93b6a4a38" -> "03ec582b-954e-44a1-a424-d85b480f4593"
+	"03ec582b-954e-44a1-a424-d85b480f4593" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"07912df2-f9e0-4b86-8d99-8182c7cb4c68" [label="github:graphapps#source" shape=box]
+	"9f224b3c-803d-4957-837c-1e315c9955a1" -> "07912df2-f9e0-4b86-8d99-8182c7cb4c68"
+	"07912df2-f9e0-4b86-8d99-8182c7cb4c68" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"6db80b01-e295-4080-a43a-c6f0ce686f51" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ec3b5612-3242-467c-a206-fc20e50615a8" -> "6db80b01-e295-4080-a43a-c6f0ce686f51"
+	"6db80b01-e295-4080-a43a-c6f0ce686f51" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"01b66321-da5d-4d39-bd07-30098bf3ffd9" [label="w3:rdf-schema#comment" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "01b66321-da5d-4d39-bd07-30098bf3ffd9"
+	"01b66321-da5d-4d39-bd07-30098bf3ffd9" -> "89348675-c8fc-4f52-a1dc-a5b0121184f8"
+	"72f0ab1b-7b44-41e4-87d8-906cd4e65244" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"d72330f0-31d2-40ea-8c65-899c1a5a48ad" -> "72f0ab1b-7b44-41e4-87d8-906cd4e65244"
+	"72f0ab1b-7b44-41e4-87d8-906cd4e65244" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"562c00ca-6749-4e18-bea9-4745447225ae" [label="github:graphapps#target" shape=box]
+	"ab8e79bf-c2d3-454c-a6d7-a05cb31d1ad4" -> "562c00ca-6749-4e18-bea9-4745447225ae"
+	"562c00ca-6749-4e18-bea9-4745447225ae" -> "06d1cef7-0d04-41d7-907c-ccc97b687c1f"
+	"79afb7f5-6839-4a04-ba49-9904414b17f4" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"565572fc-adcb-4dc9-8005-2f024c0e882b" -> "79afb7f5-6839-4a04-ba49-9904414b17f4"
+	"79afb7f5-6839-4a04-ba49-9904414b17f4" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"3b2d6984-07d9-4e08-ade4-d0a6945334cc" [label="github:graphapps#target" shape=box]
+	"99b40c26-739f-4691-867d-c55b9e14939c" -> "3b2d6984-07d9-4e08-ade4-d0a6945334cc"
+	"3b2d6984-07d9-4e08-ade4-d0a6945334cc" -> "fe0ba3da-d3d3-4b6d-97ed-51782fd6c0c5"
+	"d6887e57-87b9-48e8-9950-b5538b9c7678" [label="github:graphapps#target" shape=box]
+	"40eaf1a4-65f1-49b2-8b3d-998e6db7e82f" -> "d6887e57-87b9-48e8-9950-b5538b9c7678"
+	"d6887e57-87b9-48e8-9950-b5538b9c7678" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"e1ba7edd-c4ad-4464-af1e-3155f11ed660" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e9cf4e9c-c34d-4347-b33a-500dd3aa25c5" -> "e1ba7edd-c4ad-4464-af1e-3155f11ed660"
+	"e1ba7edd-c4ad-4464-af1e-3155f11ed660" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"c8cbfb7d-e39f-46e6-9ce9-898139ee7a93" [label="w3:rdf-schema#subClassOf" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "c8cbfb7d-e39f-46e6-9ce9-898139ee7a93"
+	"c8cbfb7d-e39f-46e6-9ce9-898139ee7a93" -> "9540c390-0832-4298-8585-513bf9f933dd"
+	"014d887b-644d-4509-983b-e41bd0878796" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"b9dc7e9d-e1db-45d9-b054-ecea77b2fe0a" -> "014d887b-644d-4509-983b-e41bd0878796"
+	"014d887b-644d-4509-983b-e41bd0878796" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"0b570f2c-e3ab-4ee4-af29-47b14680d972" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"90fde4c7-c5d7-4c31-a0c8-ed0cd551113b" -> "0b570f2c-e3ab-4ee4-af29-47b14680d972"
+	"0b570f2c-e3ab-4ee4-af29-47b14680d972" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"08bab699-a8a6-4f36-bd05-93fff9a0f36e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" -> "08bab699-a8a6-4f36-bd05-93fff9a0f36e"
+	"08bab699-a8a6-4f36-bd05-93fff9a0f36e" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"4bce26e7-fb8a-459c-82f1-c6d95b7ecb4a" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" -> "4bce26e7-fb8a-459c-82f1-c6d95b7ecb4a"
+	"4bce26e7-fb8a-459c-82f1-c6d95b7ecb4a" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"91f4b7f3-57c7-4564-a1b1-cb49716713d3" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c92fdafd-968b-43f0-8026-462f72ac38bc" -> "91f4b7f3-57c7-4564-a1b1-cb49716713d3"
+	"91f4b7f3-57c7-4564-a1b1-cb49716713d3" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"730b56c0-8661-4cdf-a817-e450092a0a31" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"00db242b-3300-4b60-9c99-0f0eb0f74437" -> "730b56c0-8661-4cdf-a817-e450092a0a31"
+	"730b56c0-8661-4cdf-a817-e450092a0a31" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"c75bb5a2-67de-46ad-8abd-487a329f2764" [label="w3:rdf-schema#subClassOf" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "c75bb5a2-67de-46ad-8abd-487a329f2764"
+	"c75bb5a2-67de-46ad-8abd-487a329f2764" -> "9540c390-0832-4298-8585-513bf9f933dd"
+	"523c8bf1-6cb2-4599-aee0-ecec92219427" [label="github:graphapps#source" shape=box]
+	"3f5db23f-f85a-4b8c-aaec-c46fd1b757f6" -> "523c8bf1-6cb2-4599-aee0-ecec92219427"
+	"523c8bf1-6cb2-4599-aee0-ecec92219427" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"97a524af-568d-432a-8828-d8cd6e41cf18" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "97a524af-568d-432a-8828-d8cd6e41cf18"
+	"97a524af-568d-432a-8828-d8cd6e41cf18" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"ed8c1c14-0421-4e90-8323-58bf3a2422ed" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"0a163c55-f9a6-4e22-95ae-b4ba1be8a3af" -> "ed8c1c14-0421-4e90-8323-58bf3a2422ed"
+	"ed8c1c14-0421-4e90-8323-58bf3a2422ed" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"e6e9ffa9-86d1-41c8-b862-43c02e30b5a8" [label="w3:rdf-schema#comment" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "e6e9ffa9-86d1-41c8-b862-43c02e30b5a8"
+	"e6e9ffa9-86d1-41c8-b862-43c02e30b5a8" -> "8e021a8b-8d94-43b5-a1fc-c3e877cfe7c1"
+	"9df41a51-259d-4471-9748-057a437d3d84" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1ed5c99b-3d30-4469-ad70-388c6efc2e14" -> "9df41a51-259d-4471-9748-057a437d3d84"
+	"9df41a51-259d-4471-9748-057a437d3d84" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"3702c5df-f5c2-49fb-9dd8-c456767f54d5" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e96c8fea-75e0-4f4c-afa9-6d529f9b5f5e" -> "3702c5df-f5c2-49fb-9dd8-c456767f54d5"
+	"3702c5df-f5c2-49fb-9dd8-c456767f54d5" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"8971ab5f-cf8d-4020-afe6-61ef994c2d80" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0d236447-e21d-4b52-bc35-9bbbea52fd2e" -> "8971ab5f-cf8d-4020-afe6-61ef994c2d80"
+	"8971ab5f-cf8d-4020-afe6-61ef994c2d80" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"cf3e1e6b-ccea-42d6-8d39-467772f00603" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"046b78ec-2a1c-4165-9f84-aad0997872bf" -> "cf3e1e6b-ccea-42d6-8d39-467772f00603"
+	"cf3e1e6b-ccea-42d6-8d39-467772f00603" -> "aee3115a-6484-4a91-aac2-a14406d7ca9f"
+	"79f0af31-c010-4070-bef2-4917534c527e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"dbb2b2e8-283b-4558-b8e2-aff9e501169e" -> "79f0af31-c010-4070-bef2-4917534c527e"
+	"79f0af31-c010-4070-bef2-4917534c527e" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"873aa513-aa7f-449b-b28d-5906f00cd3aa" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"dacf2555-dea7-4f1a-9994-5f8993f9afe9" -> "873aa513-aa7f-449b-b28d-5906f00cd3aa"
+	"873aa513-aa7f-449b-b28d-5906f00cd3aa" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e911340f-a27c-4ac2-bfd7-4e8e398f7043" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"2c511411-232e-418c-b3e7-d7bcf64104a5" -> "e911340f-a27c-4ac2-bfd7-4e8e398f7043"
+	"e911340f-a27c-4ac2-bfd7-4e8e398f7043" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"12d8d07f-0bd1-4c54-b3ee-a609c79ec93a" [label="w3:rdf-schema#label" shape=box]
+	"89ce3930-689b-42ec-a3d2-ea8bbcb1d874" -> "12d8d07f-0bd1-4c54-b3ee-a609c79ec93a"
+	"12d8d07f-0bd1-4c54-b3ee-a609c79ec93a" -> "407c1533-d5b1-424a-925c-8b56e6c05764"
+	"9cdb931c-6152-48aa-a389-9a9bc1e9caf7" [label="github:graphapps#source" shape=box]
+	"1bac0b8e-a736-4053-9339-89c55d537b1e" -> "9cdb931c-6152-48aa-a389-9a9bc1e9caf7"
+	"9cdb931c-6152-48aa-a389-9a9bc1e9caf7" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"0f4c114e-c786-4de4-a189-8e42224861d1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1281bb2c-07c2-49e0-aa13-8c0d64e414aa" -> "0f4c114e-c786-4de4-a189-8e42224861d1"
+	"0f4c114e-c786-4de4-a189-8e42224861d1" -> "d9e0bcfb-70d7-4ca8-b1c8-afd6e22f9ab7"
+	"7419c3ca-4091-4254-9a23-c99698e47289" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"dcec2c51-114a-4ee3-9ecc-284b492f6fce" -> "7419c3ca-4091-4254-9a23-c99698e47289"
+	"7419c3ca-4091-4254-9a23-c99698e47289" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"63cf9da5-a357-4bdc-9b5f-55e0528f6c71" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"23cdbb4a-674c-4e58-b6ee-0968769db697" -> "63cf9da5-a357-4bdc-9b5f-55e0528f6c71"
+	"63cf9da5-a357-4bdc-9b5f-55e0528f6c71" -> "f8f6bfe6-5181-4951-a955-fbff4bc3dd51"
+	"53587cdb-5607-4bd7-8427-4e39172af793" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"781d7be9-bb13-42e8-b505-c0788b5ed47d" -> "53587cdb-5607-4bd7-8427-4e39172af793"
+	"53587cdb-5607-4bd7-8427-4e39172af793" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"ec934eae-62c8-450f-9424-27267fbae6e3" [label="github:graphapps#source" shape=box]
+	"ccd3ee76-6a1f-4bf1-b9c4-f57a4ae7d3d9" -> "ec934eae-62c8-450f-9424-27267fbae6e3"
+	"ec934eae-62c8-450f-9424-27267fbae6e3" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"72ec2822-2574-48b9-9e9f-47c043e3e103" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f3900259-6fc4-4de4-9e7d-a2a3c6394381" -> "72ec2822-2574-48b9-9e9f-47c043e3e103"
+	"72ec2822-2574-48b9-9e9f-47c043e3e103" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"9f6cdd16-d19d-4a92-8940-85b1f26a7697" [label="github:graphapps#source" shape=box]
+	"0f79e1f5-ecb4-4a1c-8f8d-3d1740c62422" -> "9f6cdd16-d19d-4a92-8940-85b1f26a7697"
+	"9f6cdd16-d19d-4a92-8940-85b1f26a7697" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"45895509-69dd-4569-b89b-915786521a9a" [label="github:graphapps#target" shape=box]
+	"7ab0e037-2b90-455b-822e-25b636f283af" -> "45895509-69dd-4569-b89b-915786521a9a"
+	"45895509-69dd-4569-b89b-915786521a9a" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"3a3a7daa-351b-4873-8dcd-5b7f2de5e02b" [label="w3:rdf-schema#range" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "3a3a7daa-351b-4873-8dcd-5b7f2de5e02b"
+	"3a3a7daa-351b-4873-8dcd-5b7f2de5e02b" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"eb4242b4-3757-4329-92d9-772b0770367f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"73e221a4-b3e6-463a-82d5-0294fc736ab7" -> "eb4242b4-3757-4329-92d9-772b0770367f"
+	"eb4242b4-3757-4329-92d9-772b0770367f" -> "f8f6bfe6-5181-4951-a955-fbff4bc3dd51"
+	"924e9d76-0176-41c9-9809-5e323848e766" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "924e9d76-0176-41c9-9809-5e323848e766"
+	"924e9d76-0176-41c9-9809-5e323848e766" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"adde1334-bb3c-4ea8-ad63-7ebc9df65158" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"075bbc99-a185-4a60-9949-be035ab4cbe8" -> "adde1334-bb3c-4ea8-ad63-7ebc9df65158"
+	"adde1334-bb3c-4ea8-ad63-7ebc9df65158" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"79e670a3-251a-4b96-92c0-b0ad7cc1ce90" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"53cbd26f-4285-419c-9a00-8b1b5448cbbb" -> "79e670a3-251a-4b96-92c0-b0ad7cc1ce90"
+	"79e670a3-251a-4b96-92c0-b0ad7cc1ce90" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"5f59947d-cc76-426c-a855-dfd18d7089fa" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"dacd4b15-4773-4861-ac70-dd8fb21d02ff" -> "5f59947d-cc76-426c-a855-dfd18d7089fa"
+	"5f59947d-cc76-426c-a855-dfd18d7089fa" -> "643b7ebc-0d80-4424-a1fb-2e37b5defb97"
+	"cc0ec9cf-8ac7-43ec-b405-7186f05a942c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"583ba5df-4a08-4007-ac06-a94e5189e8d6" -> "cc0ec9cf-8ac7-43ec-b405-7186f05a942c"
+	"cc0ec9cf-8ac7-43ec-b405-7186f05a942c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"09f1e965-8768-4c5a-ab38-f67fc2f252f3" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"a0f98667-f45e-43e2-8907-1e1ade250968" -> "09f1e965-8768-4c5a-ab38-f67fc2f252f3"
+	"09f1e965-8768-4c5a-ab38-f67fc2f252f3" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"c78bb922-e8d2-4092-b49e-6e315b356cb4" [label="github:graphapps#source" shape=box]
+	"55d721e4-4620-4f0e-857e-080d9bb62f76" -> "c78bb922-e8d2-4092-b49e-6e315b356cb4"
+	"c78bb922-e8d2-4092-b49e-6e315b356cb4" -> "ec44c3e4-7373-40ff-93ed-bc3d69bca4e3"
+	"45aa6e1d-e949-4ed0-b0c0-7df16bb1408d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f458a6f3-9e01-4774-9f7f-523359b7281a" -> "45aa6e1d-e949-4ed0-b0c0-7df16bb1408d"
+	"45aa6e1d-e949-4ed0-b0c0-7df16bb1408d" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"e77ef30f-3415-481c-a91a-c0a4117b1be6" [label="github:graphapps#source" shape=box]
+	"8e88d570-4b87-44e4-bb12-2ff429a8136f" -> "e77ef30f-3415-481c-a91a-c0a4117b1be6"
+	"e77ef30f-3415-481c-a91a-c0a4117b1be6" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"ab4b8eb3-7d56-4183-9f88-3c0cf94a7455" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"dacf2555-dea7-4f1a-9994-5f8993f9afe9" -> "ab4b8eb3-7d56-4183-9f88-3c0cf94a7455"
+	"ab4b8eb3-7d56-4183-9f88-3c0cf94a7455" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"4fe7adca-e65f-445c-a9ac-fd5d6cc9cdc3" [label="w3:rdf-schema#label" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "4fe7adca-e65f-445c-a9ac-fd5d6cc9cdc3"
+	"4fe7adca-e65f-445c-a9ac-fd5d6cc9cdc3" -> "4c31c43c-bb27-408c-a796-fe13cb51e822"
+	"7f2ab9e5-c7e6-453d-9961-c2e8dc86626c" [label="github:graphapps#target" shape=box]
+	"d95d222f-0ecc-447c-a328-a443207826ce" -> "7f2ab9e5-c7e6-453d-9961-c2e8dc86626c"
+	"7f2ab9e5-c7e6-453d-9961-c2e8dc86626c" -> "5e087ad4-193b-4df2-b747-85a1ffe5a6cc"
+	"2b6a16fa-46cc-4f40-9d70-9315cfb35570" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f7731f59-2e49-4c93-a962-436f3f7f5410" -> "2b6a16fa-46cc-4f40-9d70-9315cfb35570"
+	"2b6a16fa-46cc-4f40-9d70-9315cfb35570" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"8a619fc9-ac51-4ad5-89a8-af4e921da3f4" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"42008ab2-d99d-41b9-b4e4-59331deac7c2" -> "8a619fc9-ac51-4ad5-89a8-af4e921da3f4"
+	"8a619fc9-ac51-4ad5-89a8-af4e921da3f4" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"9108131b-3f95-43ee-bf88-413fbb1cad9d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ad14b0cf-c06d-4e81-b2e3-b78c93157424" -> "9108131b-3f95-43ee-bf88-413fbb1cad9d"
+	"9108131b-3f95-43ee-bf88-413fbb1cad9d" -> "9540c390-0832-4298-8585-513bf9f933dd"
+	"7e2dccb4-dd9c-4290-af6c-9a45c053d1c8" [label="github:graphapps#source" shape=box]
+	"4314ee38-c361-49cb-825f-67e77d746a22" -> "7e2dccb4-dd9c-4290-af6c-9a45c053d1c8"
+	"7e2dccb4-dd9c-4290-af6c-9a45c053d1c8" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"e8267086-bdf2-49b2-b511-8ca12f7d8a98" [label="github:graphapps#target" shape=box]
+	"f92ff4ea-bb4a-4c3e-afc3-3d17e10c784e" -> "e8267086-bdf2-49b2-b511-8ca12f7d8a98"
+	"e8267086-bdf2-49b2-b511-8ca12f7d8a98" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"9a5469f5-9e4b-48d1-a652-86fca7f64890" [label="github:graphapps#target" shape=box]
+	"a7b15ef5-e323-439d-8980-17d4f1dbce3b" -> "9a5469f5-9e4b-48d1-a652-86fca7f64890"
+	"9a5469f5-9e4b-48d1-a652-86fca7f64890" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"a4491c45-55f2-48b6-8839-6a0b4f451015" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"99648236-7217-4761-acd1-0358a86d7095" -> "a4491c45-55f2-48b6-8839-6a0b4f451015"
+	"a4491c45-55f2-48b6-8839-6a0b4f451015" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"acbffdc4-2474-4974-b873-f38506e8b0e8" [label="github:graphapps#target" shape=box]
+	"f9cbebfc-50bc-47b8-b447-fe9eeb3d3cec" -> "acbffdc4-2474-4974-b873-f38506e8b0e8"
+	"acbffdc4-2474-4974-b873-f38506e8b0e8" -> "ad14b0cf-c06d-4e81-b2e3-b78c93157424"
+	"c39aed82-73f6-43d5-92c6-6e04690a2641" [label="github:graphapps#source" shape=box]
+	"7c6da32f-77ec-40ce-b215-397d90baba5d" -> "c39aed82-73f6-43d5-92c6-6e04690a2641"
+	"c39aed82-73f6-43d5-92c6-6e04690a2641" -> "59f453da-f8f6-4c79-9c47-aedb7251b362"
+	"136858f3-dc81-40d8-b040-ecb66b4cbbce" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9a76fccd-07cb-4398-9d5e-79f90de3db5d" -> "136858f3-dc81-40d8-b040-ecb66b4cbbce"
+	"136858f3-dc81-40d8-b040-ecb66b4cbbce" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"13d5ee26-ac4f-42c9-bdc2-792549692df0" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "13d5ee26-ac4f-42c9-bdc2-792549692df0"
+	"13d5ee26-ac4f-42c9-bdc2-792549692df0" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"9df92871-0810-43da-89d5-0c26c62165ab" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ae3f5bc1-a237-440d-8caa-7a72792e7073" -> "9df92871-0810-43da-89d5-0c26c62165ab"
+	"9df92871-0810-43da-89d5-0c26c62165ab" -> "ef60a113-79af-4c14-ab35-e56b138b7f49"
+	"377d3136-b0de-462b-bad6-7b42c7fd8d9a" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"8914aa82-f5ee-48d3-9116-38c1c40dfc2d" -> "377d3136-b0de-462b-bad6-7b42c7fd8d9a"
+	"377d3136-b0de-462b-bad6-7b42c7fd8d9a" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"f482a791-45c1-4711-8c46-7ae9c2bcc1d3" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"042972b4-73b2-4a3b-8799-06dcf2696b79" -> "f482a791-45c1-4711-8c46-7ae9c2bcc1d3"
+	"f482a791-45c1-4711-8c46-7ae9c2bcc1d3" -> "26fadb62-aea4-44cf-aaca-3900d7bfe5f6"
+	"dc4a84e3-c6a0-4256-a647-c97faf9680cd" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"434465a9-329e-466a-b5a5-1d77d83005eb" -> "dc4a84e3-c6a0-4256-a647-c97faf9680cd"
+	"dc4a84e3-c6a0-4256-a647-c97faf9680cd" -> "0a163c55-f9a6-4e22-95ae-b4ba1be8a3af"
+	"ff668cbb-d7e7-4134-99b5-4ed5f6d24ea2" [label="github:graphapps#source" shape=box]
+	"cf7a5c9a-bcaf-4ee4-9ed2-b54b44d7d886" -> "ff668cbb-d7e7-4134-99b5-4ed5f6d24ea2"
+	"ff668cbb-d7e7-4134-99b5-4ed5f6d24ea2" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"99aa7c43-93e3-42e8-8332-9302bd8352fc" [label="w3:rdf-schema#subClassOf" shape=box]
+	"0af36191-9249-4ee6-a1b0-86759f44b2b1" -> "99aa7c43-93e3-42e8-8332-9302bd8352fc"
+	"99aa7c43-93e3-42e8-8332-9302bd8352fc" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"cdca7505-0c46-4d52-91c9-a033ca085cfa" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"fe31dd4b-9a8d-4558-96d0-0705ed9e6619" -> "cdca7505-0c46-4d52-91c9-a033ca085cfa"
+	"cdca7505-0c46-4d52-91c9-a033ca085cfa" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"14c6158c-51d3-43d4-81e8-067034a491c8" [label="github:graphapps#source" shape=box]
+	"695d3c28-ddc2-4282-9b2e-62600de224d5" -> "14c6158c-51d3-43d4-81e8-067034a491c8"
+	"14c6158c-51d3-43d4-81e8-067034a491c8" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"a51b89f0-d86a-4a19-a101-7e1ba444f94d" [label="github:graphapps#target" shape=box]
+	"c0dce2a3-da5f-47f1-a36f-b9ee25c8a03d" -> "a51b89f0-d86a-4a19-a101-7e1ba444f94d"
+	"a51b89f0-d86a-4a19-a101-7e1ba444f94d" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"3a1d548f-23da-4f13-a0eb-a2c1d7c62c4f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"676e8a9f-3889-4f2f-9c29-8af2522ad6a5" -> "3a1d548f-23da-4f13-a0eb-a2c1d7c62c4f"
+	"3a1d548f-23da-4f13-a0eb-a2c1d7c62c4f" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"5c59657f-a8eb-4971-9e18-c98eff5a174d" [label="github:graphapps#source" shape=box]
+	"f7731f59-2e49-4c93-a962-436f3f7f5410" -> "5c59657f-a8eb-4971-9e18-c98eff5a174d"
+	"5c59657f-a8eb-4971-9e18-c98eff5a174d" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"d5deb658-2410-4e02-b58d-99de67fc4ff1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1bac0b8e-a736-4053-9339-89c55d537b1e" -> "d5deb658-2410-4e02-b58d-99de67fc4ff1"
+	"d5deb658-2410-4e02-b58d-99de67fc4ff1" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"15de47cf-8190-4110-8a7f-c0f8e9ffbfb6" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" -> "15de47cf-8190-4110-8a7f-c0f8e9ffbfb6"
+	"15de47cf-8190-4110-8a7f-c0f8e9ffbfb6" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"f37773b8-17b2-40a4-bd19-35cdc6784280" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"19fdc3cb-4b0d-416b-bc88-2b019b3677df" -> "f37773b8-17b2-40a4-bd19-35cdc6784280"
+	"f37773b8-17b2-40a4-bd19-35cdc6784280" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"d2dfa6cf-2ddb-4cb9-8d62-bab60f788593" [label="github:graphapps#target" shape=box]
+	"dacf2555-dea7-4f1a-9994-5f8993f9afe9" -> "d2dfa6cf-2ddb-4cb9-8d62-bab60f788593"
+	"d2dfa6cf-2ddb-4cb9-8d62-bab60f788593" -> "51316187-7051-4eb6-ae88-2b1d310e9251"
+	"eec4b515-093f-45ac-81a6-a63eee6700a9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"8ad66342-5725-49d4-a0fe-a55dceccf722" -> "eec4b515-093f-45ac-81a6-a63eee6700a9"
+	"eec4b515-093f-45ac-81a6-a63eee6700a9" -> "43ba3f73-8d5c-4edd-8f30-939be6b5b7ee"
+	"630f05b5-8469-4b9e-ad96-7b781ba5c024" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"79744a14-72ef-4359-830b-d0b0c3705221" -> "630f05b5-8469-4b9e-ad96-7b781ba5c024"
+	"630f05b5-8469-4b9e-ad96-7b781ba5c024" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"c08020f8-0d03-4d30-81f8-c669fe40641d" [label="github:graphapps#source" shape=box]
+	"0d236447-e21d-4b52-bc35-9bbbea52fd2e" -> "c08020f8-0d03-4d30-81f8-c669fe40641d"
+	"c08020f8-0d03-4d30-81f8-c669fe40641d" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"11465744-caed-40b8-a85e-7a208ee3df1c" [label="github:graphapps#target" shape=box]
+	"695d3c28-ddc2-4282-9b2e-62600de224d5" -> "11465744-caed-40b8-a85e-7a208ee3df1c"
+	"11465744-caed-40b8-a85e-7a208ee3df1c" -> "fccd72df-9bd1-4eef-af29-a88b2ce0370f"
+	"4406f3df-a7d8-40f0-a004-2c82843e6f4a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"d243f553-12f0-4254-afa8-31f1a9866d56" -> "4406f3df-a7d8-40f0-a004-2c82843e6f4a"
+	"4406f3df-a7d8-40f0-a004-2c82843e6f4a" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"82539f1e-2971-4c05-867b-3f85f5f593a8" [label="github:graphapps#source" shape=box]
+	"a7b15ef5-e323-439d-8980-17d4f1dbce3b" -> "82539f1e-2971-4c05-867b-3f85f5f593a8"
+	"82539f1e-2971-4c05-867b-3f85f5f593a8" -> "42cb8b6f-0b60-43d7-baf8-d309f86decf8"
+	"d775a8a3-5723-48cc-a9f4-4ef8b518cd45" [label="github:graphapps#target" shape=box]
+	"e444b2f2-c554-48d4-b969-783648910cc0" -> "d775a8a3-5723-48cc-a9f4-4ef8b518cd45"
+	"d775a8a3-5723-48cc-a9f4-4ef8b518cd45" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"9a0a71f8-9874-4ff1-bc2b-3b99e9f36ef2" [label="github:graphapps#target" shape=box]
+	"e96c8fea-75e0-4f4c-afa9-6d529f9b5f5e" -> "9a0a71f8-9874-4ff1-bc2b-3b99e9f36ef2"
+	"9a0a71f8-9874-4ff1-bc2b-3b99e9f36ef2" -> "245327ba-0771-483d-b0ff-19bb46ef82a6"
+	"1a587d0b-0456-45d7-aa21-e21833adc65c" [label="w3:rdf-schema#comment" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "1a587d0b-0456-45d7-aa21-e21833adc65c"
+	"1a587d0b-0456-45d7-aa21-e21833adc65c" -> "9f40ed92-2c4b-4d45-b586-e7f5efbb4ae2"
+	"9304950f-2034-419a-b170-044b30322d8c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"91ee9cdc-6eb3-4fae-8fa8-a1b810a1073d" -> "9304950f-2034-419a-b170-044b30322d8c"
+	"9304950f-2034-419a-b170-044b30322d8c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"4761989c-439d-4c18-a5d0-082e2399250c" [label="github:graphapps#source" shape=box]
+	"c92fdafd-968b-43f0-8026-462f72ac38bc" -> "4761989c-439d-4c18-a5d0-082e2399250c"
+	"4761989c-439d-4c18-a5d0-082e2399250c" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"4ee7db36-c2fd-42eb-bec5-5461de6a4df9" [label="github:graphapps#target" shape=box]
+	"4314ee38-c361-49cb-825f-67e77d746a22" -> "4ee7db36-c2fd-42eb-bec5-5461de6a4df9"
+	"4ee7db36-c2fd-42eb-bec5-5461de6a4df9" -> "ae3f5bc1-a237-440d-8caa-7a72792e7073"
+	"02c9bc27-e30c-480d-8555-b5378861a375" [label="github:graphapps#target" shape=box]
+	"0d8d440c-675f-4a5c-8d80-658a971dd978" -> "02c9bc27-e30c-480d-8555-b5378861a375"
+	"02c9bc27-e30c-480d-8555-b5378861a375" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"179007ee-751a-47f9-8b9c-7365d7e24366" [label="w3:rdf-schema#subClassOf" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "179007ee-751a-47f9-8b9c-7365d7e24366"
+	"179007ee-751a-47f9-8b9c-7365d7e24366" -> "9540c390-0832-4298-8585-513bf9f933dd"
+	"8d43a437-7e9e-4978-ad27-94353e0ee417" [label="w3:rdf-schema#subClassOf" shape=box]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" -> "8d43a437-7e9e-4978-ad27-94353e0ee417"
+	"8d43a437-7e9e-4978-ad27-94353e0ee417" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"c567cce5-868b-44f8-9ce6-794d1e6094d7" [label="github:graphapps#source" shape=box]
+	"dcec2c51-114a-4ee3-9ecc-284b492f6fce" -> "c567cce5-868b-44f8-9ce6-794d1e6094d7"
+	"c567cce5-868b-44f8-9ce6-794d1e6094d7" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"5e3d3081-39d4-4455-b4ca-4b5a5f33adce" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9e2992fa-99a9-49a5-8226-4de1f17703e6" -> "5e3d3081-39d4-4455-b4ca-4b5a5f33adce"
+	"5e3d3081-39d4-4455-b4ca-4b5a5f33adce" -> "528f3883-dfc0-45f4-8201-7ddef89b34a5"
+	"3b06991f-f4c4-4896-b3ec-1d47975cdc39" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"27439486-6b5d-4f60-b862-82b70972ce66" -> "3b06991f-f4c4-4896-b3ec-1d47975cdc39"
+	"3b06991f-f4c4-4896-b3ec-1d47975cdc39" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"ff5c3bae-21eb-46c4-8055-6ca042c909d9" [label="github:graphapps#target" shape=box]
+	"611e6722-ef27-4af7-9e24-dc4293f54915" -> "ff5c3bae-21eb-46c4-8055-6ca042c909d9"
+	"ff5c3bae-21eb-46c4-8055-6ca042c909d9" -> "3e9fc573-4b84-4ba2-8e7e-fae7fca53853"
+	"1f1e6e71-c7a5-4f56-ba85-2fe689145209" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c0dce2a3-da5f-47f1-a36f-b9ee25c8a03d" -> "1f1e6e71-c7a5-4f56-ba85-2fe689145209"
+	"1f1e6e71-c7a5-4f56-ba85-2fe689145209" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"0e053f56-9ca3-4a22-99ea-cdc94ac2cafc" [label="github:graphapps#source" shape=box]
+	"859a2aac-4230-4792-937a-d327fe58f3e6" -> "0e053f56-9ca3-4a22-99ea-cdc94ac2cafc"
+	"0e053f56-9ca3-4a22-99ea-cdc94ac2cafc" -> "075bbc99-a185-4a60-9949-be035ab4cbe8"
+	"ba5cdee0-94e0-47bf-9e57-7dcdd7a880a2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"6ae390cf-0e7e-4c6b-a71e-b28cfe016db8" -> "ba5cdee0-94e0-47bf-9e57-7dcdd7a880a2"
+	"ba5cdee0-94e0-47bf-9e57-7dcdd7a880a2" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"3e67ff8f-b411-46f3-ad8c-04d928b0f643" [label="github:graphapps#source" shape=box]
+	"3c7a026b-cb53-4fda-96c8-e8a9135282e0" -> "3e67ff8f-b411-46f3-ad8c-04d928b0f643"
+	"3e67ff8f-b411-46f3-ad8c-04d928b0f643" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"cd91dfbd-b34c-450e-b138-b61e98c04802" [label="github:graphapps#target" shape=box]
+	"bb963f16-f774-4c0a-b1f6-2d6b94958859" -> "cd91dfbd-b34c-450e-b138-b61e98c04802"
+	"cd91dfbd-b34c-450e-b138-b61e98c04802" -> "51316187-7051-4eb6-ae88-2b1d310e9251"
+	"6e584760-694e-4830-97c9-469534d9843c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"046b78ec-2a1c-4165-9f84-aad0997872bf" -> "6e584760-694e-4830-97c9-469534d9843c"
+	"6e584760-694e-4830-97c9-469534d9843c" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"cf93a57b-8f19-4052-88b0-d98d94296491" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"245327ba-0771-483d-b0ff-19bb46ef82a6" -> "cf93a57b-8f19-4052-88b0-d98d94296491"
+	"cf93a57b-8f19-4052-88b0-d98d94296491" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"e2a46a4a-929c-43b7-84e3-4b44c0742d3a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"cfbdd648-40d2-4df0-8a48-fe50f884b0ca" -> "e2a46a4a-929c-43b7-84e3-4b44c0742d3a"
+	"e2a46a4a-929c-43b7-84e3-4b44c0742d3a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"1403194f-1f99-4302-b940-4c1eac6101f1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"4aa807ac-e2dc-4a02-a6ed-c11e8a6271bc" -> "1403194f-1f99-4302-b940-4c1eac6101f1"
+	"1403194f-1f99-4302-b940-4c1eac6101f1" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"3c93df08-372b-4b0d-9776-de7c705f0e36" [label="github:graphapps#target" shape=box]
+	"6ae390cf-0e7e-4c6b-a71e-b28cfe016db8" -> "3c93df08-372b-4b0d-9776-de7c705f0e36"
+	"3c93df08-372b-4b0d-9776-de7c705f0e36" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"79191e92-fdc4-4684-ad96-0938b107105b" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"16a5230f-ffb2-4f5e-9aec-ff5c0e098639" -> "79191e92-fdc4-4684-ad96-0938b107105b"
+	"79191e92-fdc4-4684-ad96-0938b107105b" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"7a441cd9-7215-4a4a-8bcc-7077fa6eef9c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"88e7d178-a736-47fb-ba3a-5f1d9ab2bdcd" -> "7a441cd9-7215-4a4a-8bcc-7077fa6eef9c"
+	"7a441cd9-7215-4a4a-8bcc-7077fa6eef9c" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"242fde03-0b17-4736-bb70-658a1672f8e1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ad2250c6-cf26-40ba-89a9-f8ad19531c98" -> "242fde03-0b17-4736-bb70-658a1672f8e1"
+	"242fde03-0b17-4736-bb70-658a1672f8e1" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a102160c-318b-451a-ac25-16180586e183" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"700a2d1f-3334-41cc-83d5-e10295e409f7" -> "a102160c-318b-451a-ac25-16180586e183"
+	"a102160c-318b-451a-ac25-16180586e183" -> "c513f1a0-f1ec-4646-afd4-2737535cc267"
+	"704dc424-568a-41ae-b0a0-54880169adfe" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"2f249cbe-0851-4247-bf7e-64598e5b14ce" -> "704dc424-568a-41ae-b0a0-54880169adfe"
+	"704dc424-568a-41ae-b0a0-54880169adfe" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"52fe7e37-96de-4a05-b64c-456e22e1513c" [label="github:graphapps#source" shape=box]
+	"0d8d440c-675f-4a5c-8d80-658a971dd978" -> "52fe7e37-96de-4a05-b64c-456e22e1513c"
+	"52fe7e37-96de-4a05-b64c-456e22e1513c" -> "434465a9-329e-466a-b5a5-1d77d83005eb"
+	"9bd01204-3161-4de2-b101-dfcbaa79caf2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0f79e1f5-ecb4-4a1c-8f8d-3d1740c62422" -> "9bd01204-3161-4de2-b101-dfcbaa79caf2"
+	"9bd01204-3161-4de2-b101-dfcbaa79caf2" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"9ab0b05f-d470-487d-8ed6-6d1b62a18c73" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1cc78f88-bfca-4e4a-b459-f94aac860fdd" -> "9ab0b05f-d470-487d-8ed6-6d1b62a18c73"
+	"9ab0b05f-d470-487d-8ed6-6d1b62a18c73" -> "407c1533-d5b1-424a-925c-8b56e6c05764"
+	"6bf6c966-8168-4005-b309-b892a3d9547b" [label="w3:rdf-schema#comment" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "6bf6c966-8168-4005-b309-b892a3d9547b"
+	"6bf6c966-8168-4005-b309-b892a3d9547b" -> "ef60a113-79af-4c14-ab35-e56b138b7f49"
+	"f77c55a5-bcae-44e2-b807-0c3c284cc59e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"911510bf-561f-43e3-bf9c-bb28977402cb" -> "f77c55a5-bcae-44e2-b807-0c3c284cc59e"
+	"f77c55a5-bcae-44e2-b807-0c3c284cc59e" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7f29d75d-adfa-4fe0-a51c-bc3e4395cd4c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"88e7d178-a736-47fb-ba3a-5f1d9ab2bdcd" -> "7f29d75d-adfa-4fe0-a51c-bc3e4395cd4c"
+	"7f29d75d-adfa-4fe0-a51c-bc3e4395cd4c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"199658ad-f9ce-406b-a174-9f8bdfc7d7bc" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"859a2aac-4230-4792-937a-d327fe58f3e6" -> "199658ad-f9ce-406b-a174-9f8bdfc7d7bc"
+	"199658ad-f9ce-406b-a174-9f8bdfc7d7bc" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"c976ec3b-02d5-42f7-af37-88310f6013ba" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"622c8860-6bd2-4e9c-924e-2c869a04e891" -> "c976ec3b-02d5-42f7-af37-88310f6013ba"
+	"c976ec3b-02d5-42f7-af37-88310f6013ba" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"29688cea-3a0d-4420-a717-61e452de3769" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"dbb2b2e8-283b-4558-b8e2-aff9e501169e" -> "29688cea-3a0d-4420-a717-61e452de3769"
+	"29688cea-3a0d-4420-a717-61e452de3769" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7fa44405-80d1-4beb-99a9-34f188e28869" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"d95d222f-0ecc-447c-a328-a443207826ce" -> "7fa44405-80d1-4beb-99a9-34f188e28869"
+	"7fa44405-80d1-4beb-99a9-34f188e28869" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"9cd85a17-42a2-4c50-9237-26e5d8ec0e03" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3e9fc573-4b84-4ba2-8e7e-fae7fca53853" -> "9cd85a17-42a2-4c50-9237-26e5d8ec0e03"
+	"9cd85a17-42a2-4c50-9237-26e5d8ec0e03" -> "00edf2d2-c81d-45fc-b0be-0c556650dd44"
+	"406db3a3-550b-4f32-bf2f-71da67546a79" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"dbc4c190-8105-43a6-9457-37cb101e6f4a" -> "406db3a3-550b-4f32-bf2f-71da67546a79"
+	"406db3a3-550b-4f32-bf2f-71da67546a79" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"e8cd56cd-1562-496f-a51e-a0a4560a17e1" [label="w3:rdf-schema#seeAlso" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "e8cd56cd-1562-496f-a51e-a0a4560a17e1"
+	"e8cd56cd-1562-496f-a51e-a0a4560a17e1" -> "f828f32f-6e42-4ab2-b293-b03e8e88ecad"
+	"c15801e5-ea25-4f38-9464-07b430a85fba" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" -> "c15801e5-ea25-4f38-9464-07b430a85fba"
+	"c15801e5-ea25-4f38-9464-07b430a85fba" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"66758c46-1ac2-465b-beb4-90dd14976aa8" [label="github:graphapps#target" shape=box]
+	"23cdbb4a-674c-4e58-b6ee-0968769db697" -> "66758c46-1ac2-465b-beb4-90dd14976aa8"
+	"66758c46-1ac2-465b-beb4-90dd14976aa8" -> "1281bb2c-07c2-49e0-aa13-8c0d64e414aa"
+	"4f442b73-472f-48cd-9745-d5065ee346a0" [label="github:graphapps#target" shape=box]
+	"b73f51f1-60ac-4bf6-814c-39599823a196" -> "4f442b73-472f-48cd-9745-d5065ee346a0"
+	"4f442b73-472f-48cd-9745-d5065ee346a0" -> "577e607c-17bc-4c9a-804d-febdccf301aa"
+	"8be25ea7-9b83-43a1-b83a-4929dc03f9ab" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"5ceea370-a601-4354-b427-b9ad4b209d0e" -> "8be25ea7-9b83-43a1-b83a-4929dc03f9ab"
+	"8be25ea7-9b83-43a1-b83a-4929dc03f9ab" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"1daf4a27-0bbf-43b7-8328-f31cff7f4e5f" [label="github:graphapps#target" shape=box]
+	"fe31dd4b-9a8d-4558-96d0-0705ed9e6619" -> "1daf4a27-0bbf-43b7-8328-f31cff7f4e5f"
+	"1daf4a27-0bbf-43b7-8328-f31cff7f4e5f" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"f2b222e9-12f0-4358-910c-46af5866bed1" [label="github:graphapps#target" shape=box]
+	"4434348a-a54e-4871-9a44-8ca429a53487" -> "f2b222e9-12f0-4358-910c-46af5866bed1"
+	"f2b222e9-12f0-4358-910c-46af5866bed1" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"1c9b24e2-4f6e-4c1f-bb99-7b93271b0f4b" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f6f2af55-a486-4706-b7f9-069a0b8fc6ae" -> "1c9b24e2-4f6e-4c1f-bb99-7b93271b0f4b"
+	"1c9b24e2-4f6e-4c1f-bb99-7b93271b0f4b" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"8a20fb61-98e1-4c5b-9061-1328bc345e59" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"2c511411-232e-418c-b3e7-d7bcf64104a5" -> "8a20fb61-98e1-4c5b-9061-1328bc345e59"
+	"8a20fb61-98e1-4c5b-9061-1328bc345e59" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"57068294-00a3-41a5-9872-9c176a3771ad" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"71affdc3-3a08-4770-a93a-258a62e0867e" -> "57068294-00a3-41a5-9872-9c176a3771ad"
+	"57068294-00a3-41a5-9872-9c176a3771ad" -> "5cab73cb-7c33-4efb-9874-83e4c7b95b0f"
+	"722531f5-6a17-4606-824a-f28e85f2c65e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"4c98186e-18bf-44cb-8618-cc6ba6aa03f2" -> "722531f5-6a17-4606-824a-f28e85f2c65e"
+	"722531f5-6a17-4606-824a-f28e85f2c65e" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"6a736e0c-2e51-42b6-91f6-e49a7aa42524" [label="github:graphapps#source" shape=box]
+	"99b40c26-739f-4691-867d-c55b9e14939c" -> "6a736e0c-2e51-42b6-91f6-e49a7aa42524"
+	"6a736e0c-2e51-42b6-91f6-e49a7aa42524" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"18d0e044-1915-4ab8-8e61-ea417a440e1f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"5e087ad4-193b-4df2-b747-85a1ffe5a6cc" -> "18d0e044-1915-4ab8-8e61-ea417a440e1f"
+	"18d0e044-1915-4ab8-8e61-ea417a440e1f" -> "9f40ed92-2c4b-4d45-b586-e7f5efbb4ae2"
+	"b0175350-139f-47b5-b644-f84c4d29de0d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"d3044e9f-211a-424a-bd36-4d4f2c7c670d" -> "b0175350-139f-47b5-b644-f84c4d29de0d"
+	"b0175350-139f-47b5-b644-f84c4d29de0d" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"e3778900-d0e8-479a-ade7-ccd37e5d6f30" [label="github:graphapps#source" shape=box]
+	"e7ecd007-a74d-40b2-88e7-95f7c100ed71" -> "e3778900-d0e8-479a-ade7-ccd37e5d6f30"
+	"e3778900-d0e8-479a-ade7-ccd37e5d6f30" -> "3ccb05d2-90ef-4f04-bfa0-eedf2faef9ad"
+	"133a8e3a-df8a-408e-91c5-a194ecbcf3e0" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"66d6a18c-7f29-4083-a181-421322d09b0b" -> "133a8e3a-df8a-408e-91c5-a194ecbcf3e0"
+	"133a8e3a-df8a-408e-91c5-a194ecbcf3e0" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"11f81672-3383-472f-bab4-6b5cfb3833dc" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"aa010a1f-6b7e-44b7-9280-a2c6b1aac41f" -> "11f81672-3383-472f-bab4-6b5cfb3833dc"
+	"11f81672-3383-472f-bab4-6b5cfb3833dc" -> "cff52455-1da6-4afa-896d-3c5bfb562f6d"
+	"f9389e39-7036-4449-8a38-c2e45f9297ac" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"fedff520-e324-4cf9-b672-fc750d830eb9" -> "f9389e39-7036-4449-8a38-c2e45f9297ac"
+	"f9389e39-7036-4449-8a38-c2e45f9297ac" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"a08856ef-f813-4395-8841-ef249192934d" [label="github:graphapps#target" shape=box]
+	"0d236447-e21d-4b52-bc35-9bbbea52fd2e" -> "a08856ef-f813-4395-8841-ef249192934d"
+	"a08856ef-f813-4395-8841-ef249192934d" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"9fa88caa-33e1-42e6-a38a-177f786cd892" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"075bbc99-a185-4a60-9949-be035ab4cbe8" -> "9fa88caa-33e1-42e6-a38a-177f786cd892"
+	"9fa88caa-33e1-42e6-a38a-177f786cd892" -> "aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee"
+	"3ec5c9ce-283d-4d7e-8dab-1015203f3622" [label="github:graphapps#source" shape=box]
+	"93a611e0-85fb-4acb-8df7-650e4b0eb582" -> "3ec5c9ce-283d-4d7e-8dab-1015203f3622"
+	"3ec5c9ce-283d-4d7e-8dab-1015203f3622" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"25113ee9-8313-4bd9-b548-b10ead7185a4" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"23f159f8-3b79-4702-a14b-d1ac56266356" -> "25113ee9-8313-4bd9-b548-b10ead7185a4"
+	"25113ee9-8313-4bd9-b548-b10ead7185a4" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"21609cd8-da5f-4929-88e8-568af7d50b61" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c064be1e-c1df-403d-88dd-78718855629d" -> "21609cd8-da5f-4929-88e8-568af7d50b61"
+	"21609cd8-da5f-4929-88e8-568af7d50b61" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"55aa85f9-f819-48ed-9f1c-a695e0cf9424" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"42cb8b6f-0b60-43d7-baf8-d309f86decf8" -> "55aa85f9-f819-48ed-9f1c-a695e0cf9424"
+	"55aa85f9-f819-48ed-9f1c-a695e0cf9424" -> "d72330f0-31d2-40ea-8c65-899c1a5a48ad"
+	"11748d8d-a258-495c-aed5-b89061c8e6eb" [label="github:graphapps#source" shape=box]
+	"c064be1e-c1df-403d-88dd-78718855629d" -> "11748d8d-a258-495c-aed5-b89061c8e6eb"
+	"11748d8d-a258-495c-aed5-b89061c8e6eb" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"abb13e43-719e-43a0-b217-d1110e9740fb" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"d95d222f-0ecc-447c-a328-a443207826ce" -> "abb13e43-719e-43a0-b217-d1110e9740fb"
+	"abb13e43-719e-43a0-b217-d1110e9740fb" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"0e764408-ef6a-4324-89b1-5eacb15c0b1d" [label="w3:rdf-schema#label" shape=box]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" -> "0e764408-ef6a-4324-89b1-5eacb15c0b1d"
+	"0e764408-ef6a-4324-89b1-5eacb15c0b1d" -> "40b735e4-f3c1-4c73-b0aa-d37f1ad9d2ce"
+	"902f2079-2f9a-419f-a073-e9b695ced24a" [label="github:graphapps#target" shape=box]
+	"cf7a5c9a-bcaf-4ee4-9ed2-b54b44d7d886" -> "902f2079-2f9a-419f-a073-e9b695ced24a"
+	"902f2079-2f9a-419f-a073-e9b695ced24a" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"02347ba6-8556-4e56-bfe6-54d8a9bc8fff" [label="github:graphapps#source" shape=box]
+	"872fd4fa-6f64-4da5-a226-9dd8e382f05c" -> "02347ba6-8556-4e56-bfe6-54d8a9bc8fff"
+	"02347ba6-8556-4e56-bfe6-54d8a9bc8fff" -> "59f453da-f8f6-4c79-9c47-aedb7251b362"
+	"302b7c69-9e23-4b7b-9149-672539c4a612" [label="github:graphapps#target" shape=box]
+	"23f159f8-3b79-4702-a14b-d1ac56266356" -> "302b7c69-9e23-4b7b-9149-672539c4a612"
+	"302b7c69-9e23-4b7b-9149-672539c4a612" -> "ad14b0cf-c06d-4e81-b2e3-b78c93157424"
+	"61dfccf8-e93e-4d3c-ac20-71de5db14486" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3ca99780-e558-4f2c-8d6f-ceba256f122a" -> "61dfccf8-e93e-4d3c-ac20-71de5db14486"
+	"61dfccf8-e93e-4d3c-ac20-71de5db14486" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"58b3742c-4fae-4ca7-8d86-26c201b6b3fc" [label="github:graphapps#source" shape=box]
+	"cfbdd648-40d2-4df0-8a48-fe50f884b0ca" -> "58b3742c-4fae-4ca7-8d86-26c201b6b3fc"
+	"58b3742c-4fae-4ca7-8d86-26c201b6b3fc" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"a45e9a22-7f3f-4a73-91f3-7af932ccf19a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f6f2af55-a486-4706-b7f9-069a0b8fc6ae" -> "a45e9a22-7f3f-4a73-91f3-7af932ccf19a"
+	"a45e9a22-7f3f-4a73-91f3-7af932ccf19a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"c9380f7b-b26f-40cb-adbc-213740650a1b" [label="w3:rdf-schema#range" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "c9380f7b-b26f-40cb-adbc-213740650a1b"
+	"c9380f7b-b26f-40cb-adbc-213740650a1b" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"068210d7-ffdb-4dea-be62-012ce5cbb8c7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ec44c3e4-7373-40ff-93ed-bc3d69bca4e3" -> "068210d7-ffdb-4dea-be62-012ce5cbb8c7"
+	"068210d7-ffdb-4dea-be62-012ce5cbb8c7" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"4959b42d-3083-4ef3-8fd6-ba3f98989f17" [label="w3:rdf-schema#seeAlso" shape=box]
+	"aae5c2d5-0e3f-4cb9-9a37-3a26d08f25ee" -> "4959b42d-3083-4ef3-8fd6-ba3f98989f17"
+	"4959b42d-3083-4ef3-8fd6-ba3f98989f17" -> "40bd48b5-d8eb-4651-9cc1-d2667dfa7d74"
+	"f6df3e45-6366-46aa-a967-240d23d3351d" [label="github:graphapps#source" shape=box]
+	"88e7d178-a736-47fb-ba3a-5f1d9ab2bdcd" -> "f6df3e45-6366-46aa-a967-240d23d3351d"
+	"f6df3e45-6366-46aa-a967-240d23d3351d" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"748d703c-951e-4971-aefb-57bf75425de6" [label="github:graphapps#source" shape=box]
+	"99648236-7217-4761-acd1-0358a86d7095" -> "748d703c-951e-4971-aefb-57bf75425de6"
+	"748d703c-951e-4971-aefb-57bf75425de6" -> "583ba5df-4a08-4007-ac06-a94e5189e8d6"
+	"cadecc2d-101f-4ff8-ac8f-fe7c07f6bd77" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0dd6e0dc-3701-43df-b504-ce90c67a4963" -> "cadecc2d-101f-4ff8-ac8f-fe7c07f6bd77"
+	"cadecc2d-101f-4ff8-ac8f-fe7c07f6bd77" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"5278d049-6006-44f1-8414-642dcf28f520" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "5278d049-6006-44f1-8414-642dcf28f520"
+	"5278d049-6006-44f1-8414-642dcf28f520" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"61262938-7acd-4620-93d0-7cbb0d681ebf" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"b3758a16-37c9-45c5-bf45-a0a30c7472f9" -> "61262938-7acd-4620-93d0-7cbb0d681ebf"
+	"61262938-7acd-4620-93d0-7cbb0d681ebf" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"c1c937a5-477e-4e3f-aa23-7c68fd0c68f7" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"583ba5df-4a08-4007-ac06-a94e5189e8d6" -> "c1c937a5-477e-4e3f-aa23-7c68fd0c68f7"
+	"c1c937a5-477e-4e3f-aa23-7c68fd0c68f7" -> "3fd95f96-935b-48a9-bbc4-bbb1e0dabc91"
+	"a6a45aa0-bc99-4b0f-a517-9df18d16f625" [label="github:graphapps#target" shape=box]
+	"79744a14-72ef-4359-830b-d0b0c3705221" -> "a6a45aa0-bc99-4b0f-a517-9df18d16f625"
+	"a6a45aa0-bc99-4b0f-a517-9df18d16f625" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"0a04fba4-9b82-438a-b5a3-6d6872bfadac" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"e000d429-15c8-4420-a353-a226b0132d2b" -> "0a04fba4-9b82-438a-b5a3-6d6872bfadac"
+	"0a04fba4-9b82-438a-b5a3-6d6872bfadac" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"b153175f-cb89-4a2e-acd4-9eda26a87ed6" [label="w3:rdf-schema#subClassOf" shape=box]
+	"3fd95f96-935b-48a9-bbc4-bbb1e0dabc91" -> "b153175f-cb89-4a2e-acd4-9eda26a87ed6"
+	"b153175f-cb89-4a2e-acd4-9eda26a87ed6" -> "f27e9e44-2834-47c5-bb2c-649b30c56338"
+	"0c56c13c-4b46-43c4-a432-c92921e5c300" [label="github:graphapps#source" shape=box]
+	"f92ff4ea-bb4a-4c3e-afc3-3d17e10c784e" -> "0c56c13c-4b46-43c4-a432-c92921e5c300"
+	"0c56c13c-4b46-43c4-a432-c92921e5c300" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"640954c8-45c3-4517-9a5c-82632b0e8b30" [label="github:graphapps#target" shape=box]
+	"3c7a026b-cb53-4fda-96c8-e8a9135282e0" -> "640954c8-45c3-4517-9a5c-82632b0e8b30"
+	"640954c8-45c3-4517-9a5c-82632b0e8b30" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"bad4c74d-eb10-4604-8096-8a8f37d7404d" [label="github:graphapps#target" shape=box]
+	"dbb2b2e8-283b-4558-b8e2-aff9e501169e" -> "bad4c74d-eb10-4604-8096-8a8f37d7404d"
+	"bad4c74d-eb10-4604-8096-8a8f37d7404d" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"da5fc010-6c33-4a7a-b88d-76a16d313ba1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"18e6bae1-9874-4b90-9f7c-9bebae283aef" -> "da5fc010-6c33-4a7a-b88d-76a16d313ba1"
+	"da5fc010-6c33-4a7a-b88d-76a16d313ba1" -> "0b2f924b-5bb7-453d-8719-5e516070c41e"
+	"89e32f78-347e-4315-acba-1e87dec08c1b" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0f79e1f5-ecb4-4a1c-8f8d-3d1740c62422" -> "89e32f78-347e-4315-acba-1e87dec08c1b"
+	"89e32f78-347e-4315-acba-1e87dec08c1b" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"1058b1db-81f5-420d-b04f-faa474872691" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"565572fc-adcb-4dc9-8005-2f024c0e882b" -> "1058b1db-81f5-420d-b04f-faa474872691"
+	"1058b1db-81f5-420d-b04f-faa474872691" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"1546e9f4-32e2-47e9-bc66-c2ba98af6642" [label="github:graphapps#source" shape=box]
+	"c6e833d5-ef79-4bd5-82df-ae0b17e8c2c9" -> "1546e9f4-32e2-47e9-bc66-c2ba98af6642"
+	"1546e9f4-32e2-47e9-bc66-c2ba98af6642" -> "22a6e00f-61b1-41d7-910d-ae7e864c54bc"
+	"3f1ab140-1de3-42a9-bd74-3b193badfd1c" [label="github:graphapps#target" shape=box]
+	"c0b89ba0-6219-4dd6-9af3-de06971c7d1a" -> "3f1ab140-1de3-42a9-bd74-3b193badfd1c"
+	"3f1ab140-1de3-42a9-bd74-3b193badfd1c" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"c5a323f3-ea00-46c8-8f97-c66d827607d0" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"fccd72df-9bd1-4eef-af29-a88b2ce0370f" -> "c5a323f3-ea00-46c8-8f97-c66d827607d0"
+	"c5a323f3-ea00-46c8-8f97-c66d827607d0" -> "2ebc33fe-7b1f-443a-91a1-200df48cfc81"
+	"d2947db6-c963-4d38-be13-7048702d693d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "d2947db6-c963-4d38-be13-7048702d693d"
+	"d2947db6-c963-4d38-be13-7048702d693d" -> "8370a6f4-fd74-41bc-98d1-38606c560ab9"
+	"fbb5ce22-fcd8-4ef1-a47f-cf60f61dc25c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ab8e79bf-c2d3-454c-a6d7-a05cb31d1ad4" -> "fbb5ce22-fcd8-4ef1-a47f-cf60f61dc25c"
+	"fbb5ce22-fcd8-4ef1-a47f-cf60f61dc25c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"18967809-c980-468f-b85b-5a756ed3d99c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" -> "18967809-c980-468f-b85b-5a756ed3d99c"
+	"18967809-c980-468f-b85b-5a756ed3d99c" -> "625726bc-28d1-43eb-bbf5-de83c05982f9"
+	"8034d98a-ee1f-4674-9463-40dcdfc6fafb" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1cc78f88-bfca-4e4a-b459-f94aac860fdd" -> "8034d98a-ee1f-4674-9463-40dcdfc6fafb"
+	"8034d98a-ee1f-4674-9463-40dcdfc6fafb" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"68dd5ee3-4034-4e15-ba85-a0dc0b7214b9" [label="github:graphapps#source" shape=box]
+	"dacf2555-dea7-4f1a-9994-5f8993f9afe9" -> "68dd5ee3-4034-4e15-ba85-a0dc0b7214b9"
+	"68dd5ee3-4034-4e15-ba85-a0dc0b7214b9" -> "42cb8b6f-0b60-43d7-baf8-d309f86decf8"
+	"97cbfad6-210a-4ede-b80e-25904c64ff40" [label="w3:rdf-schema#range" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "97cbfad6-210a-4ede-b80e-25904c64ff40"
+	"97cbfad6-210a-4ede-b80e-25904c64ff40" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"9912758c-f85a-4993-835a-0f513dad255f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"73569466-1f15-433d-bf4e-4217f1c6f28c" -> "9912758c-f85a-4993-835a-0f513dad255f"
+	"9912758c-f85a-4993-835a-0f513dad255f" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"60c56cb2-5a90-4d40-bcb0-c1f7cebe5246" [label="github:graphapps#source" shape=box]
+	"0dc5377c-6365-4cbe-8c1e-6f0df5c34c47" -> "60c56cb2-5a90-4d40-bcb0-c1f7cebe5246"
+	"60c56cb2-5a90-4d40-bcb0-c1f7cebe5246" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"2a212bed-9dbe-4d84-9c5b-3e2db5491431" [label="github:graphapps#source" shape=box]
+	"7ab0e037-2b90-455b-822e-25b636f283af" -> "2a212bed-9dbe-4d84-9c5b-3e2db5491431"
+	"2a212bed-9dbe-4d84-9c5b-3e2db5491431" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"f308a757-a608-4020-b575-88b99b24a49b" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3ca452e3-b420-47c1-bf73-16c357028d62" -> "f308a757-a608-4020-b575-88b99b24a49b"
+	"f308a757-a608-4020-b575-88b99b24a49b" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e7f9522b-c054-47d5-aafd-529bf692c87f" [label="w3:rdf-schema#label" shape=box]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" -> "e7f9522b-c054-47d5-aafd-529bf692c87f"
+	"e7f9522b-c054-47d5-aafd-529bf692c87f" -> "f08b1255-387d-4cbc-8b56-95d5764731ce"
+	"78da703f-4aa8-44ff-bea2-5004091b3814" [label="github:graphapps#source" shape=box]
+	"fedff520-e324-4cf9-b672-fc750d830eb9" -> "78da703f-4aa8-44ff-bea2-5004091b3814"
+	"78da703f-4aa8-44ff-bea2-5004091b3814" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"56b600d4-a7b6-4e22-9431-748297118969" [label="github:graphapps#source" shape=box]
+	"781d7be9-bb13-42e8-b505-c0788b5ed47d" -> "56b600d4-a7b6-4e22-9431-748297118969"
+	"56b600d4-a7b6-4e22-9431-748297118969" -> "434465a9-329e-466a-b5a5-1d77d83005eb"
+	"8a6e2ca7-e754-4b84-a18a-a55ea96e83f9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9eb1a396-60c1-4d3b-9f35-0b6b86966c3a" -> "8a6e2ca7-e754-4b84-a18a-a55ea96e83f9"
+	"8a6e2ca7-e754-4b84-a18a-a55ea96e83f9" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"fd6035fc-1bdb-4628-b688-16514cba2f20" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"59f453da-f8f6-4c79-9c47-aedb7251b362" -> "fd6035fc-1bdb-4628-b688-16514cba2f20"
+	"fd6035fc-1bdb-4628-b688-16514cba2f20" -> "f44dc3bd-f095-48c0-8896-5727746ddf4e"
+	"aede0613-8787-4f9b-96aa-a40f280ddbfd" [label="github:graphapps#target" shape=box]
+	"3ca99780-e558-4f2c-8d6f-ceba256f122a" -> "aede0613-8787-4f9b-96aa-a40f280ddbfd"
+	"aede0613-8787-4f9b-96aa-a40f280ddbfd" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"f09da395-4e3c-4646-8776-98e550c04296" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" -> "f09da395-4e3c-4646-8776-98e550c04296"
+	"f09da395-4e3c-4646-8776-98e550c04296" -> "8370a6f4-fd74-41bc-98d1-38606c560ab9"
+	"8b932dbd-ca33-40bf-8db6-fa04e0555550" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"61bcfbbc-7b05-463c-aaee-81959c002b38" -> "8b932dbd-ca33-40bf-8db6-fa04e0555550"
+	"8b932dbd-ca33-40bf-8db6-fa04e0555550" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"1132b3a2-1ff4-495c-83bf-15e935ecb1f5" [label="github:graphapps#source" shape=box]
+	"90fde4c7-c5d7-4c31-a0c8-ed0cd551113b" -> "1132b3a2-1ff4-495c-83bf-15e935ecb1f5"
+	"1132b3a2-1ff4-495c-83bf-15e935ecb1f5" -> "583ba5df-4a08-4007-ac06-a94e5189e8d6"
+	"23114934-5f50-4a2e-8f09-ff88daa11d3a" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"577e607c-17bc-4c9a-804d-febdccf301aa" -> "23114934-5f50-4a2e-8f09-ff88daa11d3a"
+	"23114934-5f50-4a2e-8f09-ff88daa11d3a" -> "b701a98a-f65f-48c1-bf0e-d6ec907315e7"
+	"1a10f305-0720-4a2d-8e2b-e1ee5418a357" [label="github:graphapps#target" shape=box]
+	"73569466-1f15-433d-bf4e-4217f1c6f28c" -> "1a10f305-0720-4a2d-8e2b-e1ee5418a357"
+	"1a10f305-0720-4a2d-8e2b-e1ee5418a357" -> "1284332c-f0ad-447d-9914-39c0171d2469"
+	"37bdc0f5-6f93-49c0-a7f0-bbb552ba947c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"611e6722-ef27-4af7-9e24-dc4293f54915" -> "37bdc0f5-6f93-49c0-a7f0-bbb552ba947c"
+	"37bdc0f5-6f93-49c0-a7f0-bbb552ba947c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"1b6c88da-9347-4699-941e-48be61682248" [label="github:graphapps#target" shape=box]
+	"55d721e4-4620-4f0e-857e-080d9bb62f76" -> "1b6c88da-9347-4699-941e-48be61682248"
+	"1b6c88da-9347-4699-941e-48be61682248" -> "440ab5f4-4ee6-40c2-a8a0-6e13f1046202"
+	"ba8532bb-8d0b-49a9-94a0-4f434425cc4f" [label="github:graphapps#source" shape=box]
+	"e444b2f2-c554-48d4-b969-783648910cc0" -> "ba8532bb-8d0b-49a9-94a0-4f434425cc4f"
+	"ba8532bb-8d0b-49a9-94a0-4f434425cc4f" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"b21ad02b-c717-4759-939f-33ee2b929650" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"02b6ef71-3877-4d1d-aa2f-7339534ec529" -> "b21ad02b-c717-4759-939f-33ee2b929650"
+	"b21ad02b-c717-4759-939f-33ee2b929650" -> "ef09a9aa-ec9a-4397-907c-e7c325732436"
+	"c5873023-13bc-469d-9311-ec60ac12ad23" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0730197d-0d9f-4d6a-8b58-830d0dce8194" -> "c5873023-13bc-469d-9311-ec60ac12ad23"
+	"c5873023-13bc-469d-9311-ec60ac12ad23" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"bd61a882-aa5b-4e79-a13f-e26333357ff1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"042972b4-73b2-4a3b-8799-06dcf2696b79" -> "bd61a882-aa5b-4e79-a13f-e26333357ff1"
+	"bd61a882-aa5b-4e79-a13f-e26333357ff1" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"3a64e5db-911e-457c-b255-d2bae9ee6b09" [label="github:graphapps#target" shape=box]
+	"4c98186e-18bf-44cb-8618-cc6ba6aa03f2" -> "3a64e5db-911e-457c-b255-d2bae9ee6b09"
+	"3a64e5db-911e-457c-b255-d2bae9ee6b09" -> "02b6ef71-3877-4d1d-aa2f-7339534ec529"
+	"b5dabe30-b6b1-4b94-8791-10523b99fd2a" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3c7a026b-cb53-4fda-96c8-e8a9135282e0" -> "b5dabe30-b6b1-4b94-8791-10523b99fd2a"
+	"b5dabe30-b6b1-4b94-8791-10523b99fd2a" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"3cabb436-e110-4f9c-b061-407430effb5f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f9cbebfc-50bc-47b8-b447-fe9eeb3d3cec" -> "3cabb436-e110-4f9c-b061-407430effb5f"
+	"3cabb436-e110-4f9c-b061-407430effb5f" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"9e06d4d9-a80c-472d-a641-c7848f704512" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9df7f1db-55c9-40a3-bea6-a9fc70203736" -> "9e06d4d9-a80c-472d-a641-c7848f704512"
+	"9e06d4d9-a80c-472d-a641-c7848f704512" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"1fd6d1a3-ae0c-48ea-bb1a-d3dbb79279d1" [label="github:graphapps#target" shape=box]
+	"1ed5c99b-3d30-4469-ad70-388c6efc2e14" -> "1fd6d1a3-ae0c-48ea-bb1a-d3dbb79279d1"
+	"1fd6d1a3-ae0c-48ea-bb1a-d3dbb79279d1" -> "dacd4b15-4773-4861-ac70-dd8fb21d02ff"
+	"930ce9a2-36ab-4452-bfd0-2673a43cf83f" [label="github:graphapps#target" shape=box]
+	"872fd4fa-6f64-4da5-a226-9dd8e382f05c" -> "930ce9a2-36ab-4452-bfd0-2673a43cf83f"
+	"930ce9a2-36ab-4452-bfd0-2673a43cf83f" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"981fd8b8-5111-42f0-8b03-54b7ca254152" [label="github:graphapps#target" shape=box]
+	"7c6da32f-77ec-40ce-b215-397d90baba5d" -> "981fd8b8-5111-42f0-8b03-54b7ca254152"
+	"981fd8b8-5111-42f0-8b03-54b7ca254152" -> "700a2d1f-3334-41cc-83d5-e10295e409f7"
+	"b49a66e2-6613-4f10-a856-b6311132e298" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"7c83a462-8949-4ea7-8ccd-b081dccbb7ea" -> "b49a66e2-6613-4f10-a856-b6311132e298"
+	"b49a66e2-6613-4f10-a856-b6311132e298" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"e7b4227f-9a9a-418e-8508-1e58b6fc08ef" [label="github:graphapps#target" shape=box]
+	"543397cf-ae8c-476a-9046-397791287980" -> "e7b4227f-9a9a-418e-8508-1e58b6fc08ef"
+	"e7b4227f-9a9a-418e-8508-1e58b6fc08ef" -> "71affdc3-3a08-4770-a93a-258a62e0867e"
+	"307b830d-3cdd-4e75-88eb-8d2e52a86b1f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"3f5db23f-f85a-4b8c-aaec-c46fd1b757f6" -> "307b830d-3cdd-4e75-88eb-8d2e52a86b1f"
+	"307b830d-3cdd-4e75-88eb-8d2e52a86b1f" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"8dbab833-d549-481b-8c4f-17d04c25731e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"859a2aac-4230-4792-937a-d327fe58f3e6" -> "8dbab833-d549-481b-8c4f-17d04c25731e"
+	"8dbab833-d549-481b-8c4f-17d04c25731e" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"d731374a-7300-4e7b-aafb-ccb24a3119f7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"71affdc3-3a08-4770-a93a-258a62e0867e" -> "d731374a-7300-4e7b-aafb-ccb24a3119f7"
+	"d731374a-7300-4e7b-aafb-ccb24a3119f7" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"791bfb0b-3d99-4df5-981f-602dcf27bb65" [label="github:graphapps#target" shape=box]
+	"3e92bc3a-f44e-4881-b561-7eebfcae13dc" -> "791bfb0b-3d99-4df5-981f-602dcf27bb65"
+	"791bfb0b-3d99-4df5-981f-602dcf27bb65" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"977afd5e-77ab-4739-947a-84bb37a22de5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"440ab5f4-4ee6-40c2-a8a0-6e13f1046202" -> "977afd5e-77ab-4739-947a-84bb37a22de5"
+	"977afd5e-77ab-4739-947a-84bb37a22de5" -> "8e021a8b-8d94-43b5-a1fc-c3e877cfe7c1"
+	"fda84728-1781-4d0f-8765-8c20864a3078" [label="github:graphapps#source" shape=box]
+	"3ca99780-e558-4f2c-8d6f-ceba256f122a" -> "fda84728-1781-4d0f-8765-8c20864a3078"
+	"fda84728-1781-4d0f-8765-8c20864a3078" -> "f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5"
+	"ecd9212d-a653-4c73-ba1e-3f8558105559" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3ca99780-e558-4f2c-8d6f-ceba256f122a" -> "ecd9212d-a653-4c73-ba1e-3f8558105559"
+	"ecd9212d-a653-4c73-ba1e-3f8558105559" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"fac051c3-6b6d-404b-b483-c4e5322dda29" [label="w3:rdf-schema#comment" shape=box]
+	"f6e1f73b-8370-4df1-bdca-2f4c6e998720" -> "fac051c3-6b6d-404b-b483-c4e5322dda29"
+	"fac051c3-6b6d-404b-b483-c4e5322dda29" -> "5cab73cb-7c33-4efb-9874-83e4c7b95b0f"
+	"da50c0c1-14ef-49b4-a623-8d7e947cd267" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"695d3c28-ddc2-4282-9b2e-62600de224d5" -> "da50c0c1-14ef-49b4-a623-8d7e947cd267"
+	"da50c0c1-14ef-49b4-a623-8d7e947cd267" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"d9082250-2929-4c3f-adf7-1a825da2f75f" [label="github:graphapps#target" shape=box]
+	"9f224b3c-803d-4957-837c-1e315c9955a1" -> "d9082250-2929-4c3f-adf7-1a825da2f75f"
+	"d9082250-2929-4c3f-adf7-1a825da2f75f" -> "046b78ec-2a1c-4165-9f84-aad0997872bf"
+	"1cf40c3f-fee9-46b7-9af6-cd8bdbd093d8" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"a7b15ef5-e323-439d-8980-17d4f1dbce3b" -> "1cf40c3f-fee9-46b7-9af6-cd8bdbd093d8"
+	"1cf40c3f-fee9-46b7-9af6-cd8bdbd093d8" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"11c9efdd-a32d-40d7-bf07-9919d1892c01" [label="github:graphapps#source" shape=box]
+	"f458a6f3-9e01-4774-9f7f-523359b7281a" -> "11c9efdd-a32d-40d7-bf07-9919d1892c01"
+	"11c9efdd-a32d-40d7-bf07-9919d1892c01" -> "59f453da-f8f6-4c79-9c47-aedb7251b362"
+	"623be029-08dc-45fc-ae36-380206670dba" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "623be029-08dc-45fc-ae36-380206670dba"
+	"623be029-08dc-45fc-ae36-380206670dba" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"2b330dbf-9d04-4b5a-ab11-6353519a29d2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"79744a14-72ef-4359-830b-d0b0c3705221" -> "2b330dbf-9d04-4b5a-ab11-6353519a29d2"
+	"2b330dbf-9d04-4b5a-ab11-6353519a29d2" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"37370926-ef58-44d7-a3ea-2e732768fc7c" [label="github:graphapps#target" shape=box]
+	"0eedd139-33ee-4369-8557-75a987ca0320" -> "37370926-ef58-44d7-a3ea-2e732768fc7c"
+	"37370926-ef58-44d7-a3ea-2e732768fc7c" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"88edb4ba-843e-476c-b3e9-2228543aa60b" [label="github:graphapps#target" shape=box]
+	"42008ab2-d99d-41b9-b4e4-59331deac7c2" -> "88edb4ba-843e-476c-b3e9-2228543aa60b"
+	"88edb4ba-843e-476c-b3e9-2228543aa60b" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"6ca1c141-79b1-456c-a899-f87ff42ab338" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f87071b9-6a21-486c-a53b-fdf48a7bd80d" -> "6ca1c141-79b1-456c-a899-f87ff42ab338"
+	"6ca1c141-79b1-456c-a899-f87ff42ab338" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"de0bb4e3-900f-422a-b5d7-a614f4175a46" [label="w3:rdf-schema#label" shape=box]
+	"5ebc6563-8882-4612-aef6-9617bfde4bf0" -> "de0bb4e3-900f-422a-b5d7-a614f4175a46"
+	"de0bb4e3-900f-422a-b5d7-a614f4175a46" -> "c35bcf60-7816-4373-a9af-a132e4ab1042"
+	"357bf1b0-f9c1-4ffb-8be3-a2da7d64c82a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0eedd139-33ee-4369-8557-75a987ca0320" -> "357bf1b0-f9c1-4ffb-8be3-a2da7d64c82a"
+	"357bf1b0-f9c1-4ffb-8be3-a2da7d64c82a" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"0a1f325e-21cf-4ff4-90d4-4540f967d3a9" [label="github:graphapps#source" shape=box]
+	"b9dc7e9d-e1db-45d9-b054-ecea77b2fe0a" -> "0a1f325e-21cf-4ff4-90d4-4540f967d3a9"
+	"0a1f325e-21cf-4ff4-90d4-4540f967d3a9" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"79994409-0cfd-4eb8-a27a-08172c47df57" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"04a00943-71d2-43fc-9042-9b82f89b59ff" -> "79994409-0cfd-4eb8-a27a-08172c47df57"
+	"79994409-0cfd-4eb8-a27a-08172c47df57" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a6a3de50-cf19-4d2e-858a-ac902bcb9af2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"16a5230f-ffb2-4f5e-9aec-ff5c0e098639" -> "a6a3de50-cf19-4d2e-858a-ac902bcb9af2"
+	"a6a3de50-cf19-4d2e-858a-ac902bcb9af2" -> "6efcaba7-381e-4faf-a752-145be3a48e31"
+	"90a7af12-335e-4921-b906-b4e23de2ecfc" [label="github:graphapps#source" shape=box]
+	"6ae390cf-0e7e-4c6b-a71e-b28cfe016db8" -> "90a7af12-335e-4921-b906-b4e23de2ecfc"
+	"90a7af12-335e-4921-b906-b4e23de2ecfc" -> "713d88a5-99c3-4fc4-b462-a9c7f47cc40c"
+	"f8cd1c70-c84f-4849-a012-f5e44f62e650" [label="github:graphapps#source" shape=box]
+	"d95d222f-0ecc-447c-a328-a443207826ce" -> "f8cd1c70-c84f-4849-a012-f5e44f62e650"
+	"f8cd1c70-c84f-4849-a012-f5e44f62e650" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"c8768dc3-68dc-468f-bc93-49d5527e284d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"4314ee38-c361-49cb-825f-67e77d746a22" -> "c8768dc3-68dc-468f-bc93-49d5527e284d"
+	"c8768dc3-68dc-468f-bc93-49d5527e284d" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"397a8322-7d5e-48ca-be67-a04d70b76bb2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f5d36129-3109-42a1-aaa1-322d49d4fe9f" -> "397a8322-7d5e-48ca-be67-a04d70b76bb2"
+	"397a8322-7d5e-48ca-be67-a04d70b76bb2" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"2832d9e7-8def-454f-b0df-989aa5b3da85" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"22a6e00f-61b1-41d7-910d-ae7e864c54bc" -> "2832d9e7-8def-454f-b0df-989aa5b3da85"
+	"2832d9e7-8def-454f-b0df-989aa5b3da85" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"294d0a4a-60da-4a4b-b2f1-8bd48540c711" [label="github:graphapps#target" shape=box]
+	"0f79e1f5-ecb4-4a1c-8f8d-3d1740c62422" -> "294d0a4a-60da-4a4b-b2f1-8bd48540c711"
+	"294d0a4a-60da-4a4b-b2f1-8bd48540c711" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"c6dac2e8-3961-492e-a770-8fd1c12d3c26" [label="github:graphapps#target" shape=box]
+	"ccd3ee76-6a1f-4bf1-b9c4-f57a4ae7d3d9" -> "c6dac2e8-3961-492e-a770-8fd1c12d3c26"
+	"c6dac2e8-3961-492e-a770-8fd1c12d3c26" -> "0b445b2e-28d2-4ccb-80a1-4519e41ef50f"
+	"3e3edd9e-3dc1-4912-af8f-c934cb19cb0e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"9e2992fa-99a9-49a5-8226-4de1f17703e6" -> "3e3edd9e-3dc1-4912-af8f-c934cb19cb0e"
+	"3e3edd9e-3dc1-4912-af8f-c934cb19cb0e" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"e22dc97f-ef9c-4dd4-8e45-dbfe5aa15672" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1284332c-f0ad-447d-9914-39c0171d2469" -> "e22dc97f-ef9c-4dd4-8e45-dbfe5aa15672"
+	"e22dc97f-ef9c-4dd4-8e45-dbfe5aa15672" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"3fd73ad2-c34c-4c30-b2db-3ce60eaac8c5" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"5bac9dfa-cfba-4d66-90e6-27afb4704d6f" -> "3fd73ad2-c34c-4c30-b2db-3ce60eaac8c5"
+	"3fd73ad2-c34c-4c30-b2db-3ce60eaac8c5" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7366ab82-fa8f-44a7-9dfa-12dcd243cbc5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"4c98186e-18bf-44cb-8618-cc6ba6aa03f2" -> "7366ab82-fa8f-44a7-9dfa-12dcd243cbc5"
+	"7366ab82-fa8f-44a7-9dfa-12dcd243cbc5" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"6facf4a1-721b-46cd-b380-1b7dd4f27d49" [label="github:graphapps#target" shape=box]
+	"04a00943-71d2-43fc-9042-9b82f89b59ff" -> "6facf4a1-721b-46cd-b380-1b7dd4f27d49"
+	"6facf4a1-721b-46cd-b380-1b7dd4f27d49" -> "16a5230f-ffb2-4f5e-9aec-ff5c0e098639"
+	"1143fcf7-086e-439a-b956-c8e6525b0e65" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0a900493-583d-44a2-b31a-2e8bdec7c611" -> "1143fcf7-086e-439a-b956-c8e6525b0e65"
+	"1143fcf7-086e-439a-b956-c8e6525b0e65" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"ea1c9960-3ce0-4aab-814d-9276ac0631a1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"6940b67d-bef9-4420-b96f-1ef094cf76f4" -> "ea1c9960-3ce0-4aab-814d-9276ac0631a1"
+	"ea1c9960-3ce0-4aab-814d-9276ac0631a1" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"f523a721-c25b-4510-afb5-ede88443e08d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ccd3ee76-6a1f-4bf1-b9c4-f57a4ae7d3d9" -> "f523a721-c25b-4510-afb5-ede88443e08d"
+	"f523a721-c25b-4510-afb5-ede88443e08d" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"0dc85c7c-050e-43cf-81cd-fa887aa6a715" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"959ed84a-7248-4f20-81dc-a49f1ef5e608" -> "0dc85c7c-050e-43cf-81cd-fa887aa6a715"
+	"0dc85c7c-050e-43cf-81cd-fa887aa6a715" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"204df6a7-3c50-4c49-96fa-cf0423d242b1" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"622c8860-6bd2-4e9c-924e-2c869a04e891" -> "204df6a7-3c50-4c49-96fa-cf0423d242b1"
+	"204df6a7-3c50-4c49-96fa-cf0423d242b1" -> "99d341d6-ed0e-4871-90a8-8ece45ff4e7c"
+	"665526d5-fd34-4baa-b71c-b6a3a1ed7a8c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"dcec2c51-114a-4ee3-9ecc-284b492f6fce" -> "665526d5-fd34-4baa-b71c-b6a3a1ed7a8c"
+	"665526d5-fd34-4baa-b71c-b6a3a1ed7a8c" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"9a36fa7b-540a-48e3-8b3a-17d1ccc30510" [label="w3:rdf-schema#domain" shape=box]
+	"5bb94e2b-3a6e-48b7-aa4d-fda34f9bb4b2" -> "9a36fa7b-540a-48e3-8b3a-17d1ccc30510"
+	"9a36fa7b-540a-48e3-8b3a-17d1ccc30510" -> "0af36191-9249-4ee6-a1b0-86759f44b2b1"
+	"e0ae6c17-10a5-4353-bd98-2932af15acee" [label="w3:rdf-schema#domain" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "e0ae6c17-10a5-4353-bd98-2932af15acee"
+	"e0ae6c17-10a5-4353-bd98-2932af15acee" -> "f6e1f73b-8370-4df1-bdca-2f4c6e998720"
+	"6f92d685-88f1-4ea0-ad01-206bc055ac4e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0dc5377c-6365-4cbe-8c1e-6f0df5c34c47" -> "6f92d685-88f1-4ea0-ad01-206bc055ac4e"
+	"6f92d685-88f1-4ea0-ad01-206bc055ac4e" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"bfe4dcf2-25eb-473c-a480-fa89098ca2bc" [label="github:graphapps#source" shape=box]
+	"622c8860-6bd2-4e9c-924e-2c869a04e891" -> "bfe4dcf2-25eb-473c-a480-fa89098ca2bc"
+	"bfe4dcf2-25eb-473c-a480-fa89098ca2bc" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"f6fa9228-c1ca-4443-9af7-5daade6bf671" [label="github:graphapps#source" shape=box]
+	"f6f2af55-a486-4706-b7f9-069a0b8fc6ae" -> "f6fa9228-c1ca-4443-9af7-5daade6bf671"
+	"f6fa9228-c1ca-4443-9af7-5daade6bf671" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"b43ef127-c4b9-4c2e-811a-e54d74609ee5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"54dec093-80de-4e79-9b38-2229fd0b8886" -> "b43ef127-c4b9-4c2e-811a-e54d74609ee5"
+	"b43ef127-c4b9-4c2e-811a-e54d74609ee5" -> "c17c6d37-a9a8-454e-8443-27c5d6b131df"
+	"c55f7fbf-4119-4789-b5e6-7f82a95c9a9a" [label="github:graphapps#source" shape=box]
+	"4434348a-a54e-4871-9a44-8ca429a53487" -> "c55f7fbf-4119-4789-b5e6-7f82a95c9a9a"
+	"c55f7fbf-4119-4789-b5e6-7f82a95c9a9a" -> "59f453da-f8f6-4c79-9c47-aedb7251b362"
+	"0e59b03a-1415-4d77-bafd-ed9af9836fcb" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1406af4b-6917-42ff-ac82-99ddeee462e3" -> "0e59b03a-1415-4d77-bafd-ed9af9836fcb"
+	"0e59b03a-1415-4d77-bafd-ed9af9836fcb" -> "ae72b289-082a-434a-b790-ec43c036c7eb"
+	"d2e6e826-9966-4a8e-8967-bcdb59f825a0" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"19fdc3cb-4b0d-416b-bc88-2b019b3677df" -> "d2e6e826-9966-4a8e-8967-bcdb59f825a0"
+	"d2e6e826-9966-4a8e-8967-bcdb59f825a0" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"2fef692b-bfa8-42e0-8c47-1f39b3b315fc" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ec3b5612-3242-467c-a206-fc20e50615a8" -> "2fef692b-bfa8-42e0-8c47-1f39b3b315fc"
+	"2fef692b-bfa8-42e0-8c47-1f39b3b315fc" -> "a69d747b-7de1-4445-83ba-4f4d3ac5bd90"
+	"552b5bed-a741-4445-87aa-cefb12c9d858" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"0a163c55-f9a6-4e22-95ae-b4ba1be8a3af" -> "552b5bed-a741-4445-87aa-cefb12c9d858"
+	"552b5bed-a741-4445-87aa-cefb12c9d858" -> "0af36191-9249-4ee6-a1b0-86759f44b2b1"
+	"502ebdc2-607b-4e24-b037-24eb81444623" [label="github:graphapps#source" shape=box]
+	"dbb2b2e8-283b-4558-b8e2-aff9e501169e" -> "502ebdc2-607b-4e24-b037-24eb81444623"
+	"502ebdc2-607b-4e24-b037-24eb81444623" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"2cc19b4d-270e-452f-b42a-36743918a00e" [label="github:graphapps#source" shape=box]
+	"53cbd26f-4285-419c-9a00-8b1b5448cbbb" -> "2cc19b4d-270e-452f-b42a-36743918a00e"
+	"2cc19b4d-270e-452f-b42a-36743918a00e" -> "45c27a30-af1e-47c4-841f-45d99f0caf5c"
+	"4a4840b2-3fca-47ef-9520-e75566156175" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0a900493-583d-44a2-b31a-2e8bdec7c611" -> "4a4840b2-3fca-47ef-9520-e75566156175"
+	"4a4840b2-3fca-47ef-9520-e75566156175" -> "0243cb68-db29-457e-8e05-5e38ec0c041a"
+	"773d2efe-3889-4d7e-8a7d-ddbe51258930" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"92e4f3d2-ea7c-41e3-92d2-88aa218533f9" -> "773d2efe-3889-4d7e-8a7d-ddbe51258930"
+	"773d2efe-3889-4d7e-8a7d-ddbe51258930" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"df5500f5-22e5-4444-a5b8-8876db10380d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"dbc4c190-8105-43a6-9457-37cb101e6f4a" -> "df5500f5-22e5-4444-a5b8-8876db10380d"
+	"df5500f5-22e5-4444-a5b8-8876db10380d" -> "8ed9532e-2c5d-4753-864e-925735c4b076"
+	"24f80122-3d4d-43a0-bcdc-0f0494b1624a" [label="github:graphapps#target" shape=box]
+	"53cbd26f-4285-419c-9a00-8b1b5448cbbb" -> "24f80122-3d4d-43a0-bcdc-0f0494b1624a"
+	"24f80122-3d4d-43a0-bcdc-0f0494b1624a" -> "e726633e-56c2-44b2-966d-5f0a24932c33"
+	"644a6547-1be5-478b-b052-f8d899916a50" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"a3c84298-3833-405c-a656-0b5295bc2d93" -> "644a6547-1be5-478b-b052-f8d899916a50"
+	"644a6547-1be5-478b-b052-f8d899916a50" -> "89348675-c8fc-4f52-a1dc-a5b0121184f8"
+	"c5bd0efe-7ce2-42fa-9552-fb66e411fc1a" [label="w3:rdf-schema#label" shape=box]
+	"956113af-9e2b-43f6-bf8e-8a4600c6a07b" -> "c5bd0efe-7ce2-42fa-9552-fb66e411fc1a"
+	"c5bd0efe-7ce2-42fa-9552-fb66e411fc1a" -> "0c4a78bc-7e7b-4a41-b1c4-78ed6f02d056"
+	"fb6d28d9-21dd-46a0-b2d9-6a8b589f5618" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"45c27a30-af1e-47c4-841f-45d99f0caf5c" -> "fb6d28d9-21dd-46a0-b2d9-6a8b589f5618"
+	"fb6d28d9-21dd-46a0-b2d9-6a8b589f5618" -> "f21302cb-72f4-439c-aebf-059f20a362e4"
+	"a828b9a4-1dbc-42fd-be7f-801037b02d3b" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"713d88a5-99c3-4fc4-b462-a9c7f47cc40c" -> "a828b9a4-1dbc-42fd-be7f-801037b02d3b"
+	"a828b9a4-1dbc-42fd-be7f-801037b02d3b" -> "9230ff96-814f-4a9c-9859-eafe49ec69ec"
+	"158bae73-44db-4a41-a069-b343ef945f7b" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"959ed84a-7248-4f20-81dc-a49f1ef5e608" -> "158bae73-44db-4a41-a069-b343ef945f7b"
+	"158bae73-44db-4a41-a069-b343ef945f7b" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"05c9f55b-c2de-43d2-88cf-9c3d91107457" [label="github:graphapps#source" shape=box]
+	"4c98186e-18bf-44cb-8618-cc6ba6aa03f2" -> "05c9f55b-c2de-43d2-88cf-9c3d91107457"
+	"05c9f55b-c2de-43d2-88cf-9c3d91107457" -> "1892aaa4-f39c-4686-9c19-6c91adba58b3"
+	"07e91fe2-2db6-4116-a4d2-5a9a31c690ba" [label="github:graphapps#source" shape=box]
+	"6b20f5c3-d65e-4ce0-9415-f28fc793d86d" -> "07e91fe2-2db6-4116-a4d2-5a9a31c690ba"
+	"07e91fe2-2db6-4116-a4d2-5a9a31c690ba" -> "6940b67d-bef9-4420-b96f-1ef094cf76f4"
+	"e4d32b80-9626-4cff-8f37-82a759b8e3ba" [label="github:graphapps#target" shape=box]
+	"f458a6f3-9e01-4774-9f7f-523359b7281a" -> "e4d32b80-9626-4cff-8f37-82a759b8e3ba"
+	"e4d32b80-9626-4cff-8f37-82a759b8e3ba" -> "dbc4c190-8105-43a6-9457-37cb101e6f4a"
+	"8e63847c-4732-444a-8afc-ea1b4e4282c7" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ebdf19c1-30f9-4d96-833d-26ab62bd3fda" -> "8e63847c-4732-444a-8afc-ea1b4e4282c7"
+	"8e63847c-4732-444a-8afc-ea1b4e4282c7" -> "bd5564ec-bf9a-47a9-b368-60214ec4f396"
+	"b5f9e071-f2e3-4779-84ff-622c50733a5c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"22a6e00f-61b1-41d7-910d-ae7e864c54bc" -> "b5f9e071-f2e3-4779-84ff-622c50733a5c"
+	"b5f9e071-f2e3-4779-84ff-622c50733a5c" -> "f6e1f73b-8370-4df1-bdca-2f4c6e998720"
+	"555aa84f-ec8d-472e-81ed-9239475b9afe" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"700a2d1f-3334-41cc-83d5-e10295e409f7" -> "555aa84f-ec8d-472e-81ed-9239475b9afe"
+	"555aa84f-ec8d-472e-81ed-9239475b9afe" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"f9ca3615-66d5-47e5-82af-25fce099ba28" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"543397cf-ae8c-476a-9046-397791287980" -> "f9ca3615-66d5-47e5-82af-25fce099ba28"
+	"f9ca3615-66d5-47e5-82af-25fce099ba28" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"4155ab9e-eb32-4465-9382-c7a156dc4103" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"340c5276-e778-4170-8fe6-b48ed887e045" -> "4155ab9e-eb32-4465-9382-c7a156dc4103"
+	"4155ab9e-eb32-4465-9382-c7a156dc4103" -> "956113af-9e2b-43f6-bf8e-8a4600c6a07b"
+	"3fd7a1d0-0943-40fc-be16-eda0c995b063" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"51316187-7051-4eb6-ae88-2b1d310e9251" -> "3fd7a1d0-0943-40fc-be16-eda0c995b063"
+	"3fd7a1d0-0943-40fc-be16-eda0c995b063" -> "f27e9e44-2834-47c5-bb2c-649b30c56338"
+	"3ff625e0-42ea-4f67-b3bb-920e9d0c68c2" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9f224b3c-803d-4957-837c-1e315c9955a1" -> "3ff625e0-42ea-4f67-b3bb-920e9d0c68c2"
+	"3ff625e0-42ea-4f67-b3bb-920e9d0c68c2" -> "c2f88848-e944-46ce-8b8d-810f033c8048"
+	"a625a6ef-bbf6-4fda-bdbd-62d62ce1a2d0" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"55fd85fc-8e61-4008-90be-57a334caf160" -> "a625a6ef-bbf6-4fda-bdbd-62d62ce1a2d0"
+	"a625a6ef-bbf6-4fda-bdbd-62d62ce1a2d0" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"277940ed-e493-4356-b5b5-849e7a7ef0c4" [label="github:graphapps#target" shape=box]
+	"25b714ff-57fb-437b-98e5-48cef4ea6fec" -> "277940ed-e493-4356-b5b5-849e7a7ef0c4"
+	"277940ed-e493-4356-b5b5-849e7a7ef0c4" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"c5fc1615-82ab-4e8f-9ad5-7987a5a6e7f1" [label="github:graphapps#target" shape=box]
+	"cfbdd648-40d2-4df0-8a48-fe50f884b0ca" -> "c5fc1615-82ab-4e8f-9ad5-7987a5a6e7f1"
+	"c5fc1615-82ab-4e8f-9ad5-7987a5a6e7f1" -> "aa010a1f-6b7e-44b7-9280-a2c6b1aac41f"
+	"586e341e-de85-4e3e-8c75-5e00cb8526cb" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "586e341e-de85-4e3e-8c75-5e00cb8526cb"
+	"586e341e-de85-4e3e-8c75-5e00cb8526cb" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"78c412c6-d101-496e-8991-c01f2a05546c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"8e88d570-4b87-44e4-bb12-2ff429a8136f" -> "78c412c6-d101-496e-8991-c01f2a05546c"
+	"78c412c6-d101-496e-8991-c01f2a05546c" -> "f7b71265-d50c-4089-91f1-35bc2e6acf90"
+	"234f6ecf-0e55-45b9-884f-6c64b6b488e9" [label="github:graphapps#target" shape=box]
+	"c92fdafd-968b-43f0-8026-462f72ac38bc" -> "234f6ecf-0e55-45b9-884f-6c64b6b488e9"
+	"234f6ecf-0e55-45b9-884f-6c64b6b488e9" -> "d243f553-12f0-4254-afa8-31f1a9866d56"
+	"45f93c1e-59b7-4bdf-bb00-17fcd32d68fe" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"0b445b2e-28d2-4ccb-80a1-4519e41ef50f" -> "45f93c1e-59b7-4bdf-bb00-17fcd32d68fe"
+	"45f93c1e-59b7-4bdf-bb00-17fcd32d68fe" -> "8370a6f4-fd74-41bc-98d1-38606c560ab9"
+	"409411ee-ed99-4af7-8b3c-bee87811bb58" [label="w3:rdf-schema#label" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "409411ee-ed99-4af7-8b3c-bee87811bb58"
+	"409411ee-ed99-4af7-8b3c-bee87811bb58" -> "a135e933-7956-478b-a0c2-af774b75cccf"
+	"e3b0c9f4-0aa3-4748-92e3-a932004f7af5" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"f8c9912e-b9c6-40f2-ba11-a86d4f05d3d5" -> "e3b0c9f4-0aa3-4748-92e3-a932004f7af5"
+	"e3b0c9f4-0aa3-4748-92e3-a932004f7af5" -> "ec9eb30d-56b7-474d-922f-ab0e8d3c263a"
+	"5eadb7aa-d21e-4ae5-8ab4-a16296a17145" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"8914aa82-f5ee-48d3-9116-38c1c40dfc2d" -> "5eadb7aa-d21e-4ae5-8ab4-a16296a17145"
+	"5eadb7aa-d21e-4ae5-8ab4-a16296a17145" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"249cd95a-5b48-470c-8ff0-db14308170ec" [label="github:graphapps#source" shape=box]
+	"1199492f-441b-45f9-9ad8-f10c8ce05f21" -> "249cd95a-5b48-470c-8ff0-db14308170ec"
+	"249cd95a-5b48-470c-8ff0-db14308170ec" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"6206e6dc-2cc7-4c66-bf32-a2ed346f7857" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"59f453da-f8f6-4c79-9c47-aedb7251b362" -> "6206e6dc-2cc7-4c66-bf32-a2ed346f7857"
+	"6206e6dc-2cc7-4c66-bf32-a2ed346f7857" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"30267838-cfe5-4192-81ee-c15704dc470e" [label="github:graphapps#target" shape=box]
+	"49eee14f-aadf-4e5f-a182-e74d39e1a721" -> "30267838-cfe5-4192-81ee-c15704dc470e"
+	"30267838-cfe5-4192-81ee-c15704dc470e" -> "18e6bae1-9874-4b90-9f7c-9bebae283aef"
+	"9262fc0d-88d7-4514-ac6c-1aec38403696" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"695d3c28-ddc2-4282-9b2e-62600de224d5" -> "9262fc0d-88d7-4514-ac6c-1aec38403696"
+	"9262fc0d-88d7-4514-ac6c-1aec38403696" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a2968d7e-1cce-4cb6-a618-75fd8efbb877" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"a0f98667-f45e-43e2-8907-1e1ade250968" -> "a2968d7e-1cce-4cb6-a618-75fd8efbb877"
+	"a2968d7e-1cce-4cb6-a618-75fd8efbb877" -> "0c4a78bc-7e7b-4a41-b1c4-78ed6f02d056"
+	"9633a610-9b2f-48ba-ac43-ad131cda6fee" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"55fd85fc-8e61-4008-90be-57a334caf160" -> "9633a610-9b2f-48ba-ac43-ad131cda6fee"
+	"9633a610-9b2f-48ba-ac43-ad131cda6fee" -> "f828f32f-6e42-4ab2-b293-b03e8e88ecad"
+	"d45c1a36-17bd-45c2-9231-291d104be024" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"42cb8b6f-0b60-43d7-baf8-d309f86decf8" -> "d45c1a36-17bd-45c2-9231-291d104be024"
+	"d45c1a36-17bd-45c2-9231-291d104be024" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"2105a6e4-9166-490c-89d4-0d9174591335" [label="github:graphapps#target" shape=box]
+	"4aa807ac-e2dc-4a02-a6ed-c11e8a6271bc" -> "2105a6e4-9166-490c-89d4-0d9174591335"
+	"2105a6e4-9166-490c-89d4-0d9174591335" -> "8914aa82-f5ee-48d3-9116-38c1c40dfc2d"
+	"b2b65c47-65f6-42b6-89fc-214203502827" [label="github:graphapps#source" shape=box]
+	"23f159f8-3b79-4702-a14b-d1ac56266356" -> "b2b65c47-65f6-42b6-89fc-214203502827"
+	"b2b65c47-65f6-42b6-89fc-214203502827" -> "ec3b5612-3242-467c-a206-fc20e50615a8"
+	"ce487011-3486-462c-b72d-4cd5fb17a11c" [label="github:graphapps#source" shape=box]
+	"54dec093-80de-4e79-9b38-2229fd0b8886" -> "ce487011-3486-462c-b72d-4cd5fb17a11c"
+	"ce487011-3486-462c-b72d-4cd5fb17a11c" -> "aa4db7ff-e3e6-4ef1-8615-72fddeb6e5cf"
+	"876239e7-dda2-47ae-b41c-df800699fad5" [label="w3:rdf-schema#domain" shape=box]
+	"ae72b289-082a-434a-b790-ec43c036c7eb" -> "876239e7-dda2-47ae-b41c-df800699fad5"
+	"876239e7-dda2-47ae-b41c-df800699fad5" -> "f6e1f73b-8370-4df1-bdca-2f4c6e998720"
+	"ffc38bf2-4aa1-469b-aabb-146c3d73569c" [label="w3:rdf-schema#label" shape=box]
+	"ec9eb30d-56b7-474d-922f-ab0e8d3c263a" -> "ffc38bf2-4aa1-469b-aabb-146c3d73569c"
+	"ffc38bf2-4aa1-469b-aabb-146c3d73569c" -> "780fa16c-ba1f-41c3-9c1a-cb1aabf686d4"
+	"544a489c-91b3-4a6e-acbe-1d153759bc62" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"c064be1e-c1df-403d-88dd-78718855629d" -> "544a489c-91b3-4a6e-acbe-1d153759bc62"
+	"544a489c-91b3-4a6e-acbe-1d153759bc62" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"0b09a937-98bc-4bc8-b920-05e545eb8e5e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f92ff4ea-bb4a-4c3e-afc3-3d17e10c784e" -> "0b09a937-98bc-4bc8-b920-05e545eb8e5e"
+	"0b09a937-98bc-4bc8-b920-05e545eb8e5e" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"84851869-0d7b-42ea-8d99-e67724d99192" [label="github:graphapps#target" shape=box]
+	"1199492f-441b-45f9-9ad8-f10c8ce05f21" -> "84851869-0d7b-42ea-8d99-e67724d99192"
+	"84851869-0d7b-42ea-8d99-e67724d99192" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"d8c12846-49af-4248-9c44-60708410a78f" [label="github:graphapps#target" shape=box]
+	"9eb1a396-60c1-4d3b-9f35-0b6b86966c3a" -> "d8c12846-49af-4248-9c44-60708410a78f"
+	"d8c12846-49af-4248-9c44-60708410a78f" -> "0b445b2e-28d2-4ccb-80a1-4519e41ef50f"
+	"99f03b21-91c6-4071-9bc8-cab86e647256" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"99b40c26-739f-4691-867d-c55b9e14939c" -> "99f03b21-91c6-4071-9bc8-cab86e647256"
+	"99f03b21-91c6-4071-9bc8-cab86e647256" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7668a235-bc2f-4b57-941c-e85ad1a2b317" [label="w3:rdf-schema#comment" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "7668a235-bc2f-4b57-941c-e85ad1a2b317"
+	"7668a235-bc2f-4b57-941c-e85ad1a2b317" -> "43ba3f73-8d5c-4edd-8f30-939be6b5b7ee"
+	"cbc433b2-b871-40aa-a607-4d7565c054e2" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"23cdbb4a-674c-4e58-b6ee-0968769db697" -> "cbc433b2-b871-40aa-a607-4d7565c054e2"
+	"cbc433b2-b871-40aa-a607-4d7565c054e2" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"a564ea2a-a40a-46f0-9eb5-332e0554f9ff" [label="w3:rdf-schema#range" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "a564ea2a-a40a-46f0-9eb5-332e0554f9ff"
+	"a564ea2a-a40a-46f0-9eb5-332e0554f9ff" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"1b7dde82-54b0-420a-9fee-ba845699b3c0" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"51316187-7051-4eb6-ae88-2b1d310e9251" -> "1b7dde82-54b0-420a-9fee-ba845699b3c0"
+	"1b7dde82-54b0-420a-9fee-ba845699b3c0" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"6d595d8c-05a0-475a-9368-04755d5b9e98" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"c10e2d22-f0aa-4cb3-b076-6edfa01bf9ed" -> "6d595d8c-05a0-475a-9368-04755d5b9e98"
+	"6d595d8c-05a0-475a-9368-04755d5b9e98" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"ce8ad916-da85-4477-a36d-29460a0ad037" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"cfbdd648-40d2-4df0-8a48-fe50f884b0ca" -> "ce8ad916-da85-4477-a36d-29460a0ad037"
+	"ce8ad916-da85-4477-a36d-29460a0ad037" -> "3311ae9d-2712-4770-a3e7-9356b289cccc"
+	"195b5fde-f0da-4d60-8815-2b4917212c89" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3c2972f5-34e8-4289-a887-fafbf8cc69af" -> "195b5fde-f0da-4d60-8815-2b4917212c89"
+	"195b5fde-f0da-4d60-8815-2b4917212c89" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"3d1f0a50-e544-457c-947f-ed3e0e135f03" [label="w3:rdf-schema#isDefinedBy" shape=box]
+	"744198bc-c7e7-4442-9590-63ba3f66e4de" -> "3d1f0a50-e544-457c-947f-ed3e0e135f03"
+	"3d1f0a50-e544-457c-947f-ed3e0e135f03" -> "375fe066-a5c8-49ad-9833-6306c797bccb"
+	"2ff2ba6a-2400-410d-ba8f-56196f47c3d3" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"5bac9dfa-cfba-4d66-90e6-27afb4704d6f" -> "2ff2ba6a-2400-410d-ba8f-56196f47c3d3"
+	"2ff2ba6a-2400-410d-ba8f-56196f47c3d3" -> "6db0190a-9e4e-4adc-84c7-ae63efa4ce06"
+	"396c4c44-b7a8-458f-9f8a-7e35e5b9f40d" [label="w3:rdf-schema#subClassOf" shape=box]
+	"9230ff96-814f-4a9c-9859-eafe49ec69ec" -> "396c4c44-b7a8-458f-9f8a-7e35e5b9f40d"
+	"396c4c44-b7a8-458f-9f8a-7e35e5b9f40d" -> "9540c390-0832-4298-8585-513bf9f933dd"
+	"8d30aee2-bc22-4990-898a-149836e53b36" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"27439486-6b5d-4f60-b862-82b70972ce66" -> "8d30aee2-bc22-4990-898a-149836e53b36"
+	"8d30aee2-bc22-4990-898a-149836e53b36" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"2a0ab22a-4846-4f16-ab27-7997dd3693d4" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"375fe066-a5c8-49ad-9833-6306c797bccb" -> "2a0ab22a-4846-4f16-ab27-7997dd3693d4"
+	"2a0ab22a-4846-4f16-ab27-7997dd3693d4" -> "92f48931-9630-413f-b11e-1efa38dbee93"
+	"a397ac71-0d4f-4ede-9594-aea91f149127" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"4314ee38-c361-49cb-825f-67e77d746a22" -> "a397ac71-0d4f-4ede-9594-aea91f149127"
+	"a397ac71-0d4f-4ede-9594-aea91f149127" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"7b663706-958b-4ddf-9164-f5b9e8ade6b3" [label="github:graphapps#target" shape=box]
+	"3ca452e3-b420-47c1-bf73-16c357028d62" -> "7b663706-958b-4ddf-9164-f5b9e8ade6b3"
+	"7b663706-958b-4ddf-9164-f5b9e8ade6b3" -> "55fd85fc-8e61-4008-90be-57a334caf160"
+	"ab227ad0-c6bd-4dd9-bad5-5d7a20cbbe2d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"872fd4fa-6f64-4da5-a226-9dd8e382f05c" -> "ab227ad0-c6bd-4dd9-bad5-5d7a20cbbe2d"
+	"ab227ad0-c6bd-4dd9-bad5-5d7a20cbbe2d" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"ca4fa192-aaf7-48c5-991f-39b5e0b9920a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"6940b67d-bef9-4420-b96f-1ef094cf76f4" -> "ca4fa192-aaf7-48c5-991f-39b5e0b9920a"
+	"ca4fa192-aaf7-48c5-991f-39b5e0b9920a" -> "78747665-6e0a-41ee-9a05-e621a940d0f1"
+	"797138fa-d94e-474b-8667-260023e43cc5" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"42008ab2-d99d-41b9-b4e4-59331deac7c2" -> "797138fa-d94e-474b-8667-260023e43cc5"
+	"797138fa-d94e-474b-8667-260023e43cc5" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"5be28760-7173-4687-a82f-e8dfe7862b93" [label="github:graphapps#source" shape=box]
+	"42008ab2-d99d-41b9-b4e4-59331deac7c2" -> "5be28760-7173-4687-a82f-e8dfe7862b93"
+	"5be28760-7173-4687-a82f-e8dfe7862b93" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"1f767d09-7727-4372-b173-978fbc73577f" [label="github:graphapps#target" shape=box]
+	"c064be1e-c1df-403d-88dd-78718855629d" -> "1f767d09-7727-4372-b173-978fbc73577f"
+	"1f767d09-7727-4372-b173-978fbc73577f" -> "9dd444a6-2295-444f-b58b-315e00cf8405"
+	"e07eb537-cee8-4e6f-a88e-13c8dcfe86b1" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"3e92bc3a-f44e-4881-b561-7eebfcae13dc" -> "e07eb537-cee8-4e6f-a88e-13c8dcfe86b1"
+	"e07eb537-cee8-4e6f-a88e-13c8dcfe86b1" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"22623493-605d-47bd-a571-83c99ad55e95" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"9dd444a6-2295-444f-b58b-315e00cf8405" -> "22623493-605d-47bd-a571-83c99ad55e95"
+	"22623493-605d-47bd-a571-83c99ad55e95" -> "1ec54df4-d353-4c35-bd5a-8579dd646570"
+	"a059a750-b52b-4914-a83d-92993997e36e" [label="github:graphapps#source" shape=box]
+	"1ed5c99b-3d30-4469-ad70-388c6efc2e14" -> "a059a750-b52b-4914-a83d-92993997e36e"
+	"a059a750-b52b-4914-a83d-92993997e36e" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"4b2476b9-b69f-4059-a622-bd2a4fd37c11" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"1199492f-441b-45f9-9ad8-f10c8ce05f21" -> "4b2476b9-b69f-4059-a622-bd2a4fd37c11"
+	"4b2476b9-b69f-4059-a622-bd2a4fd37c11" -> "f9b51f04-3f73-4b65-b455-74deafb94b29"
+	"47b96b3b-b60d-472e-9227-71b8c5778754" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"1199492f-441b-45f9-9ad8-f10c8ce05f21" -> "47b96b3b-b60d-472e-9227-71b8c5778754"
+	"47b96b3b-b60d-472e-9227-71b8c5778754" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"af356f19-c959-4229-a945-888ef921c385" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"5ceea370-a601-4354-b427-b9ad4b209d0e" -> "af356f19-c959-4229-a945-888ef921c385"
+	"af356f19-c959-4229-a945-888ef921c385" -> "780fa16c-ba1f-41c3-9c1a-cb1aabf686d4"
+	"e1113686-ef2b-404e-a1c9-821ae87cd4f0" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"55d721e4-4620-4f0e-857e-080d9bb62f76" -> "e1113686-ef2b-404e-a1c9-821ae87cd4f0"
+	"e1113686-ef2b-404e-a1c9-821ae87cd4f0" -> "460f7ad5-abdb-4502-9259-b40e3a268fca"
+	"da629eb6-21e0-456d-9047-19e80380b2ba" [label="github:graphapps#target" shape=box]
+	"1bac0b8e-a736-4053-9339-89c55d537b1e" -> "da629eb6-21e0-456d-9047-19e80380b2ba"
+	"da629eb6-21e0-456d-9047-19e80380b2ba" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"d627a6b1-fb6f-48f8-b011-bc7ac88ed07f" [label="w3:rdf-schema#label" shape=box]
+	"a69d747b-7de1-4445-83ba-4f4d3ac5bd90" -> "d627a6b1-fb6f-48f8-b011-bc7ac88ed07f"
+	"d627a6b1-fb6f-48f8-b011-bc7ac88ed07f" -> "5f11de81-b329-4780-8fac-e862f753b49e"
+	"56833885-781f-40eb-9ab2-807ba718b7b2" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"f21302cb-72f4-439c-aebf-059f20a362e4" -> "56833885-781f-40eb-9ab2-807ba718b7b2"
+	"56833885-781f-40eb-9ab2-807ba718b7b2" -> "61bcfbbc-7b05-463c-aaee-81959c002b38"
+	"1b263a89-5c3e-4978-8cac-c45d961ab8c6" [label="github:graphapps#target" shape=box]
+	"160e15d1-3c37-48b0-a677-97c93b6a4a38" -> "1b263a89-5c3e-4978-8cac-c45d961ab8c6"
+	"1b263a89-5c3e-4978-8cac-c45d961ab8c6" -> "ad14b0cf-c06d-4e81-b2e3-b78c93157424"
+	"89fd41a1-64c9-45d8-bffc-ad662ec2718e" [label="github:graphapps#target" shape=box]
+	"676e8a9f-3889-4f2f-9c29-8af2522ad6a5" -> "89fd41a1-64c9-45d8-bffc-ad662ec2718e"
+	"89fd41a1-64c9-45d8-bffc-ad662ec2718e" -> "11bb4a0f-324b-47c6-b98b-165b715aaf9d"
+	"6d8d8f1e-81d5-4bb5-9825-0c4d95ade12e" [label="github:graphapps#target" shape=box]
+	"99648236-7217-4761-acd1-0358a86d7095" -> "6d8d8f1e-81d5-4bb5-9825-0c4d95ade12e"
+	"6d8d8f1e-81d5-4bb5-9825-0c4d95ade12e" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+	"c03939c8-2fc9-4d3f-b946-37c4ca8556e9" [label="github:graphapps#source" shape=box]
+	"9df7f1db-55c9-40a3-bea6-a9fc70203736" -> "c03939c8-2fc9-4d3f-b946-37c4ca8556e9"
+	"c03939c8-2fc9-4d3f-b946-37c4ca8556e9" -> "1406af4b-6917-42ff-ac82-99ddeee462e3"
+	"ba297f60-6604-40b3-9d3c-196677726b0d" [label="w3:rdf-schema#comment" shape=box]
+	"f44dc3bd-f095-48c0-8896-5727746ddf4e" -> "ba297f60-6604-40b3-9d3c-196677726b0d"
+	"ba297f60-6604-40b3-9d3c-196677726b0d" -> "8ed9532e-2c5d-4753-864e-925735c4b076"
+	"5809f002-ad45-449b-8c27-9d716e32e8b6" [label="github:graphapps#target" shape=box]
+	"f6f2af55-a486-4706-b7f9-069a0b8fc6ae" -> "5809f002-ad45-449b-8c27-9d716e32e8b6"
+	"5809f002-ad45-449b-8c27-9d716e32e8b6" -> "3671e6a7-2a95-42b3-9396-d66f249c9a60"
+	"e72f2263-0a46-4244-820f-c4c9924eacbc" [label="github:graphapps#target" shape=box]
+	"19fdc3cb-4b0d-416b-bc88-2b019b3677df" -> "e72f2263-0a46-4244-820f-c4c9924eacbc"
+	"e72f2263-0a46-4244-820f-c4c9924eacbc" -> "f5d36129-3109-42a1-aaa1-322d49d4fe9f"
+}

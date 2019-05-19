@@ -41,7 +41,7 @@ class RDFNode():
         # but when using an external numbering system, we have directly an int
         self.numbering = None
         if numbering == None:
-            self.id = uuid.uuid1()
+            self.id = uuid.uuid4()
         else:
             self.numbering = numbering
             self.id = numbering.get_next_number()
