@@ -41,10 +41,11 @@ class RDFNode():
         # but when using an external numbering system, we have directly an int
         self.numbering = None
         if numbering == None:
-            self.id = uuid.uuid4()
+            # IDs should be strings because that can cause problems if they are not
+            self.id = 'ID_' + str(uuid.uuid4())
         else:
             self.numbering = numbering
-            self.id = numbering.get_next_number()
+            self.id = 'ID_' + str(numbering.get_next_number())
         self.name = "void"
         # Keep a reference to the original RDF concept for later
         self.ident = ident
@@ -71,7 +72,8 @@ class RDFNode():
     def get_name(self):
         return self.name
     def get_id(self):
-        return str(self.id)
+        # Should be a string
+        return self.id
     def get_int_id(self):
         if self.numbering == None:        
             return self.id.int
