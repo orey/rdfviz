@@ -66,7 +66,6 @@ def enrich_graph_with_navigation(rdfgraph, option=0):
             rdfgraph.add((edge, RDF.value, elem.get_rdf()))
     return rdfgraph
 
-
 # toto: implement the rest
 def usage():
     print('RDF to RDFVIZ utility: Parses the full RDF file and adds unique IDs ' +

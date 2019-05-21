@@ -142,13 +142,16 @@ class TestRdf2Gml(unittest.TestCase):
 
 
 class TestRdf2Rdfviz(unittest.TestCase):
-    def common(self, input):
+    def common(self, input, option=0):
         name = input.split('/')[-1].split('.')[0]
         try:
             store = Graph()
             result = store.parse(input, format='turtle')
-            enrich_graph_with_navigation(store)
-            outputnamewithoutext = './outputs/' + name + '_ENRICHED'
+            enrich_graph_with_navigation(store, option)
+            if option != 0:
+                outputnamewithoutext = './outputs/' + name + '_ENRICHED_' + str(option)
+            else:
+                outputnamewithoutext = './outputs/' + name + '_ENRICHED'
             store.serialize(outputnamewithoutext + '.ttl',
                             format='turtle')
             dot = Digraph(comment='TestRdf2Rdfviz')
@@ -167,7 +170,10 @@ class TestRdf2Rdfviz(unittest.TestCase):
     def test_books(self):
         input = './tests/books.ttl'
         self.common(input)
-    
+
+    def test_books2(self):
+        input = './tests/books.ttl'
+        self.common(input, 1)
                 
         
 
