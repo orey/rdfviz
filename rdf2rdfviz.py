@@ -27,10 +27,13 @@ GA_source = URIRef(GA_DOMAIN + "source")
 GA_target = URIRef(GA_DOMAIN + "target")
 
 
-def enrich_graph_with_navigation(rdfgraph):
+def enrich_graph_with_navigation(rdfgraph, option=0):
     '''
     Creates a RDF file from the RDF file with the RDF decorations that
     enable to make the graph representable.
+    The option 0 is creating a decoration with 5 triples (+ 3 type
+    triples, and the option 1 is creating the new decoration with only
+    4 triples.
     '''
     node_dict = {}
     rel_dict = {}
@@ -39,19 +42,30 @@ def enrich_graph_with_navigation(rdfgraph):
         source = add_to_nodes_dict(RDFNode(s),node_dict)
         target = add_to_nodes_dict(RDFNode(o),node_dict)
         add_to_rels_dict(RDFRel(p, source, target),rel_dict)
-    # Enrich for each unique node by 2 triples, one being the visualizer
+    # Enrich each unique node by 2 triples, one being the value and the other the type
     for elem in node_dict.values():
         node = URIRef(GA_DOMAIN + elem.get_id())
         rdfgraph.add((node, RDF.type, GA_Node))
         rdfgraph.add((node, RDF.value, elem.get_rdf()))
-    # Enrich for each unique edge by 4 triples, one being the visualizer
-    for elem in rel_dict.values():
-        edge = URIRef(GA_DOMAIN + elem.get_id())
-        rdfgraph.add((edge, RDF.type, GA_Edge))
-        rdfgraph.add((edge, GA_source, URIRef(GA_DOMAIN + elem.get_source_id())))
-        rdfgraph.add((edge, GA_target, URIRef(GA_DOMAIN + elem.get_target_id())))
-        rdfgraph.add((edge, RDF.value, elem.get_rdf()))
+    if option == 0:
+        # Enrich for each unique edge by 4 triples, one being the visualizer
+        for elem in rel_dict.values():
+            edge = URIRef(GA_DOMAIN + elem.get_id())
+            rdfgraph.add((edge, RDF.type, GA_Edge))
+            rdfgraph.add((edge, GA_source, URIRef(GA_DOMAIN + elem.get_source_id())))
+            rdfgraph.add((edge, GA_target, URIRef(GA_DOMAIN + elem.get_target_id())))
+            rdfgraph.add((edge, RDF.value, elem.get_rdf()))
+    else:
+        # Enrich for each unique edge by 3 triples, one being the visualizer (rdf:value)
+        for elem in rel_dict.values():
+            edge = URIRef(GA_DOMAIN + elem.get_id())
+            rdfgraph.add((edge, RDF.type, GA_Edge))
+            rdfgraph.add((URIRef(GA_DOMAIN + elem.get_source_id()),
+                          edge,
+                          URIRef(GA_DOMAIN + elem.get_target_id())))
+            rdfgraph.add((edge, RDF.value, elem.get_rdf()))
     return rdfgraph
+
 
 # toto: implement the rest
 def usage():
