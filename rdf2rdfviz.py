@@ -20,6 +20,7 @@ from rdflib.namespace import FOAF, DC
 
 #------------------------------------------ Constants
 GA_DOMAIN = "https://orey.github.io/graphapps-V1#"
+GA_DOMAIN_ID = "https://orey.github.io/graphapps-V1#ID_"
 
 GA_Node = URIRef(GA_DOMAIN + "Node")
 GA_Edge = URIRef(GA_DOMAIN + "Edge")
@@ -44,25 +45,25 @@ def enrich_graph_with_navigation(rdfgraph, option=0):
         add_to_rels_dict(RDFRel(p, source, target),rel_dict)
     # Enrich each unique node by 2 triples, one being the value and the other the type
     for elem in node_dict.values():
-        node = URIRef(GA_DOMAIN + elem.get_id())
+        node = URIRef(GA_DOMAIN_ID + elem.get_id())
         rdfgraph.add((node, RDF.type, GA_Node))
         rdfgraph.add((node, RDF.value, elem.get_rdf()))
     if option == 0:
         # Enrich for each unique edge by 4 triples, one being the visualizer
         for elem in rel_dict.values():
-            edge = URIRef(GA_DOMAIN + elem.get_id())
+            edge = URIRef(GA_DOMAIN_ID + elem.get_id())
             rdfgraph.add((edge, RDF.type, GA_Edge))
-            rdfgraph.add((edge, GA_source, URIRef(GA_DOMAIN + elem.get_source_id())))
-            rdfgraph.add((edge, GA_target, URIRef(GA_DOMAIN + elem.get_target_id())))
+            rdfgraph.add((edge, GA_source, URIRef(GA_DOMAIN_ID + elem.get_source_id())))
+            rdfgraph.add((edge, GA_target, URIRef(GA_DOMAIN_ID + elem.get_target_id())))
             rdfgraph.add((edge, RDF.value, elem.get_rdf()))
     else:
         # Enrich for each unique edge by 3 triples, one being the visualizer (rdf:value)
         for elem in rel_dict.values():
-            edge = URIRef(GA_DOMAIN + elem.get_id())
+            edge = URIRef(GA_DOMAIN_ID + elem.get_id())
             rdfgraph.add((edge, RDF.type, GA_Edge))
-            rdfgraph.add((URIRef(GA_DOMAIN + elem.get_source_id()),
+            rdfgraph.add((URIRef(GA_DOMAIN_ID + elem.get_source_id()),
                           edge,
-                          URIRef(GA_DOMAIN + elem.get_target_id())))
+                          URIRef(GA_DOMAIN_ID + elem.get_target_id())))
             rdfgraph.add((edge, RDF.value, elem.get_rdf()))
     return rdfgraph
 

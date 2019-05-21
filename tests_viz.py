@@ -7,6 +7,7 @@
 #!/usr/bin/env python3
 
 import unittest, os, sys
+sys.path.append("C:/Tools/DEV/github/rdfviz")
 
 from rdflib import Graph, BNode, Literal
 from rdflib.namespace import RDF, FOAF, DC
