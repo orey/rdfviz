@@ -8,98 +8,98 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ns1:ID_0e5b074b-21f9-40ee-bd4c-f05dd74a516f a ns1:Edge ;
+ns1:ID_05521c29-c228-4851-b263-91194411f4cd a ns1:Edge ;
     rdf:value dc:title ;
-    ns1:source ns1:ID_2e1f8925-03bf-4279-966a-fd2acd7d0a8d ;
-    ns1:target ns1:ID_7cfc6708-1a1f-4c49-b41a-cced0e88cf1a .
+    ns1:source ns1:ID_a6beea64-dc8f-4a3c-b99d-ccd4682658e0 ;
+    ns1:target ns1:ID_5cc38d0f-3b37-4e9e-9398-912c079d2418 .
 
-ns1:ID_1057804f-48ae-4658-8b31-0d0a13561333 a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_44e1dbec-d54d-4429-8e14-2ea691315766 ;
-    ns1:target ns1:ID_c013f695-abd5-43b8-9f84-694baafe8025 .
-
-ns1:ID_1ad18558-1fc8-4220-a18f-c64620f77758 a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_4e4ee31e-36c8-4998-9198-7fa3d139fefa ;
-    ns1:target ns1:ID_2e72240b-58dd-44a1-9f01-18c17e91ea4f .
-
-ns1:ID_4e217056-040a-4763-8430-dae7b9494402 a ns1:Edge ;
-    rdf:value dc:creator ;
-    ns1:source ns1:ID_4e4ee31e-36c8-4998-9198-7fa3d139fefa ;
-    ns1:target ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 .
-
-ns1:ID_6022f1cf-95e0-452e-8c3d-e5f04f568a2e a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_304d7883-fd36-4e64-b9a8-1f93443fcede ;
-    ns1:target ns1:ID_36fbacb8-98b6-4e82-b75b-a9519427b8f6 .
-
-ns1:ID_64e762f0-cf45-4b0d-a59d-6c2a40678f20 a ns1:Edge ;
-    rdf:value dc:creator ;
-    ns1:source ns1:ID_304d7883-fd36-4e64-b9a8-1f93443fcede ;
-    ns1:target ns1:ID_aa7cc885-138a-4a40-8e3a-49884afb0fce .
-
-ns1:ID_6ea5d624-bfff-4e09-894b-2b525bcd9ad4 a ns1:Edge ;
-    rdf:value dc:creator ;
-    ns1:source ns1:ID_44e1dbec-d54d-4429-8e14-2ea691315766 ;
-    ns1:target ns1:ID_aa7cc885-138a-4a40-8e3a-49884afb0fce .
-
-ns1:ID_798c09ef-05d3-48ee-bef5-b7fa874622fa a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_9b33afac-7dd7-4d38-adc8-9125706288d4 ;
-    ns1:target ns1:ID_267563e2-2da3-482e-b2ab-f622fd261b5e .
-
-ns1:ID_86438646-8e5b-4aa7-a24d-1882dfe3ffcc a ns1:Edge ;
-    rdf:value vcard:FN ;
-    ns1:source ns1:ID_aa7cc885-138a-4a40-8e3a-49884afb0fce ;
-    ns1:target ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 .
-
-ns1:ID_8d79b4de-8ff9-4f2b-a152-3c60542b2271 a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_711cd2bd-0c95-4a36-bb09-bb4caf5fd637 ;
-    ns1:target ns1:ID_2b9df0f5-06c3-4427-ba54-44d1b84c0188 .
-
-ns1:ID_91b4b158-5a1e-4fb2-8425-aeb59cc5c844 a ns1:Edge ;
-    rdf:value dc:title ;
-    ns1:source ns1:ID_867c0280-5120-4a4a-991f-809d64ebc585 ;
-    ns1:target ns1:ID_0ebcb570-f052-4446-8fd4-7c85401fe7b7 .
-
-ns1:ID_bedfca58-148e-4f07-9dd4-1a36097ac76d a ns1:Edge ;
+ns1:ID_0a80657d-eaa5-4fd0-9a56-1d9bd2c456e3 a ns1:Edge ;
     rdf:value vcard:Family ;
-    ns1:source ns1:ID_a421eb9c-719b-4950-821b-1856f6e34e9c ;
-    ns1:target ns1:ID_75fe289e-03e6-48c6-b699-ae0ac420dc35 .
+    ns1:source ns1:ID_9dc6604b-42dd-45d7-9eb9-bd81ef84abc9 ;
+    ns1:target ns1:ID_fd18949c-86dd-4897-88a4-c2819c1ee805 .
 
-ns1:ID_c379dbc0-58bf-48e5-ad2a-85d72f9c2379 a ns1:Edge ;
+ns1:ID_256ff24b-0f3b-4428-b877-8d571187b91f a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_33d88490-e73e-4bf9-a545-94a8f2290b2f ;
+    ns1:target ns1:ID_f73c984a-aa23-43ee-bec6-2393a7dc7124 .
+
+ns1:ID_26cd6b1d-11fd-47d2-bd6a-28d206c1b056 a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source ns1:ID_0bd58f40-f7e2-4c30-8b0e-63684a42d620 ;
+    ns1:target ns1:ID_57b31295-e49f-4b3d-b61c-8a5e2618d16a .
+
+ns1:ID_3340ad59-298f-4a54-8eee-45e106a0577e a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_3fd02e65-34e3-47ae-8413-bd449abe107c ;
+    ns1:target ns1:ID_86c0f415-1e35-463e-89d6-28b064fcb671 .
+
+ns1:ID_36577022-f549-4c9d-958d-588620e2419c a ns1:Edge ;
     rdf:value vcard:Given ;
-    ns1:source ns1:ID_a421eb9c-719b-4950-821b-1856f6e34e9c ;
-    ns1:target ns1:ID_619f4a79-022f-4e81-a917-3c60d171a807 .
+    ns1:source ns1:ID_9dc6604b-42dd-45d7-9eb9-bd81ef84abc9 ;
+    ns1:target ns1:ID_822204c5-b882-4889-a209-ebc5a824c350 .
 
-ns1:ID_c4f17a3f-015e-4b27-b77f-bb00fe49a51f a ns1:Edge ;
+ns1:ID_49b42c0c-df86-4314-9944-d91e6d191049 a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source ns1:ID_1c033d87-cce5-4754-84db-630febd01042 ;
+    ns1:target ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 .
+
+ns1:ID_4d8a1911-e8f0-4c08-84f9-a5718089212c a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_0bd58f40-f7e2-4c30-8b0e-63684a42d620 ;
+    ns1:target ns1:ID_57c2050c-6a73-45cc-9635-f41e2602af17 .
+
+ns1:ID_5256be93-300a-41ce-92d1-eb08154fbd19 a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source ns1:ID_33d88490-e73e-4bf9-a545-94a8f2290b2f ;
+    ns1:target ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 .
+
+ns1:ID_5d5bc872-7e29-4341-a769-4bf1976da1ba a ns1:Edge ;
+    rdf:value dc:creator ;
+    ns1:source ns1:ID_264da0c1-cab3-4343-bbe4-2b5f61ac01cc ;
+    ns1:target ns1:ID_57b31295-e49f-4b3d-b61c-8a5e2618d16a .
+
+ns1:ID_831980c4-ad7a-432a-bfac-158a21423502 a ns1:Edge ;
     rdf:value vcard:N ;
-    ns1:source ns1:ID_aa7cc885-138a-4a40-8e3a-49884afb0fce ;
-    ns1:target ns1:ID_a421eb9c-719b-4950-821b-1856f6e34e9c .
+    ns1:source ns1:ID_57b31295-e49f-4b3d-b61c-8a5e2618d16a ;
+    ns1:target ns1:ID_9dc6604b-42dd-45d7-9eb9-bd81ef84abc9 .
 
-ns1:ID_c8bed850-8a5c-4d30-98f5-0cb1601d069c a ns1:Edge ;
+ns1:ID_8ed40525-562d-4fd3-84f5-055baa1ac731 a ns1:Edge ;
     rdf:value dc:creator ;
-    ns1:source ns1:ID_9b33afac-7dd7-4d38-adc8-9125706288d4 ;
-    ns1:target ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 .
+    ns1:source ns1:ID_a6beea64-dc8f-4a3c-b99d-ccd4682658e0 ;
+    ns1:target ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 .
 
-ns1:ID_e40ea090-44ab-418a-b461-c586b135cab4 a ns1:Edge ;
-    rdf:value dc:creator ;
-    ns1:source ns1:ID_867c0280-5120-4a4a-991f-809d64ebc585 ;
-    ns1:target ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 .
+ns1:ID_8f981152-66b7-4516-abe0-9d4f1a4c2806 a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_1c033d87-cce5-4754-84db-630febd01042 ;
+    ns1:target ns1:ID_a5e16e55-bed3-484f-9ead-75dc91b7bc32 .
 
-ns1:ID_e8d6dce1-4070-4d63-958d-0a6dd4e30d76 a ns1:Edge ;
+ns1:ID_a6d0bb7c-3651-4e75-960a-4d2581f86014 a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_264da0c1-cab3-4343-bbe4-2b5f61ac01cc ;
+    ns1:target ns1:ID_78ffdc6d-c6ae-415f-bb0e-d3ca0d3b9821 .
+
+ns1:ID_b2aec6c6-297b-4d76-98c7-8533865214cd a ns1:Edge ;
+    rdf:value vcard:FN ;
+    ns1:source ns1:ID_57b31295-e49f-4b3d-b61c-8a5e2618d16a ;
+    ns1:target ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 .
+
+ns1:ID_f5723482-ba7f-487b-a75e-c0ecafbc4c37 a ns1:Edge ;
+    rdf:value dc:title ;
+    ns1:source ns1:ID_30030b8d-d1bd-42dc-88d9-45ae99930fa6 ;
+    ns1:target ns1:ID_4a2a0d95-4dd0-456b-8df6-35be1c134ebd .
+
+ns1:ID_fc9d5d22-0df0-47c0-abec-350bdb931853 a ns1:Edge ;
     rdf:value dc:creator ;
-    ns1:source ns1:ID_711cd2bd-0c95-4a36-bb09-bb4caf5fd637 ;
-    ns1:target ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 .
+    ns1:source ns1:ID_30030b8d-d1bd-42dc-88d9-45ae99930fa6 ;
+    ns1:target ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 .
 
 :book1 dc:creator "J.K. Rowling" ;
     dc:title "Harry Potter and the Philosopher's Stone" .
 
-:book2 dc:creator _:f42a7ba347ca1487ebc65812941d338d7b1 ;
+:book2 dc:creator _:fbba85df694c44ba0ad4336303e4013bab1 ;
     dc:title "Harry Potter and the Chamber of Secrets" .
 
-:book3 dc:creator _:f42a7ba347ca1487ebc65812941d338d7b1 ;
+:book3 dc:creator _:fbba85df694c44ba0ad4336303e4013bab1 ;
     dc:title "Harry Potter and the Prisoner Of Azkaban" .
 
 :book4 dc:title "Harry Potter and the Goblet of Fire" .
@@ -113,66 +113,66 @@ ns1:ID_e8d6dce1-4070-4d63-958d-0a6dd4e30d76 a ns1:Edge ;
 :book7 dc:creator "J.K. Rowling" ;
     dc:title "Harry Potter and the Deathly Hallows" .
 
-ns1:ID_0ebcb570-f052-4446-8fd4-7c85401fe7b7 a ns1:Node ;
-    rdf:value "Harry Potter and the Order of the Phoenix" .
-
-ns1:ID_267563e2-2da3-482e-b2ab-f622fd261b5e a ns1:Node ;
-    rdf:value "Harry Potter and the Half-Blood Prince" .
-
-ns1:ID_2b9df0f5-06c3-4427-ba54-44d1b84c0188 a ns1:Node ;
-    rdf:value "Harry Potter and the Philosopher's Stone" .
-
-ns1:ID_2e1f8925-03bf-4279-966a-fd2acd7d0a8d a ns1:Node ;
+ns1:ID_3fd02e65-34e3-47ae-8413-bd449abe107c a ns1:Node ;
     rdf:value :book4 .
 
-ns1:ID_2e72240b-58dd-44a1-9f01-18c17e91ea4f a ns1:Node ;
-    rdf:value "Harry Potter and the Deathly Hallows" .
+ns1:ID_4a2a0d95-4dd0-456b-8df6-35be1c134ebd a ns1:Node ;
+    rdf:value "Harry Potter and the Philosopher's Stone" .
 
-ns1:ID_36fbacb8-98b6-4e82-b75b-a9519427b8f6 a ns1:Node ;
+ns1:ID_57c2050c-6a73-45cc-9635-f41e2602af17 a ns1:Node ;
     rdf:value "Harry Potter and the Prisoner Of Azkaban" .
 
-ns1:ID_619f4a79-022f-4e81-a917-3c60d171a807 a ns1:Node ;
-    rdf:value "Joanna" .
+ns1:ID_5cc38d0f-3b37-4e9e-9398-912c079d2418 a ns1:Node ;
+    rdf:value "Harry Potter and the Half-Blood Prince" .
 
-ns1:ID_75fe289e-03e6-48c6-b699-ae0ac420dc35 a ns1:Node ;
-    rdf:value "Rowling" .
-
-ns1:ID_7cfc6708-1a1f-4c49-b41a-cced0e88cf1a a ns1:Node ;
-    rdf:value "Harry Potter and the Goblet of Fire" .
-
-ns1:ID_c013f695-abd5-43b8-9f84-694baafe8025 a ns1:Node ;
+ns1:ID_78ffdc6d-c6ae-415f-bb0e-d3ca0d3b9821 a ns1:Node ;
     rdf:value "Harry Potter and the Chamber of Secrets" .
 
-ns1:ID_304d7883-fd36-4e64-b9a8-1f93443fcede a ns1:Node ;
+ns1:ID_822204c5-b882-4889-a209-ebc5a824c350 a ns1:Node ;
+    rdf:value "Joanna" .
+
+ns1:ID_86c0f415-1e35-463e-89d6-28b064fcb671 a ns1:Node ;
+    rdf:value "Harry Potter and the Goblet of Fire" .
+
+ns1:ID_a5e16e55-bed3-484f-9ead-75dc91b7bc32 a ns1:Node ;
+    rdf:value "Harry Potter and the Order of the Phoenix" .
+
+ns1:ID_f73c984a-aa23-43ee-bec6-2393a7dc7124 a ns1:Node ;
+    rdf:value "Harry Potter and the Deathly Hallows" .
+
+ns1:ID_fd18949c-86dd-4897-88a4-c2819c1ee805 a ns1:Node ;
+    rdf:value "Rowling" .
+
+ns1:ID_0bd58f40-f7e2-4c30-8b0e-63684a42d620 a ns1:Node ;
     rdf:value :book3 .
 
-ns1:ID_44e1dbec-d54d-4429-8e14-2ea691315766 a ns1:Node ;
-    rdf:value :book2 .
-
-ns1:ID_4e4ee31e-36c8-4998-9198-7fa3d139fefa a ns1:Node ;
-    rdf:value :book7 .
-
-ns1:ID_711cd2bd-0c95-4a36-bb09-bb4caf5fd637 a ns1:Node ;
-    rdf:value :book1 .
-
-ns1:ID_867c0280-5120-4a4a-991f-809d64ebc585 a ns1:Node ;
+ns1:ID_1c033d87-cce5-4754-84db-630febd01042 a ns1:Node ;
     rdf:value :book5 .
 
-ns1:ID_9b33afac-7dd7-4d38-adc8-9125706288d4 a ns1:Node ;
+ns1:ID_264da0c1-cab3-4343-bbe4-2b5f61ac01cc a ns1:Node ;
+    rdf:value :book2 .
+
+ns1:ID_30030b8d-d1bd-42dc-88d9-45ae99930fa6 a ns1:Node ;
+    rdf:value :book1 .
+
+ns1:ID_33d88490-e73e-4bf9-a545-94a8f2290b2f a ns1:Node ;
+    rdf:value :book7 .
+
+ns1:ID_a6beea64-dc8f-4a3c-b99d-ccd4682658e0 a ns1:Node ;
     rdf:value :book6 .
 
-ns1:ID_a421eb9c-719b-4950-821b-1856f6e34e9c a ns1:Node ;
+ns1:ID_9dc6604b-42dd-45d7-9eb9-bd81ef84abc9 a ns1:Node ;
     rdf:value _:ub1bL58C9 .
 
-ns1:ID_aa7cc885-138a-4a40-8e3a-49884afb0fce a ns1:Node ;
-    rdf:value _:f42a7ba347ca1487ebc65812941d338d7b1 .
+ns1:ID_57b31295-e49f-4b3d-b61c-8a5e2618d16a a ns1:Node ;
+    rdf:value _:fbba85df694c44ba0ad4336303e4013bab1 .
 
-ns1:ID_1433a32d-2906-4c99-884f-dac9cba4bd41 a ns1:Node ;
+ns1:ID_e6428211-09aa-49bf-8932-e935f474d927 a ns1:Node ;
     rdf:value "J.K. Rowling" .
 
 _:ub1bL58C9 vcard:Family "Rowling" ;
     vcard:Given "Joanna" .
 
-_:f42a7ba347ca1487ebc65812941d338d7b1 vcard:FN "J.K. Rowling" ;
+_:fbba85df694c44ba0ad4336303e4013bab1 vcard:FN "J.K. Rowling" ;
     vcard:N _:ub1bL58C9 .
 
