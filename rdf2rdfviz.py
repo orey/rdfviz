@@ -21,8 +21,8 @@ from rdflib.namespace import FOAF, DC
 #------------------------------------------ Constants
 GA_DOMAIN = "https://orey.github.io/graphapps-V1#"
 
-GA_Node = URIRef(GA_DOMAIN + "Node")
-GA_Edge = URIRef(GA_DOMAIN + "Edge")
+GA_Node = URIRef(GA_DOMAIN + "NodeID")
+GA_Edge = URIRef(GA_DOMAIN + "EdgeID")
 GA_source = URIRef(GA_DOMAIN + "source")
 GA_target = URIRef(GA_DOMAIN + "target")
 
