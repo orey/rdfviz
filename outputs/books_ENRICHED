@@ -1,436 +1,436 @@
 // TestRdf2Rdfviz
 digraph {
 	graph [rankdir=LR]
-	"ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca" [label=f6c65b5548a19458cb3429d31d9557b37b1 color=blue fontcolor=blue]
-	"ID_ff5cafdb-ea43-4213-86cf-63b4ca09f835" [label="github:graphapps-V1#ID_f43fbc2c-f8f1-4e16-91b9-f28c24160881" color=blue fontcolor=blue]
-	"ID_8f3a840e-0537-4935-98f0-c7891e109072" [label="github:graphapps-V1#ID_2df0d397-e1fe-4469-a3c4-441cda157257" color=blue fontcolor=blue]
-	"ID_709ac9fb-03cc-4498-81e3-831670fad99a" [label="Harry Potter and the Chamber of Secrets" color=blue fontcolor=blue]
-	"ID_cec08238-4df9-4ef6-904c-0cb757b4fb92" [label="github:graphapps-V1#ID_de935ff1-b5af-48cb-b226-93382a295e02" color=blue fontcolor=blue]
-	"ID_4ba0d914-1e96-4c0a-80e8-9c5f6c4a2d94" [label="Harry Potter and the Order of the Phoeni..." color=blue fontcolor=blue]
-	"ID_a0769acf-e1b9-40cb-843a-a00b2062774a" [label=Rowling color=blue fontcolor=blue]
-	"ID_e15bb38e-5bab-449c-8c12-13fe0506e24d" [label="github:graphapps-V1#ID_f8091296-d1d5-450e-9673-932939342450" color=blue fontcolor=blue]
-	"ID_b56be2dd-1638-466e-969e-ed461c8210b3" [label="github:graphapps-V1#ID_26cd237d-7ab0-4404-8733-6db1ba898126" color=blue fontcolor=blue]
-	"ID_d55cc7c4-6fca-4fca-8117-a2e20612414f" [label="github:graphapps-V1#ID_49ffe5de-9d8d-49c8-a8a4-eff7512b803a" color=blue fontcolor=blue]
-	"ID_e28724b7-f02b-4d39-977e-130b011ea9c2" [label="w3:3.0#N" color=blue fontcolor=blue]
-	"ID_99c277d8-c026-44b2-ab12-341b480d3db1" [label="github:graphapps-V1#ID_e87494c3-a11a-4b68-94ab-dbade20f9c16" color=blue fontcolor=blue]
-	"ID_e72a7509-c3f7-4eee-a58d-79d81d09708d" [label="example:book5" color=blue fontcolor=blue]
-	"ID_0e60bc59-a6d3-4155-a3a8-68ed7f83253b" [label="github:graphapps-V1#ID_c3bee509-2be3-469a-bec3-012b271f09a1" color=blue fontcolor=blue]
-	"ID_0cc28a0b-6fea-4491-917c-f7fd3665841c" [label="Harry Potter and the Deathly Hallows" color=blue fontcolor=blue]
-	"ID_9357d44a-deec-49f2-9369-88f0313d85ca" [label="example:book1" color=blue fontcolor=blue]
-	"ID_81edccc3-7b8e-4b6d-8d1a-6ce70b6cc10c" [label="github:graphapps-V1#ID_3e3e080c-2154-47e9-a8f0-0ed5c196e770" color=blue fontcolor=blue]
-	"ID_54780d41-e839-4e3f-89fb-6e46b5c9680a" [label="github:graphapps-V1#ID_2f55d76e-65d8-44e8-b153-e56acbb9b885" color=blue fontcolor=blue]
-	"ID_93ab9c53-5d82-41fc-b61f-b998727832b8" [label="github:graphapps-V1#ID_7ceaa5ea-8883-4de2-8345-405b4d11f529" color=blue fontcolor=blue]
-	"ID_a57f8b9a-d9fb-4524-ac65-9fa7dc1415b8" [label="github:graphapps-V1#ID_9d7fa29a-81d1-434a-b31d-282526043c56" color=blue fontcolor=blue]
-	"ID_ba3adf66-f57b-41c2-b122-8ca44370571e" [label="github:graphapps-V1#ID_e37a3092-4dc4-46e7-95ca-14cf3499d95a" color=blue fontcolor=blue]
-	"ID_62e8d36f-e7df-47d2-ad7b-152cd1ab1fd3" [label="example:book7" color=blue fontcolor=blue]
-	"ID_4485ab26-b14c-4bb7-9b22-c269b504fe92" [label="w3:3.0#Given" color=blue fontcolor=blue]
-	"ID_b9cf7427-0520-4cbe-a1a5-9de8332dd380" [label="github:graphapps-V1#ID_57ace8dc-516d-4294-a781-1190aa79bb1e" color=blue fontcolor=blue]
-	"ID_703886d5-8255-4fd2-bb5b-5fa43cb1749c" [label="github:graphapps-V1#ID_73f8be3b-698c-476f-9e92-b99a20976ff8" color=blue fontcolor=blue]
-	"ID_0368db05-ac74-489a-8542-ef3e0a18f133" [label="purl:title" color=blue fontcolor=blue]
-	"ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb" [label="github:graphapps-V1#ID_e6070b51-b0f6-4f7f-beaa-33478bd43b24" color=blue fontcolor=blue]
-	"ID_7410f3d8-b2ac-423c-8ce7-8b8902009678" [label="github:graphapps-V1#ID_80f10ef2-9203-4e53-baeb-24e4d46c451e" color=blue fontcolor=blue]
-	"ID_bf71f5e2-83f8-423f-9cef-9d39cd098991" [label="example:book3" color=blue fontcolor=blue]
-	"ID_b6ffe58a-e447-4c50-9805-f2a2fd105c03" [label="github:graphapps-V1#ID_35b5a34e-f281-472f-a5c4-301e4e4ffe0c" color=blue fontcolor=blue]
-	"ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2" [label="purl:creator" color=blue fontcolor=blue]
-	"ID_1d070971-69d2-47f0-b424-ef928e31a956" [label="github:graphapps-V1#ID_9eed3494-7d15-4341-97d6-a60a31415b45" color=blue fontcolor=blue]
-	"ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb" [label="J.K. Rowling" color=blue fontcolor=blue]
-	"ID_729e147b-c971-47de-8f15-32765ba02641" [label="example:book2" color=blue fontcolor=blue]
-	"ID_3d599a81-2d62-4089-8100-a22532b546a6" [label="github:graphapps-V1#ID_326ede00-63e5-4a25-a0a0-2c5d97d33929" color=blue fontcolor=blue]
-	"ID_dccaf2de-e554-49b4-93da-c5a5472193b3" [label="github:graphapps-V1#NodeID" color=blue fontcolor=blue]
-	"ID_ba573191-eb39-46ff-855d-581ce04323f0" [label=ub1bL58C9 color=blue fontcolor=blue]
-	"ID_07351aab-5337-4368-9e0a-1097169bf817" [label="Harry Potter and the Prisoner Of Azkaban" color=blue fontcolor=blue]
-	"ID_9964b6cb-fcfb-495d-9aef-03c9a225989b" [label="github:graphapps-V1#ID_4edeb227-a183-4f2d-8255-d79e5fe01c8e" color=blue fontcolor=blue]
-	"ID_5ac77393-28fe-40c8-b56a-4b5ec3cb5e23" [label="github:graphapps-V1#ID_4f2a1e26-2720-4afe-a1b7-04c6c0d15257" color=blue fontcolor=blue]
-	"ID_36e73f6f-cbc2-42b6-81fb-ba4fff0ab1d1" [label="github:graphapps-V1#ID_a94f727b-9f6a-46d4-aeaa-bbd95018855f" color=blue fontcolor=blue]
-	"ID_128effe4-2098-4d29-85fd-c0b96482b30c" [label="Harry Potter and the Half-Blood Prince" color=blue fontcolor=blue]
-	"ID_12714f70-f2a6-4d4e-92db-2b097156cbba" [label="github:graphapps-V1#ID_6470f25b-55ee-413c-8884-61d6848e6fe7" color=blue fontcolor=blue]
-	"ID_6ddd46c1-d966-4c74-ac18-43a786153a62" [label="Harry Potter and the Goblet of Fire" color=blue fontcolor=blue]
-	"ID_1c1ae26e-a0d3-493c-954d-7261a7381f06" [label="github:graphapps-V1#ID_b46f2aa1-81cb-42ab-88b6-3678fd6b05e0" color=blue fontcolor=blue]
-	"ID_e919611e-758e-4dcd-9c8f-00e9781ec4fd" [label="w3:3.0#FN" color=blue fontcolor=blue]
-	"ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5" [label="github:graphapps-V1#ID_e3af5aba-b847-4e26-9f19-1fb015ccb473" color=blue fontcolor=blue]
-	"ID_80934c73-d363-4700-ac4e-8fdcc11b3694" [label="github:graphapps-V1#EdgeID" color=blue fontcolor=blue]
-	"ID_2c9416bf-7d57-41ac-8810-daabe4142a0d" [label="github:graphapps-V1#ID_ddc0cb15-fcc1-472a-9cff-99ef855278b0" color=blue fontcolor=blue]
-	"ID_f562742b-74cc-4ff6-9568-14443652fad6" [label="w3:3.0#Family" color=blue fontcolor=blue]
-	"ID_8357e776-bc21-424a-a2fd-c69aeb697fae" [label="github:graphapps-V1#ID_73d563ef-38e4-42d1-b0f6-c89dbc4c3b49" color=blue fontcolor=blue]
-	"ID_6343963d-0c93-4b71-a69f-e5f3d2a8f140" [label="github:graphapps-V1#ID_24e3b339-7145-483b-adeb-a04ae1f72252" color=blue fontcolor=blue]
-	"ID_06167ced-958d-45d8-92c4-110ecad5ed0d" [label="example:book6" color=blue fontcolor=blue]
-	"ID_1c94edd9-8636-41ec-abd3-acc8140187f2" [label="github:graphapps-V1#ID_e04bdf9e-9903-4a5f-a830-619e71f765bb" color=blue fontcolor=blue]
-	"ID_539eb495-d194-4dce-a1ca-c1a7068558ef" [label="github:graphapps-V1#ID_8a060087-90f4-4bcc-83dd-c4b8080db40e" color=blue fontcolor=blue]
-	"ID_49d4258a-754a-4a1f-9e14-2791a66a4799" [label=Joanna color=blue fontcolor=blue]
-	"ID_db8d2310-d208-4906-85d3-05dbb7c647d3" [label="github:graphapps-V1#ID_0e87c439-1629-43f1-8e06-81f9dd8ae4b1" color=blue fontcolor=blue]
-	"ID_c8a44325-9b7f-48e1-b8fd-59a59035dee4" [label="github:graphapps-V1#ID_64848224-8906-41df-8999-db48c37a0bd5" color=blue fontcolor=blue]
-	"ID_d05142db-3c3c-4c8e-8e16-51e94cb6ea0a" [label="github:graphapps-V1#ID_4a54e633-21c6-4d0c-91d3-681c460fece3" color=blue fontcolor=blue]
-	"ID_4ca313a3-2c7a-4be1-b00a-4b50412d72b9" [label="github:graphapps-V1#ID_f43f7f73-f30b-4363-8b1f-432c38e33390" color=blue fontcolor=blue]
-	"ID_8849a58f-b01d-4ea2-88b2-0a5e8e4d585b" [label="Harry Potter and the Philosopher's Stone" color=blue fontcolor=blue]
-	"ID_8ba16701-86a3-404a-b2cb-021194d05967" [label="github:graphapps-V1#ID_f2fd0e7c-d8ea-4601-bdb0-47e9e7826a68" color=blue fontcolor=blue]
-	"ID_fbd5df88-5fa7-4261-beff-6eab08a2fb2a" [label="example:book4" color=blue fontcolor=blue]
-	"ID_69d4badc-b9fd-4253-a67f-768d034a4797" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_7410f3d8-b2ac-423c-8ce7-8b8902009678" -> "ID_69d4badc-b9fd-4253-a67f-768d034a4797"
-	"ID_69d4badc-b9fd-4253-a67f-768d034a4797" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_bd7878e3-e343-474f-8163-c3fdf381a359" [label="github:graphapps-V1#source" shape=box]
-	"ID_99c277d8-c026-44b2-ab12-341b480d3db1" -> "ID_bd7878e3-e343-474f-8163-c3fdf381a359"
-	"ID_bd7878e3-e343-474f-8163-c3fdf381a359" -> "ID_8f3a840e-0537-4935-98f0-c7891e109072"
-	"ID_9aa86be2-05c7-4826-bf5f-a8508f8dd76f" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_ba3adf66-f57b-41c2-b122-8ca44370571e" -> "ID_9aa86be2-05c7-4826-bf5f-a8508f8dd76f"
-	"ID_9aa86be2-05c7-4826-bf5f-a8508f8dd76f" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_f08f6f56-643b-4132-a406-3fb8963ded6a" [label="github:graphapps-V1#target" shape=box]
-	"ID_9964b6cb-fcfb-495d-9aef-03c9a225989b" -> "ID_f08f6f56-643b-4132-a406-3fb8963ded6a"
-	"ID_f08f6f56-643b-4132-a406-3fb8963ded6a" -> "ID_12714f70-f2a6-4d4e-92db-2b097156cbba"
-	"ID_fc3c55e0-7595-4770-8d64-ccc808d75d49" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_9964b6cb-fcfb-495d-9aef-03c9a225989b" -> "ID_fc3c55e0-7595-4770-8d64-ccc808d75d49"
-	"ID_fc3c55e0-7595-4770-8d64-ccc808d75d49" -> "ID_f562742b-74cc-4ff6-9568-14443652fad6"
-	"ID_90bf913a-c4a5-4ff6-b3bc-5d2e6a0b54ed" [label="github:graphapps-V1#target" shape=box]
-	"ID_4ca313a3-2c7a-4be1-b00a-4b50412d72b9" -> "ID_90bf913a-c4a5-4ff6-b3bc-5d2e6a0b54ed"
-	"ID_90bf913a-c4a5-4ff6-b3bc-5d2e6a0b54ed" -> "ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb"
-	"ID_3497e0a6-89ed-4fa3-9dfb-72431d161b98" [label="github:graphapps-V1#target" shape=box]
-	"ID_81edccc3-7b8e-4b6d-8d1a-6ce70b6cc10c" -> "ID_3497e0a6-89ed-4fa3-9dfb-72431d161b98"
-	"ID_3497e0a6-89ed-4fa3-9dfb-72431d161b98" -> "ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5"
-	"ID_1a25c818-a6a5-45a1-8725-70bd159cd283" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_8ba16701-86a3-404a-b2cb-021194d05967" -> "ID_1a25c818-a6a5-45a1-8725-70bd159cd283"
-	"ID_1a25c818-a6a5-45a1-8725-70bd159cd283" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_ce9b3eda-7620-4b10-9e9f-67fed2b43c49" [label="github:graphapps-V1#target" shape=box]
-	"ID_54780d41-e839-4e3f-89fb-6e46b5c9680a" -> "ID_ce9b3eda-7620-4b10-9e9f-67fed2b43c49"
-	"ID_ce9b3eda-7620-4b10-9e9f-67fed2b43c49" -> "ID_1c1ae26e-a0d3-493c-954d-7261a7381f06"
-	"ID_7ee14caf-cda2-4a41-a083-be4ab053f7c2" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_8357e776-bc21-424a-a2fd-c69aeb697fae" -> "ID_7ee14caf-cda2-4a41-a083-be4ab053f7c2"
-	"ID_7ee14caf-cda2-4a41-a083-be4ab053f7c2" -> "ID_8849a58f-b01d-4ea2-88b2-0a5e8e4d585b"
-	"ID_6e6503b2-2952-4b30-924e-7d343071fe1b" [label="purl:title" shape=box]
-	"ID_bf71f5e2-83f8-423f-9cef-9d39cd098991" -> "ID_6e6503b2-2952-4b30-924e-7d343071fe1b"
-	"ID_6e6503b2-2952-4b30-924e-7d343071fe1b" -> "ID_07351aab-5337-4368-9e0a-1097169bf817"
-	"ID_bd0c36d2-986a-40c3-b5ea-e0ace8a39810" [label="github:graphapps-V1#target" shape=box]
-	"ID_703886d5-8255-4fd2-bb5b-5fa43cb1749c" -> "ID_bd0c36d2-986a-40c3-b5ea-e0ace8a39810"
-	"ID_bd0c36d2-986a-40c3-b5ea-e0ace8a39810" -> "ID_c8a44325-9b7f-48e1-b8fd-59a59035dee4"
-	"ID_ad6b7b54-32a8-4523-8727-9b36cab34a35" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_1d070971-69d2-47f0-b424-ef928e31a956" -> "ID_ad6b7b54-32a8-4523-8727-9b36cab34a35"
-	"ID_ad6b7b54-32a8-4523-8727-9b36cab34a35" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_a5df232a-3c3a-4f2a-9b4b-4a906689df08" [label="github:graphapps-V1#target" shape=box]
-	"ID_5ac77393-28fe-40c8-b56a-4b5ec3cb5e23" -> "ID_a5df232a-3c3a-4f2a-9b4b-4a906689df08"
-	"ID_a5df232a-3c3a-4f2a-9b4b-4a906689df08" -> "ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb"
-	"ID_6e58d9bc-6037-4106-9820-d088aac08487" [label="purl:creator" shape=box]
-	"ID_62e8d36f-e7df-47d2-ad7b-152cd1ab1fd3" -> "ID_6e58d9bc-6037-4106-9820-d088aac08487"
-	"ID_6e58d9bc-6037-4106-9820-d088aac08487" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_cc4ed075-0c13-4666-9e21-3c91e96e4139" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_c8a44325-9b7f-48e1-b8fd-59a59035dee4" -> "ID_cc4ed075-0c13-4666-9e21-3c91e96e4139"
-	"ID_cc4ed075-0c13-4666-9e21-3c91e96e4139" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_7505bbff-0951-450b-84dd-4dd4d612f293" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_b6ffe58a-e447-4c50-9805-f2a2fd105c03" -> "ID_7505bbff-0951-450b-84dd-4dd4d612f293"
-	"ID_7505bbff-0951-450b-84dd-4dd4d612f293" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_adc9a541-c4e5-4cea-9158-e6dd941d4c8f" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_54780d41-e839-4e3f-89fb-6e46b5c9680a" -> "ID_adc9a541-c4e5-4cea-9158-e6dd941d4c8f"
-	"ID_adc9a541-c4e5-4cea-9158-e6dd941d4c8f" -> "ID_e28724b7-f02b-4d39-977e-130b011ea9c2"
-	"ID_7d7ba0cf-594e-4bdb-9dcd-76b1c4100ac1" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_5ac77393-28fe-40c8-b56a-4b5ec3cb5e23" -> "ID_7d7ba0cf-594e-4bdb-9dcd-76b1c4100ac1"
-	"ID_7d7ba0cf-594e-4bdb-9dcd-76b1c4100ac1" -> "ID_e919611e-758e-4dcd-9c8f-00e9781ec4fd"
-	"ID_a51853ec-b021-4544-abe7-a6b3ea74dd72" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_12714f70-f2a6-4d4e-92db-2b097156cbba" -> "ID_a51853ec-b021-4544-abe7-a6b3ea74dd72"
-	"ID_a51853ec-b021-4544-abe7-a6b3ea74dd72" -> "ID_a0769acf-e1b9-40cb-843a-a00b2062774a"
-	"ID_71b25de4-8f77-451e-b913-893030ea5fc1" [label="github:graphapps-V1#source" shape=box]
-	"ID_0e60bc59-a6d3-4155-a3a8-68ed7f83253b" -> "ID_71b25de4-8f77-451e-b913-893030ea5fc1"
-	"ID_71b25de4-8f77-451e-b913-893030ea5fc1" -> "ID_1c94edd9-8636-41ec-abd3-acc8140187f2"
-	"ID_9d9bd8dd-77eb-46ee-b28e-df84d2d9d2e5" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_6343963d-0c93-4b71-a69f-e5f3d2a8f140" -> "ID_9d9bd8dd-77eb-46ee-b28e-df84d2d9d2e5"
-	"ID_9d9bd8dd-77eb-46ee-b28e-df84d2d9d2e5" -> "ID_bf71f5e2-83f8-423f-9cef-9d39cd098991"
-	"ID_c7e7d9fe-1deb-4866-85d1-852eb330c6b0" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_3d599a81-2d62-4089-8100-a22532b546a6" -> "ID_c7e7d9fe-1deb-4866-85d1-852eb330c6b0"
-	"ID_c7e7d9fe-1deb-4866-85d1-852eb330c6b0" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_42907b86-4a3f-4a74-9a27-57e474720c09" [label="github:graphapps-V1#source" shape=box]
-	"ID_539eb495-d194-4dce-a1ca-c1a7068558ef" -> "ID_42907b86-4a3f-4a74-9a27-57e474720c09"
-	"ID_42907b86-4a3f-4a74-9a27-57e474720c09" -> "ID_6343963d-0c93-4b71-a69f-e5f3d2a8f140"
-	"ID_e27fe00d-fbf4-40f4-af45-0411d84cd4c5" [label="github:graphapps-V1#source" shape=box]
-	"ID_7410f3d8-b2ac-423c-8ce7-8b8902009678" -> "ID_e27fe00d-fbf4-40f4-af45-0411d84cd4c5"
-	"ID_e27fe00d-fbf4-40f4-af45-0411d84cd4c5" -> "ID_8ba16701-86a3-404a-b2cb-021194d05967"
-	"ID_02c147f1-5a83-428f-b6b8-185692dde835" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5" -> "ID_02c147f1-5a83-428f-b6b8-185692dde835"
-	"ID_02c147f1-5a83-428f-b6b8-185692dde835" -> "ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca"
-	"ID_fbdaa010-e182-4cb7-a2aa-ebd581d8c34d" [label="github:graphapps-V1#source" shape=box]
-	"ID_d55cc7c4-6fca-4fca-8117-a2e20612414f" -> "ID_fbdaa010-e182-4cb7-a2aa-ebd581d8c34d"
-	"ID_fbdaa010-e182-4cb7-a2aa-ebd581d8c34d" -> "ID_ba3adf66-f57b-41c2-b122-8ca44370571e"
-	"ID_a526a40e-2a13-42e5-a747-35b918ac3601" [label="w3:3.0#FN" shape=box]
-	"ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca" -> "ID_a526a40e-2a13-42e5-a747-35b918ac3601"
-	"ID_a526a40e-2a13-42e5-a747-35b918ac3601" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_b619d885-0f08-43a8-9570-152787db420f" [label="github:graphapps-V1#target" shape=box]
-	"ID_d55cc7c4-6fca-4fca-8117-a2e20612414f" -> "ID_b619d885-0f08-43a8-9570-152787db420f"
-	"ID_b619d885-0f08-43a8-9570-152787db420f" -> "ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb"
-	"ID_d427a075-4ec5-4a4a-90e5-1e17e2ba601c" [label="github:graphapps-V1#source" shape=box]
-	"ID_703886d5-8255-4fd2-bb5b-5fa43cb1749c" -> "ID_d427a075-4ec5-4a4a-90e5-1e17e2ba601c"
-	"ID_d427a075-4ec5-4a4a-90e5-1e17e2ba601c" -> "ID_8f3a840e-0537-4935-98f0-c7891e109072"
-	"ID_5e1c00ae-0f6c-4b1d-8431-b08f381dc801" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_12714f70-f2a6-4d4e-92db-2b097156cbba" -> "ID_5e1c00ae-0f6c-4b1d-8431-b08f381dc801"
-	"ID_5e1c00ae-0f6c-4b1d-8431-b08f381dc801" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_93d8dca8-2158-4423-82f0-debe7e121c69" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_9964b6cb-fcfb-495d-9aef-03c9a225989b" -> "ID_93d8dca8-2158-4423-82f0-debe7e121c69"
-	"ID_93d8dca8-2158-4423-82f0-debe7e121c69" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_ad9b25a6-9a4e-4575-867d-7c403007ef8e" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_8357e776-bc21-424a-a2fd-c69aeb697fae" -> "ID_ad9b25a6-9a4e-4575-867d-7c403007ef8e"
-	"ID_ad9b25a6-9a4e-4575-867d-7c403007ef8e" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_5c322305-ad3c-4af0-a9ef-342b2a0fdd33" [label="github:graphapps-V1#source" shape=box]
-	"ID_81edccc3-7b8e-4b6d-8d1a-6ce70b6cc10c" -> "ID_5c322305-ad3c-4af0-a9ef-342b2a0fdd33"
-	"ID_5c322305-ad3c-4af0-a9ef-342b2a0fdd33" -> "ID_8ba16701-86a3-404a-b2cb-021194d05967"
-	"ID_2ccafcf6-a0de-4d91-9350-0b4b06ae7df8" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_cec08238-4df9-4ef6-904c-0cb757b4fb92" -> "ID_2ccafcf6-a0de-4d91-9350-0b4b06ae7df8"
-	"ID_2ccafcf6-a0de-4d91-9350-0b4b06ae7df8" -> "ID_4485ab26-b14c-4bb7-9b22-c269b504fe92"
-	"ID_24e6c934-7d04-4972-a41c-bf54f14f5530" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_1c1ae26e-a0d3-493c-954d-7261a7381f06" -> "ID_24e6c934-7d04-4972-a41c-bf54f14f5530"
-	"ID_24e6c934-7d04-4972-a41c-bf54f14f5530" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_b556e108-928d-4258-b437-93581abd2b12" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_c8a44325-9b7f-48e1-b8fd-59a59035dee4" -> "ID_b556e108-928d-4258-b437-93581abd2b12"
-	"ID_b556e108-928d-4258-b437-93581abd2b12" -> "ID_0cc28a0b-6fea-4491-917c-f7fd3665841c"
-	"ID_64cde25c-0eb2-4fcb-9dab-b2be563dae8c" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_99c277d8-c026-44b2-ab12-341b480d3db1" -> "ID_64cde25c-0eb2-4fcb-9dab-b2be563dae8c"
-	"ID_64cde25c-0eb2-4fcb-9dab-b2be563dae8c" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_b4714a5e-89d3-4a24-880c-98ae8cb3bdc6" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb" -> "ID_b4714a5e-89d3-4a24-880c-98ae8cb3bdc6"
-	"ID_b4714a5e-89d3-4a24-880c-98ae8cb3bdc6" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_0fb5040d-193d-4793-a587-ec32d03e902f" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_ba3adf66-f57b-41c2-b122-8ca44370571e" -> "ID_0fb5040d-193d-4793-a587-ec32d03e902f"
-	"ID_0fb5040d-193d-4793-a587-ec32d03e902f" -> "ID_e72a7509-c3f7-4eee-a58d-79d81d09708d"
-	"ID_6592ba1f-8fa5-4815-ace0-8c1172c90fa6" [label="github:graphapps-V1#source" shape=box]
-	"ID_3d599a81-2d62-4089-8100-a22532b546a6" -> "ID_6592ba1f-8fa5-4815-ace0-8c1172c90fa6"
-	"ID_6592ba1f-8fa5-4815-ace0-8c1172c90fa6" -> "ID_ba3adf66-f57b-41c2-b122-8ca44370571e"
-	"ID_e079be32-a123-4508-9a42-61c4d150a885" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_1d070971-69d2-47f0-b424-ef928e31a956" -> "ID_e079be32-a123-4508-9a42-61c4d150a885"
-	"ID_e079be32-a123-4508-9a42-61c4d150a885" -> "ID_49d4258a-754a-4a1f-9e14-2791a66a4799"
-	"ID_0e7cf869-1fc4-4904-9514-a93845594a8f" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_4ca313a3-2c7a-4be1-b00a-4b50412d72b9" -> "ID_0e7cf869-1fc4-4904-9514-a93845594a8f"
-	"ID_0e7cf869-1fc4-4904-9514-a93845594a8f" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_a469a13b-fea7-40f6-a2c1-3c3b475723c3" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_7410f3d8-b2ac-423c-8ce7-8b8902009678" -> "ID_a469a13b-fea7-40f6-a2c1-3c3b475723c3"
-	"ID_a469a13b-fea7-40f6-a2c1-3c3b475723c3" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_53c4b611-7bfa-44eb-abde-f5663126226a" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_1c94edd9-8636-41ec-abd3-acc8140187f2" -> "ID_53c4b611-7bfa-44eb-abde-f5663126226a"
-	"ID_53c4b611-7bfa-44eb-abde-f5663126226a" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_da1d49c5-841b-4314-b00a-1680957219f7" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_d55cc7c4-6fca-4fca-8117-a2e20612414f" -> "ID_da1d49c5-841b-4314-b00a-1680957219f7"
-	"ID_da1d49c5-841b-4314-b00a-1680957219f7" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_d7cf3b45-3101-42f1-a9bf-93d662a30c7f" [label="github:graphapps-V1#source" shape=box]
-	"ID_b9cf7427-0520-4cbe-a1a5-9de8332dd380" -> "ID_d7cf3b45-3101-42f1-a9bf-93d662a30c7f"
-	"ID_d7cf3b45-3101-42f1-a9bf-93d662a30c7f" -> "ID_1c94edd9-8636-41ec-abd3-acc8140187f2"
-	"ID_1e3f1207-1a09-46cd-b4aa-bfd20f8187da" [label="github:graphapps-V1#source" shape=box]
-	"ID_4ca313a3-2c7a-4be1-b00a-4b50412d72b9" -> "ID_1e3f1207-1a09-46cd-b4aa-bfd20f8187da"
-	"ID_1e3f1207-1a09-46cd-b4aa-bfd20f8187da" -> "ID_b6ffe58a-e447-4c50-9805-f2a2fd105c03"
-	"ID_46aa5c06-4dae-4c7a-aeef-42323a625bcb" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_539eb495-d194-4dce-a1ca-c1a7068558ef" -> "ID_46aa5c06-4dae-4c7a-aeef-42323a625bcb"
-	"ID_46aa5c06-4dae-4c7a-aeef-42323a625bcb" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_9d28954b-3fc8-413a-9a0b-48d0f58e0fb9" [label="github:graphapps-V1#source" shape=box]
-	"ID_cec08238-4df9-4ef6-904c-0cb757b4fb92" -> "ID_9d28954b-3fc8-413a-9a0b-48d0f58e0fb9"
-	"ID_9d28954b-3fc8-413a-9a0b-48d0f58e0fb9" -> "ID_1c1ae26e-a0d3-493c-954d-7261a7381f06"
-	"ID_10364c06-c40f-400c-8c5e-27499bcb1a1e" [label="purl:title" shape=box]
-	"ID_06167ced-958d-45d8-92c4-110ecad5ed0d" -> "ID_10364c06-c40f-400c-8c5e-27499bcb1a1e"
-	"ID_10364c06-c40f-400c-8c5e-27499bcb1a1e" -> "ID_128effe4-2098-4d29-85fd-c0b96482b30c"
-	"ID_e226f4d5-47db-4f3b-aaf6-782321648429" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_e15bb38e-5bab-449c-8c12-13fe0506e24d" -> "ID_e226f4d5-47db-4f3b-aaf6-782321648429"
-	"ID_e226f4d5-47db-4f3b-aaf6-782321648429" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_11fe4976-b005-4665-a7e7-3f4106db62a4" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_703886d5-8255-4fd2-bb5b-5fa43cb1749c" -> "ID_11fe4976-b005-4665-a7e7-3f4106db62a4"
-	"ID_11fe4976-b005-4665-a7e7-3f4106db62a4" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_a91d5e65-e3de-4858-8597-7c3e14b13709" [label="github:graphapps-V1#source" shape=box]
-	"ID_9964b6cb-fcfb-495d-9aef-03c9a225989b" -> "ID_a91d5e65-e3de-4858-8597-7c3e14b13709"
-	"ID_a91d5e65-e3de-4858-8597-7c3e14b13709" -> "ID_1c1ae26e-a0d3-493c-954d-7261a7381f06"
-	"ID_75ef5225-aa73-4177-bc3f-22b2e0d75156" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5" -> "ID_75ef5225-aa73-4177-bc3f-22b2e0d75156"
-	"ID_75ef5225-aa73-4177-bc3f-22b2e0d75156" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_186439b7-b313-4595-93aa-df80e021742c" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_93ab9c53-5d82-41fc-b61f-b998727832b8" -> "ID_186439b7-b313-4595-93aa-df80e021742c"
-	"ID_186439b7-b313-4595-93aa-df80e021742c" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_df967ea3-ee26-4821-a44c-601b3f2ddbc1" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_1c1ae26e-a0d3-493c-954d-7261a7381f06" -> "ID_df967ea3-ee26-4821-a44c-601b3f2ddbc1"
-	"ID_df967ea3-ee26-4821-a44c-601b3f2ddbc1" -> "ID_ba573191-eb39-46ff-855d-581ce04323f0"
-	"ID_b957c68e-fed6-47a9-8fef-bb15d3c70c50" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_36e73f6f-cbc2-42b6-81fb-ba4fff0ab1d1" -> "ID_b957c68e-fed6-47a9-8fef-bb15d3c70c50"
-	"ID_b957c68e-fed6-47a9-8fef-bb15d3c70c50" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_3550062a-9725-4208-8066-a1025da4c3d5" [label="purl:title" shape=box]
-	"ID_62e8d36f-e7df-47d2-ad7b-152cd1ab1fd3" -> "ID_3550062a-9725-4208-8066-a1025da4c3d5"
-	"ID_3550062a-9725-4208-8066-a1025da4c3d5" -> "ID_0cc28a0b-6fea-4491-917c-f7fd3665841c"
-	"ID_f52fd927-1cdc-457d-84e5-b0bd9a363fa6" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_539eb495-d194-4dce-a1ca-c1a7068558ef" -> "ID_f52fd927-1cdc-457d-84e5-b0bd9a363fa6"
-	"ID_f52fd927-1cdc-457d-84e5-b0bd9a363fa6" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_34e9e7db-c796-447f-aca0-143bd067ee3d" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_b6ffe58a-e447-4c50-9805-f2a2fd105c03" -> "ID_34e9e7db-c796-447f-aca0-143bd067ee3d"
-	"ID_34e9e7db-c796-447f-aca0-143bd067ee3d" -> "ID_9357d44a-deec-49f2-9369-88f0313d85ca"
-	"ID_b5362c05-c806-4968-b27d-04ee11c933c5" [label="purl:title" shape=box]
-	"ID_e72a7509-c3f7-4eee-a58d-79d81d09708d" -> "ID_b5362c05-c806-4968-b27d-04ee11c933c5"
-	"ID_b5362c05-c806-4968-b27d-04ee11c933c5" -> "ID_4ba0d914-1e96-4c0a-80e8-9c5f6c4a2d94"
-	"ID_2238cd58-d0f7-46f7-8ece-e550c510235e" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_2c9416bf-7d57-41ac-8810-daabe4142a0d" -> "ID_2238cd58-d0f7-46f7-8ece-e550c510235e"
-	"ID_2238cd58-d0f7-46f7-8ece-e550c510235e" -> "ID_07351aab-5337-4368-9e0a-1097169bf817"
-	"ID_75880e0f-0f3e-4fc0-9fd7-aa200c195e2b" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_a57f8b9a-d9fb-4524-ac65-9fa7dc1415b8" -> "ID_75880e0f-0f3e-4fc0-9fd7-aa200c195e2b"
-	"ID_75880e0f-0f3e-4fc0-9fd7-aa200c195e2b" -> "ID_709ac9fb-03cc-4498-81e3-831670fad99a"
-	"ID_74e8d019-0fff-40a6-98ab-67fac30a7909" [label="github:graphapps-V1#target" shape=box]
-	"ID_7410f3d8-b2ac-423c-8ce7-8b8902009678" -> "ID_74e8d019-0fff-40a6-98ab-67fac30a7909"
-	"ID_74e8d019-0fff-40a6-98ab-67fac30a7909" -> "ID_a57f8b9a-d9fb-4524-ac65-9fa7dc1415b8"
-	"ID_d6203b6b-e3fb-4342-9c7c-231f8a608fae" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_81edccc3-7b8e-4b6d-8d1a-6ce70b6cc10c" -> "ID_d6203b6b-e3fb-4342-9c7c-231f8a608fae"
-	"ID_d6203b6b-e3fb-4342-9c7c-231f8a608fae" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_19d1f7e8-4a0c-4d1d-9da5-4d4caa7eba8f" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_b9cf7427-0520-4cbe-a1a5-9de8332dd380" -> "ID_19d1f7e8-4a0c-4d1d-9da5-4d4caa7eba8f"
-	"ID_19d1f7e8-4a0c-4d1d-9da5-4d4caa7eba8f" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_73016db6-e5bd-4514-a151-882f30dfba93" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_99c277d8-c026-44b2-ab12-341b480d3db1" -> "ID_73016db6-e5bd-4514-a151-882f30dfba93"
-	"ID_73016db6-e5bd-4514-a151-882f30dfba93" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_fdd292e9-3a20-435e-b0ab-0e68fcb6de17" [label="github:graphapps-V1#target" shape=box]
-	"ID_99c277d8-c026-44b2-ab12-341b480d3db1" -> "ID_fdd292e9-3a20-435e-b0ab-0e68fcb6de17"
-	"ID_fdd292e9-3a20-435e-b0ab-0e68fcb6de17" -> "ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb"
-	"ID_4ce9ad0d-ceb1-45ab-b015-dca1436eb891" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_ff5cafdb-ea43-4213-86cf-63b4ca09f835" -> "ID_4ce9ad0d-ceb1-45ab-b015-dca1436eb891"
-	"ID_4ce9ad0d-ceb1-45ab-b015-dca1436eb891" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_a8283786-0ede-428f-a06b-d1841d1983ae" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_8f3a840e-0537-4935-98f0-c7891e109072" -> "ID_a8283786-0ede-428f-a06b-d1841d1983ae"
-	"ID_a8283786-0ede-428f-a06b-d1841d1983ae" -> "ID_62e8d36f-e7df-47d2-ad7b-152cd1ab1fd3"
-	"ID_905ef8e4-87ac-4f43-8225-ca7ca943576e" [label="github:graphapps-V1#target" shape=box]
-	"ID_ff5cafdb-ea43-4213-86cf-63b4ca09f835" -> "ID_905ef8e4-87ac-4f43-8225-ca7ca943576e"
-	"ID_905ef8e4-87ac-4f43-8225-ca7ca943576e" -> "ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5"
-	"ID_0cf63a60-1d1c-47c8-a4f1-cbb760055069" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_0e60bc59-a6d3-4155-a3a8-68ed7f83253b" -> "ID_0cf63a60-1d1c-47c8-a4f1-cbb760055069"
-	"ID_0cf63a60-1d1c-47c8-a4f1-cbb760055069" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_22ac1714-2dd6-4bfe-b244-ba09e8cd9cc2" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_db8d2310-d208-4906-85d3-05dbb7c647d3" -> "ID_22ac1714-2dd6-4bfe-b244-ba09e8cd9cc2"
-	"ID_22ac1714-2dd6-4bfe-b244-ba09e8cd9cc2" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_7a88a9e8-7dec-44ed-9b68-9aa6e1ed262b" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_8f3a840e-0537-4935-98f0-c7891e109072" -> "ID_7a88a9e8-7dec-44ed-9b68-9aa6e1ed262b"
-	"ID_7a88a9e8-7dec-44ed-9b68-9aa6e1ed262b" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_d82d5e57-e4cf-4e80-b72f-2a11d05adbe9" [label="purl:title" shape=box]
-	"ID_fbd5df88-5fa7-4261-beff-6eab08a2fb2a" -> "ID_d82d5e57-e4cf-4e80-b72f-2a11d05adbe9"
-	"ID_d82d5e57-e4cf-4e80-b72f-2a11d05adbe9" -> "ID_6ddd46c1-d966-4c74-ac18-43a786153a62"
-	"ID_85796b59-4012-4f4b-a15a-309e0a95a1e5" [label="github:graphapps-V1#source" shape=box]
-	"ID_e15bb38e-5bab-449c-8c12-13fe0506e24d" -> "ID_85796b59-4012-4f4b-a15a-309e0a95a1e5"
-	"ID_85796b59-4012-4f4b-a15a-309e0a95a1e5" -> "ID_93ab9c53-5d82-41fc-b61f-b998727832b8"
-	"ID_6c980ea3-f0d2-4257-bfbc-7550bb1485f5" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_4ca313a3-2c7a-4be1-b00a-4b50412d72b9" -> "ID_6c980ea3-f0d2-4257-bfbc-7550bb1485f5"
-	"ID_6c980ea3-f0d2-4257-bfbc-7550bb1485f5" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_a4b643be-916f-4914-8be6-1a01455639d0" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_a57f8b9a-d9fb-4524-ac65-9fa7dc1415b8" -> "ID_a4b643be-916f-4914-8be6-1a01455639d0"
-	"ID_a4b643be-916f-4914-8be6-1a01455639d0" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_0908f3cb-6e1a-4ab6-9c25-8973a5af28a8" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_3d599a81-2d62-4089-8100-a22532b546a6" -> "ID_0908f3cb-6e1a-4ab6-9c25-8973a5af28a8"
-	"ID_0908f3cb-6e1a-4ab6-9c25-8973a5af28a8" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_058ad6dd-d416-4314-ba13-869214e442df" [label="purl:creator" shape=box]
-	"ID_06167ced-958d-45d8-92c4-110ecad5ed0d" -> "ID_058ad6dd-d416-4314-ba13-869214e442df"
-	"ID_058ad6dd-d416-4314-ba13-869214e442df" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_88264671-a4b4-4d20-876a-88dd325efcd2" [label="github:graphapps-V1#target" shape=box]
-	"ID_b9cf7427-0520-4cbe-a1a5-9de8332dd380" -> "ID_88264671-a4b4-4d20-876a-88dd325efcd2"
-	"ID_88264671-a4b4-4d20-876a-88dd325efcd2" -> "ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb"
-	"ID_e0548033-2a73-4345-893e-17eb2ee42ded" [label="purl:title" shape=box]
-	"ID_729e147b-c971-47de-8f15-32765ba02641" -> "ID_e0548033-2a73-4345-893e-17eb2ee42ded"
-	"ID_e0548033-2a73-4345-893e-17eb2ee42ded" -> "ID_709ac9fb-03cc-4498-81e3-831670fad99a"
-	"ID_45e81985-eac2-4bfb-98e5-581b35aa193c" [label="github:graphapps-V1#target" shape=box]
-	"ID_e15bb38e-5bab-449c-8c12-13fe0506e24d" -> "ID_45e81985-eac2-4bfb-98e5-581b35aa193c"
-	"ID_45e81985-eac2-4bfb-98e5-581b35aa193c" -> "ID_b56be2dd-1638-466e-969e-ed461c8210b3"
-	"ID_9afc5431-37c9-427a-82ce-7ad990d2fb1c" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_d05142db-3c3c-4c8e-8e16-51e94cb6ea0a" -> "ID_9afc5431-37c9-427a-82ce-7ad990d2fb1c"
-	"ID_9afc5431-37c9-427a-82ce-7ad990d2fb1c" -> "ID_128effe4-2098-4d29-85fd-c0b96482b30c"
-	"ID_e237a746-b071-43ab-a63a-af1ca46edd7f" [label="purl:creator" shape=box]
-	"ID_9357d44a-deec-49f2-9369-88f0313d85ca" -> "ID_e237a746-b071-43ab-a63a-af1ca46edd7f"
-	"ID_e237a746-b071-43ab-a63a-af1ca46edd7f" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_6fc74122-124c-4c49-834f-3b88a25fdae9" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_0e60bc59-a6d3-4155-a3a8-68ed7f83253b" -> "ID_6fc74122-124c-4c49-834f-3b88a25fdae9"
-	"ID_6fc74122-124c-4c49-834f-3b88a25fdae9" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_da2809e9-1ab8-40c7-a9f8-2bf9a8285bee" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_e15bb38e-5bab-449c-8c12-13fe0506e24d" -> "ID_da2809e9-1ab8-40c7-a9f8-2bf9a8285bee"
-	"ID_da2809e9-1ab8-40c7-a9f8-2bf9a8285bee" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_1c05cb7b-4778-4f50-b209-27e837e73e34" [label="w3:3.0#N" shape=box]
-	"ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca" -> "ID_1c05cb7b-4778-4f50-b209-27e837e73e34"
-	"ID_1c05cb7b-4778-4f50-b209-27e837e73e34" -> "ID_ba573191-eb39-46ff-855d-581ce04323f0"
-	"ID_ffc8d0eb-cdbc-4cef-9896-64768ecf2ffa" [label="github:graphapps-V1#source" shape=box]
-	"ID_54780d41-e839-4e3f-89fb-6e46b5c9680a" -> "ID_ffc8d0eb-cdbc-4cef-9896-64768ecf2ffa"
-	"ID_ffc8d0eb-cdbc-4cef-9896-64768ecf2ffa" -> "ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5"
-	"ID_5daa433e-6532-4f1c-bf83-6720183d9d8f" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_b56be2dd-1638-466e-969e-ed461c8210b3" -> "ID_5daa433e-6532-4f1c-bf83-6720183d9d8f"
-	"ID_5daa433e-6532-4f1c-bf83-6720183d9d8f" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_e59d4c3d-b94d-492c-82a5-7885e550ed87" [label="github:graphapps-V1#target" shape=box]
-	"ID_539eb495-d194-4dce-a1ca-c1a7068558ef" -> "ID_e59d4c3d-b94d-492c-82a5-7885e550ed87"
-	"ID_e59d4c3d-b94d-492c-82a5-7885e550ed87" -> "ID_2c9416bf-7d57-41ac-8810-daabe4142a0d"
-	"ID_73b4da10-2985-4c3c-93f4-cc5cbbc8d65d" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_06bda7e8-79d2-4295-83b5-2271a3a76ddb" -> "ID_73b4da10-2985-4c3c-93f4-cc5cbbc8d65d"
-	"ID_73b4da10-2985-4c3c-93f4-cc5cbbc8d65d" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_5702fcf7-14d4-4a00-99eb-e1544891e736" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_1c94edd9-8636-41ec-abd3-acc8140187f2" -> "ID_5702fcf7-14d4-4a00-99eb-e1544891e736"
-	"ID_5702fcf7-14d4-4a00-99eb-e1544891e736" -> "ID_06167ced-958d-45d8-92c4-110ecad5ed0d"
-	"ID_7ba14fc8-f7d7-4852-a194-556ec9630a70" [label="w3:3.0#Given" shape=box]
-	"ID_ba573191-eb39-46ff-855d-581ce04323f0" -> "ID_7ba14fc8-f7d7-4852-a194-556ec9630a70"
-	"ID_7ba14fc8-f7d7-4852-a194-556ec9630a70" -> "ID_49d4258a-754a-4a1f-9e14-2791a66a4799"
-	"ID_36a7246d-5aa0-4766-a5db-5dcbf4280119" [label="w3:3.0#Family" shape=box]
-	"ID_ba573191-eb39-46ff-855d-581ce04323f0" -> "ID_36a7246d-5aa0-4766-a5db-5dcbf4280119"
-	"ID_36a7246d-5aa0-4766-a5db-5dcbf4280119" -> "ID_a0769acf-e1b9-40cb-843a-a00b2062774a"
-	"ID_d6ed9ac1-b23f-4311-bdaa-964ad0aafe11" [label="github:graphapps-V1#target" shape=box]
-	"ID_0e60bc59-a6d3-4155-a3a8-68ed7f83253b" -> "ID_d6ed9ac1-b23f-4311-bdaa-964ad0aafe11"
-	"ID_d6ed9ac1-b23f-4311-bdaa-964ad0aafe11" -> "ID_d05142db-3c3c-4c8e-8e16-51e94cb6ea0a"
-	"ID_33a4d6c7-590d-449f-869d-02fd8407490c" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_b9cf7427-0520-4cbe-a1a5-9de8332dd380" -> "ID_33a4d6c7-590d-449f-869d-02fd8407490c"
-	"ID_33a4d6c7-590d-449f-869d-02fd8407490c" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_3e25d421-ad11-4232-8666-bd49a280b259" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_93ab9c53-5d82-41fc-b61f-b998727832b8" -> "ID_3e25d421-ad11-4232-8666-bd49a280b259"
-	"ID_3e25d421-ad11-4232-8666-bd49a280b259" -> "ID_fbd5df88-5fa7-4261-beff-6eab08a2fb2a"
-	"ID_3d3cc708-b60d-4392-bf71-7655a595a8f3" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_703886d5-8255-4fd2-bb5b-5fa43cb1749c" -> "ID_3d3cc708-b60d-4392-bf71-7655a595a8f3"
-	"ID_3d3cc708-b60d-4392-bf71-7655a595a8f3" -> "ID_0368db05-ac74-489a-8542-ef3e0a18f133"
-	"ID_1eba1cfe-7189-4494-af12-e324d9a77fbc" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_36e73f6f-cbc2-42b6-81fb-ba4fff0ab1d1" -> "ID_1eba1cfe-7189-4494-af12-e324d9a77fbc"
-	"ID_1eba1cfe-7189-4494-af12-e324d9a77fbc" -> "ID_4ba0d914-1e96-4c0a-80e8-9c5f6c4a2d94"
-	"ID_5b226c2b-e906-4207-afd4-3a040bd3a718" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_d55cc7c4-6fca-4fca-8117-a2e20612414f" -> "ID_5b226c2b-e906-4207-afd4-3a040bd3a718"
-	"ID_5b226c2b-e906-4207-afd4-3a040bd3a718" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_50d22d3d-a289-43de-8a70-09efb5372085" [label="github:graphapps-V1#source" shape=box]
-	"ID_ff5cafdb-ea43-4213-86cf-63b4ca09f835" -> "ID_50d22d3d-a289-43de-8a70-09efb5372085"
-	"ID_50d22d3d-a289-43de-8a70-09efb5372085" -> "ID_6343963d-0c93-4b71-a69f-e5f3d2a8f140"
-	"ID_2cd2268f-e0e5-4267-8cde-04f512d2973b" [label="github:graphapps-V1#source" shape=box]
-	"ID_5ac77393-28fe-40c8-b56a-4b5ec3cb5e23" -> "ID_2cd2268f-e0e5-4267-8cde-04f512d2973b"
-	"ID_2cd2268f-e0e5-4267-8cde-04f512d2973b" -> "ID_5c811876-0e6c-4aca-ba5f-f0f1592ee4b5"
-	"ID_dd292035-7f16-4dfd-b04f-78475d28e538" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_ff5cafdb-ea43-4213-86cf-63b4ca09f835" -> "ID_dd292035-7f16-4dfd-b04f-78475d28e538"
-	"ID_dd292035-7f16-4dfd-b04f-78475d28e538" -> "ID_613706fd-d70d-49bd-ac33-c84bc7f22aa2"
-	"ID_1b685398-31f4-424e-bd96-615e18cc7e82" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_cec08238-4df9-4ef6-904c-0cb757b4fb92" -> "ID_1b685398-31f4-424e-bd96-615e18cc7e82"
-	"ID_1b685398-31f4-424e-bd96-615e18cc7e82" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_9851207d-6773-4b2e-bc49-d6788ac89a0b" [label="purl:creator" shape=box]
-	"ID_729e147b-c971-47de-8f15-32765ba02641" -> "ID_9851207d-6773-4b2e-bc49-d6788ac89a0b"
-	"ID_9851207d-6773-4b2e-bc49-d6788ac89a0b" -> "ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca"
-	"ID_6301da17-747b-4940-b3b7-5da645e20d4d" [label="github:graphapps-V1#target" shape=box]
-	"ID_cec08238-4df9-4ef6-904c-0cb757b4fb92" -> "ID_6301da17-747b-4940-b3b7-5da645e20d4d"
-	"ID_6301da17-747b-4940-b3b7-5da645e20d4d" -> "ID_1d070971-69d2-47f0-b424-ef928e31a956"
-	"ID_0ff4fc1b-6b04-4dec-a17d-aa6bb05e3eb8" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_2c9416bf-7d57-41ac-8810-daabe4142a0d" -> "ID_0ff4fc1b-6b04-4dec-a17d-aa6bb05e3eb8"
-	"ID_0ff4fc1b-6b04-4dec-a17d-aa6bb05e3eb8" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_5c2587e7-23f0-449b-b2ae-11f2c48603ed" [label="github:graphapps-V1#target" shape=box]
-	"ID_3d599a81-2d62-4089-8100-a22532b546a6" -> "ID_5c2587e7-23f0-449b-b2ae-11f2c48603ed"
-	"ID_5c2587e7-23f0-449b-b2ae-11f2c48603ed" -> "ID_36e73f6f-cbc2-42b6-81fb-ba4fff0ab1d1"
-	"ID_18d2d71c-4745-446a-b337-15467d5fa3c4" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_b56be2dd-1638-466e-969e-ed461c8210b3" -> "ID_18d2d71c-4745-446a-b337-15467d5fa3c4"
-	"ID_18d2d71c-4745-446a-b337-15467d5fa3c4" -> "ID_6ddd46c1-d966-4c74-ac18-43a786153a62"
-	"ID_6097a024-6994-4f27-9f31-f644e0840426" [label="github:graphapps-V1#target" shape=box]
-	"ID_db8d2310-d208-4906-85d3-05dbb7c647d3" -> "ID_6097a024-6994-4f27-9f31-f644e0840426"
-	"ID_6097a024-6994-4f27-9f31-f644e0840426" -> "ID_8357e776-bc21-424a-a2fd-c69aeb697fae"
-	"ID_97368032-0540-4466-9ec9-da6337c4d365" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_6343963d-0c93-4b71-a69f-e5f3d2a8f140" -> "ID_97368032-0540-4466-9ec9-da6337c4d365"
-	"ID_97368032-0540-4466-9ec9-da6337c4d365" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
-	"ID_1618e6bd-1d01-4e9e-8699-cc6349dc7b66" [label="github:graphapps-V1#source" shape=box]
-	"ID_db8d2310-d208-4906-85d3-05dbb7c647d3" -> "ID_1618e6bd-1d01-4e9e-8699-cc6349dc7b66"
-	"ID_1618e6bd-1d01-4e9e-8699-cc6349dc7b66" -> "ID_b6ffe58a-e447-4c50-9805-f2a2fd105c03"
-	"ID_2bf31da2-8278-4c2f-85c8-1b9666c2ee9f" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_54780d41-e839-4e3f-89fb-6e46b5c9680a" -> "ID_2bf31da2-8278-4c2f-85c8-1b9666c2ee9f"
-	"ID_2bf31da2-8278-4c2f-85c8-1b9666c2ee9f" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_2a62d790-8784-41fa-bf9b-8d93ab4a2164" [label="purl:creator" shape=box]
-	"ID_bf71f5e2-83f8-423f-9cef-9d39cd098991" -> "ID_2a62d790-8784-41fa-bf9b-8d93ab4a2164"
-	"ID_2a62d790-8784-41fa-bf9b-8d93ab4a2164" -> "ID_2a1104a0-98cf-4a8d-8b57-743f5c0098ca"
-	"ID_395d071f-3aa6-4b00-94cb-5fbc941ffb2f" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_db8d2310-d208-4906-85d3-05dbb7c647d3" -> "ID_395d071f-3aa6-4b00-94cb-5fbc941ffb2f"
-	"ID_395d071f-3aa6-4b00-94cb-5fbc941ffb2f" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_08af8ffd-34d8-49ed-84f3-7ef3e07e06df" [label="w3:22-rdf-syntax-ns#value" shape=box]
-	"ID_8ba16701-86a3-404a-b2cb-021194d05967" -> "ID_08af8ffd-34d8-49ed-84f3-7ef3e07e06df"
-	"ID_08af8ffd-34d8-49ed-84f3-7ef3e07e06df" -> "ID_729e147b-c971-47de-8f15-32765ba02641"
-	"ID_d73035fd-2b94-41fe-af9e-5eef219bbe7c" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_5ac77393-28fe-40c8-b56a-4b5ec3cb5e23" -> "ID_d73035fd-2b94-41fe-af9e-5eef219bbe7c"
-	"ID_d73035fd-2b94-41fe-af9e-5eef219bbe7c" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_68974bc0-348c-4a61-9e83-38c03db5c3d0" [label="purl:creator" shape=box]
-	"ID_e72a7509-c3f7-4eee-a58d-79d81d09708d" -> "ID_68974bc0-348c-4a61-9e83-38c03db5c3d0"
-	"ID_68974bc0-348c-4a61-9e83-38c03db5c3d0" -> "ID_2fb4c7bd-185f-4028-b070-c82d8bebedcb"
-	"ID_e9937ecb-f984-430b-bdfa-518708ed372e" [label="purl:title" shape=box]
-	"ID_9357d44a-deec-49f2-9369-88f0313d85ca" -> "ID_e9937ecb-f984-430b-bdfa-518708ed372e"
-	"ID_e9937ecb-f984-430b-bdfa-518708ed372e" -> "ID_8849a58f-b01d-4ea2-88b2-0a5e8e4d585b"
-	"ID_28857e37-2521-450a-a1ae-c1b26ff49141" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_81edccc3-7b8e-4b6d-8d1a-6ce70b6cc10c" -> "ID_28857e37-2521-450a-a1ae-c1b26ff49141"
-	"ID_28857e37-2521-450a-a1ae-c1b26ff49141" -> "ID_80934c73-d363-4700-ac4e-8fdcc11b3694"
-	"ID_055f184a-9327-4841-8338-5314ab747d2f" [label="w3:22-rdf-syntax-ns#type" shape=box]
-	"ID_d05142db-3c3c-4c8e-8e16-51e94cb6ea0a" -> "ID_055f184a-9327-4841-8338-5314ab747d2f"
-	"ID_055f184a-9327-4841-8338-5314ab747d2f" -> "ID_dccaf2de-e554-49b4-93da-c5a5472193b3"
+	"ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a" [label=fa2d76007954c4145abd9b5a7b23d7b19b1 color=blue fontcolor=blue]
+	"ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc" [label="J.K. Rowling" color=blue fontcolor=blue]
+	"ID_3bdf3d58-5f1f-4cfc-8cc7-9d37e7473f78" [label="github:graphapps-V1#ID_4cb29351-e16e-4159-a16a-63345bacb9cf" color=blue fontcolor=blue]
+	"ID_a27d74cb-c5fe-4fcc-964b-331284c6b572" [label="github:graphapps-V1#EdgeID" color=blue fontcolor=blue]
+	"ID_f022227f-b234-43ca-a3f2-bdb0edf725d3" [label="github:graphapps-V1#ID_3bab3c33-a0ff-4077-859f-6e8ae39a1dd4" color=blue fontcolor=blue]
+	"ID_c9f8cc2e-97c0-44e4-91c6-a21eb8e7d815" [label="github:graphapps-V1#ID_eed38026-7312-41c6-b6e9-ccb88716fbf0" color=blue fontcolor=blue]
+	"ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b" [label="github:graphapps-V1#ID_9594a55d-7845-4408-ba47-6470ea697fbe" color=blue fontcolor=blue]
+	"ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8" [label="github:graphapps-V1#NodeID" color=blue fontcolor=blue]
+	"ID_d560cb27-8cc7-4454-b077-8f63a0f0e398" [label="github:graphapps-V1#ID_5f99099b-f577-44e0-be80-5e0181e9f04b" color=blue fontcolor=blue]
+	"ID_466c2855-1559-40cf-94a5-e684a8041597" [label="purl:creator" color=blue fontcolor=blue]
+	"ID_fa977e2f-b103-49ce-a822-12214883c1bc" [label="example:book6" color=blue fontcolor=blue]
+	"ID_0639a0d9-9aad-4633-8ccb-773ac9b29654" [label="Harry Potter and the Half-Blood Prince" color=blue fontcolor=blue]
+	"ID_db8f800d-5496-450e-b2bc-e61aae017971" [label="github:graphapps-V1#ID_405ea110-6162-40d5-a048-b672abc8a6ab" color=blue fontcolor=blue]
+	"ID_44c0d01a-9ebf-49c2-8ae1-2584ca6868bd" [label="example:book5" color=blue fontcolor=blue]
+	"ID_f1f4903b-5f1d-41d3-9281-a1e0ba9d969e" [label="github:graphapps-V1#ID_00f64096-739b-444f-982d-7f7202d6180c" color=blue fontcolor=blue]
+	"ID_2b8d8d00-70d1-4fb7-bd73-412979020021" [label="purl:title" color=blue fontcolor=blue]
+	"ID_8da91976-ae0c-4eff-9b82-679a8c2d11f7" [label="github:graphapps-V1#ID_d13086c1-de19-47b7-809e-4723a40034a4" color=blue fontcolor=blue]
+	"ID_64313dd1-cdbc-4378-9ab6-9b159fe99e99" [label="github:graphapps-V1#ID_9104c66d-521e-48c9-9427-73ff7d41d819" color=blue fontcolor=blue]
+	"ID_770fd288-5fa2-4d50-9cd2-40e589ced18e" [label="github:graphapps-V1#ID_972b4dcf-9b90-4d02-9364-f6311f0c5c93" color=blue fontcolor=blue]
+	"ID_e299730e-fe0f-4064-83e0-c2e0806edbc6" [label="github:graphapps-V1#ID_c9df280d-1b68-4c48-b832-1ca7dc0274fd" color=blue fontcolor=blue]
+	"ID_df62be3f-7ccf-4e04-b9ac-a2f9e51095d8" [label="example:book2" color=blue fontcolor=blue]
+	"ID_0daa93ef-85e1-4975-b143-4d943bb8fbb5" [label="github:graphapps-V1#ID_13859c5f-e7dd-499a-80aa-e42fe63433dd" color=blue fontcolor=blue]
+	"ID_811ff6eb-79db-4fe3-9363-9a9b3ba32484" [label="github:graphapps-V1#ID_b46a4bcb-dcbf-4d38-9d6d-6b9eea8622b0" color=blue fontcolor=blue]
+	"ID_0c937125-1d45-438b-b7ef-c73d1f3e96a3" [label="github:graphapps-V1#ID_6a57f4ad-33b1-4143-9450-1ed6b1600804" color=blue fontcolor=blue]
+	"ID_d08347f2-4280-4219-b326-d9cf27ec2c5a" [label="github:graphapps-V1#ID_bdbc57b5-d3f9-4e52-86fb-ebbd6d71eb48" color=blue fontcolor=blue]
+	"ID_b4a1e9a6-9c99-4c97-82b7-f92a1208be48" [label="Harry Potter and the Chamber of Secrets" color=blue fontcolor=blue]
+	"ID_1c9132c2-59ad-444c-b336-1412e87015f1" [label="github:graphapps-V1#ID_e51c2db1-3d3b-4dcf-a554-a39bb40cf5ac" color=blue fontcolor=blue]
+	"ID_fdf4d9e3-8224-471c-86b0-6c45c0af9c04" [label="github:graphapps-V1#ID_0922974e-77f9-4f1c-9c60-dfb994683d75" color=blue fontcolor=blue]
+	"ID_5d1b6a5a-d7f9-406f-a335-13d6868e7861" [label="github:graphapps-V1#ID_e4128d3a-d471-4ffb-a429-e44ba4cc44e2" color=blue fontcolor=blue]
+	"ID_d5da0535-f69e-4ec7-a7e3-ea379267003c" [label="github:graphapps-V1#ID_6c484424-2fbe-4dd0-aa53-2e78d07d5fc6" color=blue fontcolor=blue]
+	"ID_17028faf-3da3-44e0-a5c7-b91682cb68e5" [label="github:graphapps-V1#ID_08a9e3b5-a060-4bff-9da3-2af57e73f82d" color=blue fontcolor=blue]
+	"ID_8118d13d-c292-4f45-93f2-9c3f533a64ef" [label="github:graphapps-V1#ID_2cd90226-93c1-426f-a914-48106e66baa8" color=blue fontcolor=blue]
+	"ID_22be16a3-0d20-400a-99b3-5233db90b569" [label=Rowling color=blue fontcolor=blue]
+	"ID_449a9c23-b910-4708-a43f-477e0846dbba" [label="github:graphapps-V1#ID_856ca084-507e-487a-a0d7-b99c73d1f6a6" color=blue fontcolor=blue]
+	"ID_cb97bd68-f79e-4b5f-9305-aedf63d61770" [label="Harry Potter and the Prisoner Of Azkaban" color=blue fontcolor=blue]
+	"ID_aad0b408-6689-4cf2-b54a-5af551f78947" [label="example:book7" color=blue fontcolor=blue]
+	"ID_37a582cd-c701-4b58-95a3-75fa08955735" [label="github:graphapps-V1#ID_efbaf149-b20b-41eb-8bf3-1ab9ef44a22c" color=blue fontcolor=blue]
+	"ID_fda77a70-d7d8-4579-8913-3f1af9c9b21a" [label=ub1bL58C9 color=blue fontcolor=blue]
+	"ID_51ea34c6-9f5b-4b53-ac26-fcfea7a87004" [label="github:graphapps-V1#ID_0cbb3487-6cf5-4149-b957-58869e5b6ba4" color=blue fontcolor=blue]
+	"ID_b71c0ac8-fc99-4ee5-8403-c319260fd216" [label="github:graphapps-V1#ID_70ce2368-546d-441f-a31a-298d1f36dca1" color=blue fontcolor=blue]
+	"ID_f6e9e061-8c3c-47b0-b777-138989e0a182" [label="github:graphapps-V1#ID_35dd4f6e-d542-48bd-9d83-61155304912c" color=blue fontcolor=blue]
+	"ID_e3493d92-e009-47f1-a848-360de9b06691" [label="example:book1" color=blue fontcolor=blue]
+	"ID_a6248d05-2e37-4220-acdc-deef69084c7b" [label="github:graphapps-V1#ID_30f09134-3304-4e93-bd27-63783f43a72d" color=blue fontcolor=blue]
+	"ID_c07fc975-a301-4a0d-824f-78883c28a676" [label="w3:3.0#FN" color=blue fontcolor=blue]
+	"ID_83579068-e30a-485e-8bdb-4090dd9ab625" [label="github:graphapps-V1#ID_c1e8cd96-bc0e-4a00-bc23-4be4b5438f16" color=blue fontcolor=blue]
+	"ID_3e5cbb4f-3652-4dfa-8f67-9b2304023e49" [label="w3:3.0#Given" color=blue fontcolor=blue]
+	"ID_29fa7000-b910-4705-9ed7-32a781e8b3f1" [label="github:graphapps-V1#ID_52815f74-41b0-4ca1-9562-3a9a4b3da93b" color=blue fontcolor=blue]
+	"ID_afd8a833-5fd5-4746-8137-b7cb57fc5c88" [label="github:graphapps-V1#ID_2feb0176-2843-43b8-87a0-916166e58bcd" color=blue fontcolor=blue]
+	"ID_58515c86-ed6e-4b59-9e55-eb757e8c111d" [label="github:graphapps-V1#ID_e71b9871-019f-408b-84ab-4639754a2e58" color=blue fontcolor=blue]
+	"ID_490bb425-c3d5-491c-b720-5f7a6d394bf4" [label="w3:3.0#Family" color=blue fontcolor=blue]
+	"ID_e5eb4a05-2d68-4142-8a35-1dbd112cebf1" [label="Harry Potter and the Deathly Hallows" color=blue fontcolor=blue]
+	"ID_c6ebe082-dfb3-4ee2-bb3f-4f1a5bed0560" [label="Harry Potter and the Philosopher's Stone" color=blue fontcolor=blue]
+	"ID_1a888242-43c5-452d-b0e5-c925e96b4edc" [label="Harry Potter and the Order of the Phoeni..." color=blue fontcolor=blue]
+	"ID_9806e2d1-d857-4e87-8447-6e05b07caac0" [label="github:graphapps-V1#ID_dd405c89-51eb-4712-8cf0-d9beac3bbce7" color=blue fontcolor=blue]
+	"ID_31f17b39-4091-4391-8900-18469d604afa" [label="example:book3" color=blue fontcolor=blue]
+	"ID_907e7e72-d370-40d9-87a7-ccafad1664e4" [label=Joanna color=blue fontcolor=blue]
+	"ID_aa74ade7-9718-462e-99b8-370860ba0b30" [label="github:graphapps-V1#ID_8bf04826-ad1f-4e20-b9c9-89cc4a1f142c" color=blue fontcolor=blue]
+	"ID_2d866139-06eb-4788-8dbc-98282300da13" [label="github:graphapps-V1#ID_71c23caf-6c44-4da7-8574-58ade72f232e" color=blue fontcolor=blue]
+	"ID_324ee315-fc5a-4856-a99c-fc015efd8026" [label="github:graphapps-V1#ID_b724f54c-ec02-441b-9a9c-eb248c3287f2" color=blue fontcolor=blue]
+	"ID_9712d555-d171-4dd5-a13e-d4beb364af9c" [label="w3:3.0#N" color=blue fontcolor=blue]
+	"ID_566f373c-f88f-4c15-b29c-54d5ca6aff73" [label="github:graphapps-V1#ID_dd4f07ad-4267-4e40-9fa9-ef476b3deee8" color=blue fontcolor=blue]
+	"ID_88ec8f70-3251-4a64-9c83-3499a2d1a4d4" [label="example:book4" color=blue fontcolor=blue]
+	"ID_7256b1ff-7fea-4386-9505-fbb56396c288" [label="Harry Potter and the Goblet of Fire" color=blue fontcolor=blue]
+	"ID_7c134ad9-ee20-4451-ab37-a232b1b5957f" [label="w3:3.0#FN" shape=box]
+	"ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a" -> "ID_7c134ad9-ee20-4451-ab37-a232b1b5957f"
+	"ID_7c134ad9-ee20-4451-ab37-a232b1b5957f" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_f4bcc29f-d30d-40e1-893d-f5c4fff36a3a" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_3bdf3d58-5f1f-4cfc-8cc7-9d37e7473f78" -> "ID_f4bcc29f-d30d-40e1-893d-f5c4fff36a3a"
+	"ID_f4bcc29f-d30d-40e1-893d-f5c4fff36a3a" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_74d33522-9409-480c-8ee4-72a9c6a44f98" [label="github:graphapps-V1#target" shape=box]
+	"ID_f022227f-b234-43ca-a3f2-bdb0edf725d3" -> "ID_74d33522-9409-480c-8ee4-72a9c6a44f98"
+	"ID_74d33522-9409-480c-8ee4-72a9c6a44f98" -> "ID_c9f8cc2e-97c0-44e4-91c6-a21eb8e7d815"
+	"ID_aec4066f-a839-40dd-8219-dcd51d222239" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b" -> "ID_aec4066f-a839-40dd-8219-dcd51d222239"
+	"ID_aec4066f-a839-40dd-8219-dcd51d222239" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_1789f0f7-ac43-46e3-b81e-a35afa76c220" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_d560cb27-8cc7-4454-b077-8f63a0f0e398" -> "ID_1789f0f7-ac43-46e3-b81e-a35afa76c220"
+	"ID_1789f0f7-ac43-46e3-b81e-a35afa76c220" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_b482c90b-7748-4981-9356-2b2e691eb44e" [label="purl:title" shape=box]
+	"ID_fa977e2f-b103-49ce-a822-12214883c1bc" -> "ID_b482c90b-7748-4981-9356-2b2e691eb44e"
+	"ID_b482c90b-7748-4981-9356-2b2e691eb44e" -> "ID_0639a0d9-9aad-4633-8ccb-773ac9b29654"
+	"ID_15f6bdd7-e5c9-431c-bafb-5eb07ca5f392" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_db8f800d-5496-450e-b2bc-e61aae017971" -> "ID_15f6bdd7-e5c9-431c-bafb-5eb07ca5f392"
+	"ID_15f6bdd7-e5c9-431c-bafb-5eb07ca5f392" -> "ID_44c0d01a-9ebf-49c2-8ae1-2584ca6868bd"
+	"ID_21f9fb8e-3111-4ce2-b251-f68abae49a7d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_f1f4903b-5f1d-41d3-9281-a1e0ba9d969e" -> "ID_21f9fb8e-3111-4ce2-b251-f68abae49a7d"
+	"ID_21f9fb8e-3111-4ce2-b251-f68abae49a7d" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_3d87a969-06e1-4cd6-8c79-7bf54aff1cad" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_8da91976-ae0c-4eff-9b82-679a8c2d11f7" -> "ID_3d87a969-06e1-4cd6-8c79-7bf54aff1cad"
+	"ID_3d87a969-06e1-4cd6-8c79-7bf54aff1cad" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_b368faf0-540b-4092-ab5c-aa4dd97c5743" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_64313dd1-cdbc-4378-9ab6-9b159fe99e99" -> "ID_b368faf0-540b-4092-ab5c-aa4dd97c5743"
+	"ID_b368faf0-540b-4092-ab5c-aa4dd97c5743" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_ae950442-9d0e-4bf5-b392-28817ec1b23e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_770fd288-5fa2-4d50-9cd2-40e589ced18e" -> "ID_ae950442-9d0e-4bf5-b392-28817ec1b23e"
+	"ID_ae950442-9d0e-4bf5-b392-28817ec1b23e" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_d5c22ab6-03ac-45a2-968b-74a22fe477e7" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_e299730e-fe0f-4064-83e0-c2e0806edbc6" -> "ID_d5c22ab6-03ac-45a2-968b-74a22fe477e7"
+	"ID_d5c22ab6-03ac-45a2-968b-74a22fe477e7" -> "ID_df62be3f-7ccf-4e04-b9ac-a2f9e51095d8"
+	"ID_7483d169-5413-4dca-b750-5b95c7190487" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_64313dd1-cdbc-4378-9ab6-9b159fe99e99" -> "ID_7483d169-5413-4dca-b750-5b95c7190487"
+	"ID_7483d169-5413-4dca-b750-5b95c7190487" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_162307de-6db7-4324-9a1f-ee4c51fe9247" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_0daa93ef-85e1-4975-b143-4d943bb8fbb5" -> "ID_162307de-6db7-4324-9a1f-ee4c51fe9247"
+	"ID_162307de-6db7-4324-9a1f-ee4c51fe9247" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_7a5dacd4-c970-4874-83a0-3fb583da6567" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_d560cb27-8cc7-4454-b077-8f63a0f0e398" -> "ID_7a5dacd4-c970-4874-83a0-3fb583da6567"
+	"ID_7a5dacd4-c970-4874-83a0-3fb583da6567" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_011203fa-1ebc-4843-afe7-a342102692df" [label="github:graphapps-V1#target" shape=box]
+	"ID_0daa93ef-85e1-4975-b143-4d943bb8fbb5" -> "ID_011203fa-1ebc-4843-afe7-a342102692df"
+	"ID_011203fa-1ebc-4843-afe7-a342102692df" -> "ID_811ff6eb-79db-4fe3-9363-9a9b3ba32484"
+	"ID_dbebb1b2-80c8-4c2e-9787-ea3f81eabd78" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_8da91976-ae0c-4eff-9b82-679a8c2d11f7" -> "ID_dbebb1b2-80c8-4c2e-9787-ea3f81eabd78"
+	"ID_dbebb1b2-80c8-4c2e-9787-ea3f81eabd78" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_42ea45eb-ec8e-41ac-86c3-e411059ce697" [label="github:graphapps-V1#source" shape=box]
+	"ID_0c937125-1d45-438b-b7ef-c73d1f3e96a3" -> "ID_42ea45eb-ec8e-41ac-86c3-e411059ce697"
+	"ID_42ea45eb-ec8e-41ac-86c3-e411059ce697" -> "ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b"
+	"ID_94db8560-7d4f-40f1-b623-e51cd2f5aea6" [label="github:graphapps-V1#target" shape=box]
+	"ID_d560cb27-8cc7-4454-b077-8f63a0f0e398" -> "ID_94db8560-7d4f-40f1-b623-e51cd2f5aea6"
+	"ID_94db8560-7d4f-40f1-b623-e51cd2f5aea6" -> "ID_770fd288-5fa2-4d50-9cd2-40e589ced18e"
+	"ID_01ba76a2-10bc-4d5a-a86b-663cdd5eb797" [label="github:graphapps-V1#target" shape=box]
+	"ID_f1f4903b-5f1d-41d3-9281-a1e0ba9d969e" -> "ID_01ba76a2-10bc-4d5a-a86b-663cdd5eb797"
+	"ID_01ba76a2-10bc-4d5a-a86b-663cdd5eb797" -> "ID_d08347f2-4280-4219-b326-d9cf27ec2c5a"
+	"ID_1075ceb1-6cb9-4729-bc93-18a9c6728856" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_e299730e-fe0f-4064-83e0-c2e0806edbc6" -> "ID_1075ceb1-6cb9-4729-bc93-18a9c6728856"
+	"ID_1075ceb1-6cb9-4729-bc93-18a9c6728856" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_0fc9b1b1-ca81-4b91-adc6-1deb85158338" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_c9f8cc2e-97c0-44e4-91c6-a21eb8e7d815" -> "ID_0fc9b1b1-ca81-4b91-adc6-1deb85158338"
+	"ID_0fc9b1b1-ca81-4b91-adc6-1deb85158338" -> "ID_b4a1e9a6-9c99-4c97-82b7-f92a1208be48"
+	"ID_12433e92-9066-4a8d-9f6a-0284a681dc69" [label="github:graphapps-V1#target" shape=box]
+	"ID_1c9132c2-59ad-444c-b336-1412e87015f1" -> "ID_12433e92-9066-4a8d-9f6a-0284a681dc69"
+	"ID_12433e92-9066-4a8d-9f6a-0284a681dc69" -> "ID_fdf4d9e3-8224-471c-86b0-6c45c0af9c04"
+	"ID_a03eb591-2a1e-4d52-9a77-e98ad6793beb" [label="github:graphapps-V1#source" shape=box]
+	"ID_1c9132c2-59ad-444c-b336-1412e87015f1" -> "ID_a03eb591-2a1e-4d52-9a77-e98ad6793beb"
+	"ID_a03eb591-2a1e-4d52-9a77-e98ad6793beb" -> "ID_5d1b6a5a-d7f9-406f-a335-13d6868e7861"
+	"ID_baa1482e-eb8c-4dde-98ed-e11181836d5d" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_811ff6eb-79db-4fe3-9363-9a9b3ba32484" -> "ID_baa1482e-eb8c-4dde-98ed-e11181836d5d"
+	"ID_baa1482e-eb8c-4dde-98ed-e11181836d5d" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_267c71b8-c8fd-4500-93e2-52d50126143c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_d5da0535-f69e-4ec7-a7e3-ea379267003c" -> "ID_267c71b8-c8fd-4500-93e2-52d50126143c"
+	"ID_267c71b8-c8fd-4500-93e2-52d50126143c" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_1a7a35f1-04e3-411c-b057-99083a564a96" [label="github:graphapps-V1#target" shape=box]
+	"ID_0c937125-1d45-438b-b7ef-c73d1f3e96a3" -> "ID_1a7a35f1-04e3-411c-b057-99083a564a96"
+	"ID_1a7a35f1-04e3-411c-b057-99083a564a96" -> "ID_17028faf-3da3-44e0-a5c7-b91682cb68e5"
+	"ID_19b143fc-262e-4c87-babd-3638ce791f11" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_8118d13d-c292-4f45-93f2-9c3f533a64ef" -> "ID_19b143fc-262e-4c87-babd-3638ce791f11"
+	"ID_19b143fc-262e-4c87-babd-3638ce791f11" -> "ID_22be16a3-0d20-400a-99b3-5233db90b569"
+	"ID_d9ac021d-cb2b-4bb8-b1e8-969b84f9944d" [label="github:graphapps-V1#target" shape=box]
+	"ID_8da91976-ae0c-4eff-9b82-679a8c2d11f7" -> "ID_d9ac021d-cb2b-4bb8-b1e8-969b84f9944d"
+	"ID_d9ac021d-cb2b-4bb8-b1e8-969b84f9944d" -> "ID_449a9c23-b910-4708-a43f-477e0846dbba"
+	"ID_c81e490d-0a80-4064-8962-17c676d89dd0" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_449a9c23-b910-4708-a43f-477e0846dbba" -> "ID_c81e490d-0a80-4064-8962-17c676d89dd0"
+	"ID_c81e490d-0a80-4064-8962-17c676d89dd0" -> "ID_cb97bd68-f79e-4b5f-9305-aedf63d61770"
+	"ID_9e1cee3c-c869-4448-b327-25881d3fb8bf" [label="purl:creator" shape=box]
+	"ID_aad0b408-6689-4cf2-b54a-5af551f78947" -> "ID_9e1cee3c-c869-4448-b327-25881d3fb8bf"
+	"ID_9e1cee3c-c869-4448-b327-25881d3fb8bf" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_2e23dae6-78ee-4815-b56b-4e008e3adff7" [label="github:graphapps-V1#source" shape=box]
+	"ID_0daa93ef-85e1-4975-b143-4d943bb8fbb5" -> "ID_2e23dae6-78ee-4815-b56b-4e008e3adff7"
+	"ID_2e23dae6-78ee-4815-b56b-4e008e3adff7" -> "ID_37a582cd-c701-4b58-95a3-75fa08955735"
+	"ID_b8612032-639b-4696-b436-de98a73197ee" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_17028faf-3da3-44e0-a5c7-b91682cb68e5" -> "ID_b8612032-639b-4696-b436-de98a73197ee"
+	"ID_b8612032-639b-4696-b436-de98a73197ee" -> "ID_fda77a70-d7d8-4579-8913-3f1af9c9b21a"
+	"ID_fe9d250c-db30-4e12-b149-5714a9634aca" [label="github:graphapps-V1#source" shape=box]
+	"ID_51ea34c6-9f5b-4b53-ac26-fcfea7a87004" -> "ID_fe9d250c-db30-4e12-b149-5714a9634aca"
+	"ID_fe9d250c-db30-4e12-b149-5714a9634aca" -> "ID_e299730e-fe0f-4064-83e0-c2e0806edbc6"
+	"ID_93c0266e-dee9-4523-b1b9-a543399406da" [label="github:graphapps-V1#target" shape=box]
+	"ID_b71c0ac8-fc99-4ee5-8403-c319260fd216" -> "ID_93c0266e-dee9-4523-b1b9-a543399406da"
+	"ID_93c0266e-dee9-4523-b1b9-a543399406da" -> "ID_f6e9e061-8c3c-47b0-b777-138989e0a182"
+	"ID_0601e176-b7b2-41ee-ac72-f10f7cbb9d15" [label="purl:creator" shape=box]
+	"ID_df62be3f-7ccf-4e04-b9ac-a2f9e51095d8" -> "ID_0601e176-b7b2-41ee-ac72-f10f7cbb9d15"
+	"ID_0601e176-b7b2-41ee-ac72-f10f7cbb9d15" -> "ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a"
+	"ID_566a947b-a32b-4a3d-b5de-b1de063ff338" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_37a582cd-c701-4b58-95a3-75fa08955735" -> "ID_566a947b-a32b-4a3d-b5de-b1de063ff338"
+	"ID_566a947b-a32b-4a3d-b5de-b1de063ff338" -> "ID_e3493d92-e009-47f1-a848-360de9b06691"
+	"ID_b9b52e3f-a970-4ca9-b22f-c41ebb377428" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_5d1b6a5a-d7f9-406f-a335-13d6868e7861" -> "ID_b9b52e3f-a970-4ca9-b22f-c41ebb377428"
+	"ID_b9b52e3f-a970-4ca9-b22f-c41ebb377428" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_979c155a-ff90-40c6-ae70-546af7afa808" [label="github:graphapps-V1#source" shape=box]
+	"ID_64313dd1-cdbc-4378-9ab6-9b159fe99e99" -> "ID_979c155a-ff90-40c6-ae70-546af7afa808"
+	"ID_979c155a-ff90-40c6-ae70-546af7afa808" -> "ID_db8f800d-5496-450e-b2bc-e61aae017971"
+	"ID_50632d43-7c6e-44ec-9cd7-6f1a079ff806" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_17028faf-3da3-44e0-a5c7-b91682cb68e5" -> "ID_50632d43-7c6e-44ec-9cd7-6f1a079ff806"
+	"ID_50632d43-7c6e-44ec-9cd7-6f1a079ff806" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_82236ad8-0d9e-4f4f-88ce-03227a25fe44" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_a6248d05-2e37-4220-acdc-deef69084c7b" -> "ID_82236ad8-0d9e-4f4f-88ce-03227a25fe44"
+	"ID_82236ad8-0d9e-4f4f-88ce-03227a25fe44" -> "ID_c07fc975-a301-4a0d-824f-78883c28a676"
+	"ID_d10bac42-eb09-4516-bd33-69fc1cee2372" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_5d1b6a5a-d7f9-406f-a335-13d6868e7861" -> "ID_d10bac42-eb09-4516-bd33-69fc1cee2372"
+	"ID_d10bac42-eb09-4516-bd33-69fc1cee2372" -> "ID_aad0b408-6689-4cf2-b54a-5af551f78947"
+	"ID_a84fe44d-ac99-4f30-a6f0-3f5e3e509f7b" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_a6248d05-2e37-4220-acdc-deef69084c7b" -> "ID_a84fe44d-ac99-4f30-a6f0-3f5e3e509f7b"
+	"ID_a84fe44d-ac99-4f30-a6f0-3f5e3e509f7b" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_a77fe19c-d404-409a-8de5-703242aa6b60" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_f022227f-b234-43ca-a3f2-bdb0edf725d3" -> "ID_a77fe19c-d404-409a-8de5-703242aa6b60"
+	"ID_a77fe19c-d404-409a-8de5-703242aa6b60" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_00962885-ac49-4d66-83c1-9eae01099330" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_8118d13d-c292-4f45-93f2-9c3f533a64ef" -> "ID_00962885-ac49-4d66-83c1-9eae01099330"
+	"ID_00962885-ac49-4d66-83c1-9eae01099330" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_f8c640ac-e36b-4d64-9f3f-77d71ddfb0b3" [label="github:graphapps-V1#source" shape=box]
+	"ID_d560cb27-8cc7-4454-b077-8f63a0f0e398" -> "ID_f8c640ac-e36b-4d64-9f3f-77d71ddfb0b3"
+	"ID_f8c640ac-e36b-4d64-9f3f-77d71ddfb0b3" -> "ID_83579068-e30a-485e-8bdb-4090dd9ab625"
+	"ID_32536323-cba5-4f40-8b7b-7944b8e42a1f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_b71c0ac8-fc99-4ee5-8403-c319260fd216" -> "ID_32536323-cba5-4f40-8b7b-7944b8e42a1f"
+	"ID_32536323-cba5-4f40-8b7b-7944b8e42a1f" -> "ID_3e5cbb4f-3652-4dfa-8f67-9b2304023e49"
+	"ID_5a668133-7f83-4c4d-a5a8-edcc56b3b745" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_29fa7000-b910-4705-9ed7-32a781e8b3f1" -> "ID_5a668133-7f83-4c4d-a5a8-edcc56b3b745"
+	"ID_5a668133-7f83-4c4d-a5a8-edcc56b3b745" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_a949e8c2-db31-4082-a0b9-0b7ff1d6fe2d" [label="github:graphapps-V1#source" shape=box]
+	"ID_afd8a833-5fd5-4746-8137-b7cb57fc5c88" -> "ID_a949e8c2-db31-4082-a0b9-0b7ff1d6fe2d"
+	"ID_a949e8c2-db31-4082-a0b9-0b7ff1d6fe2d" -> "ID_db8f800d-5496-450e-b2bc-e61aae017971"
+	"ID_e56c6b0e-0d63-407b-b5aa-a78472961204" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_58515c86-ed6e-4b59-9e55-eb757e8c111d" -> "ID_e56c6b0e-0d63-407b-b5aa-a78472961204"
+	"ID_e56c6b0e-0d63-407b-b5aa-a78472961204" -> "ID_490bb425-c3d5-491c-b720-5f7a6d394bf4"
+	"ID_cea983ef-6659-4972-b0fe-26943d47921d" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_83579068-e30a-485e-8bdb-4090dd9ab625" -> "ID_cea983ef-6659-4972-b0fe-26943d47921d"
+	"ID_cea983ef-6659-4972-b0fe-26943d47921d" -> "ID_fa977e2f-b103-49ce-a822-12214883c1bc"
+	"ID_80fe1dd6-c2ae-49d2-984f-25e0c8a1b4cc" [label="github:graphapps-V1#source" shape=box]
+	"ID_58515c86-ed6e-4b59-9e55-eb757e8c111d" -> "ID_80fe1dd6-c2ae-49d2-984f-25e0c8a1b4cc"
+	"ID_80fe1dd6-c2ae-49d2-984f-25e0c8a1b4cc" -> "ID_17028faf-3da3-44e0-a5c7-b91682cb68e5"
+	"ID_5a3c000a-ac27-4678-b203-14528bfb20cb" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_51ea34c6-9f5b-4b53-ac26-fcfea7a87004" -> "ID_5a3c000a-ac27-4678-b203-14528bfb20cb"
+	"ID_5a3c000a-ac27-4678-b203-14528bfb20cb" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_880eb725-fd46-4297-8056-90f2bc9a4b26" [label="purl:title" shape=box]
+	"ID_aad0b408-6689-4cf2-b54a-5af551f78947" -> "ID_880eb725-fd46-4297-8056-90f2bc9a4b26"
+	"ID_880eb725-fd46-4297-8056-90f2bc9a4b26" -> "ID_e5eb4a05-2d68-4142-8a35-1dbd112cebf1"
+	"ID_6b432cea-95c1-412a-96ad-418d20d15e4a" [label="purl:title" shape=box]
+	"ID_e3493d92-e009-47f1-a848-360de9b06691" -> "ID_6b432cea-95c1-412a-96ad-418d20d15e4a"
+	"ID_6b432cea-95c1-412a-96ad-418d20d15e4a" -> "ID_c6ebe082-dfb3-4ee2-bb3f-4f1a5bed0560"
+	"ID_4bec502d-539a-4daf-9c60-c4e97f796bfc" [label="github:graphapps-V1#target" shape=box]
+	"ID_64313dd1-cdbc-4378-9ab6-9b159fe99e99" -> "ID_4bec502d-539a-4daf-9c60-c4e97f796bfc"
+	"ID_4bec502d-539a-4daf-9c60-c4e97f796bfc" -> "ID_d5da0535-f69e-4ec7-a7e3-ea379267003c"
+	"ID_afbe7b26-2e6e-4fb9-b43d-447459a07576" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_f022227f-b234-43ca-a3f2-bdb0edf725d3" -> "ID_afbe7b26-2e6e-4fb9-b43d-447459a07576"
+	"ID_afbe7b26-2e6e-4fb9-b43d-447459a07576" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_1d14b820-af0d-446b-a33f-a6b2098d9339" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_d5da0535-f69e-4ec7-a7e3-ea379267003c" -> "ID_1d14b820-af0d-446b-a33f-a6b2098d9339"
+	"ID_1d14b820-af0d-446b-a33f-a6b2098d9339" -> "ID_1a888242-43c5-452d-b0e5-c925e96b4edc"
+	"ID_bb2c2e6c-3fda-4025-a8b8-806ebf49bcc6" [label="github:graphapps-V1#target" shape=box]
+	"ID_3bdf3d58-5f1f-4cfc-8cc7-9d37e7473f78" -> "ID_bb2c2e6c-3fda-4025-a8b8-806ebf49bcc6"
+	"ID_bb2c2e6c-3fda-4025-a8b8-806ebf49bcc6" -> "ID_770fd288-5fa2-4d50-9cd2-40e589ced18e"
+	"ID_53ef68d2-d240-4191-91f0-d33cb1870d5e" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_1c9132c2-59ad-444c-b336-1412e87015f1" -> "ID_53ef68d2-d240-4191-91f0-d33cb1870d5e"
+	"ID_53ef68d2-d240-4191-91f0-d33cb1870d5e" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_243dd146-4496-4314-8196-e27a304a5ccd" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_0daa93ef-85e1-4975-b143-4d943bb8fbb5" -> "ID_243dd146-4496-4314-8196-e27a304a5ccd"
+	"ID_243dd146-4496-4314-8196-e27a304a5ccd" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_50d9efaf-4cf1-441a-9613-a2a81948bca9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_9806e2d1-d857-4e87-8447-6e05b07caac0" -> "ID_50d9efaf-4cf1-441a-9613-a2a81948bca9"
+	"ID_50d9efaf-4cf1-441a-9613-a2a81948bca9" -> "ID_31f17b39-4091-4391-8900-18469d604afa"
+	"ID_000a6d62-a75f-4378-9893-7a35e165723c" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_fdf4d9e3-8224-471c-86b0-6c45c0af9c04" -> "ID_000a6d62-a75f-4378-9893-7a35e165723c"
+	"ID_000a6d62-a75f-4378-9893-7a35e165723c" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_92ba9b4f-00e1-4c5e-be2b-8233442403f8" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_37a582cd-c701-4b58-95a3-75fa08955735" -> "ID_92ba9b4f-00e1-4c5e-be2b-8233442403f8"
+	"ID_92ba9b4f-00e1-4c5e-be2b-8233442403f8" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_3169edad-0b6f-4d07-b82e-78d7b8c335fc" [label="w3:3.0#Given" shape=box]
+	"ID_fda77a70-d7d8-4579-8913-3f1af9c9b21a" -> "ID_3169edad-0b6f-4d07-b82e-78d7b8c335fc"
+	"ID_3169edad-0b6f-4d07-b82e-78d7b8c335fc" -> "ID_907e7e72-d370-40d9-87a7-ccafad1664e4"
+	"ID_503c95b2-07b0-4327-9829-626cfc1e169f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_f1f4903b-5f1d-41d3-9281-a1e0ba9d969e" -> "ID_503c95b2-07b0-4327-9829-626cfc1e169f"
+	"ID_503c95b2-07b0-4327-9829-626cfc1e169f" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_8fc0ab9f-ef9d-461a-90a4-fe5a8b8eca30" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_aa74ade7-9718-462e-99b8-370860ba0b30" -> "ID_8fc0ab9f-ef9d-461a-90a4-fe5a8b8eca30"
+	"ID_8fc0ab9f-ef9d-461a-90a4-fe5a8b8eca30" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_f44f46d5-1d6b-4a71-92ba-fde6b13b2e78" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_58515c86-ed6e-4b59-9e55-eb757e8c111d" -> "ID_f44f46d5-1d6b-4a71-92ba-fde6b13b2e78"
+	"ID_f44f46d5-1d6b-4a71-92ba-fde6b13b2e78" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_cb67f6b5-2be3-4f27-a976-d8d1b8358305" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_770fd288-5fa2-4d50-9cd2-40e589ced18e" -> "ID_cb67f6b5-2be3-4f27-a976-d8d1b8358305"
+	"ID_cb67f6b5-2be3-4f27-a976-d8d1b8358305" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_a90f9fd0-76ea-4ce3-a0d5-b6e74edcc8f7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_f6e9e061-8c3c-47b0-b777-138989e0a182" -> "ID_a90f9fd0-76ea-4ce3-a0d5-b6e74edcc8f7"
+	"ID_a90f9fd0-76ea-4ce3-a0d5-b6e74edcc8f7" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_85f219f2-e7b7-49d6-83ef-7f1085c90620" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_2d866139-06eb-4788-8dbc-98282300da13" -> "ID_85f219f2-e7b7-49d6-83ef-7f1085c90620"
+	"ID_85f219f2-e7b7-49d6-83ef-7f1085c90620" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_ed247066-12aa-4f46-9fed-157575175512" [label="github:graphapps-V1#source" shape=box]
+	"ID_29fa7000-b910-4705-9ed7-32a781e8b3f1" -> "ID_ed247066-12aa-4f46-9fed-157575175512"
+	"ID_ed247066-12aa-4f46-9fed-157575175512" -> "ID_5d1b6a5a-d7f9-406f-a335-13d6868e7861"
+	"ID_55b06e04-b302-4f91-9987-ddbe5c60771a" [label="purl:creator" shape=box]
+	"ID_e3493d92-e009-47f1-a848-360de9b06691" -> "ID_55b06e04-b302-4f91-9987-ddbe5c60771a"
+	"ID_55b06e04-b302-4f91-9987-ddbe5c60771a" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_d08e3558-863f-4326-9b57-037641971c75" [label="github:graphapps-V1#source" shape=box]
+	"ID_2d866139-06eb-4788-8dbc-98282300da13" -> "ID_d08e3558-863f-4326-9b57-037641971c75"
+	"ID_d08e3558-863f-4326-9b57-037641971c75" -> "ID_9806e2d1-d857-4e87-8447-6e05b07caac0"
+	"ID_5f393fe0-79c6-4b17-a6fe-6d7272382d87" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_324ee315-fc5a-4856-a99c-fc015efd8026" -> "ID_5f393fe0-79c6-4b17-a6fe-6d7272382d87"
+	"ID_5f393fe0-79c6-4b17-a6fe-6d7272382d87" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_99a92d1f-8f6b-41a5-8acd-c5eef15f49ce" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_51ea34c6-9f5b-4b53-ac26-fcfea7a87004" -> "ID_99a92d1f-8f6b-41a5-8acd-c5eef15f49ce"
+	"ID_99a92d1f-8f6b-41a5-8acd-c5eef15f49ce" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_763a00fa-a448-44bb-953d-10824dfd9237" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_811ff6eb-79db-4fe3-9363-9a9b3ba32484" -> "ID_763a00fa-a448-44bb-953d-10824dfd9237"
+	"ID_763a00fa-a448-44bb-953d-10824dfd9237" -> "ID_c6ebe082-dfb3-4ee2-bb3f-4f1a5bed0560"
+	"ID_73cdfca6-d0c4-4304-a476-18a87298392f" [label="github:graphapps-V1#target" shape=box]
+	"ID_afd8a833-5fd5-4746-8137-b7cb57fc5c88" -> "ID_73cdfca6-d0c4-4304-a476-18a87298392f"
+	"ID_73cdfca6-d0c4-4304-a476-18a87298392f" -> "ID_770fd288-5fa2-4d50-9cd2-40e589ced18e"
+	"ID_a6366055-311e-4845-8a37-06788caa00ad" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_29fa7000-b910-4705-9ed7-32a781e8b3f1" -> "ID_a6366055-311e-4845-8a37-06788caa00ad"
+	"ID_a6366055-311e-4845-8a37-06788caa00ad" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_45f5db84-f8e6-48e6-b968-8dc71efc49d9" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_d08347f2-4280-4219-b326-d9cf27ec2c5a" -> "ID_45f5db84-f8e6-48e6-b968-8dc71efc49d9"
+	"ID_45f5db84-f8e6-48e6-b968-8dc71efc49d9" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_113e4786-a61a-48b4-a55a-4df1c73ad3a9" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_3bdf3d58-5f1f-4cfc-8cc7-9d37e7473f78" -> "ID_113e4786-a61a-48b4-a55a-4df1c73ad3a9"
+	"ID_113e4786-a61a-48b4-a55a-4df1c73ad3a9" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_b74b7bad-4751-4844-986e-97d9db43e259" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_1c9132c2-59ad-444c-b336-1412e87015f1" -> "ID_b74b7bad-4751-4844-986e-97d9db43e259"
+	"ID_b74b7bad-4751-4844-986e-97d9db43e259" -> "ID_2b8d8d00-70d1-4fb7-bd73-412979020021"
+	"ID_9e64cdd9-a12e-4fa5-ba0c-bc02f0d5c81c" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_afd8a833-5fd5-4746-8137-b7cb57fc5c88" -> "ID_9e64cdd9-a12e-4fa5-ba0c-bc02f0d5c81c"
+	"ID_9e64cdd9-a12e-4fa5-ba0c-bc02f0d5c81c" -> "ID_466c2855-1559-40cf-94a5-e684a8041597"
+	"ID_8269b533-0f93-49b6-8dd8-d9bcb5f0f33e" [label="purl:creator" shape=box]
+	"ID_fa977e2f-b103-49ce-a822-12214883c1bc" -> "ID_8269b533-0f93-49b6-8dd8-d9bcb5f0f33e"
+	"ID_8269b533-0f93-49b6-8dd8-d9bcb5f0f33e" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_40b2bf75-92ae-4906-92d5-aee02486dcce" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_0c937125-1d45-438b-b7ef-c73d1f3e96a3" -> "ID_40b2bf75-92ae-4906-92d5-aee02486dcce"
+	"ID_40b2bf75-92ae-4906-92d5-aee02486dcce" -> "ID_9712d555-d171-4dd5-a13e-d4beb364af9c"
+	"ID_a498aac7-7e63-4997-aa3a-e5422e810a16" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_566f373c-f88f-4c15-b29c-54d5ca6aff73" -> "ID_a498aac7-7e63-4997-aa3a-e5422e810a16"
+	"ID_a498aac7-7e63-4997-aa3a-e5422e810a16" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_f9b8bd2d-4288-461e-846d-2ee312df8e9f" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_f6e9e061-8c3c-47b0-b777-138989e0a182" -> "ID_f9b8bd2d-4288-461e-846d-2ee312df8e9f"
+	"ID_f9b8bd2d-4288-461e-846d-2ee312df8e9f" -> "ID_907e7e72-d370-40d9-87a7-ccafad1664e4"
+	"ID_7c9c948d-bdc0-4967-8508-8dcca7aa9b09" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_b71c0ac8-fc99-4ee5-8403-c319260fd216" -> "ID_7c9c948d-bdc0-4967-8508-8dcca7aa9b09"
+	"ID_7c9c948d-bdc0-4967-8508-8dcca7aa9b09" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_7263d4ca-137b-46ad-94a8-eb645fd8eabe" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_0c937125-1d45-438b-b7ef-c73d1f3e96a3" -> "ID_7263d4ca-137b-46ad-94a8-eb645fd8eabe"
+	"ID_7263d4ca-137b-46ad-94a8-eb645fd8eabe" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_37f8e3a4-c985-4de3-9b44-16bf274115c8" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_449a9c23-b910-4708-a43f-477e0846dbba" -> "ID_37f8e3a4-c985-4de3-9b44-16bf274115c8"
+	"ID_37f8e3a4-c985-4de3-9b44-16bf274115c8" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_87feeedc-5458-4f81-b819-ad3425d3f64c" [label="purl:title" shape=box]
+	"ID_31f17b39-4091-4391-8900-18469d604afa" -> "ID_87feeedc-5458-4f81-b819-ad3425d3f64c"
+	"ID_87feeedc-5458-4f81-b819-ad3425d3f64c" -> "ID_cb97bd68-f79e-4b5f-9305-aedf63d61770"
+	"ID_d6687ff5-c1fc-45c3-8d79-14cce9e16e94" [label="github:graphapps-V1#source" shape=box]
+	"ID_8da91976-ae0c-4eff-9b82-679a8c2d11f7" -> "ID_d6687ff5-c1fc-45c3-8d79-14cce9e16e94"
+	"ID_d6687ff5-c1fc-45c3-8d79-14cce9e16e94" -> "ID_9806e2d1-d857-4e87-8447-6e05b07caac0"
+	"ID_1204f98d-63ad-4a83-9d56-6216dc77e05f" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_aa74ade7-9718-462e-99b8-370860ba0b30" -> "ID_1204f98d-63ad-4a83-9d56-6216dc77e05f"
+	"ID_1204f98d-63ad-4a83-9d56-6216dc77e05f" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_ef8b5ba8-6249-4452-97ed-01d034d78d7e" [label="purl:creator" shape=box]
+	"ID_31f17b39-4091-4391-8900-18469d604afa" -> "ID_ef8b5ba8-6249-4452-97ed-01d034d78d7e"
+	"ID_ef8b5ba8-6249-4452-97ed-01d034d78d7e" -> "ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a"
+	"ID_d29f2c47-738d-4967-a96b-dee23610cd4a" [label="github:graphapps-V1#target" shape=box]
+	"ID_58515c86-ed6e-4b59-9e55-eb757e8c111d" -> "ID_d29f2c47-738d-4967-a96b-dee23610cd4a"
+	"ID_d29f2c47-738d-4967-a96b-dee23610cd4a" -> "ID_8118d13d-c292-4f45-93f2-9c3f533a64ef"
+	"ID_2f6067a6-5726-4b11-a4dd-9d7cf40c1386" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_83579068-e30a-485e-8bdb-4090dd9ab625" -> "ID_2f6067a6-5726-4b11-a4dd-9d7cf40c1386"
+	"ID_2f6067a6-5726-4b11-a4dd-9d7cf40c1386" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_eb18561a-5d6d-4170-acd8-ae49137eee4e" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_324ee315-fc5a-4856-a99c-fc015efd8026" -> "ID_eb18561a-5d6d-4170-acd8-ae49137eee4e"
+	"ID_eb18561a-5d6d-4170-acd8-ae49137eee4e" -> "ID_88ec8f70-3251-4a64-9c83-3499a2d1a4d4"
+	"ID_6c38b8c5-7963-42ae-859c-8efa5076e763" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_2d866139-06eb-4788-8dbc-98282300da13" -> "ID_6c38b8c5-7963-42ae-859c-8efa5076e763"
+	"ID_6c38b8c5-7963-42ae-859c-8efa5076e763" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_ca2b9254-28be-488d-8f24-2dabfb2950d4" [label="github:graphapps-V1#target" shape=box]
+	"ID_a6248d05-2e37-4220-acdc-deef69084c7b" -> "ID_ca2b9254-28be-488d-8f24-2dabfb2950d4"
+	"ID_ca2b9254-28be-488d-8f24-2dabfb2950d4" -> "ID_770fd288-5fa2-4d50-9cd2-40e589ced18e"
+	"ID_59fe4d7b-0eb0-4ce8-b5b1-1aaed64e86f9" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_afd8a833-5fd5-4746-8137-b7cb57fc5c88" -> "ID_59fe4d7b-0eb0-4ce8-b5b1-1aaed64e86f9"
+	"ID_59fe4d7b-0eb0-4ce8-b5b1-1aaed64e86f9" -> "ID_a27d74cb-c5fe-4fcc-964b-331284c6b572"
+	"ID_2e19006f-3831-4c5e-a887-0416efa99715" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_db8f800d-5496-450e-b2bc-e61aae017971" -> "ID_2e19006f-3831-4c5e-a887-0416efa99715"
+	"ID_2e19006f-3831-4c5e-a887-0416efa99715" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_5d067f67-722e-46f8-868b-ef6db86224a7" [label="github:graphapps-V1#source" shape=box]
+	"ID_b71c0ac8-fc99-4ee5-8403-c319260fd216" -> "ID_5d067f67-722e-46f8-868b-ef6db86224a7"
+	"ID_5d067f67-722e-46f8-868b-ef6db86224a7" -> "ID_17028faf-3da3-44e0-a5c7-b91682cb68e5"
+	"ID_6f5062a3-b02e-4127-b0c7-456a394c6c65" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b" -> "ID_6f5062a3-b02e-4127-b0c7-456a394c6c65"
+	"ID_6f5062a3-b02e-4127-b0c7-456a394c6c65" -> "ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a"
+	"ID_af69e1eb-7274-450f-9ab0-eafa99c59487" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_d08347f2-4280-4219-b326-d9cf27ec2c5a" -> "ID_af69e1eb-7274-450f-9ab0-eafa99c59487"
+	"ID_af69e1eb-7274-450f-9ab0-eafa99c59487" -> "ID_7256b1ff-7fea-4386-9505-fbb56396c288"
+	"ID_1073b64e-49ee-426c-891a-7dd2fb84a1b5" [label="purl:title" shape=box]
+	"ID_88ec8f70-3251-4a64-9c83-3499a2d1a4d4" -> "ID_1073b64e-49ee-426c-891a-7dd2fb84a1b5"
+	"ID_1073b64e-49ee-426c-891a-7dd2fb84a1b5" -> "ID_7256b1ff-7fea-4386-9505-fbb56396c288"
+	"ID_4a26928c-c577-4685-8f10-9aef2271278e" [label="github:graphapps-V1#source" shape=box]
+	"ID_aa74ade7-9718-462e-99b8-370860ba0b30" -> "ID_4a26928c-c577-4685-8f10-9aef2271278e"
+	"ID_4a26928c-c577-4685-8f10-9aef2271278e" -> "ID_83579068-e30a-485e-8bdb-4090dd9ab625"
+	"ID_489f62e3-f31a-4fff-a37f-4d3a26d46102" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_9806e2d1-d857-4e87-8447-6e05b07caac0" -> "ID_489f62e3-f31a-4fff-a37f-4d3a26d46102"
+	"ID_489f62e3-f31a-4fff-a37f-4d3a26d46102" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_50d648a7-56f6-4275-9eca-dfa875cfacbb" [label="w3:3.0#N" shape=box]
+	"ID_3b99208d-b25e-4a7d-b231-d7f412d2e21a" -> "ID_50d648a7-56f6-4275-9eca-dfa875cfacbb"
+	"ID_50d648a7-56f6-4275-9eca-dfa875cfacbb" -> "ID_fda77a70-d7d8-4579-8913-3f1af9c9b21a"
+	"ID_15cb1b63-b764-4bc6-badb-9ba988c686d7" [label="github:graphapps-V1#target" shape=box]
+	"ID_aa74ade7-9718-462e-99b8-370860ba0b30" -> "ID_15cb1b63-b764-4bc6-badb-9ba988c686d7"
+	"ID_15cb1b63-b764-4bc6-badb-9ba988c686d7" -> "ID_566f373c-f88f-4c15-b29c-54d5ca6aff73"
+	"ID_40c8da04-acef-4c19-b71f-42a711683417" [label="purl:title" shape=box]
+	"ID_44c0d01a-9ebf-49c2-8ae1-2584ca6868bd" -> "ID_40c8da04-acef-4c19-b71f-42a711683417"
+	"ID_40c8da04-acef-4c19-b71f-42a711683417" -> "ID_1a888242-43c5-452d-b0e5-c925e96b4edc"
+	"ID_8c87e3cd-422b-4bcc-b752-793e03cdcff7" [label="w3:22-rdf-syntax-ns#type" shape=box]
+	"ID_c9f8cc2e-97c0-44e4-91c6-a21eb8e7d815" -> "ID_8c87e3cd-422b-4bcc-b752-793e03cdcff7"
+	"ID_8c87e3cd-422b-4bcc-b752-793e03cdcff7" -> "ID_a5b6e66f-f1fd-4e44-a0cd-34c69c693cf8"
+	"ID_c73962dd-af8a-4fae-b95c-9a71a8e41f1c" [label="github:graphapps-V1#target" shape=box]
+	"ID_2d866139-06eb-4788-8dbc-98282300da13" -> "ID_c73962dd-af8a-4fae-b95c-9a71a8e41f1c"
+	"ID_c73962dd-af8a-4fae-b95c-9a71a8e41f1c" -> "ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b"
+	"ID_04d1980e-a2f8-4438-9a18-1d2b98084da2" [label="purl:creator" shape=box]
+	"ID_44c0d01a-9ebf-49c2-8ae1-2584ca6868bd" -> "ID_04d1980e-a2f8-4438-9a18-1d2b98084da2"
+	"ID_04d1980e-a2f8-4438-9a18-1d2b98084da2" -> "ID_b01a9b67-a5ea-48a1-b79c-ced09d61aefc"
+	"ID_2425ad97-fded-422d-92dc-3410804ebb71" [label="github:graphapps-V1#source" shape=box]
+	"ID_a6248d05-2e37-4220-acdc-deef69084c7b" -> "ID_2425ad97-fded-422d-92dc-3410804ebb71"
+	"ID_2425ad97-fded-422d-92dc-3410804ebb71" -> "ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b"
+	"ID_c7c0594d-48b7-487e-94be-82792ebc0824" [label="purl:title" shape=box]
+	"ID_df62be3f-7ccf-4e04-b9ac-a2f9e51095d8" -> "ID_c7c0594d-48b7-487e-94be-82792ebc0824"
+	"ID_c7c0594d-48b7-487e-94be-82792ebc0824" -> "ID_b4a1e9a6-9c99-4c97-82b7-f92a1208be48"
+	"ID_13b51426-b40c-4af2-80cf-adbe0f8be378" [label="github:graphapps-V1#target" shape=box]
+	"ID_29fa7000-b910-4705-9ed7-32a781e8b3f1" -> "ID_13b51426-b40c-4af2-80cf-adbe0f8be378"
+	"ID_13b51426-b40c-4af2-80cf-adbe0f8be378" -> "ID_770fd288-5fa2-4d50-9cd2-40e589ced18e"
+	"ID_e5ff2b90-32d4-4ee3-9519-a8b1f7d61f2f" [label="github:graphapps-V1#target" shape=box]
+	"ID_51ea34c6-9f5b-4b53-ac26-fcfea7a87004" -> "ID_e5ff2b90-32d4-4ee3-9519-a8b1f7d61f2f"
+	"ID_e5ff2b90-32d4-4ee3-9519-a8b1f7d61f2f" -> "ID_7141da47-19a7-410e-9dc3-0e07dfbf2f8b"
+	"ID_7162bb07-ae12-41b2-86fb-8d5f7b0d0634" [label="github:graphapps-V1#source" shape=box]
+	"ID_f022227f-b234-43ca-a3f2-bdb0edf725d3" -> "ID_7162bb07-ae12-41b2-86fb-8d5f7b0d0634"
+	"ID_7162bb07-ae12-41b2-86fb-8d5f7b0d0634" -> "ID_e299730e-fe0f-4064-83e0-c2e0806edbc6"
+	"ID_fb2312a2-b3c2-4cc8-95bb-6ded55673303" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_fdf4d9e3-8224-471c-86b0-6c45c0af9c04" -> "ID_fb2312a2-b3c2-4cc8-95bb-6ded55673303"
+	"ID_fb2312a2-b3c2-4cc8-95bb-6ded55673303" -> "ID_e5eb4a05-2d68-4142-8a35-1dbd112cebf1"
+	"ID_bd0daafe-4f20-4a49-a216-21051d86ea20" [label="w3:22-rdf-syntax-ns#value" shape=box]
+	"ID_566f373c-f88f-4c15-b29c-54d5ca6aff73" -> "ID_bd0daafe-4f20-4a49-a216-21051d86ea20"
+	"ID_bd0daafe-4f20-4a49-a216-21051d86ea20" -> "ID_0639a0d9-9aad-4633-8ccb-773ac9b29654"
+	"ID_7dfd4f00-28e3-45be-993e-8f42f7bb3682" [label="w3:3.0#Family" shape=box]
+	"ID_fda77a70-d7d8-4579-8913-3f1af9c9b21a" -> "ID_7dfd4f00-28e3-45be-993e-8f42f7bb3682"
+	"ID_7dfd4f00-28e3-45be-993e-8f42f7bb3682" -> "ID_22be16a3-0d20-400a-99b3-5233db90b569"
+	"ID_f80eb485-a34c-4ecb-a23c-ec5fd148473d" [label="github:graphapps-V1#source" shape=box]
+	"ID_3bdf3d58-5f1f-4cfc-8cc7-9d37e7473f78" -> "ID_f80eb485-a34c-4ecb-a23c-ec5fd148473d"
+	"ID_f80eb485-a34c-4ecb-a23c-ec5fd148473d" -> "ID_37a582cd-c701-4b58-95a3-75fa08955735"
+	"ID_2ff7096c-4dad-48ec-b9ac-c868279dad8d" [label="github:graphapps-V1#source" shape=box]
+	"ID_f1f4903b-5f1d-41d3-9281-a1e0ba9d969e" -> "ID_2ff7096c-4dad-48ec-b9ac-c868279dad8d"
+	"ID_2ff7096c-4dad-48ec-b9ac-c868279dad8d" -> "ID_324ee315-fc5a-4856-a99c-fc015efd8026"
 }
