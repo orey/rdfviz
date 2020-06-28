@@ -45,7 +45,9 @@ class RDFNode():
             self.id = 'ID_' + str(uuid.uuid4())
         else:
             self.numbering = numbering
-            self.id = 'ID_' + str(numbering.get_next_number())
+            # self.id = 'ID_' + str(numbering.get_next_number())
+            # Patch because gmal does not support non integer IDs
+            self.id = str(numbering.get_next_number())
         self.name = "void"
         # Keep a reference to the original RDF concept for later
         self.ident = ident
