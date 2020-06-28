@@ -6,7 +6,7 @@
 pip install -r requirements.txt
 ```
 
-Under Debian, consider including `/home/your_home/.loacl/bin` in your `PATH`.
+Under Debian, consider including `/home/your_home/.local/bin` in your `PATH`.
 
 ## rdf2gml
 
